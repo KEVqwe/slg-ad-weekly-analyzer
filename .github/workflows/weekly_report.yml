@@ -1,0 +1,43 @@
+name: Weekly US SLG Video Ads Analysis
+
+on:
+  schedule:
+    # GitHub Action 使用的是 UTC 时间。UTC 周日晚上 23:00 正好是北京时间周一早上 07:00。
+    - cron: '0 23 * * 0'
+  
+  # 允许在 GitHub Actions 网页端手动点击运行（方便测试）
+  workflow_dispatch: 
+
+jobs:
+  analyze_and_report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出代码库 (Checkout repository)
+        uses: actions/checkout@v4
+
+      - name: 设置 Python 环境 (Set up Python)
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip' # 自动缓存 pip 依赖加速二次运行
+
+      - name: 安装依赖包 (Install dependencies)
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 执行主程序 (Run analysis workflow)
+        env:
+          # 将我们在 GitHub Secrets 中配置的 Key 注入到环境变量里
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SENSOR_TOWER_API_KEY: ${{ secrets.SENSOR_TOWER_API_KEY }}
+        run: |
+          python main.py
+
+      - name: 上传报表供下载 (Upload Report Artifact)
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-ads-report
+          path: reports/*.html
+          retention-days: 30 # 网页上保留这个文件 30 天供随时下载

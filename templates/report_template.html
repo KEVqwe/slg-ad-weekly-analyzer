@@ -1,0 +1,651 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美国 SLG 每周Top30 视频广告周报 - {{ report_date }}</title>
+    <!-- Modern Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --surface-color: #1e293b;
+            --surface-hover: #334155;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent-primary: #3b82f6;
+            --accent-secondary: #8b5cf6;
+            --border-color: #334155;
+            --radius-md: 12px;
+            --radius-lg: 16px;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 4rem;
+            animation: fadeInDown 0.8s ease-out;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+        }
+
+        /* Strategy Strategy Section */
+        .strategy-dashboard {
+            background: var(--surface-color);
+            border-radius: var(--radius-lg);
+            padding: 2.5rem;
+            margin-bottom: 4rem;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border-color);
+            animation: fadeIn 1s ease-out 0.3s both;
+        }
+
+        .strategy-dashboard h2 {
+            font-size: 2rem;
+            margin-top: 0;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 1rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .strategy-dashboard h2::before {
+            content: '⚡';
+            margin-right: 0.75rem;
+        }
+
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .summary-card {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 1.5rem;
+            border-radius: var(--radius-md);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .summary-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+            border-color: rgba(59, 130, 246, 0.3);
+        }
+
+        .summary-card h3 {
+            color: var(--accent-primary);
+            margin-top: 0;
+            font-size: 1.25rem;
+        }
+
+        /* Monitored Apps Section */
+        .monitored-apps-section {
+            margin: 2rem 0;
+            animation: fadeIn 1s ease-out 0.4s both;
+        }
+
+        .monitored-apps-section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--accent-primary);
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .apps-flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .app-chip {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            border-radius: 50px;
+            padding: 0.5rem 1rem 0.5rem 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            transition: transform 0.2s, background 0.2s;
+        }
+
+        .app-chip:hover {
+            transform: translateY(-2px);
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .app-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            object-fit: contain;
+            background: #fff;
+        }
+
+        .app-name {
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        /* Top 30 Accordion Section */
+        .top-videos-section {
+            animation: fadeIn 1s ease-out 0.6s both;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .accordion {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .accordion-item {
+            background: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .accordion-header {
+            padding: 1.5rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: var(--surface-color);
+            transition: background-color 0.2s;
+        }
+
+        .accordion-header:hover {
+            background: var(--surface-hover);
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .rank-badge {
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            color: white;
+            font-weight: bold;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+
+        .rank-badge.rank-1 {
+            background: linear-gradient(135deg, #fbbf24, #f59e0b);
+        }
+
+        .rank-badge.rank-2 {
+            background: linear-gradient(135deg, #94a3b8, #64748b);
+        }
+
+        .rank-badge.rank-3 {
+            background: linear-gradient(135deg, #b45309, #78350f);
+        }
+
+        .rank-badge.rank-other {
+            background: var(--surface-hover);
+            border: 1px solid var(--border-color);
+        }
+
+        .game-info h3 {
+            margin: 0;
+            font-size: 1.25rem;
+        }
+
+        .game-info .metrics {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            margin-top: 0.25rem;
+        }
+
+        .toggle-icon {
+            font-size: 1.5rem;
+            transition: transform 0.3s ease;
+            color: var(--text-secondary);
+        }
+
+        .accordion-item.active .toggle-icon {
+            transform: rotate(180deg);
+            color: var(--accent-primary);
+        }
+
+        .accordion-item.active {
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 0 1px var(--accent-primary);
+        }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            background: rgba(15, 23, 42, 0.5);
+        }
+
+        .content-inner {
+            padding: 2rem;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 2rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .video-preview {
+            width: 100%;
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            background: #000;
+            aspect-ratio: 16/9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid var(--border-color);
+        }
+
+        .analysis-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        .analysis-item {
+            background: rgba(255, 255, 255, 0.02);
+            padding: 1rem;
+            border-radius: 8px;
+            border-left: 3px solid var(--accent-secondary);
+        }
+
+        .analysis-item.full-width {
+            grid-column: 1 / -1;
+            border-left-color: var(--accent-primary);
+        }
+
+        .analysis-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .analysis-text {
+            font-size: 0.95rem;
+            margin: 0;
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Layout for dual columns */
+        .dual-column-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .column-header {
+            text-align: center;
+            padding: 1rem;
+            background: rgba(99, 102, 241, 0.1);
+            border-radius: var(--radius-md);
+            margin-bottom: 1.5rem;
+            color: var(--accent-primary);
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .dual-column-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .content-inner {
+                grid-template-columns: 1fr;
+            }
+
+            .analysis-grid {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .strategy-dashboard {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>美国SLG每周双端Top30竞品视频监控分析报告</h1>
+            <p class="subtitle">{{ report_date }}</p>
+        </header>
+
+        {% if monitored_apps %}
+        <section class="monitored-apps-section">
+            <h2>👀 本期大盘已撞库监控竞品</h2>
+            <div class="apps-flex-container">
+                {% for app in monitored_apps %}
+                <div class="app-chip">
+                    {% if app.icon_url %}
+                    <img class="app-icon" src="{{ app.icon_url }}" alt="{{ app.name }} 图标">
+                    {% else %}
+                    <div class="app-icon"
+                        style="background:var(--accent-primary); display:flex; align-items:center; justify-content:center; color:#fff; font-weight:bold;">
+                        ?</div>
+                    {% endif %}
+                    <span class="app-name">{{ app.name }}</span>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+
+        <section class="strategy-dashboard">
+            <h2>大盘战略分析总结</h2>
+            <div class="summary-grid">
+                <div class="summary-card">
+                    <h3>🎯 爆款投放规律</h3>
+                    <p>{{ strategy_summary.hit_patterns }}</p>
+                </div>
+                <div class="summary-card">
+                    <h3>⚔️ 竞品核心打法</h3>
+                    <p>{{ strategy_summary.competitor_tactics }}</p>
+                </div>
+                <div class="summary-card">
+                    <h3>💡 可落地建议</h3>
+                    <p>{{ strategy_summary.actionable_advice }}</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="top-videos-section">
+            <h2 class="section-title">Top 30 素材单片拆解 (渠道对比)</h2>
+            <div class="dual-column-container">
+
+                <!-- Applovin Column -->
+                <div class="channel-column">
+                    <div class="column-header">🔵 Applovin (过滤出 SLG)</div>
+                    <div class="accordion">
+                        {% for item in applovin_items %}
+                        <div class="accordion-item">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <div class="header-content">
+                                    <div
+                                        class="rank-badge {% if item.rank == 1 %}rank-1{% elif item.rank == 2 %}rank-2{% elif item.rank == 3 %}rank-3{% else %}rank-other{% endif %}">
+                                        #{{ item.rank }}
+                                    </div>
+                                    <div class="game-info">
+                                        <h3>{{ item.app_name }}</h3>
+                                        <div class="metrics"
+                                            style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 5px;">
+                                            <span style="display:inline-block; margin-right: 15px;">首发: <strong
+                                                    style="color: var(--text-primary);">{{ item.first_seen_at
+                                                    }}</strong></span>
+                                            <span style="display:inline-block; margin-right: 15px;">末现: <strong
+                                                    style="color: var(--text-primary);">{{ item.last_seen_at
+                                                    }}</strong></span>
+                                            <span style="display:inline-block; margin-right: 15px;">时长: <strong
+                                                    style="color: var(--text-primary);">{{ item.duration_seconds
+                                                    }}s</strong></span>
+                                            <span style="display:inline-block;">ID: <strong
+                                                    style="color: var(--text-primary);">{{ item.ad_id }}</strong></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="toggle-icon">▼</div>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="content-inner">
+                                    <!-- Left Column: Video & Preview Image -->
+                                    <div class="media-column" style="display: flex; flex-direction: column; gap: 15px;">
+                                        <!-- Video Player -->
+                                        <div class="video-player-container">
+                                            <video controls preload="metadata"
+                                                style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); background: #000;">
+                                                <source src="{{ item.video_url }}" type="video/mp4">
+                                                浏览器不支持视频播放。
+                                            </video>
+                                        </div>
+                                        <!-- Preview Image -->
+                                        <div class="preview-image-container" style="text-align: center;">
+                                            <p
+                                                style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 8px;">
+                                                封面 / 贴图预览
+                                            </p>
+                                            <a href="{{ item.thumbnail_url }}" target="_blank">
+                                                <img src="{{ item.thumbnail_url }}" alt="{{ item.app_name }} 视频封面"
+                                                    style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border-color); object-fit: contain;">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="analysis-grid">
+                                        <div class="analysis-item full-width">
+                                            <div class="analysis-label">前 3 秒钩子设计</div>
+                                            <p class="analysis-text">{{ item.analysis.hook_design if item.analysis else
+                                                '分析生成中/Mock' }}</p>
+                                        </div>
+                                        <div class="analysis-item">
+                                            <div class="analysis-label">情绪导向</div>
+                                            <p class="analysis-text">{{ item.analysis.emotional_appeal if item.analysis
+                                                else '-' }}</p>
+                                        </div>
+                                        <div class="analysis-item">
+                                            <div class="analysis-label">爆点 / 爽点要素</div>
+                                            <p class="analysis-text">{{ item.analysis.wow_factor if item.analysis else
+                                                '-' }}</p>
+                                        </div>
+                                        <div class="analysis-item full-width">
+                                            <div class="analysis-label">核心内容结构</div>
+                                            <p class="analysis-text">{{ item.analysis.content_structure if item.analysis
+                                                else '-' }}</p>
+                                        </div>
+                                        <div class="analysis-item full-width">
+                                            <div class="analysis-label">文案特征与 CTA</div>
+                                            <p class="analysis-text">{{ item.analysis.copywriting_features if
+                                                item.analysis else '-' }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <!-- Facebook Column -->
+                <div class="channel-column">
+                    <div class="column-header">🔵 Facebook (过滤出 SLG)</div>
+                    <div class="accordion">
+                        {% for item in facebook_items %}
+                        <div class="accordion-item">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <div class="header-content">
+                                    <div
+                                        class="rank-badge {% if item.rank == 1 %}rank-1{% elif item.rank == 2 %}rank-2{% elif item.rank == 3 %}rank-3{% else %}rank-other{% endif %}">
+                                        #{{ item.rank }}
+                                    </div>
+                                    <div class="game-info">
+                                        <h3>{{ item.app_name }}</h3>
+                                        <div class="metrics"
+                                            style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 5px;">
+                                            <span style="display:inline-block; margin-right: 15px;">首发: <strong
+                                                    style="color: var(--text-primary);">{{ item.first_seen_at
+                                                    }}</strong></span>
+                                            <span style="display:inline-block; margin-right: 15px;">末现: <strong
+                                                    style="color: var(--text-primary);">{{ item.last_seen_at
+                                                    }}</strong></span>
+                                            <span style="display:inline-block; margin-right: 15px;">时长: <strong
+                                                    style="color: var(--text-primary);">{{ item.duration_seconds
+                                                    }}s</strong></span>
+                                            <span style="display:inline-block;">ID: <strong
+                                                    style="color: var(--text-primary);">{{ item.ad_id }}</strong></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="toggle-icon">▼</div>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="content-inner">
+                                    <!-- Left Column: Video & Preview Image -->
+                                    <div class="media-column" style="display: flex; flex-direction: column; gap: 15px;">
+                                        <!-- Video Player -->
+                                        <div class="video-player-container">
+                                            <video controls preload="metadata"
+                                                style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); background: #000;">
+                                                <source src="{{ item.video_url }}" type="video/mp4">
+                                                浏览器不支持视频播放。
+                                            </video>
+                                        </div>
+                                        <!-- Preview Image -->
+                                        <div class="preview-image-container" style="text-align: center;">
+                                            <p
+                                                style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 8px;">
+                                                封面 / 贴图预览
+                                            </p>
+                                            <a href="{{ item.thumbnail_url }}" target="_blank">
+                                                <img src="{{ item.thumbnail_url }}" alt="{{ item.app_name }} 视频封面"
+                                                    style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border-color); object-fit: contain;">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="analysis-grid">
+                                        <div class="analysis-item full-width">
+                                            <div class="analysis-label">前 3 秒钩子设计</div>
+                                            <p class="analysis-text">{{ item.analysis.hook_design if item.analysis else
+                                                '分析生成中/Mock' }}</p>
+                                        </div>
+                                        <div class="analysis-item">
+                                            <div class="analysis-label">情绪导向</div>
+                                            <p class="analysis-text">{{ item.analysis.emotional_appeal if item.analysis
+                                                else '-' }}</p>
+                                        </div>
+                                        <div class="analysis-item">
+                                            <div class="analysis-label">爆点 / 爽点要素</div>
+                                            <p class="analysis-text">{{ item.analysis.wow_factor if item.analysis else
+                                                '-' }}</p>
+                                        </div>
+                                        <div class="analysis-item full-width">
+                                            <div class="analysis-label">核心内容结构</div>
+                                            <p class="analysis-text">{{ item.analysis.content_structure if item.analysis
+                                                else '-' }}</p>
+                                        </div>
+                                        <div class="analysis-item full-width">
+                                            <div class="analysis-label">文案特征与 CTA</div>
+                                            <p class="analysis-text">{{ item.analysis.copywriting_features if
+                                                item.analysis else '-' }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <script>
+        function toggleAccordion(headerElement) {
+            const item = headerElement.parentElement;
+            const content = item.querySelector('.accordion-content');
+
+            // Close other open items
+            const allItems = document.querySelectorAll('.accordion-item');
+            allItems.forEach(otherItem => {
+                if (otherItem !== item && otherItem.classList.contains('active')) {
+                    otherItem.classList.remove('active');
+                    otherItem.querySelector('.accordion-content').style.maxHeight = null;
+                }
+            });
+
+            // Toggle current item
+            item.classList.toggle('active');
+
+            if (item.classList.contains('active')) {
+                content.style.maxHeight = content.scrollHeight + "px";
+            } else {
+                content.style.maxHeight = null;
+            }
+        }
+    </script>
+</body>
+
+</html>
