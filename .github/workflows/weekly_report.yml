@@ -53,6 +53,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: Auto-archive weekly report ${{ env.REPORT_WEEK }} [skip ci]"
-          file_pattern: "archive/**/*.json archive/**/*.html index.html"
+          file_pattern: "archive/ index.html"
           commit_user_name: "github-actions[bot]"
           commit_user_email: "github-actions[bot]@users.noreply.github.com"
