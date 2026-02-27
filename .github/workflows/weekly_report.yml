@@ -35,9 +35,24 @@ jobs:
         run: |
           python main.py
 
-      - name: 上传归档数据与报表供下载 (Upload Weekly Archive Artifact)
+      - name: 上传可以直接下载的独立HTML周报 (Upload Weekly HTML Report)
         uses: actions/upload-artifact@v4
         with:
-            name: weekly-ads-archive
-            path: archive/
+            name: ${{ env.REPORT_WEEK }}_Weekly_Report
+            path: ${{ env.REPORT_HTML_PATH }}
             retention-days: 30 # 网页上保留这个文件 30 天供随时下载
+
+      - name: 上传完整归档数据备份 (Upload Full Weekly Archive)
+        uses: actions/upload-artifact@v4
+        with:
+            name: ${{ env.REPORT_WEEK }}_Full_Archive
+            path: archive/
+            retention-days: 7 # 稍微保留短一点做备份
+
+      - name: 提交存档数据回代码库 (Commit archive to repository)
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: Auto-archive weekly report ${{ env.REPORT_WEEK }} [skip ci]"
+          file_pattern: "archive/**/*.json archive/**/*.html"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
