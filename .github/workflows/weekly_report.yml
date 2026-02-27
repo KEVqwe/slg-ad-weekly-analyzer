@@ -11,6 +11,8 @@ on:
 jobs:
   analyze_and_report:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: 检出代码库 (Checkout repository)
