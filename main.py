@@ -146,6 +146,27 @@ def main():
             output_path=report_filepath
         )
         
+        # Generate index.html for redirect
+        index_html_path = "index.html"
+        redirect_url = output_file_path.replace('\\', '/')
+        index_content = f"""<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>北美 SLG 视频广告最新周报</title>
+    <meta http-equiv="refresh" content="0; url={redirect_url}">
+</head>
+<body style="font-family: sans-serif; padding: 20px;">
+    <p>正在跳转到最新一周报告，如果没有自动跳转，请<a href="{redirect_url}">点击这里</a>。</p>
+</body>
+</html>"""
+        try:
+            with open(index_html_path, 'w', encoding='utf-8') as f:
+                f.write(index_content)
+            logger.info(f"Generated root index.html to redirect to {redirect_url}")
+        except Exception as e:
+            logger.warning(f"Failed to generate index.html: {e}")
+        
         # Write outputs to GitHub Actions environment if available
         github_env = os.getenv('GITHUB_ENV')
         if github_env:
