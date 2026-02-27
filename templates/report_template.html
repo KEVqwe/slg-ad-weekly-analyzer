@@ -96,18 +96,74 @@
             border-radius: var(--radius-md);
             border: 1px solid rgba(255, 255, 255, 0.05);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Vibrant top borders for card hierarchy */
+        .summary-card:nth-child(1) {
+            border-top: 4px solid var(--accent-primary);
+        }
+
+        .summary-card:nth-child(2) {
+            border-top: 4px solid var(--accent-secondary);
+        }
+
+        .summary-card:nth-child(3) {
+            border-top: 4px solid #f59e0b;
         }
 
         .summary-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
-            border-color: rgba(59, 130, 246, 0.3);
+            border-color: rgba(255, 255, 255, 0.2);
         }
 
         .summary-card h3 {
-            color: var(--accent-primary);
+            color: var(--text-primary);
             margin-top: 0;
+            margin-bottom: 1.25rem;
             font-size: 1.25rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Styling for the HTML list returned by Gemini */
+        .summary-card p {
+            margin: 0;
+        }
+
+        .summary-card strong {
+            display: block;
+            font-size: 1.1rem;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            border-left: 3px solid var(--accent-primary);
+        }
+
+        .summary-card:nth-child(2) strong {
+            border-left-color: var(--accent-secondary);
+            background: rgba(139, 92, 246, 0.1);
+        }
+
+        .summary-card:nth-child(3) strong {
+            border-left-color: #f59e0b;
+            background: rgba(245, 158, 11, 0.1);
+        }
+
+        .summary-card ul {
+            padding-left: 1.5rem;
+            margin: 0;
+            color: var(--text-secondary);
+        }
+
+        .summary-card li {
+            margin-bottom: 0.5rem;
+            line-height: 1.5;
         }
 
         /* Monitored Apps Section */
@@ -420,16 +476,16 @@
             <h2>大盘战略分析总结</h2>
             <div class="summary-grid">
                 <div class="summary-card">
-                    <h3>🎯 爆款投放规律</h3>
-                    <p>{{ strategy_summary.hit_patterns }}</p>
+                    <h3><span style="font-size: 1.5rem;">🎯</span> 爆款投放规律</h3>
+                    <p>{{ strategy_summary.hit_patterns | safe }}</p>
                 </div>
                 <div class="summary-card">
-                    <h3>⚔️ 竞品核心打法</h3>
-                    <p>{{ strategy_summary.competitor_tactics }}</p>
+                    <h3><span style="font-size: 1.5rem;">⚔️</span> 竞品核心打法</h3>
+                    <p>{{ strategy_summary.competitor_tactics | safe }}</p>
                 </div>
                 <div class="summary-card">
-                    <h3>💡 可落地建议</h3>
-                    <p>{{ strategy_summary.actionable_advice }}</p>
+                    <h3><span style="font-size: 1.5rem;">💡</span> 可落地建议</h3>
+                    <p>{{ strategy_summary.actionable_advice | safe }}</p>
                 </div>
             </div>
         </section>

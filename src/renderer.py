@@ -16,7 +16,7 @@ class ReportRenderer:
         self.env = Environment(loader=FileSystemLoader(self.template_dir))
         self.template = self.env.get_template('report_template.html')
 
-    def render(self, strategy_summary: Dict[str, Any], applovin_items: List[Dict[str, Any]], facebook_items: List[Dict[str, Any]], monitored_apps: List[Dict[str, str]] = None) -> str:
+    def render(self, strategy_summary: Dict[str, Any], applovin_items: List[Dict[str, Any]], facebook_items: List[Dict[str, Any]], monitored_apps: List[Dict[str, str]] = None, output_path: str = None) -> str:
         """
         Renders the HTML report.
         Args:
@@ -44,9 +44,10 @@ class ReportRenderer:
         )
         
         # Determine output filename: YYMMDD_weekly_report.html
-        filename_date = datetime.now().strftime("%y%m%d")
-        filename = f"{filename_date}_weekly_report.html"
-        output_path = os.path.join(REPORT_OUTPUT_DIR, filename)
+        if not output_path:
+            filename_date = datetime.now().strftime("%y%m%d")
+            filename = f"{filename_date}_weekly_report.html"
+            output_path = os.path.join(REPORT_OUTPUT_DIR, filename)
         
         # Write to file
         with open(output_path, 'w', encoding='utf-8') as f:

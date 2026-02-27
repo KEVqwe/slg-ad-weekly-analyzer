@@ -41,8 +41,7 @@ class VideoAnalyzer:
         self.api_call_lock = threading.Lock()
         
         if not use_mock and GEMINI_API_KEY:
-             # The media_resolution parameter is currently only available in the v1alpha API version.
-             self.client = genai.Client(api_key=GEMINI_API_KEY, http_options={'api_version': 'v1alpha'})
+             self.client = genai.Client(api_key=GEMINI_API_KEY)
         elif not use_mock:
              logger.warning("Initializing analyzer without Gemini API Key. Falling back to mock.")
              self.use_mock = True
@@ -203,32 +202,23 @@ class VideoAnalyzer:
             投放渠道: {video_data.get('ad_network')}
             
             请严格按照以下 5 个维度分析该视频的内容，并以纯 JSON 格式输出（内容必须全部是简体中文）。
-            【极其重要：每个维度的分析结果极其精简，绝不能超过 50 个中文字！】
+            【极其重要：每个维度的分析结果极其精简，绝不能超过 100 个中文字！】
             
-            1. hook_design (前 3 秒钩子设计：它是如何抓人眼球的？限50字内)
-            2. emotional_appeal (情绪导向：它唤起了什么情绪？如焦虑、解压、挫败感等。限50字内)
-            3. content_structure (核心内容结构：剧情的起承转合或游戏玩法的展示顺序是什么？限50字内)
-            4. wow_factor (爆点/爽点要素：视频中最核心的视觉奇观或最令人满足的瞬间是什么？限50字内)
+            1. hook_design (前 3 秒钩子设计：它是如何抓人眼球的？限100字内)
+            2. emotional_appeal (情绪导向：它唤起了什么情绪？如焦虑、解压、挫败感等。限100字内)
+            3. content_structure (核心内容结构：剧情的起承转合或游戏玩法的展示顺序是什么？限100字内)
+            4. wow_factor (爆点/爽点要素：视频中最核心的视觉奇观或最令人满足的瞬间是什么？限100字内)
             5. copywriting_features (文案特征与 CTA：分析屏幕文字、配音台词以及转化按钮的特点。限50字内)
             """
             
             config = types.GenerateContentConfig(
                 response_mime_type="application/json",
                 response_schema=VideoAnalysisResult
-                # Temperature is intentionally left at default (1.0) for Gemini 3 reasoning models
             )
             
-            # Explicitly set media_resolution_low for video parsing to save tokens per the Gemini 3 guide
-            video_part = types.Part(
-                file_data=types.FileData(
-                    mime_type="video/mp4",
-                    file_uri=gemini_file.uri
-                ),
-                media_resolution={"level": "media_resolution_low"}
-            )
             api_response = self._call_api_with_retry(
-                models_to_try=["gemini-3-flash-preview", "gemini-2.5-flash"],
-                contents=[video_part, prompt],
+                models_to_try=["gemini-2.5-flash"],
+                contents=[gemini_file, prompt],
                 config=config
             )
             
@@ -291,7 +281,13 @@ class VideoAnalyzer:
              请仔细阅读这些单个视频的分析结果，然后站在宏观“大盘战略”的高度，为下周的周会提供一份精炼、深刻的总结报告。
              在总结时，请特别注意：排名越靠前的视频素材，越代表当前该渠道的主流，并且注意两个渠道之间是否存在差异化打法。
              
-             请严格按照以下 3 个维度提取核心洞察，并以纯 JSON 格式输出（内容必须全部是简体中文）：
+             【⚠️ 核心排版与语言要求 ⚠️】
+             1. 结构化输出：必须采用“结论先行 + 要点拆解”的结构。
+             2. 极简句式：拒绝长篇大论！使用“短句 + 动词”的表达形式（如：“降低门槛”、“前置核心危机”）。
+             3. HTML 标签格式：你的输出是 JSON，但 JSON 的值必须包含格式化的 HTML 标签，具体格式为：
+                `<strong>一句话核心结论</strong><ul><li>要点一（短句带动作）</li><li>要点二（短句带动作）</li></ul>`
+             
+             请严格按照以下 3 个维度提取核心洞察，并以纯 JSON 格式输出（内容必须全部是简体中文，且遵循上述 HTML 标签格式）：
              
              1. hit_patterns (爆款投放规律：提取这些成功素材的共性机制，比如都用了什么套路、核心爽点是什么)
              2. competitor_tactics (竞品核心打法：头部竞品在买量策略和素材方向上有何转向或创新？Applovin 和 Facebook 打法是否有区分？)
@@ -337,13 +333,13 @@ class VideoAnalyzer:
         return result
         
     def _mock_strategy_summary(self) -> Dict[str, Any]:
-         return {
+        return {
             "strategy_summary": {
-                "hit_patterns": "多数爆款素材高度依赖‘失败心理暗示’。素材中刻意展示并不反映真实核心玩法的低难度挫败场景，极其有效地构建了‘我上我也行’的心理预期，从而吸引点击。",
-                "competitor_tactics": "头部竞品正在将超休闲玩法的解谜元素与硬核的 4X 策略背景结合，大幅降低了用户的认知门槛与核心受众的获客成本(CPA)。",
-                "actionable_advice": "建议下周测试创意重心从‘城建升级’转移到‘A与B二选一’的高压互动场景，要求必须在视频前5秒内直接解决即时危机。"
+                "hit_patterns": "<strong>核心依赖“失败心理暗示”构建用户预期。</strong><ul><li>刻意展示低难度失败操作</li><li>激发“我上我也行”挑战欲</li><li>承诺成功后的极致解压感</li></ul>",
+                "competitor_tactics": "<strong>头部产品呈现“重内容、轻认知”融合趋势。</strong><ul><li>超休闲解谜包装硬核 4X 玩法</li><li>大幅降低用户认知与获客成本(CPA)</li><li>Facebook 重副玩法，Applovin 重直给爽感</li></ul>",
+                "actionable_advice": "<strong>立刻转移测试视点至“高压互动”。</strong><ul><li>放弃传统城建升级套路</li><li>前 5 秒切入“A/B 二选一”生死局</li><li>强化即时反馈与危机解决爽感</li></ul>"
             }
-         }
+        }
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)

@@ -35,9 +35,9 @@ jobs:
         run: |
           python main.py
 
-      - name: 上传报表供下载 (Upload Report Artifact)
+      - name: 上传归档数据与报表供下载 (Upload Weekly Archive Artifact)
         uses: actions/upload-artifact@v4
         with:
-          name: weekly-ads-report
-          path: reports/*.html
-          retention-days: 30 # 网页上保留这个文件 30 天供随时下载
+            name: weekly-ads-archive
+            path: archive/
+            retention-days: 30 # 网页上保留这个文件 30 天供随时下载
