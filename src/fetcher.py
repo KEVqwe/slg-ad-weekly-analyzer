@@ -34,10 +34,19 @@ class SensorTowerFetcher:
             "Last Z: Survival Shooter", 
         ]
 
-    def fetch_top_30_slg_videos(self) -> Dict[str, List[Dict[str, Any]]]:
+    def fetch_top_30_slg_videos(self, cache_file: str = None) -> Dict[str, List[Dict[str, Any]]]:
         """
         Fetches the top 30 SLG video ads from the last 7 days in the US, for Applovin and Facebook.
+        If cache_file is provided and exists, it will load data from there to save API costs.
         """
+        if cache_file and os.path.exists(cache_file):
+            logger.info(f"💾 Found existing raw data cache at {cache_file}. Loading from cache to save API costs!")
+            try:
+                with open(cache_file, 'r', encoding='utf-8') as f:
+                    return json.load(f)
+            except Exception as e:
+                logger.error(f"Failed to load cache from {cache_file}: {e}. Proceeding with API fetch.")
+
         logger.info("Fetching Top 30 SLG Video Ads...")
             
         try:

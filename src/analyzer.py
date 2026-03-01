@@ -6,22 +6,39 @@ import requests
 import tempfile
 import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 from google import genai
 from google.genai import types
 from google.genai.errors import APIError
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from src.config import GEMINI_API_KEY
 
 logger = logging.getLogger(__name__)
 
 # --- Pydantic Models for Structured Output ---
+class ScriptShot(BaseModel):
+    shot_number: int  # 镜号
+    start_timestamp: int # 开始秒数
+    end_timestamp: int   # 结束秒数
+    role: str = Field(alias='Character', default="") # 角色 (fallback to default string empty to prevent error)
+    weapon: str       # 武器
+    scene: str        # 布景
+    camera: str       # 镜头
+    detailed_action: str # 详细画面描述
+    sound_effect: str # 音效
+
+class VideoScript(BaseModel):
+    validation_goal: str # 验证目标
+    overall_process: str # 整体流程
+    shots: List[ScriptShot] # 分镜列表
+
 class VideoAnalysisResult(BaseModel):
     hook_design: str
     emotional_appeal: str
     content_structure: str
     wow_factor: str
     copywriting_features: str
+    video_script: Optional[VideoScript] = None
 
 class PerAppSummaryResult(BaseModel):
     hit_patterns: str
@@ -214,6 +231,36 @@ class VideoAnalyzer:
             3. content_structure (核心内容结构：剧情的起承转合或游戏玩法的展示顺序是什么？限100字内)
             4. wow_factor (爆点/爽点要素：视频中最核心的视觉奇观或最令人满足的瞬间是什么？限100字内)
             5. copywriting_features (文案特征与 CTA：分析屏幕文字、配音台词以及转化按钮的特点。限50字内)
+            6. video_script (视频脚本拆解：作为附加输出，将视频拆解为多个镜头，提取角色、布景、画面描述等，并必须附带准确的开始秒数和结束秒数。详见返回的 JSON 结构要求。)
+            
+            【关于 video_script 拆解的 Few-Shot 标准范例参考】：
+            "validation_goal": "经营危机感/紧迫感作为hook/贯彻全程对点击/成本的影响",
+            "overall_process": "经营冲突->解决冲突->新经营冲突->解决冲突->外部冲突->招募英雄->扩建展示",
+            "shots": [
+                {{
+                    "shot_number": 1,
+                    "start_timestamp": 0,
+                    "end_timestamp": 3,
+                    "Character": "警察，女囚犯",
+                    "weapon": "手枪，AK47",
+                    "scene": "整体场景做出室内感+中世纪风格，室外为草地+积雪",
+                    "camera": "斜45度上帝视角",
+                    "detailed_action": "开场酒馆门口聚集成群的顾客全身满是污泥，人群上面有两种emoji（生气冒火/不耐烦）",
+                    "sound_effect": "人群嘈杂声、生气发火声"
+                }},
+                {{
+                    "shot_number": 2,
+                    "start_timestamp": 3,
+                    "end_timestamp": 8,
+                    "Character": "警察，女囚犯",
+                    "weapon": "手枪，AK47",
+                    "scene": "超大木质浴盆",
+                    "camera": "斜45度上帝视角",
+                    "detailed_action": "镜头向右上平移回到“主角居中”位置，主角向左下移动，抱起两名顾客走到浴池边（超大木质浴盆），蓄力0.3s后将客人扔进水中；客人进入水中前，湖面右侧耐心值UI持续上涨，在客人入水前，耐心值（生气）临近顶点",
+                    "sound_effect": "无"
+                }}
+            ]
+            请务必参考并严格遵守这一分镜拆解的颗粒度和精简结构！特别是每个分镜必须要有与之对应的视频起始与结束秒数（整数），不要留空！
             """
             
             config = types.GenerateContentConfig(
@@ -363,7 +410,35 @@ class VideoAnalyzer:
                 "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
                 "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
                 "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
-                "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。"
+                "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+                "video_script": {
+                    "validation_goal": "测试失败倒计时的紧迫感是否带量",
+                    "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+                    "shots": [
+                        {
+                            "shot_number": 1,
+                            "start_timestamp": 0,
+                            "end_timestamp": 3,
+                            "Character": "男主",
+                            "weapon": "无",
+                            "scene": "雪地避难所",
+                            "camera": "近景",
+                            "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+                            "sound_effect": "寒风呼啸，紧张音效"
+                        },
+                        {
+                            "shot_number": 2,
+                            "start_timestamp": 3,
+                            "end_timestamp": 7,
+                            "role": "男主",
+                            "weapon": "错误道具(冰冻枪)",
+                            "scene": "避难所内部",
+                            "camera": "特写",
+                            "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+                            "sound_effect": "失败警报声"
+                        }
+                    ]
+                }
             }
         })
         time.sleep(1) # simulate brief delay

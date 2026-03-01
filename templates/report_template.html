@@ -533,8 +533,233 @@
             animation: fadeIn 0.4s ease-out;
         }
 
+        /* Storyboard Modal Styles */
+        .storyboard-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .storyboard-modal.show {
+            display: flex;
+            opacity: 1;
+        }
+
+        .storyboard-container {
+            display: flex;
+            width: 95%;
+            height: 90%;
+            margin: auto;
+            background: var(--surface-color);
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--border-color);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+            animation: slideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .storyboard-video-pane {
+            flex: 1;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            background: #000;
+            position: relative;
+        }
+
+        .storyboard-video-pane video {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: var(--radius-md);
+        }
+
+        .close-modal-btn {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            background: rgba(255, 255, 255, 0.1);
+            border: none;
+            color: #fff;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+            z-index: 10;
+        }
+
+        .close-modal-btn:hover {
+            background: rgba(239, 68, 68, 0.8);
+            transform: scale(1.1);
+        }
+
+        .storyboard-list-pane {
+            width: 450px;
+            background: var(--surface-color);
+            border-left: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .storyboard-header {
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        .storyboard-header h3 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.25rem;
+            color: var(--accent-primary);
+        }
+
+        .storyboard-header p {
+            margin: 0;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            line-height: 1.4;
+        }
+
+        .storyboard-shots {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1rem;
+            scroll-behavior: smooth;
+        }
+
+        /* Custom Scrollbar */
+        .storyboard-shots::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .storyboard-shots::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        .storyboard-shots::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+            border-radius: 3px;
+        }
+
+        .shot-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: var(--radius-md);
+            padding: 1rem;
+            margin-bottom: 1rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .shot-card::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 4px;
+            background: var(--text-secondary);
+            opacity: 0.3;
+            transition: all 0.2s ease;
+        }
+
+        .shot-card:hover {
+            background: rgba(255, 255, 255, 0.06);
+            transform: translateX(4px);
+        }
+
+        .shot-card.active {
+            background: rgba(59, 130, 246, 0.1);
+            border-color: rgba(59, 130, 246, 0.3);
+            transform: translateX(4px);
+        }
+
+        .shot-card.active::before {
+            background: var(--accent-primary);
+            opacity: 1;
+            box-shadow: 0 0 10px var(--accent-primary);
+        }
+
+        .shot-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.75rem;
+        }
+
+        .shot-num {
+            font-weight: 700;
+            color: var(--text-primary);
+            font-size: 1.1rem;
+        }
+
+        .shot-time {
+            font-family: monospace;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            border: 1px solid var(--border-color);
+        }
+
+        .shot-card.active .shot-time {
+            color: var(--accent-primary);
+            border-color: var(--accent-primary);
+        }
+
+        .shot-detail {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.4rem;
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .shot-detail strong {
+            color: var(--text-primary);
+            min-width: 40px;
+        }
+
+        .shot-action {
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            font-size: 0.9rem;
+            color: var(--text-primary);
+            line-height: 1.5;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
+
 
             .content-inner {
                 grid-template-columns: 1fr;
@@ -723,6 +948,17 @@
                                                 item.analysis else '-' }}</p>
                                         </div>
                                     </div>
+                                    {% if item.analysis and item.analysis.video_script %}
+                                    <div style="margin-top: 15px; text-align: right;">
+                                        <button class="tab-btn active"
+                                            style="padding: 0.5rem 1rem; font-size: 0.9rem; background: var(--surface-hover); border: 1px solid var(--border-color); color: var(--text-primary);"
+                                            data-script="{{ item.analysis.video_script | tojson | forceescape }}"
+                                            data-video-url="{{ item.video_url }}"
+                                            onclick="openStoryboardModal(event, this)">
+                                            🎬 查看互动分镜看板
+                                        </button>
+                                    </div>
+                                    {% endif %}
                                 </div>
                             </div>
                         </div>
@@ -824,6 +1060,17 @@
                                                 item.analysis else '-' }}</p>
                                         </div>
                                     </div>
+                                    {% if item.analysis and item.analysis.video_script %}
+                                    <div style="margin-top: 15px; text-align: right;">
+                                        <button class="tab-btn active"
+                                            style="padding: 0.5rem 1rem; font-size: 0.9rem; background: var(--surface-hover); border: 1px solid var(--border-color); color: var(--text-primary);"
+                                            data-script="{{ item.analysis.video_script | tojson | forceescape }}"
+                                            data-video-url="{{ item.video_url }}"
+                                            onclick="openStoryboardModal(event, this)">
+                                            🎬 查看互动分镜看板
+                                        </button>
+                                    </div>
+                                    {% endif %}
                                 </div>
                             </div>
                         </div>
@@ -924,6 +1171,17 @@
                                                 item.analysis else '-' }}</p>
                                         </div>
                                     </div>
+                                    {% if item.analysis and item.analysis.video_script %}
+                                    <div style="margin-top: 15px; text-align: right;">
+                                        <button class="tab-btn active"
+                                            style="padding: 0.5rem 1rem; font-size: 0.9rem; background: var(--surface-hover); border: 1px solid var(--border-color); color: var(--text-primary);"
+                                            data-script="{{ item.analysis.video_script | tojson | forceescape }}"
+                                            data-video-url="{{ item.video_url }}"
+                                            onclick="openStoryboardModal(event, this)">
+                                            🎬 查看互动分镜看板
+                                        </button>
+                                    </div>
+                                    {% endif %}
                                 </div>
                             </div>
                         </div>
@@ -933,6 +1191,29 @@
 
             </div>
         </section>
+    </div>
+
+    <!-- Storyboard Modal -->
+    <div id="storyboardModal" class="storyboard-modal">
+        <div class="storyboard-container">
+            <div class="storyboard-video-pane">
+                <button class="close-modal-btn" onclick="closeStoryboardModal()">×</button>
+                <video id="storyboardVideo" controls playsinline>
+                    <source src="" type="video/mp4">
+                    您的浏览器不支持 HTML5 video 标签。
+                </video>
+            </div>
+            <div class="storyboard-list-pane">
+                <div class="storyboard-header">
+                    <h3>分镜拆解脚本</h3>
+                    <p id="sbGoal"><strong>验证目标:</strong> <span></span></p>
+                    <p id="sbProcess" style="margin-top: 5px;"><strong>整体流程:</strong> <span></span></p>
+                </div>
+                <div class="storyboard-shots" id="sbShotsContainer">
+                    <!-- Shots will be injected here via JS -->
+                </div>
+            </div>
+        </div>
     </div>
 
     <script>
@@ -946,6 +1227,12 @@
                 if (otherItem !== item && otherItem.classList.contains('active')) {
                     otherItem.classList.remove('active');
                     otherItem.querySelector('.accordion-content').style.maxHeight = null;
+
+                    // Stop playing any videos in the closed item
+                    const videos = otherItem.querySelectorAll('video');
+                    videos.forEach(video => {
+                        video.pause();
+                    });
                 }
             });
 
@@ -960,7 +1247,7 @@
         }
         // Tab switching logic for Channels
         document.addEventListener('DOMContentLoaded', () => {
-            const tabBtns = document.querySelectorAll('.tab-btn');
+            const tabBtns = document.querySelectorAll('.channel-tabs .tab-btn');
             const channelCols = document.querySelectorAll('.channel-column');
 
             tabBtns.forEach(btn => {
@@ -1012,9 +1299,198 @@
                 } else {
                     emptyState.style.display = 'none';
                 }
-            } else if (!foundSummary && allSummaries.length > 0) {
-                // Create temporary empty state if it doesn't exist
-                // (Omitted for brevity, assuming loop covers it or template logic renders an empty placeholder if needed)
+            }
+        }
+
+        // --- Interactive Storyboard Logic --- //
+        let currentStoryboardData = null;
+        const storyboardModal = document.getElementById('storyboardModal');
+        const storyboardVideo = document.getElementById('storyboardVideo');
+        const shotsContainer = document.getElementById('sbShotsContainer');
+
+        function openStoryboardModal(event, btnElement) {
+            // Prevent accordion toggle
+            if (event) event.stopPropagation();
+
+            const scriptDataStr = btnElement.getAttribute('data-script');
+            const videoUrl = btnElement.getAttribute('data-video-url');
+
+            if (!scriptDataStr) {
+                alert("无可用脚本数据。");
+                return;
+            }
+
+            try {
+                currentStoryboardData = JSON.parse(scriptDataStr);
+            } catch (e) {
+                console.error("Failed to parse script data:", e);
+                alert("解析脚本数据失败。");
+                return;
+            }
+
+            // Set Video
+            storyboardVideo.src = videoUrl;
+
+            // Set Header Details
+            document.querySelector('#sbGoal span').textContent = currentStoryboardData.validation_goal || "未提供";
+            document.querySelector('#sbProcess span').textContent = currentStoryboardData.overall_process || "未提供";
+
+            // Render Shots
+            renderStoryboardShots(currentStoryboardData.shots || []);
+
+            // Show Modal & Play Video
+            storyboardModal.classList.add('show');
+            storyboardVideo.play().catch(e => console.log("Auto-play prevented:", e));
+        }
+
+        function closeStoryboardModal() {
+            storyboardModal.classList.remove('show');
+            storyboardVideo.pause();
+            // Clear source and force stop downloading
+            storyboardVideo.src = "";
+            storyboardVideo.load();
+            currentStoryboardData = null;
+        }
+
+        function renderStoryboardShots(shots) {
+            shotsContainer.innerHTML = '';
+
+            shots.forEach((shot, index) => {
+                const card = document.createElement('div');
+                card.className = 'shot-card';
+                card.setAttribute('data-start', shot.start_timestamp || 0);
+                card.setAttribute('data-end', shot.end_timestamp || 0);
+                card.id = `shot-card-${index}`;
+
+                // Parse time for UI
+                const formatTime = (seconds) => {
+                    const m = Math.floor(seconds / 60);
+                    const s = Math.floor(seconds % 60);
+                    return `${m}:${s.toString().padStart(2, '0')}`;
+                };
+
+                const startTimeStr = formatTime(shot.start_timestamp || 0);
+                const endTimeStr = formatTime(shot.end_timestamp || 0);
+
+                card.innerHTML = `
+                    <div class="shot-header">
+                        <span class="shot-num">M${shot.shot_number || (index + 1)}</span>
+                        <span class="shot-time">${startTimeStr} - ${endTimeStr}</span>
+                    </div>
+                    <div class="shot-detail"><strong>角色:</strong> <span>${shot.Character || shot.role || '-'}</span></div>
+                    <div class="shot-detail"><strong>武器:</strong> <span>${shot.weapon || '-'}</span></div>
+                    <div class="shot-detail"><strong>镜头:</strong> <span>${shot.camera || '-'}</span></div>
+                    <div class="shot-detail"><strong>场景:</strong> <span>${shot.scene || '-'}</span></div>
+                    <div class="shot-action">${shot.detailed_action || ''}</div>
+                `;
+
+                // Click to seek video
+                card.addEventListener('click', () => {
+                    if (storyboardVideo && shot.start_timestamp !== undefined) {
+                        storyboardVideo.currentTime = shot.start_timestamp;
+                        storyboardVideo.play();
+                    }
+                });
+
+                shotsContainer.appendChild(card);
+            });
+        }
+
+        // Time Update Listener for Syncing Active Shot
+        storyboardVideo.addEventListener('timeupdate', () => {
+            if (!currentStoryboardData || !currentStoryboardData.shots) return;
+
+            const currentTime = storyboardVideo.currentTime;
+            const cards = document.querySelectorAll('.shot-card');
+
+            let activeSet = false;
+
+            cards.forEach(card => {
+                const start = parseFloat(card.getAttribute('data-start'));
+                const end = parseFloat(card.getAttribute('data-end'));
+
+                // Handle shots without valid timestamps gracefully
+                if (isNaN(start) || isNaN(end)) {
+                    card.classList.remove('active');
+                    return;
+                }
+
+                // Give 0.2s padding for smooth transitions
+                if (currentTime >= start - 0.2 && currentTime <= end) {
+                    if (!card.classList.contains('active')) {
+                        // Remove active from all other cards first
+                        cards.forEach(c => c.classList.remove('active'));
+
+                        card.classList.add('active');
+                        // Auto-scroll logic to keep the active item in view
+                        card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                    }
+                    activeSet = true;
+                } else {
+                    card.classList.remove('active');
+                }
+            });
+        });
+
+        // Optional: Close modal on outside click
+        storyboardModal.addEventListener('click', (e) => {
+            if (e.target === storyboardModal) {
+                closeStoryboardModal();
+            }
+        });
+        // Script downloading functionality
+        function downloadScriptCsv(event, btn) {
+            if (event) event.stopPropagation(); // Prevent the accordion from toggling when the button is clicked
+
+            try {
+                const scriptData = JSON.parse(btn.getAttribute('data-script'));
+                if (!scriptData || !scriptData.shots) {
+                    alert('暂无脚本拆解数据。');
+                    return;
+                }
+
+                const filename = btn.getAttribute('data-filename') || 'video_script.csv';
+                const bom = '\uFEFF';
+                let csvContent = bom;
+
+                // Title / Header area
+                const appNameMatch = filename.match(/^(.*)_脚本\.csv$/);
+                const title = appNameMatch ? appNameMatch[1] : '视频脚本';
+                csvContent += `,"${title}"\n`;
+
+                const goal = `"${(scriptData.validation_goal || '').replace(/"/g, '""')}"`;
+                const process = `"${(scriptData.overall_process || '').replace(/"/g, '""')}"`;
+
+                // Goal line
+                csvContent += `"验证目标\n（已验证的/想验证的）",${goal}\n`;
+                // Process line
+                csvContent += `"整体流程",${process}\n`;
+
+                // Add an empty or reference video line just to match the structure roughly
+                csvContent += `"参考视频：",""\n`;
+
+                // Headers for shots
+                csvContent += `"镜号","镜头描述","分镜"\n`;
+
+                scriptData.shots.forEach(shot => {
+                    const shotDesc = `角色：${shot.Character || ''}\n武器：${shot.weapon || ''}\n布景：${shot.scene || ''}\n镜头：${shot.camera || ''}\n详细画面描述：${shot.detailed_action || ''}\n音效：${shot.sound_effect || ''}`;
+                    const formattedDesc = `"${shotDesc.replace(/"/g, '""')}"`;
+
+                    csvContent += `"${shot.shot_number}",${formattedDesc},""\n`; // Empty string at end is for the image column placeholder
+                });
+
+                const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+                const link = document.createElement("a");
+                const url = URL.createObjectURL(blob);
+                link.setAttribute("href", url);
+                link.setAttribute("download", filename);
+                link.style.visibility = 'hidden';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            } catch (e) {
+                console.error("Error generating CSV:", e);
+                alert("生成脚本文件失败。");
             }
         }
     </script>
