@@ -16,11 +16,11 @@ class ReportRenderer:
         self.env = Environment(loader=FileSystemLoader(self.template_dir))
         self.template = self.env.get_template('report_template.html')
 
-    def render(self, strategy_summary: Dict[str, Any], applovin_items: List[Dict[str, Any]], facebook_items: List[Dict[str, Any]], youtube_items: List[Dict[str, Any]], monitored_apps: List[Dict[str, str]] = None, output_path: str = None) -> str:
+    def render(self, app_summaries: Dict[str, Dict[str, Any]], applovin_items: List[Dict[str, Any]], facebook_items: List[Dict[str, Any]], youtube_items: List[Dict[str, Any]], monitored_apps: List[Dict[str, str]] = None, output_path: str = None) -> str:
         """
         Renders the HTML report.
         Args:
-            strategy_summary: Dict containing hit_patterns, competitor_tactics, actionable_advice
+            app_summaries: Dict mapping app_name to a dict containing hit_patterns, channel_strategy, counter_strategy
             applovin_items: List of dicts from Applovin network
             facebook_items: List of dicts from Facebook network
             youtube_items: List of dicts from YouTube network
@@ -39,7 +39,7 @@ class ReportRenderer:
         # Render the template
         html_content = self.template.render(
             report_date=report_date,
-            strategy_summary=strategy_summary,
+            app_summaries=app_summaries,
             applovin_items=applovin_items,
             facebook_items=facebook_items,
             youtube_items=youtube_items,
@@ -70,7 +70,7 @@ if __name__ == '__main__':
     
     analyzer = VideoAnalyzer(use_mock=True)
     analyzed_videos = [analyzer.analyze_single_video(v) for v in videos[:5]] # test with first 5
-    summary = analyzer.generate_strategy_summary(analyzed_videos)
+    summaries = analyzer.generate_per_app_strategy_summaries(analyzed_videos)
     
     renderer = ReportRenderer()
-    renderer.render(summary.get("strategy_summary", {}), analyzed_videos, [], [])
+    renderer.render(summaries, analyzed_videos, [], [])

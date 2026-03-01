@@ -41,7 +41,8 @@
 
         header {
             text-align: center;
-            margin-bottom: 4rem;
+            margin-bottom: 2rem;
+            /* Reduced from 4rem */
             animation: fadeInDown 0.8s ease-out;
         }
 
@@ -159,9 +160,9 @@
             font-size: 0.95rem;
         }
 
-        /* Monitored Apps Section */
+        /* Monitored Apps (Tabs) Section */
         .monitored-apps-section {
-            margin: 0 auto 2rem auto;
+            margin: 0 auto 1.5rem auto;
             max-width: 1400px;
             width: 100%;
             animation: fadeIn 1s ease-out 0.4s both;
@@ -190,12 +191,27 @@
             display: flex;
             align-items: center;
             gap: 0.75rem;
-            transition: transform 0.2s, background 0.2s;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            opacity: 0.6;
+            /* Default inactive state */
+            filter: grayscale(100%);
         }
 
         .app-chip:hover {
             transform: translateY(-2px);
             background: rgba(255, 255, 255, 0.1);
+            opacity: 0.8;
+            filter: grayscale(50%);
+        }
+
+        /* Active App Tab State */
+        .app-chip.active-app-tab {
+            opacity: 1;
+            filter: grayscale(0%);
+            border-color: var(--accent-primary);
+            background: rgba(59, 130, 246, 0.1);
+            box-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
         }
 
         .app-icon {
@@ -209,6 +225,29 @@
         .app-name {
             font-size: 0.9rem;
             font-weight: 500;
+        }
+
+        /* App Summary Content Area */
+        .app-summary-content {
+            display: none;
+            /* Hidden by default */
+            animation: fadeIn 0.4s ease-out;
+        }
+
+        .app-summary-content.active-summary {
+            display: block;
+            /* Shown when active */
+        }
+
+        .empty-summary-state {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-secondary);
+            background: var(--surface-color);
+            border-radius: var(--radius-lg);
+            border: 1px dashed var(--border-color);
+            margin: 0 auto 4rem auto;
+            max-width: 1400px;
         }
 
         /* Top 30 Accordion Section */
@@ -530,10 +569,11 @@
 
         {% if monitored_apps %}
         <section class="monitored-apps-section">
-            <h2>👀 本期大盘已撞库监控竞品</h2>
+            <h2>👀 核心竞品本周专案分析 (点击图标查看)</h2>
             <div class="apps-flex-container">
                 {% for app in monitored_apps %}
-                <div class="app-chip">
+                <div class="app-chip {% if loop.first %}active-app-tab{% endif %}"
+                    onclick="switchAppSummary('{{ app.name|e }}', this)">
                     {% if app.icon_url %}
                     <img class="app-icon" src="{{ app.icon_url }}" alt="{{ app.name }} 图标">
                     {% else %}
@@ -546,27 +586,37 @@
                 {% endfor %}
             </div>
         </section>
-        {% endif %}
 
-
-
-        <section class="strategy-dashboard">
-            <h2>大盘战略分析总结</h2>
+        <!-- Per-App Summary Dashboards -->
+        {% if app_summaries %}
+        {% for app_name, summary in app_summaries.items() %}
+        <section id="summary-content-{{ app_name|e }}"
+            class="strategy-dashboard app-summary-content {% if loop.first %}active-summary{% endif %}">
+            <h2>【{{ app_name }}】专属动向拆解</h2>
             <div class="summary-grid">
                 <div class="summary-card">
-                    <h3><span style="font-size: 1.5rem;">🎯</span> 爆款素材规律</h3>
-                    <p>{{ strategy_summary.hit_patterns | safe }}</p>
+                    <h3><span style="font-size: 1.5rem;">🎯</span> 本周核心套路</h3>
+                    <p>{{ summary.hit_patterns | safe }}</p>
                 </div>
                 <div class="summary-card">
-                    <h3><span style="font-size: 1.5rem;">⚔️</span> 竞品核心打法</h3>
-                    <p>{{ strategy_summary.competitor_tactics | safe }}</p>
+                    <h3><span style="font-size: 1.5rem;">⚔️</span> 渠道差异化打法</h3>
+                    <p>{{ summary.channel_strategy | safe }}</p>
                 </div>
                 <div class="summary-card">
-                    <h3><span style="font-size: 1.5rem;">💡</span> 可落地建议</h3>
-                    <p>{{ strategy_summary.actionable_advice | safe }}</p>
+                    <h3><span style="font-size: 1.5rem;">💡</span> 我方测试/防御建议</h3>
+                    <p>{{ summary.counter_strategy | safe }}</p>
                 </div>
             </div>
         </section>
+        {% endfor %}
+        {% else %}
+        <!-- Fallback if no app summaries but we have apps -->
+        <div class="empty-summary-state">
+            <p>暂无当前竞品的专项分析数据，可能是该产品本周未在核心渠道放量，或仍在数据采集中。</p>
+        </div>
+        {% endif %}
+
+        {% endif %}
 
         <section class="top-videos-section">
             <h2 class="section-title">Top 30 素材单片拆解</h2>
@@ -908,7 +958,7 @@
                 content.style.maxHeight = null;
             }
         }
-        // Tab switching logic
+        // Tab switching logic for Channels
         document.addEventListener('DOMContentLoaded', () => {
             const tabBtns = document.querySelectorAll('.tab-btn');
             const channelCols = document.querySelectorAll('.channel-column');
@@ -931,6 +981,42 @@
                 });
             });
         });
+
+        // App Summary switching logic
+        function switchAppSummary(appName, chipElement) {
+            // Update chip styles
+            const allChips = document.querySelectorAll('.app-chip');
+            allChips.forEach(chip => {
+                chip.classList.remove('active-app-tab');
+            });
+            chipElement.classList.add('active-app-tab');
+
+            // Find matching summary content
+            const allSummaries = document.querySelectorAll('.app-summary-content');
+            let foundSummary = false;
+
+            allSummaries.forEach(summary => {
+                summary.classList.remove('active-summary');
+                // The ID was constructed with the app name, handle escaping if needed or exact match
+                if (summary.id === 'summary-content-' + appName) {
+                    summary.classList.add('active-summary');
+                    foundSummary = true;
+                }
+            });
+
+            // If we clicked an app but have no summary data for it, we might want to show empty state
+            const emptyState = document.querySelector('.empty-summary-state');
+            if (emptyState) {
+                if (!foundSummary) {
+                    emptyState.style.display = 'block';
+                } else {
+                    emptyState.style.display = 'none';
+                }
+            } else if (!foundSummary && allSummaries.length > 0) {
+                // Create temporary empty state if it doesn't exist
+                // (Omitted for brevity, assuming loop covers it or template logic renders an empty placeholder if needed)
+            }
+        }
     </script>
 </body>
 

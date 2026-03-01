@@ -41,7 +41,8 @@
 
         header {
             text-align: center;
-            margin-bottom: 4rem;
+            margin-bottom: 2rem;
+            /* Reduced from 4rem */
             animation: fadeInDown 0.8s ease-out;
         }
 
@@ -159,9 +160,9 @@
             font-size: 0.95rem;
         }
 
-        /* Monitored Apps Section */
+        /* Monitored Apps (Tabs) Section */
         .monitored-apps-section {
-            margin: 0 auto 2rem auto;
+            margin: 0 auto 1.5rem auto;
             max-width: 1400px;
             width: 100%;
             animation: fadeIn 1s ease-out 0.4s both;
@@ -190,12 +191,27 @@
             display: flex;
             align-items: center;
             gap: 0.75rem;
-            transition: transform 0.2s, background 0.2s;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            opacity: 0.6;
+            /* Default inactive state */
+            filter: grayscale(100%);
         }
 
         .app-chip:hover {
             transform: translateY(-2px);
             background: rgba(255, 255, 255, 0.1);
+            opacity: 0.8;
+            filter: grayscale(50%);
+        }
+
+        /* Active App Tab State */
+        .app-chip.active-app-tab {
+            opacity: 1;
+            filter: grayscale(0%);
+            border-color: var(--accent-primary);
+            background: rgba(59, 130, 246, 0.1);
+            box-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
         }
 
         .app-icon {
@@ -209,6 +225,29 @@
         .app-name {
             font-size: 0.9rem;
             font-weight: 500;
+        }
+
+        /* App Summary Content Area */
+        .app-summary-content {
+            display: none;
+            /* Hidden by default */
+            animation: fadeIn 0.4s ease-out;
+        }
+
+        .app-summary-content.active-summary {
+            display: block;
+            /* Shown when active */
+        }
+
+        .empty-summary-state {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-secondary);
+            background: var(--surface-color);
+            border-radius: var(--radius-lg);
+            border: 1px dashed var(--border-color);
+            margin: 0 auto 4rem auto;
+            max-width: 1400px;
         }
 
         /* Top 30 Accordion Section */
@@ -530,73 +569,83 @@
 
         
         <section class="monitored-apps-section">
-            <h2>👀 本期大盘已撞库监控竞品</h2>
+            <h2>👀 核心竞品本周专案分析 (点击图标查看)</h2>
             <div class="apps-flex-container">
                 
-                <div class="app-chip">
+                <div class="app-chip active-app-tab"
+                    onclick="switchAppSummary('Tiles Survive!', this)">
                     
                     <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/13/5d/88135d35-45b9-e1d4-d063-0d82bf6eeadc/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/150x150bb.jpg" alt="Tiles Survive! 图标">
                     
                     <span class="app-name">Tiles Survive!</span>
                 </div>
                 
-                <div class="app-chip">
+                <div class="app-chip "
+                    onclick="switchAppSummary('Kingshot', this)">
                     
                     <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/18/8a/f6188a14-83a7-d226-6f1d-29a58fd2fc09/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/150x150bb.jpg" alt="Kingshot 图标">
                     
                     <span class="app-name">Kingshot</span>
                 </div>
                 
-                <div class="app-chip">
+                <div class="app-chip "
+                    onclick="switchAppSummary('Hero Wars: Alliance Fantasy', this)">
                     
                     <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/c1/a3/c1c1a370-26da-6ea5-a56c-3c97109a0859/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/150x150bb.jpg" alt="Hero Wars: Alliance Fantasy 图标">
                     
                     <span class="app-name">Hero Wars: Alliance Fantasy</span>
                 </div>
                 
-                <div class="app-chip">
+                <div class="app-chip "
+                    onclick="switchAppSummary('Whiteout Survival', this)">
                     
                     <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/89/b5/c789b534-e70c-212f-c21a-ed1b758177bf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/150x150bb.jpg" alt="Whiteout Survival 图标">
                     
                     <span class="app-name">Whiteout Survival</span>
                 </div>
                 
-                <div class="app-chip">
+                <div class="app-chip "
+                    onclick="switchAppSummary('Lords Mobile: Kingdom Wars', this)">
                     
                     <img class="app-icon" src="https://play-lh.googleusercontent.com/F6EsCLwdz0m8Gg1w-PEEAtWIVMqVGhoWOfJEjfM0CF5tsRvtkhW-DPr6dNbUd0NWZjJRsoeP7DMKVYbuhRHQXg=s150" alt="Lords Mobile: Kingdom Wars 图标">
                     
                     <span class="app-name">Lords Mobile: Kingdom Wars</span>
                 </div>
                 
-                <div class="app-chip">
+                <div class="app-chip "
+                    onclick="switchAppSummary('Evony', this)">
                     
                     <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/f5/c0/7ff5c094-592e-d00e-0073-67b3d944e44c/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/150x150bb.jpg" alt="Evony 图标">
                     
                     <span class="app-name">Evony</span>
                 </div>
                 
-                <div class="app-chip">
+                <div class="app-chip "
+                    onclick="switchAppSummary('Last War:Survival', this)">
                     
                     <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e1/16/33/e11633e5-b0f1-82f8-4220-05af900d9a5f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/150x150bb.jpg" alt="Last War:Survival 图标">
                     
                     <span class="app-name">Last War:Survival</span>
                 </div>
                 
-                <div class="app-chip">
+                <div class="app-chip "
+                    onclick="switchAppSummary('Fate War', this)">
                     
                     <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7e/43/d9/7e43d994-2090-e3e8-2793-c6d3db1a4e9d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/150x150bb.jpg" alt="Fate War 图标">
                     
                     <span class="app-name">Fate War</span>
                 </div>
                 
-                <div class="app-chip">
+                <div class="app-chip "
+                    onclick="switchAppSummary('Age of Empires Mobile', this)">
                     
                     <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/f4/ec/1af4ec50-616c-bdb6-2b4c-fe898c336b38/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/150x150bb.jpg" alt="Age of Empires Mobile 图标">
                     
                     <span class="app-name">Age of Empires Mobile</span>
                 </div>
                 
-                <div class="app-chip">
+                <div class="app-chip "
+                    onclick="switchAppSummary('Dark War:Survival', this)">
                     
                     <img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/90/03/7c/90037c51-6f75-2c75-bc88-17b1400fa5a3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/150x150bb.jpg" alt="Dark War:Survival 图标">
                     
@@ -605,27 +654,203 @@
                 
             </div>
         </section>
+
+        <!-- Per-App Summary Dashboards -->
         
-
-
-
-        <section class="strategy-dashboard">
-            <h2>大盘战略分析总结</h2>
+        
+        <section id="summary-content-Lords Mobile: Kingdom Wars"
+            class="strategy-dashboard app-summary-content active-summary">
+            <h2>【Lords Mobile: Kingdom Wars】专属动向拆解</h2>
             <div class="summary-grid">
                 <div class="summary-card">
-                    <h3><span style="font-size: 1.5rem;">🎯</span> 爆款素材规律</h3>
-                    <p><strong>副玩法前置降门槛，大数值膨胀与反向营销构建瞬时爽点</strong><ul><li>包装轻度玩法（跑酷、割草、塔防）降低理解成本。</li><li>放大倍增门与满屏金币掉落的视觉冲击。</li><li>利用“吐槽假广告”反向营销重建玩家信任。</li><li>前置SLG建造快感，展示茅草屋秒变史诗堡垒。</li></ul></p>
+                    <h3><span style="font-size: 1.5rem;">🎯</span> 本周核心套路</h3>
+                    <p><strong>主打轻度合成倍增与先抑后扬情绪流</strong><ul><li>前置视觉奇观快速抓取眼球（割蛇、推障碍爆金币、兵力倍增门）</li><li>构建初战挫败后策略优化并碾压逆袭的爽感曲线</li><li>放大数值瞬时膨胀反馈（低级兵合成了庞大军团、海量金币掉落）</li><li>弱化传统SLG重度城建，包装为极易理解的轻度合成与塔防玩法</li></ul></p>
                 </div>
                 <div class="summary-card">
-                    <h3><span style="font-size: 1.5rem;">⚔️</span> 竞品核心打法</h3>
-                    <p><strong>头部竞品全面轻量化，“无广告”成转化杀手锏，渠道定制化分发凸显</strong><ul><li>整体风向：用重度买量预算推轻度休闲素材，强打“无广告”承诺痛点。</li><li>Applovin策略：简单粗暴直给核心玩法，主攻极速割草与强数值刺激。</li><li>Facebook策略：主打情感共鸣，构建极端末日与温馨避难所的强烈反差。</li><li>YouTube策略：重度包装UGC感，利用真人主播实况与幽默短剧强化代入。</li></ul></p>
+                    <h3><span style="font-size: 1.5rem;">⚔️</span> 渠道差异化打法</h3>
+                    <p><strong>渠道定制差异显著：Applovin主推数值倍增，Facebook侧重生存解压</strong><ul><li>Applovin集中投放加减乘除与兵力合成素材，强调快节奏决策与即时数值碾压爽感</li><li>Facebook前置猎奇与解压钩子（如切割蛇），后续延展至平缓的资源收集与生存建造</li><li>Applovin通过快速的失败与逆袭高频切换情绪，Facebook则提供平稳的防御升级成就感</li></ul></p>
                 </div>
                 <div class="summary-card">
-                    <h3><span style="font-size: 1.5rem;">💡</span> 可落地建议</h3>
-                    <p><strong>落地“解压割草+真人反转”双线创意，严格按渠道特性定制内容</strong><ul><li>美术团队：重做数值爆发特效，强化建筑升级前后的夸张视觉极致对比。</li><li>Applovin投放：紧急测试“无广告承诺+无限火力割草清屏”极简爽感素材。</li><li>Facebook投放：制作“恶劣外部环境对撞温馨自动化基地”的强反差素材。</li><li>YouTube投放：开拍“真人玩家吐槽假广告却被真实玩法打脸”互动短剧。</li></ul></p>
+                    <h3><span style="font-size: 1.5rem;">💡</span> 我方测试/防御建议</h3>
+                    <p><strong>借鉴轻量化玩法包装，重点测试高落差情绪反转素材</strong><ul><li>复刻失败至逆袭剧本，放大玩家我上我也行的挑战欲与代入感</li><li>测试底层兵力合成庞大军团的视觉特效，突出同屏大规模压倒性战斗爽感</li><li>针对泛用户池，尝试前置解压互动（如切割、推倒障碍）与资源爆屏奇观</li><li>全面剥离复杂SLG界面UI，仅用直观的加减数字变化展现战力成长</li></ul></p>
                 </div>
             </div>
         </section>
+        
+        <section id="summary-content-Tiles Survive!"
+            class="strategy-dashboard app-summary-content ">
+            <h2>【Tiles Survive!】专属动向拆解</h2>
+            <div class="summary-grid">
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">🎯</span> 本周核心套路</h3>
+                    <p><strong>主打极致反差与解压割草双核包装</strong><ul><li>凸显视觉解压（展示激光瞬间碎木、倍增器狂刷金币）</li><li>制造极限反差（展示恶劣末世风暴对比温馨地下庇护所）</li><li>直击玩家痛点（高呼无广告、最放松生存拉拢疲劳用户）</li></ul></p>
+                </div>
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">⚔️</span> 渠道差异化打法</h3>
+                    <p><strong>渠道定制化显著：Applovin拼玩法爽感，Facebook讲情绪故事</strong><ul><li>Applovin主攻玩法反馈（强调塔防割草、自动化生产流水线、数值暴增）</li><li>Facebook强攻情绪共鸣（主推避难所建造带来的安全感、美女真人猎奇吸睛）</li></ul></p>
+                </div>
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">💡</span> 我方测试/防御建议</h3>
+                    <p><strong>借鉴反差情绪包装，强化前三秒视觉冲击</strong><ul><li>复刻分屏对比（测试外部危机与内部安逸的避难所生活素材）</li><li>加入解压元素（前三秒堆叠激光采集、百倍金币倍增等割草爽点）</li><li>尝试痛点营销（在广告中文案直击无假广告、拒绝压力，抢占下沉受众）</li></ul></p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="summary-content-Age of Empires Mobile"
+            class="strategy-dashboard app-summary-content ">
+            <h2>【Age of Empires Mobile】专属动向拆解</h2>
+            <div class="summary-grid">
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">🎯</span> 本周核心套路</h3>
+                    <p><strong>主打经典IP怀旧情怀与现代视觉升级的强烈对比</strong><ul><li>利用新老版本画面对比制造巨大视觉冲击</li><li>突出秒升城堡快感与宏大史诗攻城战</li><li>强调原汁原味还原唤醒老玩家集体记忆</li></ul></p>
+                </div>
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">⚔️</span> 渠道差异化打法</h3>
+                    <p><strong>渠道侧重差异化展现，精准切分不同用户诉求</strong><ul><li>Facebook侧重视觉表现力与城建发展爽感</li><li>YouTube主打硬核怀旧情怀与宏大战争震撼感</li><li>YouTube文案额外发放礼品码刺激直接转化</li></ul></p>
+                </div>
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">💡</span> 我方测试/防御建议</h3>
+                    <p><strong>避其IP情怀锋芒，差异化主打创新玩法与轻量爽感</strong><ul><li>避开怀旧硬碰硬，聚焦展现我方独特创新机制与题材</li><li>放大前期极速发育爽感，反制其城建奇观展现</li><li>测试低门槛且快节奏的战争短频素材截流泛策略用户</li></ul></p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="summary-content-Fate War"
+            class="strategy-dashboard app-summary-content ">
+            <h2>【Fate War】专属动向拆解</h2>
+            <div class="summary-grid">
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">🎯</span> 本周核心套路</h3>
+                    <p><strong>主打“反差碾压”战斗爽感与“动态四季”模拟经营包装</strong><ul><li>强化战术反差：先展示错误兵种惨败，后切正确兵种全屏割草，制造极强解压感（头部高份额核心套路）。</li><li>引入四季动态：展示地表村庄或地下堡垒在春夏秋冬的无缝切换，提供种田生存的情绪价值。</li><li>展示垂直建造：利用避难所视角的层层建设，满足玩家从无到有的模拟经营成就感。</li></ul></p>
+                </div>
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">⚔️</span> 渠道差异化打法</h3>
+                    <p><strong>Facebook端实施“硬核战斗+轻度种田”双线并行测试</strong><ul><li>重金押注解压战斗：最高份额素材主打即时策略与割草视觉，精准收割男性向爽感偏好用户。</li><li>广铺休闲生存元素：中腰部大量测试村庄经营、地下堡垒等泛休闲题材，试图打破SLG圈层壁垒。</li><li>平台集中发力：当前爆款均集中于Facebook，表明正以此为核心阵地测试不同吸量钩子。</li></ul></p>
+                </div>
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">💡</span> 我方测试/防御建议</h3>
+                    <p><strong>跟进“挫败转割草”剧本，并引入“透视建造”副玩法包装</strong><ul><li>复刻反差战斗：制作“开局选错被虐->换兵全屏清怪”的短视频，拦截爽感用户。</li><li>测试切面建造视角：包装基地建设为“避难所”式的垂直透视视角，提升经营满足感。</li><li>增加动态天气表现：在现有素材中叠加四季或昼夜天气变化，提升画面表现力与生存沉浸感。</li></ul></p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="summary-content-Whiteout Survival"
+            class="strategy-dashboard app-summary-content ">
+            <h2>【Whiteout Survival】专属动向拆解</h2>
+            <div class="summary-grid">
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">🎯</span> 本周核心套路</h3>
+                    <p><strong>主推轻度割草塔防与现实痛点营销，放大即时反馈爽感</strong><ul><li>聚焦塔防割草：展示雪球滚怪、旋转斧清屏，引爆满屏金币。</li><li>直击玩家痛点：网红口播承诺绝无广告与反击虚假宣传。</li><li>强化自动经营：展示从手动切鱼破冰到建立全自动流水线。</li><li>制造反差降温：利用现实高温天气，主打欺骗大脑视觉解暑。</li></ul></p>
+                </div>
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">⚔️</span> 渠道差异化打法</h3>
+                    <p><strong>渠道精准分化：Applovin打轻度，FB打经营，YT重真人剧情</strong><ul><li>Applovin主攻轻度爽感：集中投放塔防防守与破冰救援，强调即刻上手。</li><li>Facebook偏向模拟经营：主打切鱼与熔冰解压过程，突出效率飙升。</li><li>YouTube重砸真人演艺：高份额主推名人互动、天气联动与主播情绪代入。</li></ul></p>
+                </div>
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">💡</span> 我方测试/防御建议</h3>
+                    <p><strong>借鉴轻度化视觉包装，针对性截胡真人痛点营销</strong><ul><li>融合割草塔防元素：素材开局植入夸张群伤清怪与爆金币视觉。</li><li>测试反向打假口播：启用真人主播强调所见即所得，抢占玩家信任。</li><li>借势极端天气营销：制作现实酷热对比游戏清凉的反差向素材。</li><li>放大自动化蜕变：展示从单人开荒到满屏自动化运转的极速快进。</li></ul></p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="summary-content-Kingshot"
+            class="strategy-dashboard app-summary-content ">
+            <h2>【Kingshot】专属动向拆解</h2>
+            <div class="summary-grid">
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">🎯</span> 本周核心套路</h3>
+                    <p><strong>主打“无广告”痛点营销配合“割草塔防+瞬间建城”极致爽感</strong><ul><li>直击玩家痛点（高频露出NO ADS及吐槽虚假氪金广告）</li><li>强化视觉割草（巨石滚屏与多塔齐发秒杀海量敌军并爆满屏金币）</li><li>放大即时反馈（操纵角色踩地块或消耗金币让破屋瞬间跃升为宏伟城堡）</li></ul></p>
+                </div>
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">⚔️</span> 渠道差异化打法</h3>
+                    <p><strong>渠道定制前端钩子，统一落脚于核心防守与进化爽感</strong><ul><li>Applovin主打直接承诺（依赖真人情景剧或主播口播无广告，强调轻度解压）</li><li>Facebook侧重视觉奇观（聚焦独特资源堆叠与瞬间爆城的强烈视觉反差）</li><li>YouTube偏好荒诞演绎（采用洪水中打游戏等夸张剧情引入，后接巨龙清屏史诗场面）</li></ul></p>
+                </div>
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">💡</span> 我方测试/防御建议</h3>
+                    <p><strong>借势“反套路”情绪，强化我方前置副玩法的视觉冲击与成就感</strong><ul><li>借鉴痛点营销（测试“厌倦假广告？来玩真策略”的开场钩子抢夺竞品受众）</li><li>升级解压爽点（在副玩法素材中加入夸张清屏特效与己方兵力几何级暴增画面）</li><li>缩短转化链路（加速剪辑从“割草收集”到“瞬间建成大城”的高潮反馈过程）</li></ul></p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="summary-content-Last War:Survival"
+            class="strategy-dashboard app-summary-content ">
+            <h2>【Last War:Survival】专属动向拆解</h2>
+            <div class="summary-grid">
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">🎯</span> 本周核心套路</h3>
+                    <p><strong>主打“反虚假广告”人设与“割草倍增”极致爽感</strong><ul><li>直击痛点：采用POV真人/情景对话开场，吐槽“假广告”，标榜自身为“还原广告的真游戏”，建立玩家信任。</li><li>视觉奇观：高频使用数值门（x99、+50）实现兵力或子弹瞬间爆炸式增长，呈现密集弹幕扫射的解压快感。</li><li>强反差对决：刻意制造“极弱小兵 vs 巨型机甲/Boss”或悬殊数值（3 vs 799）的对比，拉升战斗紧张感。</li><li>挫败营销：结构高度统一为“前期成倍爽感成长 -> 后期挑战大Boss -> 差一点赢却DEFEAT结局”，精准激发玩家“我上我也行”的胜负欲。</li></ul></p>
+                </div>
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">⚔️</span> 渠道差异化打法</h3>
+                    <p><strong>Facebook重直观数值冲击，YouTube偏真人UGC与剧情引导</strong><ul><li>FB主打视觉暴力：重金倾斜（超15%份额）于纯玩法实况，突出“弱小进化巨型机甲”和“满屏爆兵碾压”的瞬时多巴胺分泌，追求短平快的吸睛。</li><li>YT侧重沉浸背书：大量铺设达人Reaction（如惊讶表情、熬夜试玩）和POV素材，直接植入“无广告、完全免费”的口播卖点，降低下载防备。</li><li>YT引入轻解谜：相较FB的纯割草，YT素材更多加入“齿轮破坏倍数门”、“绝境路线选择”等策略向钩子，利用悬念拉长视频完播率。</li></ul></p>
+                </div>
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">💡</span> 我方测试/防御建议</h3>
+                    <p><strong>借势“打假”抢夺心智，像素级复刻“爽感+挫败”双轴转化漏斗</strong><ul><li>截胡“真游戏”标签：火速跟进“真人吐槽假广告”的钩子脚本，把我方带副玩法的素材包装成“真正良心游戏”，承接被虚假买量洗出的流量。</li><li>升级视觉多巴胺：在投放素材中实装极其夸张的数值膨胀特效，强化弱小兵种合成/穿门后变身“重装机甲”的华丽特效，拉满全屏割草感。</li><li>贯彻“必定失败”定律：规范录屏素材的剧情走向，强制所有Boss战必须以丝血“DEFEAT”收场，配合类似“你能比我做得好吗？”的激将法CTA。</li><li>分渠精准派发：FB端批量产出“倍数门+大Boss+失败”的无声混剪跑量；YT端重点采买微主做“震惊/无语/沉浸挑战”的情绪Reaction切片。</li></ul></p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="summary-content-Dark War:Survival"
+            class="strategy-dashboard app-summary-content ">
+            <h2>【Dark War:Survival】专属动向拆解</h2>
+            <div class="summary-grid">
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">🎯</span> 本周核心套路</h3>
+                    <p><strong>主打“极度反差+移动避难所”的末世治愈生存爽感</strong><ul><li>塑造极致内外反差（外部丧尸危机对比内部温馨种田/烹饪）</li><li>包装“火车车厢/便利店”等新奇移动避难所建造概念</li><li>采用精细像素风与动漫风打破传统写实末世审美疲劳</li><li>虚构“2026年度游戏大奖”等背书文案拉升产品逼格</li></ul></p>
+                </div>
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">⚔️</span> 渠道差异化打法</h3>
+                    <p><strong>YouTube重推“火车沉浸反差”，Facebook主打“多元场景与信用背书”</strong><ul><li>YouTube重金主投无字纯享版“火车避难所”，纯靠画面反差与微观生存细节吸量</li><li>Facebook主推多元化避难场景（海上木筏、动漫便利店），强调从无到有的养成感</li><li>Facebook素材显性叠加“游戏大奖”字样与五星好评，强力诱导信任与点击</li></ul></p>
+                </div>
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">💡</span> 我方测试/防御建议</h3>
+                    <p><strong>跟进“高反差避难所”概念，测试“末世治愈”包装与荣誉背书标签</strong><ul><li>立即制作“外部惊悚+内部温馨”的对比构图素材，测试房车、地堡等微观生存场景</li><li>弱化硬核末日战斗，放大末世背景下的“烹饪、种田、基建”等高解压治愈元素</li><li>在视频首屏植入“年度创意大奖”、“高分神作”等伪荣誉标签提升素材转化率</li><li>尝试利用像素风或二次元画风套壳制作副玩法素材，收割泛娱乐圈层用户</li></ul></p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="summary-content-Evony"
+            class="strategy-dashboard app-summary-content ">
+            <h2>【Evony】专属动向拆解</h2>
+            <div class="summary-grid">
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">🎯</span> 本周核心套路</h3>
+                    <p><strong>主打反向心理激将与渐进式射击割草包装</strong><ul><li>采用“不要尝试此关卡”反向文案，激发逆反与挑战欲</li><li>展示武器与角色的渐进式升级，提供强视觉成长爽感</li><li>结局设定为高战力突发失败，制造挫败感逼迫玩家下载</li><li>彻底脱离SLG重度元素，纯靠轻度射击割草洗大盘用户</li></ul></p>
+                </div>
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">⚔️</span> 渠道差异化打法</h3>
+                    <p><strong>Applovin渠道重注轻度休闲射击副玩法洗量</strong><ul><li>集中在Applovin主推轻度射击与虚假副玩法素材</li><li>利用Applovin休闲游戏流量池，以轻度包装大幅降低CPA</li><li>通过高频视觉刺激与快速失败，高度契合网盟碎片化流量</li></ul></p>
+                </div>
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">💡</span> 我方测试/防御建议</h3>
+                    <p><strong>借鉴激将套路与视觉成长，结合本品副玩法抢量</strong><ul><li>全面复刻“反向心理激将+高反差失败”的剧情转化结构</li><li>强化素材内的视觉成长元素，放大武器进化与割草即时爽感</li><li>将激将套路平移至本品现有副玩法，快速测试吸量效率</li><li>防守端适度提高轻度素材投放占比，拦截被竞品教育的休闲用户</li></ul></p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="summary-content-Hero Wars: Alliance Fantasy"
+            class="strategy-dashboard app-summary-content ">
+            <h2>【Hero Wars: Alliance Fantasy】专属动向拆解</h2>
+            <div class="summary-grid">
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">🎯</span> 本周核心套路</h3>
+                    <p><strong>主推“极端受辱开局+数值飙升逆袭”的爽文套路</strong><ul><li>制造极致弱势开局。利用被踢下悬崖、遭戴绿帽嘲笑、被巨像吞噬等场景，激发玩家同情与屈辱感。</li><li>强化数值膨胀快感。通过拾取装备或挖宝，展现从1级瞬间狂飙至100级的反差，视觉反馈极度夸张。</li><li>融合轻度解谜爬塔。将重度RPG成长包装为简单的地下城探险或迷宫选路，极大降低用户理解门槛。</li></ul></p>
+                </div>
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">⚔️</span> 渠道差异化打法</h3>
+                    <p><strong>Applovin 猛攻剧情冲突，Facebook 侧重机制焦虑</strong><ul><li>Applovin 聚焦情绪煽动。重金押注“NTR受辱”、“被强者碾压”的狗血抓马剧情，强烈激发用户复仇欲与逆袭渴望。</li><li>Facebook 主打反直觉交互。利用“故意投喂怪物使其变强”的错误操作引发玩家焦虑，刺激用户下载纠错。</li><li>核心资源倾斜 Applovin。多支高份额与新晋爆款集中于此，验证了“弱男变猛男”套路在该渠道的高转化率。</li></ul></p>
+                </div>
+                <div class="summary-card">
+                    <h3><span style="font-size: 1.5rem;">💡</span> 我方测试/防御建议</h3>
+                    <p><strong>复制“情绪反差”与“暴爽数值”，翻新失败纠错玩法</strong><ul><li>复刻受辱逆袭剧本。立即测试“主角被绿/被驱逐 + 偶然获神器 + 瞬间满级复仇”的爽文前3秒钩子。</li><li>放大数值成长表现。在战斗和升级环节加入极其夸张的战力数字跳动特效，直接拉满视觉爽感。</li><li>制作挑衅互动素材。跟进“反直觉操作导致失败”的素材框架，配以“你能做得更好吗”的嘲讽文案吸引点击。</li></ul></p>
+                </div>
+            </div>
+        </section>
+        
+        
+
+        
 
         <section class="top-videos-section">
             <h2 class="section-title">Top 30 素材单片拆解</h2>
@@ -7750,7 +7975,7 @@
                 content.style.maxHeight = null;
             }
         }
-        // Tab switching logic
+        // Tab switching logic for Channels
         document.addEventListener('DOMContentLoaded', () => {
             const tabBtns = document.querySelectorAll('.tab-btn');
             const channelCols = document.querySelectorAll('.channel-column');
@@ -7773,6 +7998,42 @@
                 });
             });
         });
+
+        // App Summary switching logic
+        function switchAppSummary(appName, chipElement) {
+            // Update chip styles
+            const allChips = document.querySelectorAll('.app-chip');
+            allChips.forEach(chip => {
+                chip.classList.remove('active-app-tab');
+            });
+            chipElement.classList.add('active-app-tab');
+
+            // Find matching summary content
+            const allSummaries = document.querySelectorAll('.app-summary-content');
+            let foundSummary = false;
+
+            allSummaries.forEach(summary => {
+                summary.classList.remove('active-summary');
+                // The ID was constructed with the app name, handle escaping if needed or exact match
+                if (summary.id === 'summary-content-' + appName) {
+                    summary.classList.add('active-summary');
+                    foundSummary = true;
+                }
+            });
+
+            // If we clicked an app but have no summary data for it, we might want to show empty state
+            const emptyState = document.querySelector('.empty-summary-state');
+            if (emptyState) {
+                if (!foundSummary) {
+                    emptyState.style.display = 'block';
+                } else {
+                    emptyState.style.display = 'none';
+                }
+            } else if (!foundSummary && allSummaries.length > 0) {
+                // Create temporary empty state if it doesn't exist
+                // (Omitted for brevity, assuming loop covers it or template logic renders an empty placeholder if needed)
+            }
+        }
     </script>
 </body>
 

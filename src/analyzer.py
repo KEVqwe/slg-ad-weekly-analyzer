@@ -23,6 +23,11 @@ class VideoAnalysisResult(BaseModel):
     wow_factor: str
     copywriting_features: str
 
+class PerAppSummaryResult(BaseModel):
+    hit_patterns: str
+    channel_strategy: str
+    counter_strategy: str
+
 class StrategySummaryResult(BaseModel):
     hit_patterns: str
     competitor_tactics: str
@@ -246,84 +251,107 @@ class VideoAnalyzer:
                     logger.warning(f"Failed to delete local temp file {temp_file_path}: {e}")
 
 
-    def generate_strategy_summary(self, applovin_analyses: List[Dict[str, Any]], facebook_analyses: List[Dict[str, Any]], youtube_analyses: List[Dict[str, Any]] = None) -> Dict[str, Any]:
-        """Summarizes Applovin, Facebook, and YouTube video analyses into a strategic report."""
-        logger.info("Generating strategic summary from video analyses...")
-        
-        youtube_analyses = youtube_analyses or []
+    def generate_per_app_strategy_summaries(self, all_analyzed_videos: List[Dict[str, Any]]) -> Dict[str, Dict[str, Any]]:
+        """Summarizes video analyses on a per-app basis."""
+        logger.info("Generating per-app strategic summaries...")
 
-        if self.use_mock or (not applovin_analyses and not facebook_analyses and not youtube_analyses):
-            return self._mock_strategy_summary()
+        if self.use_mock or not all_analyzed_videos:
+            return self._mock_per_app_strategy_summaries()
+
+        # Group videos by app
+        apps_data = {}
+        for video in all_analyzed_videos:
+            app_name = video.get('app_name')
+            if not app_name:
+                continue
+            if app_name not in apps_data:
+                apps_data[app_name] = []
+            apps_data[app_name].append(video)
+
+        app_summaries = {}
+        
+        # Max concurrency for pay-as-you-go
+        max_workers = min(10, len(apps_data)) if apps_data else 1
+        
+        def process_single_app(app_name: str, videos: List[Dict[str, Any]]) -> tuple:
+            logger.info(f"Generating summary for app: {app_name}")
             
-        try:
-             compiled_applovin = []
-             for item in applovin_analyses:
-                 if "analysis" in item:
-                     a = item['analysis']
-                     compact = f"钩子:{a.get('hook_design','')} 情绪:{a.get('emotional_appeal','')} 结构:{a.get('content_structure','')} 爽点:{a.get('wow_factor','')} 文案:{a.get('copywriting_features','')}"
-                     compiled_applovin.append(f"【Applovin Rank {item.get('rank')}】游戏:{item.get('app_name')}\n分析:{compact}")
-             
-             compiled_facebook = []
-             for item in facebook_analyses:
-                 if "analysis" in item:
-                     a = item['analysis']
-                     compact = f"钩子:{a.get('hook_design','')} 情绪:{a.get('emotional_appeal','')} 结构:{a.get('content_structure','')} 爽点:{a.get('wow_factor','')} 文案:{a.get('copywriting_features','')}"
-                     compiled_facebook.append(f"【Facebook Rank {item.get('rank')}】游戏:{item.get('app_name')}\n分析:{compact}")
-             compiled_youtube = []
-             for item in youtube_analyses:
-                 if "analysis" in item:
-                     a = item['analysis']
-                     compact = f"钩子:{a.get('hook_design','')} 情绪:{a.get('emotional_appeal','')} 结构:{a.get('content_structure','')} 爽点:{a.get('wow_factor','')} 文案:{a.get('copywriting_features','')}"
-                     compiled_youtube.append(f"【YouTube Rank {item.get('rank')}】游戏:{item.get('app_name')}\n分析:{compact}")
-             
-             analyses_text = "【Applovin 渠道 Top 素材】\n" + "\n\n".join(compiled_applovin) + "\n\n" + "【Facebook 渠道 Top 素材】\n" + "\n\n".join(compiled_facebook) + "\n\n" + "【YouTube 渠道 Top 素材】\n" + "\n\n".join(compiled_youtube)
-             
-             prompt = f"""
-             你是一位顶尖的移动游戏（特别是 SLG 品类）买量投放战略总监。
-             以下是我为你提供的本周美国市场 Top 表现的爆款视频广告结构化分析结果，分为 Applovin、Facebook 和 YouTube 三个主要买量渠道。
-             
-             【素材分析数据】
-             {analyses_text}
-             
-             【你的任务】
-             请仔细阅读这些单个视频的分析结果，然后站在宏观“大盘战略”的高度，为下周的周会提供一份精炼、深刻的总结报告。
-             在总结时，请特别注意：排名越靠前的视频素材，越代表当前该渠道的主流，并且注意这三个渠道之间是否存在差异化打法。
-             
-             【⚠️ 核心排版与语言要求 ⚠️】
-             1. 结构化输出：必须采用“结论先行 + 要点拆解”的结构。
-             2. 极简句式：拒绝长篇大论！使用“短句 + 动词”的表达形式（如：“降低门槛”、“前置核心危机”）。
-             3. HTML 标签格式：你的输出是 JSON，但 JSON 的值必须包含格式化的 HTML 标签，具体格式为：
-                `<strong>一句话核心结论</strong><ul><li>要点一（短句带动作）</li><li>要点二（短句带动作）</li></ul>`
-             
-             请严格按照以下 3 个维度提取核心洞察，并以纯 JSON 格式输出（内容必须全部是简体中文，且遵循上述 HTML 标签格式）：
-             
-             1. hit_patterns (爆款投放规律：提取这些成功素材的共性机制，比如都用了什么套路、核心爽点是什么)
-             2. competitor_tactics (竞品核心打法：头部竞品在买量策略和素材方向上有何转向或创新？三个渠道打法是否有区分？)
-             3. actionable_advice (可落地建议：针对我们自己的美术和投放团队，下周我们应该往什么方向测试创意？请给出具体的、立即可执行的建议)
-             """
-             
-             config = types.GenerateContentConfig(
-                 response_mime_type="application/json",
-                 response_schema=StrategySummaryResult
-                 # Temperature is intentionally left at default (1.0) for Gemini 3 reasoning models
-             )
-             
-             api_response = self._call_api_with_retry(
-                 models_to_try=["gemini-3.1-pro-preview", "gemini-2.5-pro"],
-                 contents=prompt,
-                 config=config
-             )
-             
-             if getattr(api_response, 'parsed', None):
-                 summary_json = api_response.parsed.model_dump()
-             else:
-                 summary_json = json.loads(api_response.text)
-                 
-             return {"strategy_summary": summary_json}
-             
-        except Exception as e:
-            logger.error(f"Error generating strategy summary: {e}")
-            return self._mock_strategy_summary()
+            compiled_texts = []
+            for item in videos:
+                if "analysis" in item:
+                    a = item['analysis']
+                    channel = item.get('channel', 'Unknown')
+                    rank = item.get('rank', 'N/A')
+                    rank_change = item.get('rank_change', 'N/A')
+                    share = item.get('share', 'N/A')
+                    
+                    compact = f"钩子:{a.get('hook_design','')} 情绪:{a.get('emotional_appeal','')} 结构:{a.get('content_structure','')} 爽点:{a.get('wow_factor','')} 文案:{a.get('copywriting_features','')}"
+                    compiled_texts.append(f"【{channel.capitalize()} 排名: {rank} (较上周变化: {rank_change}, 份额: {share})】\n分析:{compact}")
+            
+            analyses_text = f"【{app_name} 本周爆款素材分析数据】\n" + "\n\n".join(compiled_texts)
+            
+            prompt = f"""
+            你是一位顶尖的移动游戏（特别是 SLG 品类）竞品买量攻防战略专家。
+            以下是我们通过监控捕获的本周【{app_name}】这款游戏，在各大渠道（Applovin、Facebook、YouTube）上排名前列的爆款视频广告结构化分析结果。
+            
+            {analyses_text}
+            
+            【你的任务】
+            请仔细阅读该游戏本周的爆款素材数据，深挖该游戏本周买量端的**核心动向和意图**。
+            在总结时，请特别注意：
+            1. 它当前主推的美术风格、包装的“爽点”或“痛点”是什么。
+            2. 数据中的排名变化（如 NEW 代表本周新晋爆款）和曝光份额（如 15% 意味着重金主推），这些指标能反映出它当前真正花大钱验证成功的套路。
+            3. 关注该游戏在不同渠道（如 Applovin vs Facebook）的素材是不是有一套相同的解法，还是呈现出了显著的差异化打法。
+            
+            【⚠️ 核心排版与语言要求 ⚠️】
+            1. 结构化输出：必须采用“结论先行 + 要点拆解”的结构。
+            2. 极简句式：拒绝长篇大论！使用“短句 + 动词”的表达形式（如：“主打生存爽感”、“弱化城建元素”）。
+            3. HTML 标签格式：你的输出是 JSON，但 JSON 的值必须包含格式化的 HTML 标签，具体格式为：
+               `<strong>一句话核心动向/结论</strong><ul><li>针对性要点一（短句带动作）</li><li>针对性要点二（短句带动作）</li></ul>`
+            
+            请严格按照以下 3 个维度提取该竞品的核心洞察，并以纯 JSON 格式输出（内容必须全部是简体中文，且遵循上述 HTML 标签格式）：
+            
+            1. hit_patterns (本周核心套路：提取该游戏本周爆款素材的共性机制，它主推的核心吸量包装和用户爽点是什么？(重点参考份额高或新上的素材))
+            2. channel_strategy (渠道差异化打法：该游戏在各个渠道的投放侧重点是否存在差异？比如某一渠道主打解压，另一渠道主打擦边偏好？)
+            3. counter_strategy (我方应对策略：针对该产品本周的疯狂吸量点，我们（作为竞争对手）应该如何防守或借鉴？请给出具体的素材测试或应对建议。)
+            """
+            
+            config = types.GenerateContentConfig(
+                response_mime_type="application/json",
+                response_schema=PerAppSummaryResult
+            )
+            
+            try:
+                api_response = self._call_api_with_retry(
+                    models_to_try=["gemini-3.1-pro-preview", "gemini-2.5-pro"],
+                    contents=prompt,
+                    config=config
+                )
+                
+                if getattr(api_response, 'parsed', None):
+                    summary_json = api_response.parsed.model_dump()
+                else:
+                    summary_json = json.loads(api_response.text)
+                    
+                return (app_name, summary_json)
+            except Exception as e:
+                logger.error(f"Error generating summary for {app_name}: {e}")
+                return (app_name, self._mock_strategy_summary_data())
+
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            future_to_app = {
+                executor.submit(process_single_app, app_name, videos): app_name 
+                for app_name, videos in apps_data.items()
+            }
+            
+            for future in as_completed(future_to_app):
+                try:
+                    app_name, summary = future.result()
+                    app_summaries[app_name] = summary
+                except Exception as e:
+                    logger.error(f"Failed to generate summary via thread: {e}")
+
+        return app_summaries
 
     def _mock_single_analysis(self, video_data: Dict[str, Any]) -> Dict[str, Any]:
         """Returns mock structured analysis for a video."""
@@ -340,13 +368,17 @@ class VideoAnalyzer:
         time.sleep(1) # simulate brief delay
         return result
         
-    def _mock_strategy_summary(self) -> Dict[str, Any]:
+    def _mock_per_app_strategy_summaries(self) -> Dict[str, Dict[str, Any]]:
         return {
-            "strategy_summary": {
-                "hit_patterns": "<strong>核心依赖“失败心理暗示”构建用户预期。</strong><ul><li>刻意展示低难度失败操作</li><li>激发“我上我也行”挑战欲</li><li>承诺成功后的极致解压感</li></ul>",
-                "competitor_tactics": "<strong>头部产品呈现“重内容、轻认知”融合趋势。</strong><ul><li>超休闲解谜包装硬核 4X 玩法</li><li>大幅降低用户认知与获客成本(CPA)</li><li>Facebook 重副玩法，Applovin 重直给爽感</li></ul>",
-                "actionable_advice": "<strong>立刻转移测试视点至“高压互动”。</strong><ul><li>放弃传统城建升级套路</li><li>前 5 秒切入“A/B 二选一”生死局</li><li>强化即时反馈与危机解决爽感</li></ul>"
-            }
+            "Test Game 1": self._mock_strategy_summary_data(),
+            "Test Game 2": self._mock_strategy_summary_data()
+        }
+
+    def _mock_strategy_summary_data(self) -> Dict[str, Any]:
+        return {
+            "hit_patterns": "<strong>核心依赖“失败心理暗示”构建用户预期。</strong><ul><li>刻意展示低难度失败操作</li><li>激发“我上我也行”挑战欲</li><li>承诺成功后的极致解压感</li></ul>",
+            "channel_strategy": "<strong>呈现“重内容、轻认知”融合趋势。</strong><ul><li>Applovin 重直给爽感，大量投送割草画面</li><li>Facebook 重副玩法包装，侧重解谜和选错惩罚</li></ul>",
+            "counter_strategy": "<strong>立刻转移测试视点至“高压互动”。</strong><ul><li>放弃传统城建升级套路</li><li>前 5 秒切入“A/B 二选一”生死局</li><li>强化即时反馈与危机解决爽感</li></ul>"
         }
 
 if __name__ == '__main__':
@@ -355,5 +387,4 @@ if __name__ == '__main__':
     # Test single
     mock_vid = {"app_name": "Test Game", "rank": 1, "video_url": "dummy"}
     print("Single Analysis:\n", json.dumps(analyzer.analyze_single_video(mock_vid), indent=2))
-    # Test summary
-    print("\nStrategy Summary:\n", json.dumps(analyzer.generate_strategy_summary([], []), indent=2))
+    print("\nStrategy Summary:\n", json.dumps(analyzer.generate_per_app_strategy_summaries([]), indent=2))

@@ -138,14 +138,13 @@ def main():
         analyzed_youtube = [v for v in analyzed_all if v.get('channel') == 'youtube']
                  
         # 4. Strategic Summary (Step 4)
-        logger.info("Step 4: Generating Strategic Summary...")
-        strategic_report = analyzer.generate_strategy_summary(analyzed_applovin, analyzed_facebook, analyzed_youtube)
-        strategy_data = strategic_report.get("strategy_summary", {})
+        logger.info("Step 4: Generating Strategic Summary per App...")
+        app_summaries = analyzer.generate_per_app_strategy_summaries(analyzed_all)
         
         # 5. Render HTML (Step 5)
         logger.info("Step 5: Synthesizing HTML Report...")
         output_file_path = renderer.render(
-            strategy_summary=strategy_data,
+            app_summaries=app_summaries,
             applovin_items=analyzed_applovin,
             facebook_items=analyzed_facebook,
             youtube_items=analyzed_youtube,

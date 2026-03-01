@@ -131,7 +131,7 @@
       "rank": 10
     },
     {
-      "ad_id": "2df0517fdaab929a",
+      "ad_id": "daa462401e95b8ea",
       "app_id": "67bb93ed47b43a18952ffdfc",
       "app_name": "Kingshot",
       "ad_network": "Applovin",
@@ -157,9 +157,9 @@
       "rank": 12
     },
     {
-      "ad_id": "b06fe126737bcd88",
-      "app_id": "5869720d0211a6180f000ebc",
-      "app_name": "Evony",
+      "ad_id": "d59af61971331119",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "app_name": "Tiles Survive!",
       "ad_network": "Applovin",
       "first_seen_at": "2026-01-10",
       "last_seen_at": "2026-03-03",
@@ -549,9 +549,9 @@
       "rank": 12
     },
     {
-      "ad_id": "081455f4e6e2be6d",
-      "app_id": "68411dcfc0b33b442b5f2320",
-      "app_name": "Fate War",
+      "ad_id": "3e855e976a8ddf07",
+      "app_id": "638ee532480da915a62f0b34",
+      "app_name": "Whiteout Survival",
       "ad_network": "Facebook",
       "first_seen_at": "2026-01-08",
       "last_seen_at": "2026-03-03",
@@ -562,40 +562,14 @@
       "rank": 13
     },
     {
-      "ad_id": "52f7b503465ac97a",
-      "app_id": "68411dcfc0b33b442b5f2320",
-      "app_name": "Fate War",
+      "ad_id": "348f4503adc842c5",
+      "app_id": "638ee532480da915a62f0b34",
+      "app_name": "Whiteout Survival",
       "ad_network": "Facebook",
-      "first_seen_at": "2026-02-09",
-      "last_seen_at": "2026-03-04",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/78f86be9a6cdf24d/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/78f86be9a6cdf24d/preview",
-      "duration_seconds": 52,
-      "share": "无数据",
-      "rank": 4
-    },
-    {
-      "ad_id": "8ef5c49fbfd0db1e",
-      "app_id": "64075e77537c41636a8e1c58",
-      "app_name": "Last War:Survival",
-      "ad_network": "Facebook",
-      "first_seen_at": "2025-10-29",
-      "last_seen_at": "2026-03-02",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6d31130a8c35439a/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6d31130a8c35439a/preview",
-      "duration_seconds": 34,
-      "share": "22.78%",
-      "rank": 5
-    },
-    {
-      "ad_id": "185ebc027921d5c5",
-      "app_id": "68411dcfc0b33b442b5f2320",
-      "app_name": "Fate War",
-      "ad_network": "Facebook",
-      "first_seen_at": "2026-01-07",
-      "last_seen_at": "2026-03-04",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b8818a4bf05bb915/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b8818a4bf05bb915/preview",
+      "first_seen_at": "2025-10-09",
+      "last_seen_at": "2026-02-27",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0973ea6758b46ebe/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0973ea6758b46ebe/preview",
       "duration_seconds": 57,
       "share": "无数据",
       "rank": 14
@@ -666,9 +640,9 @@
       "rank": 19
     },
     {
-      "ad_id": "3e855e976a8ddf07",
-      "app_id": "638ee532480da915a62f0b34",
-      "app_name": "Whiteout Survival",
+      "ad_id": "16dc5c7ae3737ed8",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "app_name": "Tiles Survive!",
       "ad_network": "Facebook",
       "first_seen_at": "2026-01-29",
       "last_seen_at": "2026-02-27",
@@ -692,9 +666,9 @@
       "rank": 21
     },
     {
-      "ad_id": "92bb88a280db86b9",
-      "app_id": "67bb93ed47b43a18952ffdfc",
-      "app_name": "Kingshot",
+      "ad_id": "d124602e0d6bc959",
+      "app_id": "58a5031adcbd16685d00ba8f",
+      "app_name": "Hero Wars: Alliance Fantasy",
       "ad_network": "Facebook",
       "first_seen_at": "2025-12-12",
       "last_seen_at": "2026-03-01",
@@ -731,9 +705,9 @@
       "rank": 24
     },
     {
-      "ad_id": "1600f74e6c09ee7c",
-      "app_id": "67d3aaff2c328ae8e547d0ef",
-      "app_name": "Tiles Survive!",
+      "ad_id": "a868b6e754357c64",
+      "app_id": "68411dcfc0b33b442b5f2320",
+      "app_name": "Fate War",
       "ad_network": "Facebook",
       "first_seen_at": "2026-01-26",
       "last_seen_at": "2026-02-24",
@@ -796,22 +770,9 @@
       "rank": 29
     },
     {
-      "ad_id": "4d128908dbb82ab8",
-      "app_id": "6573c39d5c3b423d5d04560f",
-      "app_name": "Dark War:Survival",
-      "ad_network": "Facebook",
-      "first_seen_at": "2026-03-01",
-      "last_seen_at": "2026-03-03",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0186076e5f718cc4/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0186076e5f718cc4/preview",
-      "duration_seconds": 20,
-      "share": "无数据",
-      "rank": 16
-    },
-    {
-      "ad_id": "93603560da32bae2",
-      "app_id": "67bb93ed47b43a18952ffdfc",
-      "app_name": "Kingshot",
+      "ad_id": "702cbb48a8831fb8",
+      "app_id": "638ee532480da915a62f0b34",
+      "app_name": "Whiteout Survival",
       "ad_network": "Facebook",
       "first_seen_at": "2026-02-13",
       "last_seen_at": "2026-03-03",
@@ -837,9 +798,9 @@
       "rank": 1
     },
     {
-      "ad_id": "0eb79b672a3fb3db",
-      "app_id": "67bb93ed47b43a18952ffdfc",
-      "app_name": "Kingshot",
+      "ad_id": "a598ae66186c9e46",
+      "app_id": "638ee532480da915a62f0b34",
+      "app_name": "Whiteout Survival",
       "ad_network": "Youtube",
       "first_seen_at": "2025-12-11",
       "last_seen_at": "2026-03-03",
