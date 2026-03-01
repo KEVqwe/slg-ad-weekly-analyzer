@@ -139,16 +139,27 @@ def main():
                  
         # 4. Strategic Summary (Step 4)
         logger.info("Step 4: Generating Strategic Summary per App...")
-        app_summaries = analyzer.generate_per_app_strategy_summaries(analyzed_all)
+        raw_app_summaries = analyzer.generate_per_app_strategy_summaries(analyzed_all)
         
+        # Order app_summaries to match the order of monitored_apps to fix tab activation bug
+        monitored_apps_list = top_videos_dict.get('monitored_apps', [])
+        ordered_app_summaries = {}
+        for app in monitored_apps_list:
+            app_name = app.get('name')
+            if app_name in raw_app_summaries:
+                ordered_app_summaries[app_name] = raw_app_summaries[app_name]
+        for app_name, summary in raw_app_summaries.items():
+            if app_name not in ordered_app_summaries:
+                ordered_app_summaries[app_name] = summary
+                
         # 5. Render HTML (Step 5)
         logger.info("Step 5: Synthesizing HTML Report...")
         output_file_path = renderer.render(
-            app_summaries=app_summaries,
+            app_summaries=ordered_app_summaries,
             applovin_items=analyzed_applovin,
             facebook_items=analyzed_facebook,
             youtube_items=analyzed_youtube,
-            monitored_apps=top_videos_dict.get('monitored_apps', []),
+            monitored_apps=monitored_apps_list,
             output_path=report_filepath
         )
         
