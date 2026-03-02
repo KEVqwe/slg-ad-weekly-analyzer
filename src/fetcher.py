@@ -46,11 +46,19 @@ class SensorTowerFetcher:
         Queries the `/top` endpoint twice to get the Top 30 Applovin and Top 30 Facebook SLG videos.
         Returns a dictionary with keys 'applovin' and 'facebook'.
         """
-        # Calculate date range (last 7 days).
-        # We use yesterday as the end date because SensorTower's weekly data 
-        # for 'today' (especially on Monday) might not be fully available.
-        end_date = datetime.now() - timedelta(days=1)
-        start_date = end_date - timedelta(days=7)
+        # Calculate date range for the previous week (Mon-Sun).
+        # We assume this script runs on a Monday.
+        now = datetime.now()
+        # Find the most recent Sunday (if today is Monday, days=1)
+        # weekday() returns 0 for Monday, 6 for Sunday.
+        # To get the previous Sunday from today:
+        days_since_sunday = (now.weekday() + 1) % 7
+        if days_since_sunday == 0:
+            # If today is Sunday, we still want the *previous* Sunday to get a full past week
+            days_since_sunday = 7
+            
+        end_date = now - timedelta(days=days_since_sunday) # Last Sunday
+        start_date = end_date - timedelta(days=6) # Previous Monday
         
         date_format = "%Y-%m-%d"
         start_str = start_date.strftime(date_format)
