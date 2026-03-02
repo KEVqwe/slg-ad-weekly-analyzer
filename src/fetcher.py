@@ -46,8 +46,10 @@ class SensorTowerFetcher:
         Queries the `/top` endpoint twice to get the Top 30 Applovin and Top 30 Facebook SLG videos.
         Returns a dictionary with keys 'applovin' and 'facebook'.
         """
-        # Calculate date range (last 7 days)
-        end_date = datetime.now()
+        # Calculate date range (last 7 days).
+        # We use yesterday as the end date because SensorTower's weekly data 
+        # for 'today' (especially on Monday) might not be fully available.
+        end_date = datetime.now() - timedelta(days=1)
         start_date = end_date - timedelta(days=7)
         
         date_format = "%Y-%m-%d"
