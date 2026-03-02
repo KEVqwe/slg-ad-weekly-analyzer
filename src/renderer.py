@@ -29,9 +29,14 @@ class ReportRenderer:
         """
         logger.info("Rendering HTML report...")
         
-        # Calculate date range (last 7 days)
-        end_date = datetime.now()
-        start_date = end_date - timedelta(days=7)
+        # Calculate date range for the previous week (Mon-Sun)
+        now = datetime.now()
+        days_since_sunday = (now.weekday() + 1) % 7
+        if days_since_sunday == 0:
+            days_since_sunday = 7
+            
+        end_date = now - timedelta(days=days_since_sunday)
+        start_date = end_date - timedelta(days=6)
         report_date = f"{start_date.strftime('%Y年%m月%d日')} - {end_date.strftime('%Y年%m月%d日')}"
         
         # Render the template
