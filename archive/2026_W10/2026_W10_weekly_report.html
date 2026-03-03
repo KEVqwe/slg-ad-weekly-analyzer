@@ -33,9 +33,10 @@
         }
 
         .container {
-            max-width: 98%;
+            max-width: 1600px;
             margin: 0 auto;
             padding: 2rem;
+            box-sizing: border-box;
         }
 
         header {
@@ -66,11 +67,12 @@
             padding: 2.5rem;
             margin: 0 auto 4rem auto;
             /* Centered with bottom margin */
-            width: 60%;
-            /* 3/5 width */
+            max-width: 1400px;
+            width: 100%;
             box-shadow: var(--shadow);
             border: 1px solid var(--border-color);
             animation: fadeIn 1s ease-out 0.3s both;
+            box-sizing: border-box;
         }
 
         .strategy-dashboard h2 {
@@ -160,8 +162,10 @@
         /* Monitored Apps Section */
         .monitored-apps-section {
             margin: 0 auto 2rem auto;
-            width: 60%;
+            max-width: 1400px;
+            width: 100%;
             animation: fadeIn 1s ease-out 0.4s both;
+            box-sizing: border-box;
         }
 
         .monitored-apps-section h2 {
@@ -210,9 +214,10 @@
         /* Top 30 Accordion Section */
         .top-videos-section {
             margin: 0 auto;
-            width: 40%;
-            /* 2/5 width */
+            max-width: 1100px;
+            width: 100%;
             animation: fadeIn 1s ease-out 0.6s both;
+            box-sizing: border-box;
         }
 
         .section-title {
@@ -488,6 +493,31 @@
             display: block;
             animation: fadeIn 0.4s ease-out;
         }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+
+            .content-inner {
+                grid-template-columns: 1fr;
+            }
+
+            .analysis-grid {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .strategy-dashboard {
+                padding: 1.5rem;
+            }
+
+            .channel-tabs {
+                flex-direction: column;
+                align-items: stretch;
+            }
+        }
     </style>
 </head>
 
@@ -584,15 +614,15 @@
             <div class="summary-grid">
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">🎯</span> 爆款素材规律</h3>
-                    <p><strong>素材成功收敛于“即时正反馈”与“情绪反转”，通过极简机制快速制造爽感。</strong><ul><li>钩子直击痛点：普遍使用“无广告”承诺、或“失败结局”反向激将法。</li><li>玩法极度简化：核心展示“数字增长”、“范围清除”和“瞬间升级”。</li><li>视觉爽点前置：前3秒必现“以少胜多”、“以弱胜强”或“资源爆仓”的视觉奇观。</li><li>情绪价值拉满：制造“从焦虑到解压”、“从挫败到满足”的强烈情绪过山车。</li></ul></p>
+                    <p><strong>爆款素材的核心是“即时正反馈”的视觉化呈现。</strong><ul><li>放大数值成长：用数字、体型、数量的急剧增长，提供即时满足。</li><li>夸张视觉蜕变：利用“小屋秒变城堡”式的巨大反差，创造视觉奇观。</li><li>前置核心危机：开局即展现“失败”或“压倒性劣势”，激发逆转欲望。</li><li>直击玩家痛点：反复强调“无广告”、“真实玩法”，建立信任捷径。</li><li>简化胜利逻辑：通过简单的操作（如选择路线、合并）达成碾压式胜利。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">⚔️</span> 竞品核心打法</h3>
-                    <p><strong>竞品固守核心玩法展示，但渠道策略分化明显，开始探索副玩法包装与UGC真人营销。</strong><ul><li>Applovin 渠道：主打“玩法切片”。聚焦塔防、割草、数字增长等超休闲机制，强调“无广告”卖点。</li><li>Facebook 渠道：尝试“剧情包装”。将核心玩法融入微型剧情、情景对话或创意设定中，提升代入感。</li><li>YouTube 渠道：倾向“真人营销”。利用UGC、KOL或真人短剧形式，吐槽“假广告”，或以第一视角推荐，建立信任感。</li><li>玩法融合趋势：头部产品开始展示“塔防+SLG”、“跑酷+SLG”等混合玩法素材，拓宽用户认知。</li></ul></p>
+                    <p><strong>头部竞品普遍采用“SLG内核+轻度化包装”的混合打法，并针对不同渠道定制创意。</strong><ul><li>核心玩法轻度化：用跑酷、塔防、解谜等易于理解的玩法作为广告钩子。</li><li>Applovin主打爽感：集中投放“成长反转”、“失败挑战”、“痛点解决”类直接素材。</li><li>Facebook强化叙事：更多采用UGC真人、情景剧、元游戏（吐槽假广告）等方式引共鸣。</li><li>YouTube混合打法：融合真人短剧与高光游戏玩法，平衡故事性与视觉冲击。</li><li>反向营销成主流：普遍使用“DEFEAT”、“太难了”、“别玩”等挑战式文案刺激玩家。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">💡</span> 可落地建议</h3>
-                    <p><strong>立即启动“玩法减法”创意测试，美术聚焦“巨量”与“巨变”，投放侧重渠道差异化。</strong><ul><li>美术团队-视觉化“巨量感”：设计海量敌人、满屏金币、指数级增长的兵线。</li><li>美术团队-制作“瞬间巨变”动画：开发“茅草屋秒变城堡”、“LV1秒变LV100”等高冲击力升级动画。</li><li>投放团队-Applovin专项测试：制作纯“塔防/割草”玩法切片，A/B测试“无广告”和“高难度挑战”文案。</li><li>投放团队-Facebook/YouTube拓新：开发UGC真人脚本，围绕“我被假广告骗了”和“这游戏真的能玩”主题，包装现有玩法。</li></ul></p>
+                    <p><strong>下周核心任务是：围绕“轻度玩法”和“痛点营销”两大方向，分渠道落地创意测试。</strong><ul><li>美术：开发3套“伪轻度玩法”模板（跑酷乘法门、画线塔防、拔针解谜）。</li><li>美术：制作“一秒升级”系列图（基地、兵种、英雄），强调瞬间质变。</li><li>投放（Applovin）：集中测试“无广告”口播 VS “失败结局”画面的A/B Test。</li><li>投放（Facebook/YouTube）：启动真人UGC短剧项目，测试“吐槽假广告，安利真游戏”的剧本。</li><li>投放（全渠道）：将现有素材剪辑成只保留“金币爆满屏”或“军队数量暴增”等极致爽点的5秒短视频，测试钩子效果。</li></ul></p>
                 </div>
             </div>
         </section>
@@ -638,7 +668,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">201cc375211c6d18</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">20.97%</strong></span>
+                                                    style="color: var(--text-primary);">18.90%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -718,7 +748,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">550f32355d35163e</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">19.52%</strong></span>
+                                                    style="color: var(--text-primary);">21.56%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -799,7 +829,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">8ea0b8947a1b5665</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">7.63%</strong></span>
+                                                    style="color: var(--text-primary);">8.28%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -880,7 +910,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">a7a4b6e16ca42159</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">6.53%</strong></span>
+                                                    style="color: var(--text-primary);">4.17%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -960,7 +990,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">2df0517fdaab929a</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">4.14%</strong></span>
+                                                    style="color: var(--text-primary);">5.01%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -1041,7 +1071,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">c7f377c8ab94a84b</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">3.58%</strong></span>
+                                                    style="color: var(--text-primary);">2.48%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -1122,7 +1152,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">e4876b3ce66143f7</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">1.81%</strong></span>
+                                                    style="color: var(--text-primary);">3.10%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -1203,7 +1233,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">c8d01d52d07b6bc1</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">1.33%</strong></span>
+                                                    style="color: var(--text-primary);">0.68%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -1283,7 +1313,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">5c74136c7cd8e37e</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">1.30%</strong></span>
+                                                    style="color: var(--text-primary);">1.32%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -1364,7 +1394,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">66e8a0305317f87e</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">1.21%</strong></span>
+                                                    style="color: var(--text-primary);">1.23%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -1444,7 +1474,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">daa462401e95b8ea</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">1.11%</strong></span>
+                                                    style="color: var(--text-primary);">1.10%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -1525,7 +1555,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">9f19e73bc119299a</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">0.95%</strong></span>
+                                                    style="color: var(--text-primary);">0.74%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -1605,7 +1635,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">3e517b518197db91</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">0.81%</strong></span>
+                                                    style="color: var(--text-primary);">0.85%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -1766,7 +1796,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">057a23e86264fc2e</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">0.73%</strong></span>
+                                                    style="color: var(--text-primary);">0.85%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -1926,7 +1956,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">b06fe126737bcd88</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">0.65%</strong></span>
+                                                    style="color: var(--text-primary);">0.63%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -2006,7 +2036,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">f18d823ac112a70b</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">0.64%</strong></span>
+                                                    style="color: var(--text-primary);">0.60%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -2087,7 +2117,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">3be8d2f5e1a1f9cb</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">0.63%</strong></span>
+                                                    style="color: var(--text-primary);">0.79%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -2168,7 +2198,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">0ca511f1ffc17614</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">0.60%</strong></span>
+                                                    style="color: var(--text-primary);">0.61%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -2248,7 +2278,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">43b1d4cca9bddeea</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">0.58%</strong></span>
+                                                    style="color: var(--text-primary);">0.57%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -2329,7 +2359,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">aefa2abf60261b8a</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">0.57%</strong></span>
+                                                    style="color: var(--text-primary);">0.76%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -2489,7 +2519,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">3757fd423cb6918e</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">0.48%</strong></span>
+                                                    style="color: var(--text-primary);">0.46%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -2570,7 +2600,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">256d564abf1674ad</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">0.44%</strong></span>
+                                                    style="color: var(--text-primary);">0.30%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -2651,7 +2681,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">1b7ed18876ec4091</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">0.44%</strong></span>
+                                                    style="color: var(--text-primary);">0.48%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -2731,7 +2761,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">29761c9f9bcddd9b</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">0.44%</strong></span>
+                                                    style="color: var(--text-primary);">0.43%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -2812,7 +2842,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">0bc17be9578c8550</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">0.42%</strong></span>
+                                                    style="color: var(--text-primary);">0.37%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -2893,7 +2923,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">2fb18b7c6f30d4fd</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">0.40%</strong></span>
+                                                    style="color: var(--text-primary);">0.44%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -2973,7 +3003,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">d59af61971331119</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">0.40%</strong></span>
+                                                    style="color: var(--text-primary);">0.47%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -3061,7 +3091,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">513a4429f6543bd9</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">47.80%</strong></span>
+                                                    style="color: var(--text-primary);">43.21%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -3142,7 +3172,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">8ef5c49fbfd0db1e</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">16.95%</strong></span>
+                                                    style="color: var(--text-primary);">19.12%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -3222,7 +3252,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">ce08d9b6f796a0bd</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">15.68%</strong></span>
+                                                    style="color: var(--text-primary);">14.17%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -3303,7 +3333,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">0e0e8ea60e1e6461</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">7.48%</strong></span>
+                                                    style="color: var(--text-primary);">7.94%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -3384,7 +3414,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">c17664161cb494aa</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">2.95%</strong></span>
+                                                    style="color: var(--text-primary);">3.59%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -3464,7 +3494,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">07e777ae8610a35e</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">2.57%</strong></span>
+                                                    style="color: var(--text-primary);">2.32%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -3545,7 +3575,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">699534ee29d46a3f</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">2.23%</strong></span>
+                                                    style="color: var(--text-primary);">2.02%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -3626,7 +3656,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">414e87f96e17ac40</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">2.00%</strong></span>
+                                                    style="color: var(--text-primary);">1.81%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -3707,7 +3737,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">081455f4e6e2be6d</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">1.27%</strong></span>
+                                                    style="color: var(--text-primary);">1.15%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -3788,7 +3818,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">67f883fe76f28be3</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">1.05%</strong></span>
+                                                    style="color: var(--text-primary);">0.95%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -5482,7 +5512,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">6d51bec4e5fda12f</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">6.88%</strong></span>
+                                                    style="color: var(--text-primary);">4.60%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -5562,7 +5592,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">a598ae66186c9e46</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">3.77%</strong></span>
+                                                    style="color: var(--text-primary);">3.97%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -5642,7 +5672,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">9e75fe480cccf2ca</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">3.70%</strong></span>
+                                                    style="color: var(--text-primary);">3.86%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -5722,7 +5752,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">5e4cf08974189c4a</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">3.28%</strong></span>
+                                                    style="color: var(--text-primary);">2.68%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -5802,7 +5832,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">349896a15f210889</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">2.77%</strong></span>
+                                                    style="color: var(--text-primary);">3.21%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -5882,7 +5912,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">37fb78da13af14f2</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">2.56%</strong></span>
+                                                    style="color: var(--text-primary);">2.75%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -5962,7 +5992,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">70c8a1188ad4f800</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">2.39%</strong></span>
+                                                    style="color: var(--text-primary);">2.41%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -6122,7 +6152,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">46f3daf4de1e3eed</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">2.12%</strong></span>
+                                                    style="color: var(--text-primary);">2.10%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -6202,7 +6232,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">4a1cb57b5f6b9a4c</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">2.02%</strong></span>
+                                                    style="color: var(--text-primary);">2.04%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -6282,7 +6312,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">0304291a335fbbb6</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">1.79%</strong></span>
+                                                    style="color: var(--text-primary);">2.50%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -6362,7 +6392,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">599d6b5e40caaf8f</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">1.40%</strong></span>
+                                                    style="color: var(--text-primary);">1.71%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -6442,7 +6472,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">2e61e61a99212642</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">1.32%</strong></span>
+                                                    style="color: var(--text-primary);">1.39%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -6522,7 +6552,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">454a07321feef336</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">1.32%</strong></span>
+                                                    style="color: var(--text-primary);">1.38%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -6602,7 +6632,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">12ed624c22146a49</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">1.22%</strong></span>
+                                                    style="color: var(--text-primary);">1.24%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -6682,7 +6712,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">10161ee147648563</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">1.21%</strong></span>
+                                                    style="color: var(--text-primary);">1.22%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -6762,7 +6792,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">0609b4f79a01f0e9</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">1.20%</strong></span>
+                                                    style="color: var(--text-primary);">1.16%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -6842,7 +6872,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">00af21458394e677</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">1.13%</strong></span>
+                                                    style="color: var(--text-primary);">1.09%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -6922,7 +6952,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">1c66f169845f3333</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">1.12%</strong></span>
+                                                    style="color: var(--text-primary);">1.47%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -7002,7 +7032,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">23fbf9733dd7f7a2</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">1.06%</strong></span>
+                                                    style="color: var(--text-primary);">1.07%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -7082,7 +7112,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">a7623cd6123c7aa4</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">1.00%</strong></span>
+                                                    style="color: var(--text-primary);">0.99%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -7162,7 +7192,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">0e73997ee2004ae0</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">1.00%</strong></span>
+                                                    style="color: var(--text-primary);">1.07%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -7242,7 +7272,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">4750ba79c1aa42d7</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">1.00%</strong></span>
+                                                    style="color: var(--text-primary);">未知</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -7322,7 +7352,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">40fe2adaeb0cd1b6</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">1.00%</strong></span>
+                                                    style="color: var(--text-primary);">0.98%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -7402,7 +7432,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">15e5a5b49c600c03</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">0.99%</strong></span>
+                                                    style="color: var(--text-primary);">0.64%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -7482,7 +7512,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">6a1b2e2d7026390e</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">0.99%</strong></span>
+                                                    style="color: var(--text-primary);">1.17%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -7562,7 +7592,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">644d4f2664ef6029</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">0.92%</strong></span>
+                                                    style="color: var(--text-primary);">0.96%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -7642,7 +7672,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">9aeae7ea25fb3857</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">0.90%</strong></span>
+                                                    style="color: var(--text-primary);">0.07%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -7722,7 +7752,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">9dfa3bb19de91649</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">0.89%</strong></span>
+                                                    style="color: var(--text-primary);">0.74%</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -7802,7 +7832,7 @@
                                             <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">7cee9eccaa6db2cb</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
-                                                    style="color: var(--text-primary);">0.88%</strong></span>
+                                                    style="color: var(--text-primary);">0.85%</strong></span>
                                         </div>
                                     </div>
                                 </div>
