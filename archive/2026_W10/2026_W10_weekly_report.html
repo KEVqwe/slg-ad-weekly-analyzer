@@ -49,6 +49,7 @@
             font-weight: 700;
             background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
             margin-bottom: 0.5rem;
         }
@@ -58,12 +59,15 @@
             color: var(--text-secondary);
         }
 
-        /* Strategy Strategy Section */
+        /* Strategy Dashboard Section */
         .strategy-dashboard {
             background: var(--surface-color);
             border-radius: var(--radius-lg);
             padding: 2.5rem;
-            margin-bottom: 4rem;
+            margin: 0 auto 4rem auto;
+            /* Centered with bottom margin */
+            width: 60%;
+            /* 3/5 width */
             box-shadow: var(--shadow);
             border: 1px solid var(--border-color);
             animation: fadeIn 1s ease-out 0.3s both;
@@ -155,7 +159,8 @@
 
         /* Monitored Apps Section */
         .monitored-apps-section {
-            margin: 2rem 0;
+            margin: 0 auto 2rem auto;
+            width: 60%;
             animation: fadeIn 1s ease-out 0.4s both;
         }
 
@@ -204,6 +209,9 @@
 
         /* Top 30 Accordion Section */
         .top-videos-section {
+            margin: 0 auto;
+            width: 40%;
+            /* 2/5 width */
             animation: fadeIn 1s ease-out 0.6s both;
         }
 
@@ -427,54 +435,58 @@
             }
         }
 
-        /* Layout for multi columns */
+        /* Layout for tabs - single column per tab */
         .multi-column-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 2rem;
+            display: block;
+            /* Elements will be swapped via display instead of grid */
             margin-top: 2rem;
         }
 
-        .column-header {
-            text-align: center;
+        /* Tabs Instead of Checkboxes */
+        .channel-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            background: var(--surface-color);
             padding: 1rem;
-            background: rgba(99, 102, 241, 0.1);
             border-radius: var(--radius-md);
-            margin-bottom: 1.5rem;
+            border: 1px solid var(--border-color);
+        }
+
+        .tab-btn {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-secondary);
+            border: 1px solid transparent;
+            padding: 0.75rem 2rem;
+            border-radius: var(--radius-md);
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: inherit;
+        }
+
+        .tab-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--text-primary);
+        }
+
+        .tab-btn.active {
+            background: rgba(59, 130, 246, 0.1);
+            /* Primary Accent tint */
             color: var(--accent-primary);
-            font-size: 1.25rem;
+            border-color: var(--accent-primary);
             font-weight: 600;
         }
 
-        /* Responsive */
-        @media (max-width: 1600px) {
-            .multi-column-container {
-                grid-template-columns: repeat(2, 1fr);
-            }
+        .channel-column {
+            display: none;
+            /* Hidden by default, js will show active */
         }
 
-        @media (max-width: 1024px) {
-            .multi-column-container {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .content-inner {
-                grid-template-columns: 1fr;
-            }
-
-            .analysis-grid {
-                grid-template-columns: 1fr;
-            }
-
-            header h1 {
-                font-size: 2rem;
-            }
-
-            .strategy-dashboard {
-                padding: 1.5rem;
-            }
+        .channel-column.active-tab {
+            display: block;
+            animation: fadeIn 0.4s ease-out;
         }
     </style>
 </head>
@@ -572,26 +584,33 @@
             <div class="summary-grid">
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">🎯</span> 爆款素材规律</h3>
-                    <p><strong>核心公式：制造即时强烈反差，提供指数级爽感解决方案。</strong><ul><li>前置核心冲突：开局即展示强大压迫（巨量敌人、巨型Boss、资源匮乏）。</li><li>放大数值成长：通过数字、体型、规模的指数级增长，提供视觉冲击。</li><li>主打“一招清屏”：聚焦升级后获得压倒性力量，瞬间解决危机的爽感。</li><li>利用“反向营销”：展示“失败”结局或强调“高难度”，激发玩家征服欲。</li><li>直击玩家痛点：反复强调“无广告”或吐槽“假广告”，建立情感共鸣。</li></ul></p>
+                    <p><strong>素材成功收敛于“即时正反馈”与“情绪反转”，通过极简机制快速制造爽感。</strong><ul><li>钩子直击痛点：普遍使用“无广告”承诺、或“失败结局”反向激将法。</li><li>玩法极度简化：核心展示“数字增长”、“范围清除”和“瞬间升级”。</li><li>视觉爽点前置：前3秒必现“以少胜多”、“以弱胜强”或“资源爆仓”的视觉奇观。</li><li>情绪价值拉满：制造“从焦虑到解压”、“从挫败到满足”的强烈情绪过山车。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">⚔️</span> 竞品核心打法</h3>
-                    <p><strong>核心打法：以超休闲副玩法降低入门门槛，结合“反向营销”元叙事（如“无广告”、“真游戏”）破圈。</strong><ul><li>渠道差异化明显：Applovin主打直接爽感与痛点（无广告）；Facebook偏向UGC真人与剧情化包装；YouTube则更适合稍长线的“故事化”UGC。</li><li>副玩法引流成主流：大量竞品（特别是Last War）使用跑酷、数字倍增等超休闲机制作为钩子，而非直接展示核心SLG玩法。</li><li>“失败”与“挑战”常态化：Evony、Last War常以“DEFEAT”结尾，将失败转化为吸引玩家下载尝试的钩子。</li><li>生存题材精细化：Whiteout Survival深耕“冰雪末日”题材，从玩法到UGC全方位包装，建立品类认知。</li><li>IP情怀牌入局：帝国时代手游（Age of Empires Mobile）开始用“经典复刻”的怀旧牌打法，瞄准核心粉丝。</li></ul></p>
+                    <p><strong>竞品固守核心玩法展示，但渠道策略分化明显，开始探索副玩法包装与UGC真人营销。</strong><ul><li>Applovin 渠道：主打“玩法切片”。聚焦塔防、割草、数字增长等超休闲机制，强调“无广告”卖点。</li><li>Facebook 渠道：尝试“剧情包装”。将核心玩法融入微型剧情、情景对话或创意设定中，提升代入感。</li><li>YouTube 渠道：倾向“真人营销”。利用UGC、KOL或真人短剧形式，吐槽“假广告”，或以第一视角推荐，建立信任感。</li><li>玩法融合趋势：头部产品开始展示“塔防+SLG”、“跑酷+SLG”等混合玩法素材，拓宽用户认知。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">💡</span> 可落地建议</h3>
-                    <p><strong>立即测试三大创意方向：1. “无广告”价值主张；2. “超休闲副玩法”钩子；3. “失败激励”反向营销。</strong><ul><li>美术团队-制作“无广告”版素材：在现有高光玩法视频上，醒目地加入“NO ADS”、“零广告”等标签，制作纯净版体验的视觉锤。</li><li>美术团队-开发“跑酷增兵”式创意：设计角色在前行中通过选择“乘法门”或收集道具，使部队规模指数级增长的短视频，结尾挑战Boss。</li><li>美术团队-制作“失败结局”版本：剪辑现有素材，在最终时刻展示“DEFEAT”或“挑战失败”画面，配合“你能赢吗？”等文案。</li><li>投放团队-分渠道测试：Applovin上主推“无广告”和“失败结局”素材；Facebook和YouTube测试真人UGC吐槽“假广告”并引出我们游戏的版本。</li><li>投放团队-拓宽受众：基于“超休闲副玩法”素材，定向测试头部跑酷、io类游戏的用户，验证破圈效果。</li></ul></p>
+                    <p><strong>立即启动“玩法减法”创意测试，美术聚焦“巨量”与“巨变”，投放侧重渠道差异化。</strong><ul><li>美术团队-视觉化“巨量感”：设计海量敌人、满屏金币、指数级增长的兵线。</li><li>美术团队-制作“瞬间巨变”动画：开发“茅草屋秒变城堡”、“LV1秒变LV100”等高冲击力升级动画。</li><li>投放团队-Applovin专项测试：制作纯“塔防/割草”玩法切片，A/B测试“无广告”和“高难度挑战”文案。</li><li>投放团队-Facebook/YouTube拓新：开发UGC真人脚本，围绕“我被假广告骗了”和“这游戏真的能玩”主题，包装现有玩法。</li></ul></p>
                 </div>
             </div>
         </section>
 
         <section class="top-videos-section">
-            <h2 class="section-title">Top 30 素材单片拆解 (渠道对比)</h2>
+            <h2 class="section-title">Top 30 素材单片拆解</h2>
+
+            <div class="channel-tabs">
+                <button class="tab-btn active" data-target="col-applovin">🔵 Applovin (SLG)</button>
+                <button class="tab-btn" data-target="col-facebook">🔵 Facebook (SLG)</button>
+                <button class="tab-btn" data-target="col-youtube"
+                    style="border-bottom-color: rgba(239, 68, 68, 0.5);">🔴 YouTube (SLG)</button>
+            </div>
+
             <div class="multi-column-container" id="main-channels-grid">
 
                 <!-- Applovin Column -->
-                <div class="channel-column" id="col-applovin">
-                    <div class="column-header">🔵 Applovin (过滤出 SLG)</div>
+                <div class="channel-column active-tab" id="col-applovin">
                     <div class="accordion">
                         
                         <div class="accordion-item">
@@ -3015,7 +3034,6 @@
 
                 <!-- Facebook Column -->
                 <div class="channel-column" id="col-facebook">
-                    <div class="column-header">🔵 Facebook (过滤出 SLG)</div>
                     <div class="accordion">
                         
                         <div class="accordion-item">
@@ -5437,7 +5455,6 @@
 
                 <!-- YouTube Column -->
                 <div class="channel-column" id="col-youtube">
-                    <div class="column-header" style="background: rgba(239, 68, 68, 0.1);">🔴 YouTube (过滤出 SLG)</div>
                     <div class="accordion">
                         
                         <div class="accordion-item">
@@ -7870,7 +7887,29 @@
                 content.style.maxHeight = null;
             }
         }
-        // Grid setup is handled by CSS class .multi-column-container
+        // Tab switching logic
+        document.addEventListener('DOMContentLoaded', () => {
+            const tabBtns = document.querySelectorAll('.tab-btn');
+            const channelCols = document.querySelectorAll('.channel-column');
+
+            tabBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    // Remove active from all tabs and columns
+                    tabBtns.forEach(t => t.classList.remove('active'));
+                    channelCols.forEach(c => c.classList.remove('active-tab'));
+
+                    // Add active to clicked tab
+                    btn.classList.add('active');
+
+                    // Show target column
+                    const targetId = btn.getAttribute('data-target');
+                    const targetCol = document.getElementById(targetId);
+                    if (targetCol) {
+                        targetCol.classList.add('active-tab');
+                    }
+                });
+            });
+        });
     </script>
 </body>
 
