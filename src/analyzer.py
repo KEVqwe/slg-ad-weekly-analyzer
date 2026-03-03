@@ -246,11 +246,13 @@ class VideoAnalyzer:
                     logger.warning(f"Failed to delete local temp file {temp_file_path}: {e}")
 
 
-    def generate_strategy_summary(self, applovin_analyses: List[Dict[str, Any]], facebook_analyses: List[Dict[str, Any]]) -> Dict[str, Any]:
-        """Summarizes both Applovin and Facebook video analyses into a strategic report."""
+    def generate_strategy_summary(self, applovin_analyses: List[Dict[str, Any]], facebook_analyses: List[Dict[str, Any]], youtube_analyses: List[Dict[str, Any]] = None) -> Dict[str, Any]:
+        """Summarizes Applovin, Facebook, and YouTube video analyses into a strategic report."""
         logger.info("Generating strategic summary from video analyses...")
         
-        if self.use_mock or (not applovin_analyses and not facebook_analyses):
+        youtube_analyses = youtube_analyses or []
+
+        if self.use_mock or (not applovin_analyses and not facebook_analyses and not youtube_analyses):
             return self._mock_strategy_summary()
             
         try:
@@ -267,19 +269,25 @@ class VideoAnalyzer:
                      a = item['analysis']
                      compact = f"钩子:{a.get('hook_design','')} 情绪:{a.get('emotional_appeal','')} 结构:{a.get('content_structure','')} 爽点:{a.get('wow_factor','')} 文案:{a.get('copywriting_features','')}"
                      compiled_facebook.append(f"【Facebook Rank {item.get('rank')}】游戏:{item.get('app_name')}\n分析:{compact}")
+             compiled_youtube = []
+             for item in youtube_analyses:
+                 if "analysis" in item:
+                     a = item['analysis']
+                     compact = f"钩子:{a.get('hook_design','')} 情绪:{a.get('emotional_appeal','')} 结构:{a.get('content_structure','')} 爽点:{a.get('wow_factor','')} 文案:{a.get('copywriting_features','')}"
+                     compiled_youtube.append(f"【YouTube Rank {item.get('rank')}】游戏:{item.get('app_name')}\n分析:{compact}")
              
-             analyses_text = "【Applovin 渠道 Top 素材】\n" + "\n\n".join(compiled_applovin) + "\n\n" + "【Facebook 渠道 Top 素材】\n" + "\n\n".join(compiled_facebook)
+             analyses_text = "【Applovin 渠道 Top 素材】\n" + "\n\n".join(compiled_applovin) + "\n\n" + "【Facebook 渠道 Top 素材】\n" + "\n\n".join(compiled_facebook) + "\n\n" + "【YouTube 渠道 Top 素材】\n" + "\n\n".join(compiled_youtube)
              
              prompt = f"""
              你是一位顶尖的移动游戏（特别是 SLG 品类）买量投放战略总监。
-             以下是我为你提供的本周美国市场 Top 表现的爆款视频广告结构化分析结果，分为 Applovin 和 Facebook 两个主要买量渠道。
+             以下是我为你提供的本周美国市场 Top 表现的爆款视频广告结构化分析结果，分为 Applovin、Facebook 和 YouTube 三个主要买量渠道。
              
              【素材分析数据】
              {analyses_text}
              
              【你的任务】
              请仔细阅读这些单个视频的分析结果，然后站在宏观“大盘战略”的高度，为下周的周会提供一份精炼、深刻的总结报告。
-             在总结时，请特别注意：排名越靠前的视频素材，越代表当前该渠道的主流，并且注意两个渠道之间是否存在差异化打法。
+             在总结时，请特别注意：排名越靠前的视频素材，越代表当前该渠道的主流，并且注意这三个渠道之间是否存在差异化打法。
              
              【⚠️ 核心排版与语言要求 ⚠️】
              1. 结构化输出：必须采用“结论先行 + 要点拆解”的结构。
@@ -290,7 +298,7 @@ class VideoAnalyzer:
              请严格按照以下 3 个维度提取核心洞察，并以纯 JSON 格式输出（内容必须全部是简体中文，且遵循上述 HTML 标签格式）：
              
              1. hit_patterns (爆款投放规律：提取这些成功素材的共性机制，比如都用了什么套路、核心爽点是什么)
-             2. competitor_tactics (竞品核心打法：头部竞品在买量策略和素材方向上有何转向或创新？Applovin 和 Facebook 打法是否有区分？)
+             2. competitor_tactics (竞品核心打法：头部竞品在买量策略和素材方向上有何转向或创新？三个渠道打法是否有区分？)
              3. actionable_advice (可落地建议：针对我们自己的美术和投放团队，下周我们应该往什么方向测试创意？请给出具体的、立即可执行的建议)
              """
              

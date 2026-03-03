@@ -36,14 +36,17 @@ def test_fetcher():
         top_videos_dict = fetcher._fetch_real_data()
         
         print("\n[*] Fetch Successful!")
-        print(f"[*] Retrieved {len(top_videos_dict.get('applovin', []))} Applovin records and {len(top_videos_dict.get('facebook', []))} Facebook records.")
+        print(f"[*] Retrieved {len(top_videos_dict.get('applovin', []))} Applovin records, {len(top_videos_dict.get('facebook', []))} Facebook records, and {len(top_videos_dict.get('youtube', []))} YouTube records.")
         print("------------- Parsed Output Preview -------------")
         
-        print("\n------------- Top 10 Applovin JSON Output -------------")
-        print(json.dumps(top_videos_dict.get("applovin", [])[:10], indent=2, ensure_ascii=False))
+        print("\n------------- Top 20 Applovin JSON Output -------------")
+        print(json.dumps(top_videos_dict.get("applovin", [])[:20], indent=2, ensure_ascii=False))
 
-        print("\n------------- Top 10 Facebook JSON Output -------------")
-        print(json.dumps(top_videos_dict.get("facebook", [])[:10], indent=2, ensure_ascii=False))
+        print("\n------------- Top 20 Facebook JSON Output -------------")
+        print(json.dumps(top_videos_dict.get("facebook", [])[:20], indent=2, ensure_ascii=False))
+
+        print("\n------------- Top 20 YouTube JSON Output -------------")
+        print(json.dumps(top_videos_dict.get("youtube", [])[:20], indent=2, ensure_ascii=False))
 
     except Exception as e:
         logger.error(f"Test Failed with Exception: {e}")

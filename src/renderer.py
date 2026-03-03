@@ -16,26 +16,23 @@ class ReportRenderer:
         self.env = Environment(loader=FileSystemLoader(self.template_dir))
         self.template = self.env.get_template('report_template.html')
 
-    def render(self, strategy_summary: Dict[str, Any], applovin_items: List[Dict[str, Any]], facebook_items: List[Dict[str, Any]], monitored_apps: List[Dict[str, str]] = None, output_path: str = None) -> str:
+    def render(self, strategy_summary: Dict[str, Any], applovin_items: List[Dict[str, Any]], facebook_items: List[Dict[str, Any]], youtube_items: List[Dict[str, Any]], monitored_apps: List[Dict[str, str]] = None, output_path: str = None) -> str:
         """
         Renders the HTML report.
         Args:
             strategy_summary: Dict containing hit_patterns, competitor_tactics, actionable_advice
             applovin_items: List of dicts from Applovin network
             facebook_items: List of dicts from Facebook network
+            youtube_items: List of dicts from YouTube network
             monitored_apps: List of dicts containing competitor names and icon URLs
         Returns:
             Absolute path to the generated HTML file.
         """
         logger.info("Rendering HTML report...")
         
-        # Calculate date range for the previous week (Mon-Sun)
+        # Calculate date range for the previous week (7 days ending the day before yesterday)
         now = datetime.now()
-        days_since_sunday = (now.weekday() + 1) % 7
-        if days_since_sunday == 0:
-            days_since_sunday = 7
-            
-        end_date = now - timedelta(days=days_since_sunday)
+        end_date = now - timedelta(days=2)
         start_date = end_date - timedelta(days=6)
         report_date = f"{start_date.strftime('%Y年%m月%d日')} - {end_date.strftime('%Y年%m月%d日')}"
         
@@ -45,6 +42,7 @@ class ReportRenderer:
             strategy_summary=strategy_summary,
             applovin_items=applovin_items,
             facebook_items=facebook_items,
+            youtube_items=youtube_items,
             monitored_apps=monitored_apps or []
         )
         
@@ -75,4 +73,4 @@ if __name__ == '__main__':
     summary = analyzer.generate_strategy_summary(analyzed_videos)
     
     renderer = ReportRenderer()
-    renderer.render(summary.get("strategy_summary", {}), analyzed_videos)
+    renderer.render(summary.get("strategy_summary", {}), analyzed_videos, [], [])

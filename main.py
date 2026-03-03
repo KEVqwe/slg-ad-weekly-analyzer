@@ -53,7 +53,7 @@ def main():
         # 2. Fetch Data (Step 2)
         logger.info("Step 2: Fetching Video Data...")
         top_videos_dict = fetcher.fetch_top_30_slg_videos()
-        if not top_videos_dict or (not top_videos_dict.get('applovin') and not top_videos_dict.get('facebook')):
+        if not top_videos_dict or (not top_videos_dict.get('applovin') and not top_videos_dict.get('facebook') and not top_videos_dict.get('youtube')):
             logger.error("No videos retrieved. Exiting workflow.")
             sys.exit(1)
             
@@ -92,7 +92,7 @@ def main():
                 try:
                     with open(prev_data_path, 'r', encoding='utf-8') as f:
                         prev_data = json.load(f)
-                        for network in ['applovin', 'facebook']:
+                        for network in ['applovin', 'facebook', 'youtube']:
                             for item in prev_data.get(network, []):
                                 previous_week_ranks[item['ad_id']] = item['rank']
                 except Exception as e:
@@ -122,18 +122,24 @@ def main():
             v['channel'] = 'facebook'
             calculate_rank_change(v)
         
-        all_videos = applovin_videos + facebook_videos
+        youtube_videos = top_videos_dict.get('youtube', [])
+        for v in youtube_videos: 
+            v['channel'] = 'youtube'
+            calculate_rank_change(v)
+        
+        all_videos = applovin_videos + facebook_videos + youtube_videos
         logger.info(f"--- Analyzing All {len(all_videos)} Videos Concurrently ---")
         
         # Max concurrency for pay-as-you-go. Run all concurrently!
-        analyzed_all = analyzer.analyze_videos_concurrently(all_videos, max_workers=15)
+        analyzed_all = analyzer.analyze_videos_concurrently(all_videos, max_workers=20)
         
         analyzed_applovin = [v for v in analyzed_all if v.get('channel') == 'applovin']
         analyzed_facebook = [v for v in analyzed_all if v.get('channel') == 'facebook']
+        analyzed_youtube = [v for v in analyzed_all if v.get('channel') == 'youtube']
                  
         # 4. Strategic Summary (Step 4)
         logger.info("Step 4: Generating Strategic Summary...")
-        strategic_report = analyzer.generate_strategy_summary(analyzed_applovin, analyzed_facebook)
+        strategic_report = analyzer.generate_strategy_summary(analyzed_applovin, analyzed_facebook, analyzed_youtube)
         strategy_data = strategic_report.get("strategy_summary", {})
         
         # 5. Render HTML (Step 5)
@@ -142,6 +148,7 @@ def main():
             strategy_summary=strategy_data,
             applovin_items=analyzed_applovin,
             facebook_items=analyzed_facebook,
+            youtube_items=analyzed_youtube,
             monitored_apps=top_videos_dict.get('monitored_apps', []),
             output_path=report_filepath
         )

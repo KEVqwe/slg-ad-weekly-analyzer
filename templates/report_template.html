@@ -33,7 +33,7 @@
         }
 
         .container {
-            max-width: 1600px;
+            max-width: 98%;
             margin: 0 auto;
             padding: 2rem;
         }
@@ -440,10 +440,10 @@
             }
         }
 
-        /* Layout for dual columns */
-        .dual-column-container {
+        /* Layout for multi columns */
+        .multi-column-container {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: repeat(3, 1fr);
             gap: 2rem;
             margin-top: 2rem;
         }
@@ -460,8 +460,14 @@
         }
 
         /* Responsive */
+        @media (max-width: 1600px) {
+            .multi-column-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
         @media (max-width: 1024px) {
-            .dual-column-container {
+            .multi-column-container {
                 grid-template-columns: 1fr;
             }
         }
@@ -513,6 +519,8 @@
         </section>
         {% endif %}
 
+
+
         <section class="strategy-dashboard">
             <h2>大盘战略分析总结</h2>
             <div class="summary-grid">
@@ -533,10 +541,10 @@
 
         <section class="top-videos-section">
             <h2 class="section-title">Top 30 素材单片拆解 (渠道对比)</h2>
-            <div class="dual-column-container">
+            <div class="multi-column-container" id="main-channels-grid">
 
                 <!-- Applovin Column -->
-                <div class="channel-column">
+                <div class="channel-column" id="col-applovin">
                     <div class="column-header">🔵 Applovin (过滤出 SLG)</div>
                     <div class="accordion">
                         {% for item in applovin_items %}
@@ -571,8 +579,11 @@
                                             <span style="display:inline-block; margin-right: 15px;">时长: <strong
                                                     style="color: var(--text-primary);">{{ item.duration_seconds
                                                     }}s</strong></span>
-                                            <span style="display:inline-block;">ID: <strong
+                                            <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">{{ item.ad_id }}</strong></span>
+                                            <span style="display:inline-block;">曝光份额: <strong
+                                                    style="color: var(--text-primary);">{% if item.share %}{{ item.share
+                                                    }}{% else %}未知{% endif %}</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -637,7 +648,7 @@
                 </div>
 
                 <!-- Facebook Column -->
-                <div class="channel-column">
+                <div class="channel-column" id="col-facebook">
                     <div class="column-header">🔵 Facebook (过滤出 SLG)</div>
                     <div class="accordion">
                         {% for item in facebook_items %}
@@ -672,8 +683,11 @@
                                             <span style="display:inline-block; margin-right: 15px;">时长: <strong
                                                     style="color: var(--text-primary);">{{ item.duration_seconds
                                                     }}s</strong></span>
-                                            <span style="display:inline-block;">ID: <strong
+                                            <span style="display:inline-block; margin-right: 15px;">ID: <strong
                                                     style="color: var(--text-primary);">{{ item.ad_id }}</strong></span>
+                                            <span style="display:inline-block;">曝光份额: <strong
+                                                    style="color: var(--text-primary);">{% if item.share %}{{ item.share
+                                                    }}{% else %}未知{% endif %}</strong></span>
                                         </div>
                                     </div>
                                 </div>
@@ -697,6 +711,109 @@
                                                 style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 8px;">
                                                 封面 / 贴图预览
                                             </p>
+                                            <a href="{{ item.thumbnail_url }}" target="_blank">
+                                                <img src="{{ item.thumbnail_url }}" alt="{{ item.app_name }} 视频封面"
+                                                    style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border-color); object-fit: contain;">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="analysis-grid">
+                                        <div class="analysis-item full-width">
+                                            <div class="analysis-label">前 3 秒钩子设计</div>
+                                            <p class="analysis-text">{{ item.analysis.hook_design if item.analysis else
+                                                '分析生成中/Mock' }}</p>
+                                        </div>
+                                        <div class="analysis-item">
+                                            <div class="analysis-label">情绪导向</div>
+                                            <p class="analysis-text">{{ item.analysis.emotional_appeal if item.analysis
+                                                else '-' }}</p>
+                                        </div>
+                                        <div class="analysis-item">
+                                            <div class="analysis-label">爆点 / 爽点要素</div>
+                                            <p class="analysis-text">{{ item.analysis.wow_factor if item.analysis else
+                                                '-' }}</p>
+                                        </div>
+                                        <div class="analysis-item full-width">
+                                            <div class="analysis-label">核心内容结构</div>
+                                            <p class="analysis-text">{{ item.analysis.content_structure if item.analysis
+                                                else '-' }}</p>
+                                        </div>
+                                        <div class="analysis-item full-width">
+                                            <div class="analysis-label">文案特征与 CTA</div>
+                                            <p class="analysis-text">{{ item.analysis.copywriting_features if
+                                                item.analysis else '-' }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <!-- YouTube Column -->
+                <div class="channel-column" id="col-youtube">
+                    <div class="column-header" style="background: rgba(239, 68, 68, 0.1);">🔴 YouTube (过滤出 SLG)</div>
+                    <div class="accordion">
+                        {% for item in youtube_items %}
+                        <div class="accordion-item">
+                            <div class="accordion-header" onclick="toggleAccordion(this)">
+                                <div class="header-content">
+                                    <div
+                                        class="rank-badge {% if item.rank == 1 %}rank-1{% elif item.rank == 2 %}rank-2{% elif item.rank == 3 %}rank-3{% else %}rank-other{% endif %}">
+                                        #{{ item.rank }}
+                                    </div>
+                                    <div class="game-info">
+                                        <h3>
+                                            {{ item.app_name }}
+                                            {% if item.rank_change == 'NEW' %}
+                                            <span class="rank-trend trend-new">NEW</span>
+                                            {% elif item.rank_change > 0 %}
+                                            <span class="rank-trend trend-up">↑ {{ item.rank_change }}</span>
+                                            {% elif item.rank_change < 0 %} <span class="rank-trend trend-down">↓ {{
+                                                item.rank_change | abs }}</span>
+                                                {% else %}
+                                                <span class="rank-trend trend-same">-</span>
+                                                {% endif %}
+                                        </h3>
+                                        <div class="metrics"
+                                            style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 5px;">
+                                            <span style="display:inline-block; margin-right: 15px;">首发: <strong
+                                                    style="color: var(--text-primary);">{{ item.first_seen_at
+                                                    }}</strong></span>
+                                            <span style="display:inline-block; margin-right: 15px;">末现: <strong
+                                                    style="color: var(--text-primary);">{{ item.last_seen_at
+                                                    }}</strong></span>
+                                            <span style="display:inline-block; margin-right: 15px;">时长: <strong
+                                                    style="color: var(--text-primary);">{{ item.duration_seconds
+                                                    }}s</strong></span>
+                                            <span style="display:inline-block; margin-right: 15px;">ID: <strong
+                                                    style="color: var(--text-primary);">{{ item.ad_id }}</strong></span>
+                                            <span style="display:inline-block;">曝光份额: <strong
+                                                    style="color: var(--text-primary);">{% if item.share %}{{ item.share
+                                                    }}{% else %}未知{% endif %}</strong></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="toggle-icon">▼</div>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="content-inner">
+                                    <!-- Left Column: Video & Preview Image -->
+                                    <div class="media-column" style="display: flex; flex-direction: column; gap: 15px;">
+                                        <!-- Video Player -->
+                                        <div class="video-player-container">
+                                            <video controls preload="metadata"
+                                                style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); background: #000;">
+                                                <source src="{{ item.video_url }}" type="video/mp4">
+                                                浏览器不支持视频播放。
+                                            </video>
+                                        </div>
+                                        <!-- Preview Image -->
+                                        <div class="preview-image-container" style="text-align: center;">
+                                            <p
+                                                style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 8px;">
+                                                封面 / 贴图预览</p>
                                             <a href="{{ item.thumbnail_url }}" target="_blank">
                                                 <img src="{{ item.thumbnail_url }}" alt="{{ item.app_name }} 视频封面"
                                                     style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border-color); object-fit: contain;">
@@ -764,6 +881,7 @@
                 content.style.maxHeight = null;
             }
         }
+        // Grid setup is handled by CSS class .multi-column-container
     </script>
 </body>
 
