@@ -188,6 +188,7 @@ class SensorTowerFetcher:
                     "start_date": start_str,
                     "end_date": end_str,
                     "countries": base_params.get("country", "US"),
+                    "os": base_params.get("os", "unified"),
                     "ad_types": base_params.get("ad_types", "video"),
                     "new_creative": base_params.get("new_creative", "false"),
                     "limit": 100
@@ -207,7 +208,7 @@ class SensorTowerFetcher:
                         for unit in ad_units:
                             share_map[unit.get("id")] = unit.get("share", 0)
                             
-                        if not ad_units or len(ad_units) < 100 or page >= 20:
+                        if not ad_units or len(ad_units) < 100 or page >= 40:
                             break
                             
                         if all(ad["ad_id"] in share_map for ad in final_top):
@@ -222,9 +223,13 @@ class SensorTowerFetcher:
                 for video in final_top:
                     raw_share = share_map.get(video["ad_id"])
                     if raw_share is None:
-                        video["share"] = "未知"
+                        video["share"] = "无数据"
                     elif isinstance(raw_share, (int, float)):
-                        video["share"] = f"{raw_share * 100:.2f}%"
+                        formatted_share = f"{raw_share * 100:.2f}%"
+                        if formatted_share == "0.00%":
+                            video["share"] = "<0.01%"
+                        else:
+                            video["share"] = formatted_share
                     else:
                         video["share"] = str(raw_share)
             except Exception as e:
