@@ -2,8 +2,8 @@ name: Weekly US SLG Video Ads Analysis
 
 on:
   schedule:
-    # GitHub Action 使用的是 UTC 时间。UTC 周一凌晨 00:30 正好是北京时间周一早上 08:30。
-    - cron: '30 0 * * 1'
+    # GitHub Action 使用的是 UTC 时间。排队可能有延迟，提前至 UTC 周日 21:00 (北京时间周一 05:00)
+    - cron: '00 21 * * 0'
   
   # 允许在 GitHub Actions 网页端手动点击运行（方便测试）
   workflow_dispatch: 
