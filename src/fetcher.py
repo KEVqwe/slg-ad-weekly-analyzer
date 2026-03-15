@@ -31,7 +31,9 @@ class SensorTowerFetcher:
             "Evony", 
             "Fate War", 
             "Age of Empires Mobile",
-            "Last Z: Survival Shooter", 
+            "Last Z: Survival Shooter",
+            "Last Asylum",
+            "Top Heroes",
         ]
 
     def fetch_top_30_slg_videos(self, cache_file: str = None) -> Dict[str, List[Dict[str, Any]]]:
@@ -184,7 +186,9 @@ class SensorTowerFetcher:
             "658ea0be1fc48c4dbb3065e6", # Last Z: Survival Shooter    ok
             "5869720d0211a6180f000ebc", # Evony                       ok 
             "68411dcfc0b33b442b5f2320", # Fate War                    ok
-            "65d5c34346b00723e5e77ebd"  # Age of Empires Mobile       ok
+            "65d5c34346b00723e5e77ebd", # Age of Empires Mobile       ok
+            "698d49af6297762a8f53c7c2", # Last Asylum: Plague
+            "63bd1e79e36abf4ca724dad2", # Top Heroes
         ]
         
         if target_app_ids:

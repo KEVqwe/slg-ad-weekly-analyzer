@@ -1,6 +1,19 @@
 {
   "applovin": [
     {
+      "ad_id": "793bcdb71a4c50ae",
+      "app_id": "698d49af6297762a8f53c7c2",
+      "app_name": "Last Asylum: Plague",
+      "ad_network": "Applovin",
+      "first_seen_at": "2026-02-26",
+      "last_seen_at": "2026-03-15",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/96bc5402f049b0e4/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/96bc5402f049b0e4/preview",
+      "duration_seconds": 55,
+      "share": "21.13%",
+      "rank": 1
+    },
+    {
       "ad_id": "e4876b3ce66143f7",
       "app_id": "67d3aaff2c328ae8e547d0ef",
       "app_name": "Tiles Survive!",
@@ -11,7 +24,7 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6eee55b2a100f971/preview",
       "duration_seconds": 57,
       "share": "无数据",
-      "rank": 1
+      "rank": 2
     },
     {
       "ad_id": "f98046f566ce1378",
@@ -24,7 +37,7 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/90dc5f55fbebc410/preview",
       "duration_seconds": 59,
       "share": "无数据",
-      "rank": 2
+      "rank": 3
     },
     {
       "ad_id": "550f32355d35163e",
@@ -36,8 +49,8 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/df660cbb1a54acb8/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/df660cbb1a54acb8/preview",
       "duration_seconds": 59,
-      "share": "13.50%",
-      "rank": 3
+      "share": "9.70%",
+      "rank": 4
     },
     {
       "ad_id": "d084488070716444",
@@ -50,7 +63,7 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b9d85120ed54b32c/preview",
       "duration_seconds": 59,
       "share": "无数据",
-      "rank": 4
+      "rank": 5
     },
     {
       "ad_id": "201cc375211c6d18",
@@ -62,8 +75,8 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/88f0af6b2e7e9888/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/88f0af6b2e7e9888/preview",
       "duration_seconds": 59,
-      "share": "6.03%",
-      "rank": 5
+      "share": "4.33%",
+      "rank": 6
     },
     {
       "ad_id": "aefa2abf60261b8a",
@@ -75,8 +88,8 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/894c37d1cba4c05b/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/894c37d1cba4c05b/preview",
       "duration_seconds": 35,
-      "share": "2.93%",
-      "rank": 6
+      "share": "2.10%",
+      "rank": 7
     },
     {
       "ad_id": "3be8d2f5e1a1f9cb",
@@ -88,8 +101,8 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b181ec7ba6c0434d/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b181ec7ba6c0434d/preview",
       "duration_seconds": 59,
-      "share": "2.46%",
-      "rank": 7
+      "share": "1.77%",
+      "rank": 8
     },
     {
       "ad_id": "7b85ef90e3143309",
@@ -102,7 +115,20 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12d9f6307e31e461/preview",
       "duration_seconds": 59,
       "share": "无数据",
-      "rank": 8
+      "rank": 9
+    },
+    {
+      "ad_id": "c8d2affd0e301add",
+      "app_id": "698d49af6297762a8f53c7c2",
+      "app_name": "Last Asylum: Plague",
+      "ad_network": "Applovin",
+      "first_seen_at": "2026-02-25",
+      "last_seen_at": "2026-03-15",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27553648e435fa97/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27553648e435fa97/preview",
+      "duration_seconds": 42,
+      "share": "1.15%",
+      "rank": 10
     },
     {
       "ad_id": "0fb2ed8da9ff3a06",
@@ -114,8 +140,8 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d7df5a639b894f0/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d7df5a639b894f0/preview",
       "duration_seconds": 29,
-      "share": "1.55%",
-      "rank": 9
+      "share": "1.11%",
+      "rank": 11
     },
     {
       "ad_id": "2df0517fdaab929a",
@@ -127,8 +153,21 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/851c3d61d5c9670a/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/851c3d61d5c9670a/preview",
       "duration_seconds": 59,
-      "share": "1.99%",
-      "rank": 10
+      "share": "1.43%",
+      "rank": 12
+    },
+    {
+      "ad_id": "2d8387f0b29f8578",
+      "app_id": "698d49af6297762a8f53c7c2",
+      "app_name": "Last Asylum: Plague",
+      "ad_network": "Applovin",
+      "first_seen_at": "2026-02-25",
+      "last_seen_at": "2026-03-15",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c2041e45589a6532/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c2041e45589a6532/preview",
+      "duration_seconds": 56,
+      "share": "0.78%",
+      "rank": 13
     },
     {
       "ad_id": "6c5e2fe96a39058c",
@@ -141,7 +180,33 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05023649f71cd2e4/preview",
       "duration_seconds": 59,
       "share": "无数据",
-      "rank": 11
+      "rank": 14
+    },
+    {
+      "ad_id": "39f8f7ac52759d73",
+      "app_id": "698d49af6297762a8f53c7c2",
+      "app_name": "Last Asylum: Plague",
+      "ad_network": "Applovin",
+      "first_seen_at": "2026-02-24",
+      "last_seen_at": "2026-03-15",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d67f6e19b8707d39/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d67f6e19b8707d39/preview",
+      "duration_seconds": 53,
+      "share": "0.63%",
+      "rank": 15
+    },
+    {
+      "ad_id": "309a3547bdaa2e05",
+      "app_id": "698d49af6297762a8f53c7c2",
+      "app_name": "Last Asylum: Plague",
+      "ad_network": "Applovin",
+      "first_seen_at": "2026-02-26",
+      "last_seen_at": "2026-03-15",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/df1dacf257afce4f/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/df1dacf257afce4f/preview",
+      "duration_seconds": 49,
+      "share": "0.59%",
+      "rank": 16
     },
     {
       "ad_id": "c7f377c8ab94a84b",
@@ -154,7 +219,7 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6f1f1bd6a4f65ddb/preview",
       "duration_seconds": 56,
       "share": "无数据",
-      "rank": 12
+      "rank": 17
     },
     {
       "ad_id": "d59af61971331119",
@@ -167,7 +232,7 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5ff3c8973652ab9f/preview",
       "duration_seconds": 59,
       "share": "无数据",
-      "rank": 13
+      "rank": 18
     },
     {
       "ad_id": "70919b96cc65793c",
@@ -179,8 +244,8 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/19cd82365140ae54/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/19cd82365140ae54/preview",
       "duration_seconds": 59,
-      "share": "0.60%",
-      "rank": 14
+      "share": "0.43%",
+      "rank": 19
     },
     {
       "ad_id": "057a23e86264fc2e",
@@ -192,8 +257,8 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad964ff66d0609be/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad964ff66d0609be/preview",
       "duration_seconds": 54,
-      "share": "0.61%",
-      "rank": 15
+      "share": "0.44%",
+      "rank": 20
     },
     {
       "ad_id": "2a68a2ae1d1d6735",
@@ -205,8 +270,8 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a0019c205a7cddb3/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a0019c205a7cddb3/preview",
       "duration_seconds": 59,
-      "share": "0.51%",
-      "rank": 16
+      "share": "0.37%",
+      "rank": 21
     },
     {
       "ad_id": "c81d1407fe3e76e1",
@@ -219,7 +284,7 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a1410da7631ba189/preview",
       "duration_seconds": 59,
       "share": "无数据",
-      "rank": 17
+      "rank": 22
     },
     {
       "ad_id": "29240291b0ccd4fa",
@@ -231,8 +296,8 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2beb1aba208b7a0c/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2beb1aba208b7a0c/preview",
       "duration_seconds": 26,
-      "share": "1.29%",
-      "rank": 18
+      "share": "0.93%",
+      "rank": 23
     },
     {
       "ad_id": "3625574163383337",
@@ -244,8 +309,8 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34ea4f6af37f9dc1/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34ea4f6af37f9dc1/preview",
       "duration_seconds": 54,
-      "share": "0.45%",
-      "rank": 19
+      "share": "0.32%",
+      "rank": 24
     },
     {
       "ad_id": "702ccbe4d97425e1",
@@ -257,8 +322,34 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/72e3d3cf49338b17/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/72e3d3cf49338b17/preview",
       "duration_seconds": 53,
-      "share": "0.88%",
-      "rank": 20
+      "share": "0.63%",
+      "rank": 25
+    },
+    {
+      "ad_id": "87f5aa20442070ac",
+      "app_id": "698d49af6297762a8f53c7c2",
+      "app_name": "Last Asylum: Plague",
+      "ad_network": "Applovin",
+      "first_seen_at": "2026-02-25",
+      "last_seen_at": "2026-03-15",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68723395ae2590e6/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68723395ae2590e6/preview",
+      "duration_seconds": 49,
+      "share": "0.30%",
+      "rank": 26
+    },
+    {
+      "ad_id": "740ead2e38720021",
+      "app_id": "698d49af6297762a8f53c7c2",
+      "app_name": "Last Asylum: Plague",
+      "ad_network": "Applovin",
+      "first_seen_at": "2026-02-25",
+      "last_seen_at": "2026-03-15",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9b89349bd277e06b/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9b89349bd277e06b/preview",
+      "duration_seconds": 56,
+      "share": "0.27%",
+      "rank": 27
     },
     {
       "ad_id": "cb46df7d2bf2382c",
@@ -270,8 +361,8 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c989c756bbb596da/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c989c756bbb596da/preview",
       "duration_seconds": 56,
-      "share": "0.27%",
-      "rank": 21
+      "share": "0.19%",
+      "rank": 28
     },
     {
       "ad_id": "c8d01d52d07b6bc1",
@@ -284,7 +375,7 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/603c714cdf199e51/preview",
       "duration_seconds": 56,
       "share": "无数据",
-      "rank": 22
+      "rank": 29
     },
     {
       "ad_id": "0880acb5852bc789",
@@ -296,98 +387,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a4fb49e156c697f/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a4fb49e156c697f/preview",
       "duration_seconds": 59,
-      "share": "0.18%",
-      "rank": 23
-    },
-    {
-      "ad_id": "55310f80d3190b4d",
-      "app_id": "67bb93ed47b43a18952ffdfc",
-      "app_name": "Kingshot",
-      "ad_network": "Applovin",
-      "first_seen_at": "2026-02-05",
-      "last_seen_at": "2026-03-13",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/57fe17ab435ea5bb/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/57fe17ab435ea5bb/preview",
-      "duration_seconds": 53,
-      "share": "0.84%",
-      "rank": 24
-    },
-    {
-      "ad_id": "1752e84121c1b281",
-      "app_id": "67bb93ed47b43a18952ffdfc",
-      "app_name": "Kingshot",
-      "ad_network": "Applovin",
-      "first_seen_at": "2026-03-01",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/159df06ab1861c77/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/159df06ab1861c77/preview",
-      "duration_seconds": 59,
-      "share": "0.22%",
-      "rank": 25
-    },
-    {
-      "ad_id": "c4d3ab4737f46c97",
-      "app_id": "67bb93ed47b43a18952ffdfc",
-      "app_name": "Kingshot",
-      "ad_network": "Applovin",
-      "first_seen_at": "2026-03-01",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c61cb36ca7b3c261/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c61cb36ca7b3c261/preview",
-      "duration_seconds": 58,
-      "share": "0.27%",
-      "rank": 26
-    },
-    {
-      "ad_id": "02dd2e7f04c35319",
-      "app_id": "5869720d0211a6180f000ebc",
-      "app_name": "Evony",
-      "ad_network": "Applovin",
-      "first_seen_at": "2026-03-04",
-      "last_seen_at": "2026-03-14",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/001236549484fdef/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/001236549484fdef/preview",
-      "duration_seconds": 26,
-      "share": "0.66%",
-      "rank": 27
-    },
-    {
-      "ad_id": "01c2d5a88f59dfb8",
-      "app_id": "58a5031adcbd16685d00ba8f",
-      "app_name": "Hero Wars: Alliance Fantasy",
-      "ad_network": "Applovin",
-      "first_seen_at": "2026-03-09",
-      "last_seen_at": "2026-03-14",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/689ecc08127c08d0/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/689ecc08127c08d0/preview",
-      "duration_seconds": 59,
-      "share": "0.29%",
-      "rank": 28
-    },
-    {
-      "ad_id": "7f9cf278ea86b735",
-      "app_id": "67d3aaff2c328ae8e547d0ef",
-      "app_name": "Tiles Survive!",
-      "ad_network": "Applovin",
-      "first_seen_at": "2026-01-27",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f5f5ccf6ade70db3/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f5f5ccf6ade70db3/preview",
-      "duration_seconds": 56,
-      "share": "0.31%",
-      "rank": 29
-    },
-    {
-      "ad_id": "fcfb089bffcbcfed",
-      "app_id": "638ee532480da915a62f0b34",
-      "app_name": "Whiteout Survival",
-      "ad_network": "Applovin",
-      "first_seen_at": "2026-03-04",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fe3410b06f8c611b/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fe3410b06f8c611b/preview",
-      "duration_seconds": 51,
-      "share": "0.20%",
+      "share": "0.13%",
       "rank": 30
     }
   ],
@@ -705,6 +705,19 @@
       "rank": 24
     },
     {
+      "ad_id": "4d44944a72ffa4b2",
+      "app_id": "698d49af6297762a8f53c7c2",
+      "app_name": "Last Asylum: Plague",
+      "ad_network": "Facebook",
+      "first_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-15",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/008fa9e90bf25900/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/008fa9e90bf25900/preview",
+      "duration_seconds": 53,
+      "share": "无数据",
+      "rank": 25
+    },
+    {
       "ad_id": "4c44cae04bb68536",
       "app_id": "6573c39d5c3b423d5d04560f",
       "app_name": "Dark War:Survival",
@@ -715,7 +728,7 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00d04486cf7f234a/preview",
       "duration_seconds": 19,
       "share": "无数据",
-      "rank": 25
+      "rank": 26
     },
     {
       "ad_id": "88eb4bf95161f7c7",
@@ -728,7 +741,7 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00d1f9967f3f4ab6/preview",
       "duration_seconds": 58,
       "share": "无数据",
-      "rank": 26
+      "rank": 27
     },
     {
       "ad_id": "4e9ad36536946fd9",
@@ -741,7 +754,7 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00f4922cb3781807/preview",
       "duration_seconds": 119,
       "share": "无数据",
-      "rank": 27
+      "rank": 28
     },
     {
       "ad_id": "036d7e4c09e68b8d",
@@ -754,7 +767,7 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01263cdd14ed474f/preview",
       "duration_seconds": 56,
       "share": "无数据",
-      "rank": 28
+      "rank": 29
     },
     {
       "ad_id": "e2ee61e0a8ad45c5",
@@ -766,19 +779,6 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/012ab6759b48dd41/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/012ab6759b48dd41/preview",
       "duration_seconds": 41,
-      "share": "无数据",
-      "rank": 29
-    },
-    {
-      "ad_id": "4f3898aec5886f66",
-      "app_id": "58a5031adcbd16685d00ba8f",
-      "app_name": "Hero Wars: Alliance Fantasy",
-      "ad_network": "Facebook",
-      "first_seen_at": "2025-10-09",
-      "last_seen_at": "2026-03-12",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0156d9e7406418b8/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0156d9e7406418b8/preview",
-      "duration_seconds": 119,
       "share": "无数据",
       "rank": 30
     }
@@ -794,7 +794,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/25d1868393b810c7/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/25d1868393b810c7/preview",
       "duration_seconds": 42,
-      "share": "3.37%",
+      "share": "2.48%",
       "rank": 1
     },
     {
@@ -807,7 +807,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/538766a76917e8d9/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/538766a76917e8d9/preview",
       "duration_seconds": 41,
-      "share": "3.53%",
+      "share": "2.60%",
       "rank": 2
     },
     {
@@ -820,7 +820,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d9e9debdda6a558/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d9e9debdda6a558/preview",
       "duration_seconds": 82,
-      "share": "2.41%",
+      "share": "1.77%",
       "rank": 3
     },
     {
@@ -833,7 +833,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/23fa5dc404720e1b/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/23fa5dc404720e1b/preview",
       "duration_seconds": 49,
-      "share": "2.30%",
+      "share": "1.69%",
       "rank": 4
     },
     {
@@ -846,7 +846,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e8da2c462841182/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e8da2c462841182/preview",
       "duration_seconds": 52,
-      "share": "3.56%",
+      "share": "2.62%",
       "rank": 5
     },
     {
@@ -859,7 +859,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/26b268f8df360cbc/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/26b268f8df360cbc/preview",
       "duration_seconds": 40,
-      "share": "3.11%",
+      "share": "2.29%",
       "rank": 6
     },
     {
@@ -885,7 +885,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/76149dfc2aa3caef/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/76149dfc2aa3caef/preview",
       "duration_seconds": 58,
-      "share": "2.46%",
+      "share": "1.81%",
       "rank": 8
     },
     {
@@ -898,7 +898,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/552cda73e2b318d6/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/552cda73e2b318d6/preview",
       "duration_seconds": 24,
-      "share": "1.56%",
+      "share": "1.15%",
       "rank": 9
     },
     {
@@ -911,7 +911,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b2d1f046db366d5e/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b2d1f046db366d5e/preview",
       "duration_seconds": 61,
-      "share": "1.83%",
+      "share": "1.34%",
       "rank": 10
     },
     {
@@ -924,7 +924,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5387864265a6889f/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5387864265a6889f/preview",
       "duration_seconds": 56,
-      "share": "1.88%",
+      "share": "1.38%",
       "rank": 11
     },
     {
@@ -937,7 +937,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/62e25f410ac3fc35/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/62e25f410ac3fc35/preview",
       "duration_seconds": 40,
-      "share": "1.49%",
+      "share": "1.09%",
       "rank": 12
     },
     {
@@ -950,7 +950,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ec1e1e900dcca1b0/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ec1e1e900dcca1b0/preview",
       "duration_seconds": 77,
-      "share": "1.14%",
+      "share": "0.84%",
       "rank": 13
     },
     {
@@ -963,7 +963,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02dbae9a0e5b0cd9/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02dbae9a0e5b0cd9/preview",
       "duration_seconds": 12,
-      "share": "1.41%",
+      "share": "1.04%",
       "rank": 14
     },
     {
@@ -976,7 +976,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b687d4ff50093792/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b687d4ff50093792/preview",
       "duration_seconds": 51,
-      "share": "1.36%",
+      "share": "1.00%",
       "rank": 15
     },
     {
@@ -989,7 +989,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d8a62696b4c21944/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d8a62696b4c21944/preview",
       "duration_seconds": 59,
-      "share": "1.22%",
+      "share": "0.90%",
       "rank": 16
     },
     {
@@ -1002,7 +1002,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8feb1e6adec8504a/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8feb1e6adec8504a/preview",
       "duration_seconds": 44,
-      "share": "0.61%",
+      "share": "0.45%",
       "rank": 17
     },
     {
@@ -1015,7 +1015,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ddee86943546c52f/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ddee86943546c52f/preview",
       "duration_seconds": 50,
-      "share": "1.31%",
+      "share": "0.97%",
       "rank": 18
     },
     {
@@ -1028,7 +1028,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68747d007f898d7b/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68747d007f898d7b/preview",
       "duration_seconds": 104,
-      "share": "0.86%",
+      "share": "0.64%",
       "rank": 19
     },
     {
@@ -1041,7 +1041,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/415ade60377849ef/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/415ade60377849ef/preview",
       "duration_seconds": 58,
-      "share": "1.04%",
+      "share": "0.76%",
       "rank": 20
     },
     {
@@ -1054,7 +1054,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/55ed23c9d9dbbdd9/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/55ed23c9d9dbbdd9/preview",
       "duration_seconds": 165,
-      "share": "1.08%",
+      "share": "0.80%",
       "rank": 21
     },
     {
@@ -1067,7 +1067,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6439b1b571c251c4/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6439b1b571c251c4/preview",
       "duration_seconds": 49,
-      "share": "1.12%",
+      "share": "0.82%",
       "rank": 22
     },
     {
@@ -1080,7 +1080,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fb52ea8b4b97d136/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fb52ea8b4b97d136/preview",
       "duration_seconds": 42,
-      "share": "0.57%",
+      "share": "0.42%",
       "rank": 23
     },
     {
@@ -1093,7 +1093,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/93df9e63a1464d96/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/93df9e63a1464d96/preview",
       "duration_seconds": 39,
-      "share": "0.98%",
+      "share": "0.72%",
       "rank": 24
     },
     {
@@ -1106,7 +1106,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fe1dca9e2ac3c4e1/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fe1dca9e2ac3c4e1/preview",
       "duration_seconds": 22,
-      "share": "0.85%",
+      "share": "0.62%",
       "rank": 25
     },
     {
@@ -1119,7 +1119,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6e386e245c7b43bd/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6e386e245c7b43bd/preview",
       "duration_seconds": 59,
-      "share": "0.71%",
+      "share": "0.52%",
       "rank": 26
     },
     {
@@ -1132,7 +1132,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a3cff17d3c9b223/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a3cff17d3c9b223/preview",
       "duration_seconds": 58,
-      "share": "0.91%",
+      "share": "0.67%",
       "rank": 27
     },
     {
@@ -1145,7 +1145,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/87636c3474209263/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/87636c3474209263/preview",
       "duration_seconds": 161,
-      "share": "0.84%",
+      "share": "0.62%",
       "rank": 28
     },
     {
@@ -1158,7 +1158,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38e0f4692e494412/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38e0f4692e494412/preview",
       "duration_seconds": 57,
-      "share": "0.86%",
+      "share": "0.63%",
       "rank": 29
     },
     {
@@ -1171,11 +1171,15 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3b2b74a169a6c8af/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3b2b74a169a6c8af/preview",
       "duration_seconds": 79,
-      "share": "0.88%",
+      "share": "0.64%",
       "rank": 30
     }
   ],
   "monitored_apps": [
+    {
+      "name": "Last Asylum: Plague",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/1f/95/5c1f95d0-8994-b790-e371-8c1b4d0de8b8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/150x150bb.jpg"
+    },
     {
       "name": "Tiles Survive!",
       "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e7/84/c9/e784c9b9-dea6-5197-b508-32c0189e211a/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/150x150bb.jpg"
