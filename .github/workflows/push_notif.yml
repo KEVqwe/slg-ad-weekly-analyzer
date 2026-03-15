@@ -1,0 +1,41 @@
+name: Git Push Notification
+
+on:
+  push:
+    branches:
+      - main
+    # 避免在自动归档时触发重复通知
+    paths-ignore:
+      - 'archive/**'
+      - 'index.html'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Send DingTalk Push Notification
+        env:
+          DINGTALK_WEBHOOK: ${{ secrets.DINGTALK_WEBHOOK }}
+          DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
+        run: |
+          # 获取 commit 信息
+          COMMIT_MSG=$(git log -1 --pretty=%s)
+          COMMIT_AUTHOR=$(git log -1 --pretty=%an)
+          COMMIT_SHA=$(git rev-parse --short HEAD)
+          COMMIT_URL="https://github.com/${{ github.repository }}/commit/${{ github.sha }}"
+          
+          # 构建通知消息
+          TITLE="代码已更新: $COMMIT_MSG"
+          MESSAGE="提交人: $COMMIT_AUTHOR (SHA: $COMMIT_SHA)"
+          
+          python notify_dingtalk.py --type push --title "$TITLE" --message "$MESSAGE" --link "$COMMIT_URL"

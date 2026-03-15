@@ -1,11 +1,11 @@
 """
 钉钉自定义机器人通知脚本
-用于在周报生成后自动发送钉钉群通知，提醒团队查看最新报告。
+用于发送周报更新、功能发布和代码推送通知。
 
 使用方式:
-  python notify_dingtalk.py                          # 自动检测当前周次
-  python notify_dingtalk.py --week 2026_W11          # 手动指定周次
-  python notify_dingtalk.py --webhook <URL>          # 手动指定 Webhook URL
+  python notify_dingtalk.py --type report --week 2026_W11
+  python notify_dingtalk.py --type feature --title "新功能" --message "详情内容"
+  python notify_dingtalk.py --type push --title "代码推送" --message "Commit info" --link "URL"
 """
 
 import argparse
@@ -44,27 +44,8 @@ def sign_webhook_url(webhook_url: str, secret: str) -> str:
     return f"{webhook_url}&timestamp={timestamp}&sign={sign}"
 
 
-def send_dingtalk_notification(webhook_url: str, week_label: str, report_url: str, secret: str = None):
-    """发送钉钉 Markdown 消息通知"""
-
-    today = datetime.now().strftime("%Y年%m月%d日")
-
-    markdown_text = (
-        f"## 北美SLG周报已更新\n\n"
-        f"**{week_label}** 竞品视频广告周报已自动生成完毕，请查阅！\n\n"
-        f"生成日期：{today}\n\n"
-        f"[>> 点击查看最新周报]({report_url})\n\n"
-        f"> 报告涵盖 Applovin / Facebook / YouTube 三大渠道 Top 30 SLG 视频广告的 AI 深度拆解与竞品分析。"
-    )
-
-    payload = {
-        "msgtype": "markdown",
-        "markdown": {
-            "title": f"SLG周报更新 - {week_label}",
-            "text": markdown_text
-        }
-    }
-
+def send_dingtalk_notification(webhook_url: str, payload: dict, secret: str = None):
+    """发送钉钉消息通知"""
     # 如果配置了加签密钥，对 URL 进行签名
     signed_url = sign_webhook_url(webhook_url, secret) if secret else webhook_url
 
@@ -88,52 +69,143 @@ def send_dingtalk_notification(webhook_url: str, week_label: str, report_url: st
         sys.exit(1)
 
 
+def format_report_payload(week_label: str, report_url: str) -> dict:
+    """格式化周报通知内容"""
+    today = datetime.now().strftime("%Y年%m月%d日")
+    markdown_text = (
+        f"## 北美SLG周报已更新\n\n"
+        f"**{week_label}** 竞品视频广告周报已自动生成完毕，请查阅！\n\n"
+        f"生成日期：{today}\n\n"
+        f"[>> 点击查看最新周报]({report_url})\n\n"
+        f"> 报告涵盖 Applovin / Facebook / YouTube 三大渠道 Top 30 SLG 视频广告的 AI 深度拆解与竞品分析。"
+    )
+    return {
+        "msgtype": "markdown",
+        "markdown": {
+            "title": f"SLG周报更新 - {week_label}",
+            "text": markdown_text
+        }
+    }
+
+
+def format_feature_payload(title: str, message: str) -> dict:
+    """格式化新功能通知内容"""
+    markdown_text = (
+        f"## ✨ 新功能发布\n\n"
+        f"**任务标题**: {title}\n\n"
+        f"**功能描述**: {message}\n\n"
+        f"> 机器人正在持续进化，感谢关注！"
+    )
+    return {
+        "msgtype": "markdown",
+        "markdown": {
+            "title": f"新功能发布: {title}",
+            "text": markdown_text
+        }
+    }
+
+
+def format_push_payload(title: str, message: str, link: str = None) -> dict:
+    """格式化代码推送通知内容"""
+    markdown_text = (
+        f"## 🚀 代码推送通知\n\n"
+        f"**提交信息**: {title}\n\n"
+        f"**详细变更**:\n{message}\n\n"
+    )
+    if link:
+        markdown_text += f"[查看代码变更]({link})\n\n"
+    
+    markdown_text += f"> 自动化流水线已触发。"
+
+    return {
+        "msgtype": "markdown",
+        "markdown": {
+            "title": f"代码推送: {title}",
+            "text": markdown_text
+        }
+    }
+
+
 def main():
-    parser = argparse.ArgumentParser(description="发送钉钉周报通知")
+    parser = argparse.ArgumentParser(description="发送钉钉通知")
+    parser.add_argument(
+        "--type",
+        type=str,
+        choices=["report", "feature", "push"],
+        default="report",
+        help="通知类型: report (周报), feature (新功能), push (代码推送)"
+    )
     parser.add_argument(
         "--week",
         type=str,
         default=None,
-        help="周报周次标识，例如 2026_W11。默认自动检测当前周次。"
+        help="周次标识 (仅用于 report 类型)"
+    )
+    parser.add_argument(
+        "--title",
+        type=str,
+        default="未命名通知",
+        help="通知标题 (用于 feature 和 push 类型)"
+    )
+    parser.add_argument(
+        "--message",
+        type=str,
+        default="",
+        help="消息内容 (用于 feature 和 push 类型)"
+    )
+    parser.add_argument(
+        "--link",
+        type=str,
+        default=None,
+        help="相关链接"
     )
     parser.add_argument(
         "--webhook",
         type=str,
         default=None,
-        help="钉钉 Webhook URL。默认从环境变量 DINGTALK_WEBHOOK 读取。"
+        help="钉钉 Webhook URL"
     )
     parser.add_argument(
         "--secret",
         type=str,
         default=None,
-        help="钉钉加签密钥。默认从环境变量 DINGTALK_SECRET 读取。"
+        help="钉钉加签密钥"
     )
     parser.add_argument(
         "--url",
         type=str,
         default=REPORT_BASE_URL,
-        help=f"报告页面 URL。默认: {REPORT_BASE_URL}"
+        help=f"报告汇总页面 URL"
     )
+    
     args = parser.parse_args()
 
-    # 确定 Webhook URL
+    # 确定 Webhook 和 Secret
     webhook = args.webhook or os.getenv("DINGTALK_WEBHOOK")
+    secret = args.secret or os.getenv("DINGTALK_SECRET")
+    
     if not webhook:
-        logger.error("❌ 未提供钉钉 Webhook URL。请通过 --webhook 参数或 DINGTALK_WEBHOOK 环境变量设置。")
+        logger.error("❌ 未提供钉钉 Webhook URL。")
         sys.exit(1)
 
-    # 确定加签密钥
-    secret = args.secret or os.getenv("DINGTALK_SECRET")
-
-    # 确定周次
-    if args.week:
-        week_label = args.week
+    # 根据类型构造 Payload
+    if args.type == "report":
+        if args.week:
+            week_label = args.week
+        else:
+            year, week, _ = datetime.now().isocalendar()
+            week_label = f"{year}_W{week:02d}"
+        payload = format_report_payload(week_label, args.url)
+    elif args.type == "feature":
+        payload = format_feature_payload(args.title, args.message)
+    elif args.type == "push":
+        payload = format_push_payload(args.title, args.message, args.link)
     else:
-        year, week, _ = datetime.now().isocalendar()
-        week_label = f"{year}_W{week:02d}"
+        logger.error(f"❌ 不支持的通知类型: {args.type}")
+        sys.exit(1)
 
-    logger.info(f"准备发送钉钉通知: 周次={week_label}, 报告地址={args.url}")
-    send_dingtalk_notification(webhook, week_label, args.url, secret=secret)
+    logger.info(f"发送钉钉通知类型: {args.type}")
+    send_dingtalk_notification(webhook, payload, secret=secret)
 
 
 if __name__ == "__main__":

@@ -6,11 +6,11 @@
       "app_name": "Last Asylum: Plague",
       "ad_network": "Applovin",
       "first_seen_at": "2026-02-26",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/96bc5402f049b0e4/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/96bc5402f049b0e4/preview",
       "duration_seconds": 55,
-      "share": "21.13%",
+      "share": "21.07%",
       "rank": 1
     },
     {
@@ -19,7 +19,7 @@
       "app_name": "Tiles Survive!",
       "ad_network": "Applovin",
       "first_seen_at": "2026-02-07",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6eee55b2a100f971/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6eee55b2a100f971/preview",
       "duration_seconds": 57,
@@ -32,7 +32,7 @@
       "app_name": "Hero Wars: Alliance Fantasy",
       "ad_network": "Applovin",
       "first_seen_at": "2025-10-16",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/90dc5f55fbebc410/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/90dc5f55fbebc410/preview",
       "duration_seconds": 59,
@@ -45,11 +45,11 @@
       "app_name": "Tiles Survive!",
       "ad_network": "Applovin",
       "first_seen_at": "2026-01-17",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/df660cbb1a54acb8/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/df660cbb1a54acb8/preview",
       "duration_seconds": 59,
-      "share": "9.70%",
+      "share": "9.67%",
       "rank": 4
     },
     {
@@ -58,7 +58,7 @@
       "app_name": "Hero Wars: Alliance Fantasy",
       "ad_network": "Applovin",
       "first_seen_at": "2025-05-15",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b9d85120ed54b32c/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b9d85120ed54b32c/preview",
       "duration_seconds": 59,
@@ -71,11 +71,11 @@
       "app_name": "Kingshot",
       "ad_network": "Applovin",
       "first_seen_at": "2025-09-05",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/88f0af6b2e7e9888/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/88f0af6b2e7e9888/preview",
       "duration_seconds": 59,
-      "share": "4.33%",
+      "share": "4.32%",
       "rank": 6
     },
     {
@@ -84,7 +84,7 @@
       "app_name": "Lords Mobile: Kingdom Wars",
       "ad_network": "Applovin",
       "first_seen_at": "2025-10-10",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/894c37d1cba4c05b/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/894c37d1cba4c05b/preview",
       "duration_seconds": 35,
@@ -92,17 +92,30 @@
       "rank": 7
     },
     {
+      "ad_id": "c8d2affd0e301add",
+      "app_id": "698d49af6297762a8f53c7c2",
+      "app_name": "Last Asylum: Plague",
+      "ad_network": "Applovin",
+      "first_seen_at": "2026-02-25",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27553648e435fa97/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27553648e435fa97/preview",
+      "duration_seconds": 42,
+      "share": "1.14%",
+      "rank": 8
+    },
+    {
       "ad_id": "3be8d2f5e1a1f9cb",
       "app_id": "67d3aaff2c328ae8e547d0ef",
       "app_name": "Tiles Survive!",
       "ad_network": "Applovin",
       "first_seen_at": "2026-01-25",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b181ec7ba6c0434d/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b181ec7ba6c0434d/preview",
       "duration_seconds": 59,
-      "share": "1.77%",
-      "rank": 8
+      "share": "1.76%",
+      "rank": 9
     },
     {
       "ad_id": "7b85ef90e3143309",
@@ -110,25 +123,25 @@
       "app_name": "Hero Wars: Alliance Fantasy",
       "ad_network": "Applovin",
       "first_seen_at": "2026-02-02",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12d9f6307e31e461/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/12d9f6307e31e461/preview",
       "duration_seconds": 59,
       "share": "无数据",
-      "rank": 9
+      "rank": 10
     },
     {
-      "ad_id": "c8d2affd0e301add",
-      "app_id": "698d49af6297762a8f53c7c2",
-      "app_name": "Last Asylum: Plague",
+      "ad_id": "2df0517fdaab929a",
+      "app_id": "67bb93ed47b43a18952ffdfc",
+      "app_name": "Kingshot",
       "ad_network": "Applovin",
-      "first_seen_at": "2026-02-25",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27553648e435fa97/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/27553648e435fa97/preview",
-      "duration_seconds": 42,
-      "share": "1.15%",
-      "rank": 10
+      "first_seen_at": "2025-07-13",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/851c3d61d5c9670a/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/851c3d61d5c9670a/preview",
+      "duration_seconds": 59,
+      "share": "1.42%",
+      "rank": 11
     },
     {
       "ad_id": "0fb2ed8da9ff3a06",
@@ -141,19 +154,6 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d7df5a639b894f0/preview",
       "duration_seconds": 29,
       "share": "1.11%",
-      "rank": 11
-    },
-    {
-      "ad_id": "2df0517fdaab929a",
-      "app_id": "67bb93ed47b43a18952ffdfc",
-      "app_name": "Kingshot",
-      "ad_network": "Applovin",
-      "first_seen_at": "2025-07-13",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/851c3d61d5c9670a/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/851c3d61d5c9670a/preview",
-      "duration_seconds": 59,
-      "share": "1.43%",
       "rank": 12
     },
     {
@@ -162,7 +162,7 @@
       "app_name": "Last Asylum: Plague",
       "ad_network": "Applovin",
       "first_seen_at": "2026-02-25",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c2041e45589a6532/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c2041e45589a6532/preview",
       "duration_seconds": 56,
@@ -175,7 +175,7 @@
       "app_name": "Hero Wars: Alliance Fantasy",
       "ad_network": "Applovin",
       "first_seen_at": "2025-12-21",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05023649f71cd2e4/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05023649f71cd2e4/preview",
       "duration_seconds": 59,
@@ -183,30 +183,17 @@
       "rank": 14
     },
     {
-      "ad_id": "39f8f7ac52759d73",
-      "app_id": "698d49af6297762a8f53c7c2",
-      "app_name": "Last Asylum: Plague",
-      "ad_network": "Applovin",
-      "first_seen_at": "2026-02-24",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d67f6e19b8707d39/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d67f6e19b8707d39/preview",
-      "duration_seconds": 53,
-      "share": "0.63%",
-      "rank": 15
-    },
-    {
       "ad_id": "309a3547bdaa2e05",
       "app_id": "698d49af6297762a8f53c7c2",
       "app_name": "Last Asylum: Plague",
       "ad_network": "Applovin",
       "first_seen_at": "2026-02-26",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/df1dacf257afce4f/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/df1dacf257afce4f/preview",
       "duration_seconds": 49,
       "share": "0.59%",
-      "rank": 16
+      "rank": 15
     },
     {
       "ad_id": "c7f377c8ab94a84b",
@@ -214,11 +201,24 @@
       "app_name": "Kingshot",
       "ad_network": "Applovin",
       "first_seen_at": "2025-06-06",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6f1f1bd6a4f65ddb/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6f1f1bd6a4f65ddb/preview",
       "duration_seconds": 56,
       "share": "无数据",
+      "rank": 16
+    },
+    {
+      "ad_id": "39f8f7ac52759d73",
+      "app_id": "698d49af6297762a8f53c7c2",
+      "app_name": "Last Asylum: Plague",
+      "ad_network": "Applovin",
+      "first_seen_at": "2026-02-24",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d67f6e19b8707d39/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d67f6e19b8707d39/preview",
+      "duration_seconds": 53,
+      "share": "0.63%",
       "rank": 17
     },
     {
@@ -227,12 +227,38 @@
       "app_name": "Tiles Survive!",
       "ad_network": "Applovin",
       "first_seen_at": "2026-01-10",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5ff3c8973652ab9f/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5ff3c8973652ab9f/preview",
       "duration_seconds": 59,
       "share": "无数据",
       "rank": 18
+    },
+    {
+      "ad_id": "057a23e86264fc2e",
+      "app_id": "67bb93ed47b43a18952ffdfc",
+      "app_name": "Kingshot",
+      "ad_network": "Applovin",
+      "first_seen_at": "2026-01-01",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad964ff66d0609be/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad964ff66d0609be/preview",
+      "duration_seconds": 54,
+      "share": "0.44%",
+      "rank": 19
+    },
+    {
+      "ad_id": "5a85316df390c843",
+      "app_id": "63bd1e79e36abf4ca724dad2",
+      "app_name": "TopHeroes",
+      "ad_network": "Applovin",
+      "first_seen_at": "2025-10-31",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3cb5810f9716e7cf/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3cb5810f9716e7cf/preview",
+      "duration_seconds": 58,
+      "share": "0.41%",
+      "rank": 20
     },
     {
       "ad_id": "70919b96cc65793c",
@@ -245,32 +271,6 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/19cd82365140ae54/preview",
       "duration_seconds": 59,
       "share": "0.43%",
-      "rank": 19
-    },
-    {
-      "ad_id": "057a23e86264fc2e",
-      "app_id": "67bb93ed47b43a18952ffdfc",
-      "app_name": "Kingshot",
-      "ad_network": "Applovin",
-      "first_seen_at": "2026-01-01",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad964ff66d0609be/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad964ff66d0609be/preview",
-      "duration_seconds": 54,
-      "share": "0.44%",
-      "rank": 20
-    },
-    {
-      "ad_id": "2a68a2ae1d1d6735",
-      "app_id": "67d3aaff2c328ae8e547d0ef",
-      "app_name": "Tiles Survive!",
-      "ad_network": "Applovin",
-      "first_seen_at": "2025-12-02",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a0019c205a7cddb3/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a0019c205a7cddb3/preview",
-      "duration_seconds": 59,
-      "share": "0.37%",
       "rank": 21
     },
     {
@@ -279,12 +279,25 @@
       "app_name": "Hero Wars: Alliance Fantasy",
       "ad_network": "Applovin",
       "first_seen_at": "2026-01-24",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a1410da7631ba189/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a1410da7631ba189/preview",
       "duration_seconds": 59,
       "share": "无数据",
       "rank": 22
+    },
+    {
+      "ad_id": "2a68a2ae1d1d6735",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "app_name": "Tiles Survive!",
+      "ad_network": "Applovin",
+      "first_seen_at": "2025-12-02",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a0019c205a7cddb3/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a0019c205a7cddb3/preview",
+      "duration_seconds": 59,
+      "share": "0.37%",
+      "rank": 23
     },
     {
       "ad_id": "29240291b0ccd4fa",
@@ -296,47 +309,8 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2beb1aba208b7a0c/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2beb1aba208b7a0c/preview",
       "duration_seconds": 26,
-      "share": "0.93%",
-      "rank": 23
-    },
-    {
-      "ad_id": "3625574163383337",
-      "app_id": "67bb93ed47b43a18952ffdfc",
-      "app_name": "Kingshot",
-      "ad_network": "Applovin",
-      "first_seen_at": "2025-12-15",
-      "last_seen_at": "2026-03-14",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34ea4f6af37f9dc1/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34ea4f6af37f9dc1/preview",
-      "duration_seconds": 54,
-      "share": "0.32%",
+      "share": "0.92%",
       "rank": 24
-    },
-    {
-      "ad_id": "702ccbe4d97425e1",
-      "app_id": "67bb93ed47b43a18952ffdfc",
-      "app_name": "Kingshot",
-      "ad_network": "Applovin",
-      "first_seen_at": "2026-02-24",
-      "last_seen_at": "2026-03-14",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/72e3d3cf49338b17/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/72e3d3cf49338b17/preview",
-      "duration_seconds": 53,
-      "share": "0.63%",
-      "rank": 25
-    },
-    {
-      "ad_id": "87f5aa20442070ac",
-      "app_id": "698d49af6297762a8f53c7c2",
-      "app_name": "Last Asylum: Plague",
-      "ad_network": "Applovin",
-      "first_seen_at": "2026-02-25",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68723395ae2590e6/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68723395ae2590e6/preview",
-      "duration_seconds": 49,
-      "share": "0.30%",
-      "rank": 26
     },
     {
       "ad_id": "740ead2e38720021",
@@ -344,38 +318,38 @@
       "app_name": "Last Asylum: Plague",
       "ad_network": "Applovin",
       "first_seen_at": "2026-02-25",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9b89349bd277e06b/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9b89349bd277e06b/preview",
       "duration_seconds": 56,
       "share": "0.27%",
-      "rank": 27
+      "rank": 25
     },
     {
-      "ad_id": "cb46df7d2bf2382c",
-      "app_id": "638ee532480da915a62f0b34",
-      "app_name": "Whiteout Survival",
-      "ad_network": "Applovin",
-      "first_seen_at": "2026-02-25",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c989c756bbb596da/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c989c756bbb596da/preview",
-      "duration_seconds": 56,
-      "share": "0.19%",
-      "rank": 28
-    },
-    {
-      "ad_id": "c8d01d52d07b6bc1",
+      "ad_id": "3625574163383337",
       "app_id": "67bb93ed47b43a18952ffdfc",
       "app_name": "Kingshot",
       "ad_network": "Applovin",
-      "first_seen_at": "2026-01-04",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/603c714cdf199e51/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/603c714cdf199e51/preview",
-      "duration_seconds": 56,
-      "share": "无数据",
-      "rank": 29
+      "first_seen_at": "2025-12-15",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34ea4f6af37f9dc1/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34ea4f6af37f9dc1/preview",
+      "duration_seconds": 54,
+      "share": "0.32%",
+      "rank": 26
+    },
+    {
+      "ad_id": "702ccbe4d97425e1",
+      "app_id": "67bb93ed47b43a18952ffdfc",
+      "app_name": "Kingshot",
+      "ad_network": "Applovin",
+      "first_seen_at": "2026-02-24",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/72e3d3cf49338b17/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/72e3d3cf49338b17/preview",
+      "duration_seconds": 53,
+      "share": "0.63%",
+      "rank": 27
     },
     {
       "ad_id": "0880acb5852bc789",
@@ -383,11 +357,37 @@
       "app_name": "Kingshot",
       "ad_network": "Applovin",
       "first_seen_at": "2026-03-08",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a4fb49e156c697f/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0a4fb49e156c697f/preview",
       "duration_seconds": 59,
       "share": "0.13%",
+      "rank": 28
+    },
+    {
+      "ad_id": "87f5aa20442070ac",
+      "app_id": "698d49af6297762a8f53c7c2",
+      "app_name": "Last Asylum: Plague",
+      "ad_network": "Applovin",
+      "first_seen_at": "2026-02-25",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68723395ae2590e6/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68723395ae2590e6/preview",
+      "duration_seconds": 49,
+      "share": "0.30%",
+      "rank": 29
+    },
+    {
+      "ad_id": "cb46df7d2bf2382c",
+      "app_id": "638ee532480da915a62f0b34",
+      "app_name": "Whiteout Survival",
+      "ad_network": "Applovin",
+      "first_seen_at": "2026-02-25",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c989c756bbb596da/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c989c756bbb596da/preview",
+      "duration_seconds": 56,
+      "share": "0.19%",
       "rank": 30
     }
   ],
@@ -402,7 +402,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/edf7932af08ef516/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/edf7932af08ef516/preview",
       "duration_seconds": 23,
-      "share": "32.66%",
+      "share": "30.73%",
       "rank": 1
     },
     {
@@ -415,7 +415,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9cdcee7d82fbdd69/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9cdcee7d82fbdd69/preview",
       "duration_seconds": 27,
-      "share": "18.75%",
+      "share": "17.66%",
       "rank": 2
     },
     {
@@ -424,11 +424,11 @@
       "app_name": "Last War:Survival",
       "ad_network": "Facebook",
       "first_seen_at": "2025-11-12",
-      "last_seen_at": "2026-03-13",
+      "last_seen_at": "2026-03-15",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99ce7dbf66582d13/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99ce7dbf66582d13/preview",
       "duration_seconds": 49,
-      "share": "13.32%",
+      "share": "12.52%",
       "rank": 3
     },
     {
@@ -441,7 +441,7 @@
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e94ab9535c0fa528/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e94ab9535c0fa528/preview",
       "duration_seconds": 30,
-      "share": "16.70%",
+      "share": "15.72%",
       "rank": 4
     },
     {
@@ -450,12 +450,25 @@
       "app_name": "Fate War",
       "ad_network": "Facebook",
       "first_seen_at": "2026-02-11",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ab2fce2db03716ca/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ab2fce2db03716ca/preview",
       "duration_seconds": 33,
-      "share": "7.02%",
+      "share": "6.50%",
       "rank": 5
+    },
+    {
+      "ad_id": "9061ff2fcb2acb71",
+      "app_id": "67bb93ed47b43a18952ffdfc",
+      "app_name": "Kingshot",
+      "ad_network": "Facebook",
+      "first_seen_at": "2025-11-21",
+      "last_seen_at": "2026-03-15",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3559dccfa4e9639b/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3559dccfa4e9639b/preview",
+      "duration_seconds": 58,
+      "share": "5.91%",
+      "rank": 6
     },
     {
       "ad_id": "185ebc027921d5c5",
@@ -463,12 +476,12 @@
       "app_name": "Fate War",
       "ad_network": "Facebook",
       "first_seen_at": "2026-01-07",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b8818a4bf05bb915/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b8818a4bf05bb915/preview",
       "duration_seconds": 57,
-      "share": "1.34%",
-      "rank": 6
+      "share": "1.14%",
+      "rank": 7
     },
     {
       "ad_id": "413d9adc65167905",
@@ -476,24 +489,11 @@
       "app_name": "Kingshot",
       "ad_network": "Facebook",
       "first_seen_at": "2025-10-30",
-      "last_seen_at": "2026-03-14",
+      "last_seen_at": "2026-03-15",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1371c3e5964e042a/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1371c3e5964e042a/preview",
       "duration_seconds": 53,
-      "share": "2.65%",
-      "rank": 7
-    },
-    {
-      "ad_id": "081455f4e6e2be6d",
-      "app_id": "68411dcfc0b33b442b5f2320",
-      "app_name": "Fate War",
-      "ad_network": "Facebook",
-      "first_seen_at": "2025-12-16",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bcd1f8c2dd163766/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bcd1f8c2dd163766/preview",
-      "duration_seconds": 25,
-      "share": "1.22%",
+      "share": "2.50%",
       "rank": 8
     },
     {
@@ -502,64 +502,25 @@
       "app_name": "Kingshot",
       "ad_network": "Facebook",
       "first_seen_at": "2025-12-23",
-      "last_seen_at": "2026-03-13",
+      "last_seen_at": "2026-03-15",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2fb48fe9f6a8b4eb/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2fb48fe9f6a8b4eb/preview",
       "duration_seconds": 59,
-      "share": "1.68%",
+      "share": "1.58%",
       "rank": 9
     },
     {
-      "ad_id": "00e10ff96ee653b4",
-      "app_id": "58a5031adcbd16685d00ba8f",
-      "app_name": "Hero Wars: Alliance Fantasy",
+      "ad_id": "081455f4e6e2be6d",
+      "app_id": "68411dcfc0b33b442b5f2320",
+      "app_name": "Fate War",
       "ad_network": "Facebook",
-      "first_seen_at": "2026-03-06",
-      "last_seen_at": "2026-03-14",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4e8f4eb0eb0a246a/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4e8f4eb0eb0a246a/preview",
-      "duration_seconds": 119,
-      "share": "0.32%",
+      "first_seen_at": "2025-12-16",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bcd1f8c2dd163766/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bcd1f8c2dd163766/preview",
+      "duration_seconds": 25,
+      "share": "1.13%",
       "rank": 10
-    },
-    {
-      "ad_id": "2d7a864a1ba4bcd1",
-      "app_id": "68411dcfc0b33b442b5f2320",
-      "app_name": "Fate War",
-      "ad_network": "Facebook",
-      "first_seen_at": "2025-09-30",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ca7ec9f85c1c68e/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ca7ec9f85c1c68e/preview",
-      "duration_seconds": 34,
-      "share": "1.06%",
-      "rank": 11
-    },
-    {
-      "ad_id": "8ef5c49fbfd0db1e",
-      "app_id": "64075e77537c41636a8e1c58",
-      "app_name": "Last War:Survival",
-      "ad_network": "Facebook",
-      "first_seen_at": "2025-10-29",
-      "last_seen_at": "2026-03-13",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6d31130a8c35439a/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6d31130a8c35439a/preview",
-      "duration_seconds": 34,
-      "share": "0.76%",
-      "rank": 12
-    },
-    {
-      "ad_id": "4bd1e4f0b6e40db0",
-      "app_id": "68411dcfc0b33b442b5f2320",
-      "app_name": "Fate War",
-      "ad_network": "Facebook",
-      "first_seen_at": "2026-01-15",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f386b434ee847a1d/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f386b434ee847a1d/preview",
-      "duration_seconds": 35,
-      "share": "0.53%",
-      "rank": 13
     },
     {
       "ad_id": "24196ed974c9fab3",
@@ -567,25 +528,90 @@
       "app_name": "Last War:Survival",
       "ad_network": "Facebook",
       "first_seen_at": "2026-02-26",
-      "last_seen_at": "2026-03-13",
+      "last_seen_at": "2026-03-15",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/73dfcad0e507771d/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/73dfcad0e507771d/preview",
       "duration_seconds": 45,
-      "share": "0.50%",
-      "rank": 14
+      "share": "0.71%",
+      "rank": 11
     },
     {
-      "ad_id": "1e205522a8eb0109",
+      "ad_id": "00e10ff96ee653b4",
       "app_id": "58a5031adcbd16685d00ba8f",
       "app_name": "Hero Wars: Alliance Fantasy",
       "ad_network": "Facebook",
-      "first_seen_at": "2025-12-09",
-      "last_seen_at": "2026-03-14",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/504e146b2d0776d7/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/504e146b2d0776d7/preview",
+      "first_seen_at": "2026-03-06",
+      "last_seen_at": "2026-03-15",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4e8f4eb0eb0a246a/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4e8f4eb0eb0a246a/preview",
       "duration_seconds": 119,
-      "share": "0.31%",
+      "share": "0.30%",
+      "rank": 12
+    },
+    {
+      "ad_id": "313ffc050e2da7a4",
+      "app_id": "58a5031adcbd16685d00ba8f",
+      "app_name": "Hero Wars: Alliance Fantasy",
+      "ad_network": "Facebook",
+      "first_seen_at": "2025-12-26",
+      "last_seen_at": "2026-03-15",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7f51bd4c8bc1d07a/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7f51bd4c8bc1d07a/preview",
+      "duration_seconds": 119,
+      "share": "无数据",
+      "rank": 13
+    },
+    {
+      "ad_id": "8ef5c49fbfd0db1e",
+      "app_id": "64075e77537c41636a8e1c58",
+      "app_name": "Last War:Survival",
+      "ad_network": "Facebook",
+      "first_seen_at": "2025-10-29",
+      "last_seen_at": "2026-03-14",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6d31130a8c35439a/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6d31130a8c35439a/preview",
+      "duration_seconds": 34,
+      "share": "0.72%",
+      "rank": 14
+    },
+    {
+      "ad_id": "2d7a864a1ba4bcd1",
+      "app_id": "68411dcfc0b33b442b5f2320",
+      "app_name": "Fate War",
+      "ad_network": "Facebook",
+      "first_seen_at": "2025-09-30",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ca7ec9f85c1c68e/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ca7ec9f85c1c68e/preview",
+      "duration_seconds": 34,
+      "share": "0.96%",
       "rank": 15
+    },
+    {
+      "ad_id": "7a881e90244a4c5b",
+      "app_id": "58a5031adcbd16685d00ba8f",
+      "app_name": "Hero Wars: Alliance Fantasy",
+      "ad_network": "Facebook",
+      "first_seen_at": "2025-12-25",
+      "last_seen_at": "2026-03-15",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34e65fd9a1a63b85/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34e65fd9a1a63b85/preview",
+      "duration_seconds": 119,
+      "share": "0.29%",
+      "rank": 16
+    },
+    {
+      "ad_id": "4bd1e4f0b6e40db0",
+      "app_id": "68411dcfc0b33b442b5f2320",
+      "app_name": "Fate War",
+      "ad_network": "Facebook",
+      "first_seen_at": "2026-01-15",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f386b434ee847a1d/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/f386b434ee847a1d/preview",
+      "duration_seconds": 35,
+      "share": "0.50%",
+      "rank": 17
     },
     {
       "ad_id": "496d53611400382c",
@@ -593,12 +619,12 @@
       "app_name": "Whiteout Survival",
       "ad_network": "Facebook",
       "first_seen_at": "2025-07-16",
-      "last_seen_at": "2026-03-13",
+      "last_seen_at": "2026-03-15",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1013d820396237d2/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1013d820396237d2/preview",
       "duration_seconds": 59,
-      "share": "0.26%",
-      "rank": 16
+      "share": "0.24%",
+      "rank": 18
     },
     {
       "ad_id": "be0620e023b33259",
@@ -606,12 +632,12 @@
       "app_name": "Kingshot",
       "ad_network": "Facebook",
       "first_seen_at": "2026-03-10",
-      "last_seen_at": "2026-03-14",
+      "last_seen_at": "2026-03-15",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2cc4eb8a3d86e1a0/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2cc4eb8a3d86e1a0/preview",
       "duration_seconds": 52,
-      "share": "0.24%",
-      "rank": 17
+      "share": "0.23%",
+      "rank": 19
     },
     {
       "ad_id": "15dd6156e8c0cade",
@@ -619,12 +645,12 @@
       "app_name": "Whiteout Survival",
       "ad_network": "Facebook",
       "first_seen_at": "2026-01-08",
-      "last_seen_at": "2026-03-14",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ca3ea17c5a2c520/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ca3ea17c5a2c520/preview",
       "duration_seconds": 84,
       "share": "<0.01%",
-      "rank": 18
+      "rank": 20
     },
     {
       "ad_id": "2d1c0db7a0ab3fbb",
@@ -632,12 +658,12 @@
       "app_name": "Last War:Survival",
       "ad_network": "Facebook",
       "first_seen_at": "2025-12-30",
-      "last_seen_at": "2026-03-13",
+      "last_seen_at": "2026-03-15",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ced8da22934ea73f/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ced8da22934ea73f/preview",
       "duration_seconds": 38,
       "share": "<0.01%",
-      "rank": 19
+      "rank": 21
     },
     {
       "ad_id": "30fd338ee4d182a2",
@@ -645,12 +671,12 @@
       "app_name": "Whiteout Survival",
       "ad_network": "Facebook",
       "first_seen_at": "2025-10-12",
-      "last_seen_at": "2026-03-14",
+      "last_seen_at": "2026-03-15",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0713bda940972333/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0713bda940972333/preview",
       "duration_seconds": 57,
       "share": "<0.01%",
-      "rank": 20
+      "rank": 22
     },
     {
       "ad_id": "0f7727833cb0f839",
@@ -663,7 +689,7 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/000a204fa484858c/preview",
       "duration_seconds": 18,
       "share": "无数据",
-      "rank": 21
+      "rank": 23
     },
     {
       "ad_id": "4e59ab1bd6b0d1d7",
@@ -671,12 +697,12 @@
       "app_name": "Hero Wars: Alliance Fantasy",
       "ad_network": "Facebook",
       "first_seen_at": "2026-03-07",
-      "last_seen_at": "2026-03-14",
+      "last_seen_at": "2026-03-15",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0037ea52535ca609/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0037ea52535ca609/preview",
       "duration_seconds": 119,
       "share": "无数据",
-      "rank": 22
+      "rank": 24
     },
     {
       "ad_id": "16b583a7a105ca92",
@@ -689,7 +715,20 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/003d2e26d9d9bb9c/preview",
       "duration_seconds": 26,
       "share": "无数据",
-      "rank": 23
+      "rank": 25
+    },
+    {
+      "ad_id": "0f1f5f9b1f9ef0e4",
+      "app_id": "658ea0be1fc48c4dbb3065e6",
+      "app_name": "Last Z: Survival Shooter",
+      "ad_network": "Facebook",
+      "first_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0062585787aa8d51/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0062585787aa8d51/preview",
+      "duration_seconds": 47,
+      "share": "无数据",
+      "rank": 26
     },
     {
       "ad_id": "1600f74e6c09ee7c",
@@ -697,25 +736,25 @@
       "app_name": "Tiles Survive!",
       "ad_network": "Facebook",
       "first_seen_at": "2026-02-27",
-      "last_seen_at": "2026-03-12",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00885acf14d59f72/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00885acf14d59f72/preview",
       "duration_seconds": 58,
       "share": "无数据",
-      "rank": 24
+      "rank": 27
     },
     {
       "ad_id": "4d44944a72ffa4b2",
       "app_id": "698d49af6297762a8f53c7c2",
       "app_name": "Last Asylum: Plague",
       "ad_network": "Facebook",
-      "first_seen_at": "2026-03-15",
-      "last_seen_at": "2026-03-15",
+      "first_seen_at": "2026-03-09",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/008fa9e90bf25900/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/008fa9e90bf25900/preview",
       "duration_seconds": 53,
       "share": "无数据",
-      "rank": 25
+      "rank": 28
     },
     {
       "ad_id": "4c44cae04bb68536",
@@ -728,7 +767,7 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00d04486cf7f234a/preview",
       "duration_seconds": 19,
       "share": "无数据",
-      "rank": 26
+      "rank": 29
     },
     {
       "ad_id": "88eb4bf95161f7c7",
@@ -736,91 +775,52 @@
       "app_name": "Lords Mobile: Kingdom Wars",
       "ad_network": "Facebook",
       "first_seen_at": "2026-03-04",
-      "last_seen_at": "2026-03-14",
+      "last_seen_at": "2026-03-15",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00d1f9967f3f4ab6/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00d1f9967f3f4ab6/preview",
       "duration_seconds": 58,
-      "share": "无数据",
-      "rank": 27
-    },
-    {
-      "ad_id": "4e9ad36536946fd9",
-      "app_id": "58a5031adcbd16685d00ba8f",
-      "app_name": "Hero Wars: Alliance Fantasy",
-      "ad_network": "Facebook",
-      "first_seen_at": "2026-03-07",
-      "last_seen_at": "2026-03-14",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00f4922cb3781807/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00f4922cb3781807/preview",
-      "duration_seconds": 119,
-      "share": "无数据",
-      "rank": 28
-    },
-    {
-      "ad_id": "036d7e4c09e68b8d",
-      "app_id": "567a0aee0f1225ea0e006fe9",
-      "app_name": "Lords Mobile: Kingdom Wars",
-      "ad_network": "Facebook",
-      "first_seen_at": "2026-03-04",
-      "last_seen_at": "2026-03-09",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01263cdd14ed474f/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01263cdd14ed474f/preview",
-      "duration_seconds": 56,
-      "share": "无数据",
-      "rank": 29
-    },
-    {
-      "ad_id": "e2ee61e0a8ad45c5",
-      "app_id": "64075e77537c41636a8e1c58",
-      "app_name": "Last War:Survival",
-      "ad_network": "Facebook",
-      "first_seen_at": "2026-03-06",
-      "last_seen_at": "2026-03-12",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/012ab6759b48dd41/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/012ab6759b48dd41/preview",
-      "duration_seconds": 41,
       "share": "无数据",
       "rank": 30
     }
   ],
   "youtube": [
     {
+      "ad_id": "011102fc868c7d64",
+      "app_id": "63bd1e79e36abf4ca724dad2",
+      "app_name": "TopHeroes",
+      "ad_network": "Youtube",
+      "first_seen_at": "2025-10-24",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7bb65f0b9e1c711b/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7bb65f0b9e1c711b/preview",
+      "duration_seconds": 30,
+      "share": "13.07%",
+      "rank": 1
+    },
+    {
+      "ad_id": "26a88b0b93a9e2cd",
+      "app_id": "63bd1e79e36abf4ca724dad2",
+      "app_name": "TopHeroes",
+      "ad_network": "Youtube",
+      "first_seen_at": "2026-02-14",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/358820c6815616b8/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/358820c6815616b8/preview",
+      "duration_seconds": 32,
+      "share": "5.83%",
+      "rank": 2
+    },
+    {
       "ad_id": "12666160864b32b9",
       "app_id": "64075e77537c41636a8e1c58",
       "app_name": "Last War:Survival",
       "ad_network": "Youtube",
       "first_seen_at": "2026-01-21",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/25d1868393b810c7/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/25d1868393b810c7/preview",
       "duration_seconds": 42,
       "share": "2.48%",
-      "rank": 1
-    },
-    {
-      "ad_id": "01c82a2a4254f033",
-      "app_id": "6573c39d5c3b423d5d04560f",
-      "app_name": "Dark War:Survival",
-      "ad_network": "Youtube",
-      "first_seen_at": "2026-02-25",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/538766a76917e8d9/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/538766a76917e8d9/preview",
-      "duration_seconds": 41,
-      "share": "2.60%",
-      "rank": 2
-    },
-    {
-      "ad_id": "404389974e2645c3",
-      "app_id": "638ee532480da915a62f0b34",
-      "app_name": "Whiteout Survival",
-      "ad_network": "Youtube",
-      "first_seen_at": "2026-03-10",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d9e9debdda6a558/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d9e9debdda6a558/preview",
-      "duration_seconds": 82,
-      "share": "1.77%",
       "rank": 3
     },
     {
@@ -829,7 +829,7 @@
       "app_name": "Whiteout Survival",
       "ad_network": "Youtube",
       "first_seen_at": "2026-03-10",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/23fa5dc404720e1b/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/23fa5dc404720e1b/preview",
       "duration_seconds": 49,
@@ -837,17 +837,43 @@
       "rank": 4
     },
     {
+      "ad_id": "404389974e2645c3",
+      "app_id": "638ee532480da915a62f0b34",
+      "app_name": "Whiteout Survival",
+      "ad_network": "Youtube",
+      "first_seen_at": "2026-03-10",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d9e9debdda6a558/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0d9e9debdda6a558/preview",
+      "duration_seconds": 82,
+      "share": "1.77%",
+      "rank": 5
+    },
+    {
+      "ad_id": "01c82a2a4254f033",
+      "app_id": "6573c39d5c3b423d5d04560f",
+      "app_name": "Dark War:Survival",
+      "ad_network": "Youtube",
+      "first_seen_at": "2026-02-25",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/538766a76917e8d9/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/538766a76917e8d9/preview",
+      "duration_seconds": 41,
+      "share": "2.60%",
+      "rank": 6
+    },
+    {
       "ad_id": "0304291a335fbbb6",
       "app_id": "67bb93ed47b43a18952ffdfc",
       "app_name": "Kingshot",
       "ad_network": "Youtube",
       "first_seen_at": "2025-10-22",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e8da2c462841182/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e8da2c462841182/preview",
       "duration_seconds": 52,
       "share": "2.62%",
-      "rank": 5
+      "rank": 7
     },
     {
       "ad_id": "11058f1bcac52ec2",
@@ -855,25 +881,25 @@
       "app_name": "Last War:Survival",
       "ad_network": "Youtube",
       "first_seen_at": "2026-01-27",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/26b268f8df360cbc/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/26b268f8df360cbc/preview",
       "duration_seconds": 40,
       "share": "2.29%",
-      "rank": 6
+      "rank": 8
     },
     {
-      "ad_id": "5ec43433468792ee",
+      "ad_id": "29fe5f400f51cd5d",
       "app_id": "64075e77537c41636a8e1c58",
       "app_name": "Last War:Survival",
       "ad_network": "Youtube",
       "first_seen_at": "2026-03-02",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9fd6aafadccc1cb8/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9fd6aafadccc1cb8/preview",
       "duration_seconds": 59,
       "share": "无数据",
-      "rank": 7
+      "rank": 9
     },
     {
       "ad_id": "6b9d16227b7860db",
@@ -881,37 +907,11 @@
       "app_name": "Kingshot",
       "ad_network": "Youtube",
       "first_seen_at": "2026-02-05",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/76149dfc2aa3caef/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/76149dfc2aa3caef/preview",
       "duration_seconds": 58,
       "share": "1.81%",
-      "rank": 8
-    },
-    {
-      "ad_id": "21d0d10141bd6cc9",
-      "app_id": "67bb93ed47b43a18952ffdfc",
-      "app_name": "Kingshot",
-      "ad_network": "Youtube",
-      "first_seen_at": "2026-02-15",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/552cda73e2b318d6/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/552cda73e2b318d6/preview",
-      "duration_seconds": 24,
-      "share": "1.15%",
-      "rank": 9
-    },
-    {
-      "ad_id": "ff0ce43a48b68dc5",
-      "app_id": "638ee532480da915a62f0b34",
-      "app_name": "Whiteout Survival",
-      "ad_network": "Youtube",
-      "first_seen_at": "2026-01-16",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b2d1f046db366d5e/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b2d1f046db366d5e/preview",
-      "duration_seconds": 61,
-      "share": "1.34%",
       "rank": 10
     },
     {
@@ -920,7 +920,7 @@
       "app_name": "Kingshot",
       "ad_network": "Youtube",
       "first_seen_at": "2025-11-06",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5387864265a6889f/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5387864265a6889f/preview",
       "duration_seconds": 56,
@@ -928,16 +928,16 @@
       "rank": 11
     },
     {
-      "ad_id": "5555b8a21f30de4b",
-      "app_id": "64075e77537c41636a8e1c58",
-      "app_name": "Last War:Survival",
+      "ad_id": "21d0d10141bd6cc9",
+      "app_id": "67bb93ed47b43a18952ffdfc",
+      "app_name": "Kingshot",
       "ad_network": "Youtube",
-      "first_seen_at": "2026-02-16",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/62e25f410ac3fc35/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/62e25f410ac3fc35/preview",
-      "duration_seconds": 40,
-      "share": "1.09%",
+      "first_seen_at": "2026-02-15",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/552cda73e2b318d6/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/552cda73e2b318d6/preview",
+      "duration_seconds": 24,
+      "share": "1.15%",
       "rank": 12
     },
     {
@@ -946,7 +946,7 @@
       "app_name": "Kingshot",
       "ad_network": "Youtube",
       "first_seen_at": "2025-08-26",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ec1e1e900dcca1b0/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ec1e1e900dcca1b0/preview",
       "duration_seconds": 77,
@@ -954,17 +954,30 @@
       "rank": 13
     },
     {
-      "ad_id": "1df2eb3dadbf6a05",
-      "app_id": "67bb93ed47b43a18952ffdfc",
-      "app_name": "Kingshot",
+      "ad_id": "ff0ce43a48b68dc5",
+      "app_id": "638ee532480da915a62f0b34",
+      "app_name": "Whiteout Survival",
       "ad_network": "Youtube",
-      "first_seen_at": "2025-05-30",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02dbae9a0e5b0cd9/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02dbae9a0e5b0cd9/preview",
-      "duration_seconds": 12,
-      "share": "1.04%",
+      "first_seen_at": "2026-01-16",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b2d1f046db366d5e/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b2d1f046db366d5e/preview",
+      "duration_seconds": 61,
+      "share": "1.34%",
       "rank": 14
+    },
+    {
+      "ad_id": "15dfab86a7d2c7c0",
+      "app_id": "63bd1e79e36abf4ca724dad2",
+      "app_name": "TopHeroes",
+      "ad_network": "Youtube",
+      "first_seen_at": "2026-01-30",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/901ffb855d609209/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/901ffb855d609209/preview",
+      "duration_seconds": 37,
+      "share": "1.11%",
+      "rank": 15
     },
     {
       "ad_id": "00af21458394e677",
@@ -972,12 +985,38 @@
       "app_name": "Last War:Survival",
       "ad_network": "Youtube",
       "first_seen_at": "2025-12-16",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b687d4ff50093792/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b687d4ff50093792/preview",
       "duration_seconds": 51,
       "share": "1.00%",
-      "rank": 15
+      "rank": 16
+    },
+    {
+      "ad_id": "5555b8a21f30de4b",
+      "app_id": "64075e77537c41636a8e1c58",
+      "app_name": "Last War:Survival",
+      "ad_network": "Youtube",
+      "first_seen_at": "2026-02-16",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/62e25f410ac3fc35/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/62e25f410ac3fc35/preview",
+      "duration_seconds": 40,
+      "share": "1.09%",
+      "rank": 17
+    },
+    {
+      "ad_id": "1df2eb3dadbf6a05",
+      "app_id": "67bb93ed47b43a18952ffdfc",
+      "app_name": "Kingshot",
+      "ad_network": "Youtube",
+      "first_seen_at": "2025-05-30",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02dbae9a0e5b0cd9/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02dbae9a0e5b0cd9/preview",
+      "duration_seconds": 12,
+      "share": "1.04%",
+      "rank": 18
     },
     {
       "ad_id": "79804fe2301c2bf7",
@@ -985,12 +1024,12 @@
       "app_name": "Hero Wars: Alliance Fantasy",
       "ad_network": "Youtube",
       "first_seen_at": "2026-02-17",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d8a62696b4c21944/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d8a62696b4c21944/preview",
       "duration_seconds": 59,
       "share": "0.90%",
-      "rank": 16
+      "rank": 19
     },
     {
       "ad_id": "04b15a25eb20f61d",
@@ -998,12 +1037,64 @@
       "app_name": "Whiteout Survival",
       "ad_network": "Youtube",
       "first_seen_at": "2026-03-10",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8feb1e6adec8504a/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8feb1e6adec8504a/preview",
       "duration_seconds": 44,
       "share": "0.45%",
-      "rank": 17
+      "rank": 20
+    },
+    {
+      "ad_id": "5cd355be66a3e3db",
+      "app_id": "67bb93ed47b43a18952ffdfc",
+      "app_name": "Kingshot",
+      "ad_network": "Youtube",
+      "first_seen_at": "2025-05-04",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/415ade60377849ef/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/415ade60377849ef/preview",
+      "duration_seconds": 58,
+      "share": "0.76%",
+      "rank": 21
+    },
+    {
+      "ad_id": "0a03e771deef2c8c",
+      "app_id": "67d3aaff2c328ae8e547d0ef",
+      "app_name": "Tiles Survive!",
+      "ad_network": "Youtube",
+      "first_seen_at": "2025-12-19",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/42a257ff3e16d485/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/42a257ff3e16d485/preview",
+      "duration_seconds": 59,
+      "share": "0.36%",
+      "rank": 22
+    },
+    {
+      "ad_id": "4864a817880017ed",
+      "app_id": "67bb93ed47b43a18952ffdfc",
+      "app_name": "Kingshot",
+      "ad_network": "Youtube",
+      "first_seen_at": "2025-06-12",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/55ed23c9d9dbbdd9/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/55ed23c9d9dbbdd9/preview",
+      "duration_seconds": 165,
+      "share": "0.80%",
+      "rank": 23
+    },
+    {
+      "ad_id": "0f3bf264d0d2d983",
+      "app_id": "638ee532480da915a62f0b34",
+      "app_name": "Whiteout Survival",
+      "ad_network": "Youtube",
+      "first_seen_at": "2026-03-10",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68747d007f898d7b/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68747d007f898d7b/preview",
+      "duration_seconds": 104,
+      "share": "0.64%",
+      "rank": 24
     },
     {
       "ad_id": "a598ae66186c9e46",
@@ -1016,59 +1107,7 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ddee86943546c52f/preview",
       "duration_seconds": 50,
       "share": "0.97%",
-      "rank": 18
-    },
-    {
-      "ad_id": "0f3bf264d0d2d983",
-      "app_id": "638ee532480da915a62f0b34",
-      "app_name": "Whiteout Survival",
-      "ad_network": "Youtube",
-      "first_seen_at": "2026-03-10",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68747d007f898d7b/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/68747d007f898d7b/preview",
-      "duration_seconds": 104,
-      "share": "0.64%",
-      "rank": 19
-    },
-    {
-      "ad_id": "5cd355be66a3e3db",
-      "app_id": "67bb93ed47b43a18952ffdfc",
-      "app_name": "Kingshot",
-      "ad_network": "Youtube",
-      "first_seen_at": "2025-05-04",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/415ade60377849ef/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/415ade60377849ef/preview",
-      "duration_seconds": 58,
-      "share": "0.76%",
-      "rank": 20
-    },
-    {
-      "ad_id": "4864a817880017ed",
-      "app_id": "67bb93ed47b43a18952ffdfc",
-      "app_name": "Kingshot",
-      "ad_network": "Youtube",
-      "first_seen_at": "2025-06-12",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/55ed23c9d9dbbdd9/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/55ed23c9d9dbbdd9/preview",
-      "duration_seconds": 165,
-      "share": "0.80%",
-      "rank": 21
-    },
-    {
-      "ad_id": "669d2b2094764de3",
-      "app_id": "64075e77537c41636a8e1c58",
-      "app_name": "Last War:Survival",
-      "ad_network": "Youtube",
-      "first_seen_at": "2025-09-23",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6439b1b571c251c4/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6439b1b571c251c4/preview",
-      "duration_seconds": 49,
-      "share": "0.82%",
-      "rank": 22
+      "rank": 25
     },
     {
       "ad_id": "210c91af77554e57",
@@ -1076,12 +1115,12 @@
       "app_name": "Dark War:Survival",
       "ad_network": "Youtube",
       "first_seen_at": "2026-03-11",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fb52ea8b4b97d136/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fb52ea8b4b97d136/preview",
       "duration_seconds": 42,
       "share": "0.42%",
-      "rank": 23
+      "rank": 26
     },
     {
       "ad_id": "8e5615bdf09de7a2",
@@ -1089,12 +1128,25 @@
       "app_name": "Kingshot",
       "ad_network": "Youtube",
       "first_seen_at": "2025-05-14",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/93df9e63a1464d96/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/93df9e63a1464d96/preview",
       "duration_seconds": 39,
       "share": "0.72%",
-      "rank": 24
+      "rank": 27
+    },
+    {
+      "ad_id": "669d2b2094764de3",
+      "app_id": "64075e77537c41636a8e1c58",
+      "app_name": "Last War:Survival",
+      "ad_network": "Youtube",
+      "first_seen_at": "2025-09-23",
+      "last_seen_at": "2026-03-16",
+      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6439b1b571c251c4/media",
+      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6439b1b571c251c4/preview",
+      "duration_seconds": 49,
+      "share": "0.82%",
+      "rank": 28
     },
     {
       "ad_id": "0a12b32bf87b3e2f",
@@ -1102,25 +1154,12 @@
       "app_name": "Dark War:Survival",
       "ad_network": "Youtube",
       "first_seen_at": "2026-02-14",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fe1dca9e2ac3c4e1/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fe1dca9e2ac3c4e1/preview",
       "duration_seconds": 22,
       "share": "0.62%",
-      "rank": 25
-    },
-    {
-      "ad_id": "cc62f399ce656dff",
-      "app_id": "58a5031adcbd16685d00ba8f",
-      "app_name": "Hero Wars: Alliance Fantasy",
-      "ad_network": "Youtube",
-      "first_seen_at": "2026-03-10",
-      "last_seen_at": "2026-03-13",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6e386e245c7b43bd/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6e386e245c7b43bd/preview",
-      "duration_seconds": 59,
-      "share": "0.52%",
-      "rank": 26
+      "rank": 29
     },
     {
       "ad_id": "27b574c982121817",
@@ -1128,50 +1167,11 @@
       "app_name": "Kingshot",
       "ad_network": "Youtube",
       "first_seen_at": "2025-12-17",
-      "last_seen_at": "2026-03-15",
+      "last_seen_at": "2026-03-16",
       "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a3cff17d3c9b223/media",
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a3cff17d3c9b223/preview",
       "duration_seconds": 58,
       "share": "0.67%",
-      "rank": 27
-    },
-    {
-      "ad_id": "9aeae7ea25fb3857",
-      "app_id": "67bb93ed47b43a18952ffdfc",
-      "app_name": "Kingshot",
-      "ad_network": "Youtube",
-      "first_seen_at": "2025-05-23",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/87636c3474209263/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/87636c3474209263/preview",
-      "duration_seconds": 161,
-      "share": "0.62%",
-      "rank": 28
-    },
-    {
-      "ad_id": "249428530fdee2ed",
-      "app_id": "67bb93ed47b43a18952ffdfc",
-      "app_name": "Kingshot",
-      "ad_network": "Youtube",
-      "first_seen_at": "2026-01-08",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38e0f4692e494412/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/38e0f4692e494412/preview",
-      "duration_seconds": 57,
-      "share": "0.63%",
-      "rank": 29
-    },
-    {
-      "ad_id": "6292322ba85905ab",
-      "app_id": "638ee532480da915a62f0b34",
-      "app_name": "Whiteout Survival",
-      "ad_network": "Youtube",
-      "first_seen_at": "2025-12-03",
-      "last_seen_at": "2026-03-15",
-      "video_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3b2b74a169a6c8af/media",
-      "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3b2b74a169a6c8af/preview",
-      "duration_seconds": 79,
-      "share": "0.64%",
       "rank": 30
     }
   ],
@@ -1199,6 +1199,10 @@
     {
       "name": "Evony",
       "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c3/24/f5/c324f50e-408b-b6e9-2b7c-34e5477890ff/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/150x150bb.jpg"
+    },
+    {
+      "name": "TopHeroes",
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f2/82/61/f2826172-cba7-ea57-ff3a-2d2490e292b7/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/150x150bb.jpg"
     },
     {
       "name": "Whiteout Survival",

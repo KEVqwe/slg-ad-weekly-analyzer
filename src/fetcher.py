@@ -33,7 +33,7 @@ class SensorTowerFetcher:
             "Age of Empires Mobile",
             "Last Z: Survival Shooter",
             "Last Asylum",
-            "Top Heroes",
+            "TopHeroes",
         ]
 
     def fetch_top_30_slg_videos(self, cache_file: str = None) -> Dict[str, List[Dict[str, Any]]]:
