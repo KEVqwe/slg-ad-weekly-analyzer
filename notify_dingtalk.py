@@ -50,17 +50,17 @@ def send_dingtalk_notification(webhook_url: str, week_label: str, report_url: st
     today = datetime.now().strftime("%Y年%m月%d日")
 
     markdown_text = (
-        f"## 📊 北美SLG周报已更新\n\n"
+        f"## 北美SLG周报已更新\n\n"
         f"**{week_label}** 竞品视频广告周报已自动生成完毕，请查阅！\n\n"
-        f"📅 生成日期：{today}\n\n"
-        f"🔗 [点击查看最新周报]({report_url})\n\n"
+        f"生成日期：{today}\n\n"
+        f"[>> 点击查看最新周报]({report_url})\n\n"
         f"> 报告涵盖 Applovin / Facebook / YouTube 三大渠道 Top 30 SLG 视频广告的 AI 深度拆解与竞品分析。"
     )
 
     payload = {
         "msgtype": "markdown",
         "markdown": {
-            "title": f"📊 SLG周报更新 - {week_label}",
+            "title": f"SLG周报更新 - {week_label}",
             "text": markdown_text
         }
     }
