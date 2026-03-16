@@ -58,3 +58,11 @@ jobs:
           file_pattern: "archive/ index.html"
           commit_user_name: "github-actions[bot]"
           commit_user_email: "github-actions[bot]@users.noreply.github.com"
+
+      - name: 发送钉钉群通知 (Send DingTalk notification)
+        if: success()
+        env:
+          DINGTALK_WEBHOOK: ${{ secrets.DINGTALK_WEBHOOK }}
+          DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
+        run: |
+          python notify_dingtalk.py --week "${{ env.REPORT_WEEK }}"
