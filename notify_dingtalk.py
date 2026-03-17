@@ -20,6 +20,10 @@ import logging
 from datetime import datetime
 from urllib import request, error
 from urllib.parse import quote_plus
+from dotenv import load_dotenv
+
+# 加载 .env 环境变量
+load_dotenv()
 
 logging.basicConfig(
     level=logging.INFO,
