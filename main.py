@@ -16,7 +16,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 def main():
-    logger.info("Starting Weekly US SLG Top30 Video Ads Analysis Workflow...")
+    logger.info("Starting Weekly US SLG Top50 Video Ads Analysis Workflow...")
     
     # 1. Initialize Components (Using False for actual run, True for testing)
     USE_MOCK = False# Set to False in production
@@ -52,7 +52,7 @@ def main():
         
         # 2. Fetch Data (Step 2)
         logger.info("Step 2: Fetching Video Data...")
-        top_videos_dict = fetcher.fetch_top_30_slg_videos(cache_file=raw_data_filepath)
+        top_videos_dict = fetcher.fetch_top_50_slg_videos(cache_file=raw_data_filepath)
         if not top_videos_dict or (not top_videos_dict.get('applovin') and not top_videos_dict.get('facebook') and not top_videos_dict.get('youtube')):
             logger.error("No videos retrieved. Exiting workflow.")
             sys.exit(1)

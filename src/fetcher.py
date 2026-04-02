@@ -34,11 +34,12 @@ class SensorTowerFetcher:
             "Last Z: Survival Shooter",
             "Last Asylum",
             "TopHeroes",
+            "Lands of Jail",
         ]
 
-    def fetch_top_30_slg_videos(self, cache_file: str = None) -> Dict[str, List[Dict[str, Any]]]:
+    def fetch_top_50_slg_videos(self, cache_file: str = None) -> Dict[str, List[Dict[str, Any]]]:
         """
-        Fetches the top 30 SLG video ads from the last 7 days in the US, for Applovin and Facebook.
+        Fetches the top 50 SLG video ads from the last 7 days in the US, for Applovin and Facebook.
         If cache_file is provided and exists, it will load data from there to save API costs.
         """
         if cache_file and os.path.exists(cache_file):
@@ -49,18 +50,18 @@ class SensorTowerFetcher:
             except Exception as e:
                 logger.error(f"Failed to load cache from {cache_file}: {e}. Proceeding with API fetch.")
 
-        logger.info("Fetching Top 30 SLG Video Ads...")
+        logger.info("Fetching Top 50 SLG Video Ads...")
             
         try:
             return self._fetch_real_data()
         except Exception as e:
             logger.error(f"Failed to fetch real data: {e}. Falling back to mock data.")
-            return self._generate_mock_data(count=30)
+            return self._generate_mock_data(count=50)
             
     def _fetch_real_data(self) -> Dict[str, List[Dict[str, Any]]]:
         """
         Implementation to fetch real data from Sensor Tower API.
-        Queries the `/top` endpoint twice to get the Top 30 Applovin and Top 30 Facebook SLG videos.
+        Queries the `/top` endpoint twice to get the Top 50 Applovin and Top 50 Facebook SLG videos.
         Returns a dictionary with keys 'applovin' and 'facebook'.
         """
         # Calculate date range for the previous week (7 days ending the day before yesterday).
@@ -110,9 +111,9 @@ class SensorTowerFetcher:
         max_pages = 50 # Allow deep pagination since we are filtering from all categories
         current_page = 1
         
-        while len(target_ads) < 30 and current_page <= max_pages:
+        while len(target_ads) < 50 and current_page <= max_pages:
             params["page"] = current_page
-            logger.info(f"Fetching {network_name} Top page {current_page} (Current matching: {len(target_ads)}/30)...")
+            logger.info(f"Fetching {network_name} Top page {current_page} (Current matching: {len(target_ads)}/50)...")
             
             response = requests.get(top_endpoint, params=params)
             if response.status_code != 200:
@@ -126,7 +127,7 @@ class SensorTowerFetcher:
                 break # No more data available
             
             for unit in ad_units_top:
-                if len(target_ads) >= 30:
+                if len(target_ads) >= 50:
                     break
                     
                 app_info = unit.get("app_info", {})
@@ -170,8 +171,8 @@ class SensorTowerFetcher:
                         })
             current_page += 1
             
-        # Limit to top 30
-        final_top = target_ads[:30]
+        # Limit to top 50
+        final_top = target_ads[:50]
         
         # Second API call to get the exact shares among target apps
         # We need the app_ids of the target apps
@@ -187,8 +188,9 @@ class SensorTowerFetcher:
             "5869720d0211a6180f000ebc", # Evony                       ok 
             "68411dcfc0b33b442b5f2320", # Fate War                    ok
             "65d5c34346b00723e5e77ebd", # Age of Empires Mobile       ok
-            "698d49af6297762a8f53c7c2", # Last Asylum: Plague
-            "63bd1e79e36abf4ca724dad2", # Top Heroes
+            "698d49af6297762a8f53c7c2", # Last Asylum: Plague         ok
+            "63bd1e79e36abf4ca724dad2", # Top Heroes                  ok
+            "66ea6074d5bd69b363a04011", # Lands of Jail               ok
         ]
         
         if target_app_ids:
@@ -283,5 +285,5 @@ class SensorTowerFetcher:
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
     fetcher = SensorTowerFetcher(use_mock=True) # default to mock for direct file run testing
-    data = fetcher.fetch_top_30_slg_videos()
+    data = fetcher.fetch_top_50_slg_videos()
     print(json.dumps(data[:2], indent=2, ensure_ascii=False)) # Print first 2 for preview

@@ -1,10 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>美国 SLG 每周Top30 视频广告周报 - {{ report_date }}</title>
+    <title>美国 SLG 每周Top50 视频广告周报 - {{ report_date }}</title>
     <!-- Modern Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
@@ -428,6 +428,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 1.5rem;
+            align-content: start;
         }
 
         .analysis-item {
@@ -788,7 +789,7 @@
 <body>
     <div class="container">
         <header>
-            <h1>美国SLG每周Top30竞品视频监控分析报告</h1>
+            <h1>美国SLG每周Top50竞品视频监控分析报告</h1>
             <p class="subtitle">{{ report_date }}</p>
         </header>
 
@@ -844,7 +845,7 @@
         {% endif %}
 
         <section class="top-videos-section">
-            <h2 class="section-title">Top 30 素材单片拆解</h2>
+            <h2 class="section-title">Top 50 素材单片拆解</h2>
 
             <div class="channel-tabs">
                 <button class="tab-btn active" data-target="col-applovin">🔵 Applovin (SLG)</button>
@@ -922,6 +923,19 @@
                                         </div>
                                     </div>
                                     <div class="analysis-grid">
+                                        {% if item.analysis and item.analysis.video_script %}
+                                        <div class="analysis-item full-width" style="padding: 0; background: transparent; border: none; margin-bottom: -10px;">
+                                            <button class="tab-btn active"
+                                                style="width: 100%; padding: 0.75rem 1.5rem; font-size: 1rem; font-weight: 700; background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary)); border: none; color: white; border-radius: 8px; cursor: pointer; box-shadow: 0 0 15px rgba(59, 130, 246, 0.6); text-shadow: 1px 1px 2px rgba(0,0,0,0.3); transition: all 0.3s ease;"
+                                                onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 0 25px rgba(59, 130, 246, 0.8)';"
+                                                onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 15px rgba(59, 130, 246, 0.6)';"
+                                                data-script="{{ item.analysis.video_script | tojson | forceescape }}"
+                                                data-video-url="{{ item.video_url }}"
+                                                onclick="openStoryboardModal(event, this)">
+                                                🎬 查看互动分镜看板
+                                            </button>
+                                        </div>
+                                        {% endif %}
                                         <div class="analysis-item full-width">
                                             <div class="analysis-label">前 3 秒钩子设计</div>
                                             <p class="analysis-text">{{ item.analysis.hook_design if item.analysis else
@@ -948,17 +962,6 @@
                                                 item.analysis else '-' }}</p>
                                         </div>
                                     </div>
-                                    {% if item.analysis and item.analysis.video_script %}
-                                    <div style="margin-top: 15px; text-align: right;">
-                                        <button class="tab-btn active"
-                                            style="padding: 0.5rem 1rem; font-size: 0.9rem; background: var(--surface-hover); border: 1px solid var(--border-color); color: var(--text-primary);"
-                                            data-script="{{ item.analysis.video_script | tojson | forceescape }}"
-                                            data-video-url="{{ item.video_url }}"
-                                            onclick="openStoryboardModal(event, this)">
-                                            🎬 查看互动分镜看板
-                                        </button>
-                                    </div>
-                                    {% endif %}
                                 </div>
                             </div>
                         </div>
@@ -1034,6 +1037,19 @@
                                         </div>
                                     </div>
                                     <div class="analysis-grid">
+                                        {% if item.analysis and item.analysis.video_script %}
+                                        <div class="analysis-item full-width" style="padding: 0; background: transparent; border: none; margin-bottom: -10px;">
+                                            <button class="tab-btn active"
+                                                style="width: 100%; padding: 0.75rem 1.5rem; font-size: 1rem; font-weight: 700; background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary)); border: none; color: white; border-radius: 8px; cursor: pointer; box-shadow: 0 0 15px rgba(59, 130, 246, 0.6); text-shadow: 1px 1px 2px rgba(0,0,0,0.3); transition: all 0.3s ease;"
+                                                onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 0 25px rgba(59, 130, 246, 0.8)';"
+                                                onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 15px rgba(59, 130, 246, 0.6)';"
+                                                data-script="{{ item.analysis.video_script | tojson | forceescape }}"
+                                                data-video-url="{{ item.video_url }}"
+                                                onclick="openStoryboardModal(event, this)">
+                                                🎬 查看互动分镜看板
+                                            </button>
+                                        </div>
+                                        {% endif %}
                                         <div class="analysis-item full-width">
                                             <div class="analysis-label">前 3 秒钩子设计</div>
                                             <p class="analysis-text">{{ item.analysis.hook_design if item.analysis else
@@ -1060,17 +1076,6 @@
                                                 item.analysis else '-' }}</p>
                                         </div>
                                     </div>
-                                    {% if item.analysis and item.analysis.video_script %}
-                                    <div style="margin-top: 15px; text-align: right;">
-                                        <button class="tab-btn active"
-                                            style="padding: 0.5rem 1rem; font-size: 0.9rem; background: var(--surface-hover); border: 1px solid var(--border-color); color: var(--text-primary);"
-                                            data-script="{{ item.analysis.video_script | tojson | forceescape }}"
-                                            data-video-url="{{ item.video_url }}"
-                                            onclick="openStoryboardModal(event, this)">
-                                            🎬 查看互动分镜看板
-                                        </button>
-                                    </div>
-                                    {% endif %}
                                 </div>
                             </div>
                         </div>
@@ -1145,6 +1150,19 @@
                                         </div>
                                     </div>
                                     <div class="analysis-grid">
+                                        {% if item.analysis and item.analysis.video_script %}
+                                        <div class="analysis-item full-width" style="padding: 0; background: transparent; border: none; margin-bottom: -10px;">
+                                            <button class="tab-btn active"
+                                                style="width: 100%; padding: 0.75rem 1.5rem; font-size: 1rem; font-weight: 700; background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary)); border: none; color: white; border-radius: 8px; cursor: pointer; box-shadow: 0 0 15px rgba(59, 130, 246, 0.6); text-shadow: 1px 1px 2px rgba(0,0,0,0.3); transition: all 0.3s ease;"
+                                                onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 0 25px rgba(59, 130, 246, 0.8)';"
+                                                onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 15px rgba(59, 130, 246, 0.6)';"
+                                                data-script="{{ item.analysis.video_script | tojson | forceescape }}"
+                                                data-video-url="{{ item.video_url }}"
+                                                onclick="openStoryboardModal(event, this)">
+                                                🎬 查看互动分镜看板
+                                            </button>
+                                        </div>
+                                        {% endif %}
                                         <div class="analysis-item full-width">
                                             <div class="analysis-label">前 3 秒钩子设计</div>
                                             <p class="analysis-text">{{ item.analysis.hook_design if item.analysis else
@@ -1171,17 +1189,6 @@
                                                 item.analysis else '-' }}</p>
                                         </div>
                                     </div>
-                                    {% if item.analysis and item.analysis.video_script %}
-                                    <div style="margin-top: 15px; text-align: right;">
-                                        <button class="tab-btn active"
-                                            style="padding: 0.5rem 1rem; font-size: 0.9rem; background: var(--surface-hover); border: 1px solid var(--border-color); color: var(--text-primary);"
-                                            data-script="{{ item.analysis.video_script | tojson | forceescape }}"
-                                            data-video-url="{{ item.video_url }}"
-                                            onclick="openStoryboardModal(event, this)">
-                                            🎬 查看互动分镜看板
-                                        </button>
-                                    </div>
-                                    {% endif %}
                                 </div>
                             </div>
                         </div>
