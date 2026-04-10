@@ -42,6 +42,10 @@ pip install -r requirements.txt
 GEMINI_API_KEY=AIzaSy...或者sk-...
 SENSOR_TOWER_API_KEY=你的SensorTower密钥...
 REPORT_OUTPUT_DIR=reports
+
+# (可选) 钉钉群机器人通知配置
+DINGTALK_WEBHOOK=https://oapi.dingtalk.com/robot/send?access_token=...
+DINGTALK_SECRET=SEC...
 ```
 
 ### 3. 一键出大片
@@ -62,8 +66,9 @@ python main.py
 1. 在网页端登录你的 GitHub 仓库。
 2. 转到仓库的 **Settings (设置)** 工具栏。
 3. 在左侧面板的 **Security** 分类下找到 **Secrets and variables > Actions**。
-4. 建立名称为 `GEMINI_API_KEY` 和 `SENSOR_TOWER_API_KEY`（如有）的两个机密配置，并粘贴你的真实密钥。
-5. 下周一早晨醒来，直接前往仓库的 **Actions** 菜单栏，点击最新成功的运行记录，在屏幕最底部的 **Artifacts** 处直接下载并查阅新鲜出炉的网页报告包！
+4. 建立名称为 `GEMINI_API_KEY` 和 `SENSOR_TOWER_API_KEY`（如有）的机密配置，并粘贴你的真实密钥。
+5. （可选）如果你希望在周报生成后推送到钉钉群，请追加配置 `DINGTALK_WEBHOOK` 和 `DINGTALK_SECRET` 两个机密。
+6. 下周一早晨醒来，直接前往仓库的 **Actions** 菜单栏，点击最新成功的运行记录，在屏幕最底部的 **Artifacts** 处直接下载并查阅新鲜出炉的网页报告包！如果有配置钉钉机器人，也会自动向群里推送在线预览链接。
 
 ---
 
