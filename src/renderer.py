@@ -36,6 +36,18 @@ class ReportRenderer:
         start_date = end_date - timedelta(days=6)
         report_date = f"{start_date.strftime('%Y年%m月%d日')} - {end_date.strftime('%Y年%m月%d日')}"
         
+        # Collect all NEW creatives this week across all channels for the quick-view panel
+        new_items = []
+        for item in applovin_items:
+            if item.get('rank_trend') == 'new':
+                new_items.append({**item, 'channel_label': 'Applovin'})
+        for item in facebook_items:
+            if item.get('rank_trend') == 'new':
+                new_items.append({**item, 'channel_label': 'Facebook'})
+        for item in youtube_items:
+            if item.get('rank_trend') == 'new':
+                new_items.append({**item, 'channel_label': 'YouTube'})
+
         # Render the template
         html_content = self.template.render(
             report_date=report_date,
@@ -43,7 +55,8 @@ class ReportRenderer:
             applovin_items=applovin_items,
             facebook_items=facebook_items,
             youtube_items=youtube_items,
-            monitored_apps=monitored_apps or []
+            monitored_apps=monitored_apps or [],
+            new_items=new_items,
         )
         
         # Determine output filename: YYMMDD_weekly_report.html

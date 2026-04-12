@@ -11,7 +11,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6eee55b2a100f971/preview",
       "duration_seconds": 57,
       "share": "11.36%",
-      "rank": 1
+      "rank": 1,
+      "company": "趣加游戏"
     },
     {
       "ad_id": "8ea0b8947a1b5665",
@@ -24,7 +25,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/90dc5f55fbebc410/preview",
       "duration_seconds": 59,
       "share": "9.40%",
-      "rank": 2
+      "rank": 2,
+      "company": "Nexters"
     },
     {
       "ad_id": "201cc375211c6d18",
@@ -37,7 +39,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/88f0af6b2e7e9888/preview",
       "duration_seconds": 59,
       "share": "9.07%",
-      "rank": 3
+      "rank": 3,
+      "company": "点点互动"
     },
     {
       "ad_id": "a7a4b6e16ca42159",
@@ -50,7 +53,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b9d85120ed54b32c/preview",
       "duration_seconds": 59,
       "share": "9.85%",
-      "rank": 4
+      "rank": 4,
+      "company": "Nexters"
     },
     {
       "ad_id": "550f32355d35163e",
@@ -63,7 +67,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/df660cbb1a54acb8/preview",
       "duration_seconds": 59,
       "share": "5.42%",
-      "rank": 5
+      "rank": 5,
+      "company": "趣加游戏"
     },
     {
       "ad_id": "4766e59d2fab6f2c",
@@ -76,7 +81,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5429a6205821bfdc/preview",
       "duration_seconds": 58,
       "share": "3.52%",
-      "rank": 6
+      "rank": 6,
+      "company": "元趣娱乐"
     },
     {
       "ad_id": "26f7c5768d421fa0",
@@ -89,7 +95,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ac9efbf8ca23a526/preview",
       "duration_seconds": 58,
       "share": "3.44%",
-      "rank": 7
+      "rank": 7,
+      "company": "趣加游戏"
     },
     {
       "ad_id": "9543a8bbaa4337cd",
@@ -102,7 +109,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1f2a9635ed228d4b/preview",
       "duration_seconds": 59,
       "share": "3.33%",
-      "rank": 8
+      "rank": 8,
+      "company": "趣加游戏"
     },
     {
       "ad_id": "7703d75c84276186",
@@ -115,7 +123,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/644c94e1f3adb176/preview",
       "duration_seconds": 58,
       "share": "3.52%",
-      "rank": 9
+      "rank": 9,
+      "company": "元趣娱乐"
     },
     {
       "ad_id": "0913dea3e343c7d2",
@@ -128,7 +137,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/176f396262b355a7/preview",
       "duration_seconds": 59,
       "share": "2.61%",
-      "rank": 10
+      "rank": 10,
+      "company": "Nexters"
     },
     {
       "ad_id": "aefa2abf60261b8a",
@@ -141,7 +151,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/894c37d1cba4c05b/preview",
       "duration_seconds": 35,
       "share": "2.40%",
-      "rank": 11
+      "rank": 11,
+      "company": "IGG"
     },
     {
       "ad_id": "3a75bbb9acc38b52",
@@ -154,7 +165,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/24095c782d331927/preview",
       "duration_seconds": 59,
       "share": "1.84%",
-      "rank": 12
+      "rank": 12,
+      "company": "Nexters"
     },
     {
       "ad_id": "2df0517fdaab929a",
@@ -167,7 +179,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/851c3d61d5c9670a/preview",
       "duration_seconds": 59,
       "share": "1.86%",
-      "rank": 13
+      "rank": 13,
+      "company": "点点互动"
     },
     {
       "ad_id": "a32b98a73f53f5a9",
@@ -180,7 +193,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/849d85c994d12e78/preview",
       "duration_seconds": 59,
       "share": "1.21%",
-      "rank": 14
+      "rank": 14,
+      "company": "IGG"
     },
     {
       "ad_id": "4d973a08f9717aa6",
@@ -193,7 +207,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5ed879b58efbaa56/preview",
       "duration_seconds": 56,
       "share": "1.08%",
-      "rank": 15
+      "rank": 15,
+      "company": "元趣娱乐"
     },
     {
       "ad_id": "75c09a46a6a74c48",
@@ -206,7 +221,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/668fd9fbd12d9cb8/preview",
       "duration_seconds": 56,
       "share": "1.60%",
-      "rank": 16
+      "rank": 16,
+      "company": "元趣娱乐"
     },
     {
       "ad_id": "da8cab96235836a2",
@@ -219,7 +235,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/50e5951864398c24/preview",
       "duration_seconds": 59,
       "share": "0.71%",
-      "rank": 17
+      "rank": 17,
+      "company": "趣加游戏"
     },
     {
       "ad_id": "5a85316df390c843",
@@ -232,7 +249,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3cb5810f9716e7cf/preview",
       "duration_seconds": 58,
       "share": "0.91%",
-      "rank": 18
+      "rank": 18,
+      "company": "江娱互动"
     },
     {
       "ad_id": "d59af61971331119",
@@ -245,7 +263,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5ff3c8973652ab9f/preview",
       "duration_seconds": 59,
       "share": "0.85%",
-      "rank": 19
+      "rank": 19,
+      "company": "趣加游戏"
     },
     {
       "ad_id": "1b7ed18876ec4091",
@@ -258,7 +277,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/05023649f71cd2e4/preview",
       "duration_seconds": 59,
       "share": "1.01%",
-      "rank": 20
+      "rank": 20,
+      "company": "Nexters"
     },
     {
       "ad_id": "53e3d38ce9420c2b",
@@ -271,7 +291,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/40ac90319ec8dcdb/preview",
       "duration_seconds": 58,
       "share": "1.03%",
-      "rank": 21
+      "rank": 21,
+      "company": "元趣娱乐"
     },
     {
       "ad_id": "c8d01d52d07b6bc1",
@@ -284,7 +305,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/603c714cdf199e51/preview",
       "duration_seconds": 56,
       "share": "0.66%",
-      "rank": 22
+      "rank": 22,
+      "company": "点点互动"
     },
     {
       "ad_id": "3073b206561a5dac",
@@ -297,7 +319,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/592faba6cb3f8ac4/preview",
       "duration_seconds": 60,
       "share": "0.74%",
-      "rank": 23
+      "rank": 23,
+      "company": "Nexters"
     },
     {
       "ad_id": "03cc9a16a63b09cd",
@@ -310,7 +333,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ec4b03a34c3ee987/preview",
       "duration_seconds": 27,
       "share": "0.44%",
-      "rank": 24
+      "rank": 24,
+      "company": "三七互娱"
     },
     {
       "ad_id": "057a23e86264fc2e",
@@ -323,7 +347,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ad964ff66d0609be/preview",
       "duration_seconds": 54,
       "share": "0.61%",
-      "rank": 25
+      "rank": 25,
+      "company": "点点互动"
     },
     {
       "ad_id": "31ef8bd63516d528",
@@ -336,7 +361,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2f936c17b4e6475d/preview",
       "duration_seconds": 59,
       "share": "0.62%",
-      "rank": 26
+      "rank": 26,
+      "company": "Nexters"
     },
     {
       "ad_id": "d886101c4f77c8dc",
@@ -349,7 +375,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/da490837df30662a/preview",
       "duration_seconds": 22,
       "share": "0.80%",
-      "rank": 27
+      "rank": 27,
+      "company": "点点互动"
     },
     {
       "ad_id": "adc3100fb5e23e11",
@@ -362,7 +389,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/052f7c11ba80cb81/preview",
       "duration_seconds": 58,
       "share": "0.45%",
-      "rank": 28
+      "rank": 28,
+      "company": "点点互动"
     },
     {
       "ad_id": "de1e7136a43480bb",
@@ -375,7 +403,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/54774fb8e3553a3d/preview",
       "duration_seconds": 58,
       "share": "0.41%",
-      "rank": 29
+      "rank": 29,
+      "company": "趣加游戏"
     },
     {
       "ad_id": "d5b3a2a1487376ba",
@@ -388,7 +417,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c6fce11c3ff9a64a/preview",
       "duration_seconds": 58,
       "share": "0.37%",
-      "rank": 30
+      "rank": 30,
+      "company": "元趣娱乐"
     },
     {
       "ad_id": "c7f377c8ab94a84b",
@@ -401,7 +431,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6f1f1bd6a4f65ddb/preview",
       "duration_seconds": 56,
       "share": "0.46%",
-      "rank": 31
+      "rank": 31,
+      "company": "点点互动"
     },
     {
       "ad_id": "3e517b518197db91",
@@ -414,7 +445,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/19e7663f2a150040/preview",
       "duration_seconds": 51,
       "share": "0.49%",
-      "rank": 32
+      "rank": 32,
+      "company": "IGG"
     },
     {
       "ad_id": "d0ab905983eeaa68",
@@ -427,7 +459,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5ac2aed7c48f10ee/preview",
       "duration_seconds": 58,
       "share": "0.31%",
-      "rank": 33
+      "rank": 33,
+      "company": "趣加游戏"
     },
     {
       "ad_id": "13ec18fda97cacc9",
@@ -440,7 +473,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/112300d6393b023f/preview",
       "duration_seconds": 59,
       "share": "0.58%",
-      "rank": 34
+      "rank": 34,
+      "company": "点点互动"
     },
     {
       "ad_id": "560e94e70221bd49",
@@ -453,7 +487,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4541d75a75ab6db9/preview",
       "duration_seconds": 42,
       "share": "0.36%",
-      "rank": 35
+      "rank": 35,
+      "company": "元趣娱乐"
     },
     {
       "ad_id": "8c69e1a31e5efee3",
@@ -466,7 +501,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9f26a21e69d42e13/preview",
       "duration_seconds": 42,
       "share": "0.35%",
-      "rank": 36
+      "rank": 36,
+      "company": "元趣娱乐"
     },
     {
       "ad_id": "b270d428d56a7ac6",
@@ -479,7 +515,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/95c6c9467ee8a117/preview",
       "duration_seconds": 48,
       "share": "0.29%",
-      "rank": 37
+      "rank": 37,
+      "company": "IGG"
     },
     {
       "ad_id": "c0225121a78a532b",
@@ -492,7 +529,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d36d129cd00083db/preview",
       "duration_seconds": 58,
       "share": "0.31%",
-      "rank": 38
+      "rank": 38,
+      "company": "元趣娱乐"
     },
     {
       "ad_id": "daa462401e95b8ea",
@@ -505,7 +543,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/72480e5e11f74d7a/preview",
       "duration_seconds": 58,
       "share": "0.30%",
-      "rank": 39
+      "rank": 39,
+      "company": "点点互动"
     },
     {
       "ad_id": "f948211b0b9d8ce2",
@@ -518,7 +557,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fb8739309bda2214/preview",
       "duration_seconds": 47,
       "share": "0.22%",
-      "rank": 40
+      "rank": 40,
+      "company": "点点互动"
     },
     {
       "ad_id": "1bd3b6425d67d91d",
@@ -531,7 +571,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/191cae69cd2077eb/preview",
       "duration_seconds": 28,
       "share": "0.12%",
-      "rank": 41
+      "rank": 41,
+      "company": "点点互动"
     },
     {
       "ad_id": "a1791ab9642de75f",
@@ -544,7 +585,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4efe830c8e280715/preview",
       "duration_seconds": 53,
       "share": "0.14%",
-      "rank": 42
+      "rank": 42,
+      "company": "三七互娱"
     },
     {
       "ad_id": "f36cd14e340c59e8",
@@ -557,7 +599,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/34f5921a4d9e7d6c/preview",
       "duration_seconds": 59,
       "share": "0.11%",
-      "rank": 43
+      "rank": 43,
+      "company": "Florere Game"
     },
     {
       "ad_id": "2d372f4e40d4a130",
@@ -570,7 +613,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a75e11c007b51bb6/preview",
       "duration_seconds": 59,
       "share": "0.16%",
-      "rank": 44
+      "rank": 44,
+      "company": "趣加游戏"
     },
     {
       "ad_id": "95dbc95397c21cb5",
@@ -583,7 +627,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1fb2f7ddd0a3a633/preview",
       "duration_seconds": 58,
       "share": "0.24%",
-      "rank": 45
+      "rank": 45,
+      "company": "趣加游戏"
     },
     {
       "ad_id": "d01fe2c46cdf0027",
@@ -596,7 +641,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/78f38eda63bdf5b7/preview",
       "duration_seconds": 53,
       "share": "0.25%",
-      "rank": 46
+      "rank": 46,
+      "company": "点点互动"
     },
     {
       "ad_id": "437240ef0ad9b5c8",
@@ -609,7 +655,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/eb9e2cf105bb4058/preview",
       "duration_seconds": 44,
       "share": "0.10%",
-      "rank": 47
+      "rank": 47,
+      "company": "点点互动"
     },
     {
       "ad_id": "74f2bdd12547a84b",
@@ -622,7 +669,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/67bdfe6c52cd78bb/preview",
       "duration_seconds": 37,
       "share": "0.38%",
-      "rank": 48
+      "rank": 48,
+      "company": "元趣娱乐"
     },
     {
       "ad_id": "666ccf8e241bd55c",
@@ -635,7 +683,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/89eb563bce1e3516/preview",
       "duration_seconds": 58,
       "share": "0.04%",
-      "rank": 49
+      "rank": 49,
+      "company": "三七互娱"
     },
     {
       "ad_id": "d5a00bd37f7cb645",
@@ -648,7 +697,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d76f13f8ef3b18b3/preview",
       "duration_seconds": 45,
       "share": "0.15%",
-      "rank": 50
+      "rank": 50,
+      "company": "点点互动"
     }
   ],
   "facebook": [
@@ -663,7 +713,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/08e63c981554814a/preview",
       "duration_seconds": 67,
       "share": "43.34%",
-      "rank": 1
+      "rank": 1,
+      "company": "点点互动"
     },
     {
       "ad_id": "8d8d984d7fb5df9a",
@@ -676,7 +727,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/35fd6537d5ee416b/preview",
       "duration_seconds": 59,
       "share": "10.07%",
-      "rank": 2
+      "rank": 2,
+      "company": "趣加游戏"
     },
     {
       "ad_id": "53f3d0a3b014f171",
@@ -689,7 +741,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9cdcee7d82fbdd69/preview",
       "duration_seconds": 27,
       "share": "8.20%",
-      "rank": 3
+      "rank": 3,
+      "company": "元趣娱乐"
     },
     {
       "ad_id": "8ef5c49fbfd0db1e",
@@ -702,7 +755,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6d31130a8c35439a/preview",
       "duration_seconds": 34,
       "share": "6.91%",
-      "rank": 4
+      "rank": 4,
+      "company": "元趣娱乐"
     },
     {
       "ad_id": "dfc9eff217f3d92c",
@@ -715,7 +769,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/59bb1e33e9811572/preview",
       "duration_seconds": 119,
       "share": "无数据",
-      "rank": 5
+      "rank": 5,
+      "company": "Nexters"
     },
     {
       "ad_id": "ce08d9b6f796a0bd",
@@ -728,7 +783,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/99ce7dbf66582d13/preview",
       "duration_seconds": 49,
       "share": "2.98%",
-      "rank": 6
+      "rank": 6,
+      "company": "元趣娱乐"
     },
     {
       "ad_id": "bea6cd4114dced31",
@@ -741,7 +797,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2d4a3b35ae3e22d7/preview",
       "duration_seconds": 108,
       "share": "无数据",
-      "rank": 7
+      "rank": 7,
+      "company": "Nexters"
     },
     {
       "ad_id": "822642b4380f1933",
@@ -754,7 +811,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c6cc6a6fc59a606f/preview",
       "duration_seconds": 35,
       "share": "0.87%",
-      "rank": 8
+      "rank": 8,
+      "company": "元趣娱乐"
     },
     {
       "ad_id": "d63ce5aad375ba89",
@@ -767,7 +825,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/504e146b2d0776d7/preview",
       "duration_seconds": 119,
       "share": "无数据",
-      "rank": 9
+      "rank": 9,
+      "company": "Nexters"
     },
     {
       "ad_id": "0bf0f864394d7a1a",
@@ -780,7 +839,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ab2fce2db03716ca/preview",
       "duration_seconds": 33,
       "share": "1.30%",
-      "rank": 10
+      "rank": 10,
+      "company": "IGG"
     },
     {
       "ad_id": "da837f267a6a5a5a",
@@ -793,7 +853,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7fbb5cc615a9f2b0/preview",
       "duration_seconds": 59,
       "share": "0.66%",
-      "rank": 11
+      "rank": 11,
+      "company": "点点互动"
     },
     {
       "ad_id": "413d9adc65167905",
@@ -806,7 +867,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1371c3e5964e042a/preview",
       "duration_seconds": 53,
       "share": "0.74%",
-      "rank": 12
+      "rank": 12,
+      "company": "点点互动"
     },
     {
       "ad_id": "e466e77deb613a7b",
@@ -819,7 +881,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d79ed4a243c75aae/preview",
       "duration_seconds": 43,
       "share": "0.43%",
-      "rank": 13
+      "rank": 13,
+      "company": "IGG"
     },
     {
       "ad_id": "081455f4e6e2be6d",
@@ -832,7 +895,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/bcd1f8c2dd163766/preview",
       "duration_seconds": 25,
       "share": "0.73%",
-      "rank": 14
+      "rank": 14,
+      "company": "IGG"
     },
     {
       "ad_id": "de44d86cb7b842b3",
@@ -845,7 +909,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4da82e180d5a8d55/preview",
       "duration_seconds": 108,
       "share": "无数据",
-      "rank": 15
+      "rank": 15,
+      "company": "Nexters"
     },
     {
       "ad_id": "fb6ec8f25058ede6",
@@ -858,7 +923,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7d1c3933ae2a21b8/preview",
       "duration_seconds": 59,
       "share": "无数据",
-      "rank": 16
+      "rank": 16,
+      "company": "Nexters"
     },
     {
       "ad_id": "c8fdbf711578e834",
@@ -871,7 +937,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4e8f4eb0eb0a246a/preview",
       "duration_seconds": 119,
       "share": "无数据",
-      "rank": 17
+      "rank": 17,
+      "company": "Nexters"
     },
     {
       "ad_id": "8900c529b9417ebe",
@@ -884,7 +951,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6ac412bc8aa4e63a/preview",
       "duration_seconds": 55,
       "share": "0.11%",
-      "rank": 18
+      "rank": 18,
+      "company": "元趣娱乐"
     },
     {
       "ad_id": "496d53611400382c",
@@ -897,7 +965,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1013d820396237d2/preview",
       "duration_seconds": 59,
       "share": "<0.01%",
-      "rank": 19
+      "rank": 19,
+      "company": "点点互动"
     },
     {
       "ad_id": "9a264ef5e6fa74e8",
@@ -910,7 +979,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0e034f90bd3896ae/preview",
       "duration_seconds": 56,
       "share": "<0.01%",
-      "rank": 20
+      "rank": 20,
+      "company": "点点互动"
     },
     {
       "ad_id": "348f4503adc842c5",
@@ -923,7 +993,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0973ea6758b46ebe/preview",
       "duration_seconds": 57,
       "share": "<0.01%",
-      "rank": 21
+      "rank": 21,
+      "company": "点点互动"
     },
     {
       "ad_id": "1417c58f56566b64",
@@ -936,7 +1007,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4ca3ea17c5a2c520/preview",
       "duration_seconds": 84,
       "share": "<0.01%",
-      "rank": 22
+      "rank": 22,
+      "company": "点点互动"
     },
     {
       "ad_id": "2a09a1634ec45f8a",
@@ -949,7 +1021,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00067f89ae5364bd/preview",
       "duration_seconds": 60,
       "share": "无数据",
-      "rank": 23
+      "rank": 23,
+      "company": "IGG"
     },
     {
       "ad_id": "0f6ce399abb88a94",
@@ -962,7 +1035,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0011e455338cf721/preview",
       "duration_seconds": 50,
       "share": "无数据",
-      "rank": 24
+      "rank": 24,
+      "company": "Florere Game"
     },
     {
       "ad_id": "16bcbd9b2c78023d",
@@ -975,7 +1049,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0034101a54a47333/preview",
       "duration_seconds": 58,
       "share": "无数据",
-      "rank": 25
+      "rank": 25,
+      "company": "趣加游戏"
     },
     {
       "ad_id": "2a593831d700aabf",
@@ -988,7 +1063,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0056e6db37979188/preview",
       "duration_seconds": 53,
       "share": "无数据",
-      "rank": 26
+      "rank": 26,
+      "company": "IGG"
     },
     {
       "ad_id": "b834eade1448d54c",
@@ -1001,7 +1077,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0063ba1a4c28a2e1/preview",
       "duration_seconds": 33,
       "share": "无数据",
-      "rank": 27
+      "rank": 27,
+      "company": "IGG"
     },
     {
       "ad_id": "5480d63931470853",
@@ -1014,7 +1091,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00a08cd7d2e8c30a/preview",
       "duration_seconds": 37,
       "share": "无数据",
-      "rank": 28
+      "rank": 28,
+      "company": "三七互娱"
     },
     {
       "ad_id": "166faa7aad0b8983",
@@ -1027,7 +1105,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/00e707fbd5d7f88d/preview",
       "duration_seconds": 58,
       "share": "无数据",
-      "rank": 29
+      "rank": 29,
+      "company": "趣加游戏"
     },
     {
       "ad_id": "e2ee61e0a8ad45c5",
@@ -1040,7 +1119,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/012ab6759b48dd41/preview",
       "duration_seconds": 41,
       "share": "无数据",
-      "rank": 30
+      "rank": 30,
+      "company": "元趣娱乐"
     },
     {
       "ad_id": "e22c3eb7a5f8ce66",
@@ -1053,7 +1133,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01e8e922961d56e2/preview",
       "duration_seconds": 34,
       "share": "无数据",
-      "rank": 31
+      "rank": 31,
+      "company": "元趣娱乐"
     },
     {
       "ad_id": "53a79c6a44b1dba2",
@@ -1066,7 +1147,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/01ebc553b7e9a68d/preview",
       "duration_seconds": 60,
       "share": "无数据",
-      "rank": 32
+      "rank": 32,
+      "company": "点点互动"
     },
     {
       "ad_id": "90fb1763112e8693",
@@ -1079,7 +1161,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0239dc090f1b556a/preview",
       "duration_seconds": 59,
       "share": "无数据",
-      "rank": 33
+      "rank": 33,
+      "company": "点点互动"
     },
     {
       "ad_id": "1b3fe12c0c8bddd8",
@@ -1092,7 +1175,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/024d9302d431917d/preview",
       "duration_seconds": 56,
       "share": "无数据",
-      "rank": 34
+      "rank": 34,
+      "company": "IGG"
     },
     {
       "ad_id": "707c6279e0be8d85",
@@ -1105,7 +1189,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/025ad6f94f9197a2/preview",
       "duration_seconds": 56,
       "share": "无数据",
-      "rank": 35
+      "rank": 35,
+      "company": "点点互动"
     },
     {
       "ad_id": "0ed7df7095ffd85c",
@@ -1118,7 +1203,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0275eb6b7de605b0/preview",
       "duration_seconds": 59,
       "share": "无数据",
-      "rank": 36
+      "rank": 36,
+      "company": "益世界"
     },
     {
       "ad_id": "a515a6f44b2f004b",
@@ -1131,7 +1217,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/028c7d53a8a58269/preview",
       "duration_seconds": 28,
       "share": "无数据",
-      "rank": 37
+      "rank": 37,
+      "company": "江娱互动"
     },
     {
       "ad_id": "ba9d7f1d1a383285",
@@ -1144,7 +1231,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02ca2fd942584528/preview",
       "duration_seconds": 33,
       "share": "无数据",
-      "rank": 38
+      "rank": 38,
+      "company": "IGG"
     },
     {
       "ad_id": "1445b7542e166cc7",
@@ -1157,7 +1245,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02cd1ad556ca1dc9/preview",
       "duration_seconds": 41,
       "share": "无数据",
-      "rank": 39
+      "rank": 39,
+      "company": "趣加游戏"
     },
     {
       "ad_id": "bb6fc21bb90d796e",
@@ -1170,7 +1259,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/031f3f611356e79f/preview",
       "duration_seconds": 44,
       "share": "无数据",
-      "rank": 40
+      "rank": 40,
+      "company": "趣加游戏"
     },
     {
       "ad_id": "4eee8c39c8fd34f8",
@@ -1183,7 +1273,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0325b19ab1f0c94a/preview",
       "duration_seconds": 49,
       "share": "无数据",
-      "rank": 41
+      "rank": 41,
+      "company": "三七互娱"
     },
     {
       "ad_id": "b9d9c71394232417",
@@ -1196,7 +1287,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0355990f92eb8250/preview",
       "duration_seconds": 100,
       "share": "无数据",
-      "rank": 42
+      "rank": 42,
+      "company": "点点互动"
     },
     {
       "ad_id": "7f572e6697d53add",
@@ -1209,7 +1301,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/03ed4f85e3ca7efb/preview",
       "duration_seconds": 58,
       "share": "无数据",
-      "rank": 43
+      "rank": 43,
+      "company": "点点互动"
     },
     {
       "ad_id": "7f4724b2284183d1",
@@ -1222,7 +1315,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/03fd45515c5ec7f7/preview",
       "duration_seconds": 61,
       "share": "无数据",
-      "rank": 44
+      "rank": 44,
+      "company": "点点互动"
     },
     {
       "ad_id": "08b2cca86d0cf301",
@@ -1235,7 +1329,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0410f8b385152eed/preview",
       "duration_seconds": 57,
       "share": "无数据",
-      "rank": 45
+      "rank": 45,
+      "company": "益世界"
     },
     {
       "ad_id": "a3a7d853d119f672",
@@ -1248,7 +1343,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/043e03f432937450/preview",
       "duration_seconds": 34,
       "share": "无数据",
-      "rank": 46
+      "rank": 46,
+      "company": "江娱互动"
     },
     {
       "ad_id": "e7aecf93b1c4613b",
@@ -1261,7 +1357,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/046a18068221f9bf/preview",
       "duration_seconds": 32,
       "share": "无数据",
-      "rank": 47
+      "rank": 47,
+      "company": "元趣娱乐"
     },
     {
       "ad_id": "e7435c6e0344160d",
@@ -1274,7 +1371,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04878bfb30a18e89/preview",
       "duration_seconds": 50,
       "share": "无数据",
-      "rank": 48
+      "rank": 48,
+      "company": "元趣娱乐"
     },
     {
       "ad_id": "bce43790915c0667",
@@ -1287,7 +1385,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/0494caea3b079896/preview",
       "duration_seconds": 49,
       "share": "无数据",
-      "rank": 49
+      "rank": 49,
+      "company": "趣加游戏"
     },
     {
       "ad_id": "fe4fd908a82d6622",
@@ -1300,7 +1399,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/04d0fff4bfcd0d8e/preview",
       "duration_seconds": 59,
       "share": "无数据",
-      "rank": 50
+      "rank": 50,
+      "company": "点点互动"
     }
   ],
   "youtube": [
@@ -1315,7 +1415,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/538766a76917e8d9/preview",
       "duration_seconds": 41,
       "share": "7.67%",
-      "rank": 1
+      "rank": 1,
+      "company": "Florere Game"
     },
     {
       "ad_id": "6896f4c68ce3856e",
@@ -1328,7 +1429,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7bb65f0b9e1c711b/preview",
       "duration_seconds": 30,
       "share": "4.08%",
-      "rank": 2
+      "rank": 2,
+      "company": "江娱互动"
     },
     {
       "ad_id": "0a1ab4d486cef798",
@@ -1341,7 +1443,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5c3fb25d9b217c2f/preview",
       "duration_seconds": 22,
       "share": "4.24%",
-      "rank": 3
+      "rank": 3,
+      "company": "Florere Game"
     },
     {
       "ad_id": "09816b3eb3114fbd",
@@ -1354,7 +1457,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/22f0fac0d06ce296/preview",
       "duration_seconds": 71,
       "share": "1.87%",
-      "rank": 4
+      "rank": 4,
+      "company": "点点互动"
     },
     {
       "ad_id": "4d377101a0ec8c5c",
@@ -1367,7 +1471,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e438259ad802b6f5/preview",
       "duration_seconds": 60,
       "share": "无数据",
-      "rank": 5
+      "rank": 5,
+      "company": "点点互动"
     },
     {
       "ad_id": "0f8a788c913c10c8",
@@ -1380,7 +1485,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5387864265a6889f/preview",
       "duration_seconds": 56,
       "share": "2.92%",
-      "rank": 6
+      "rank": 6,
+      "company": "点点互动"
     },
     {
       "ad_id": "0304291a335fbbb6",
@@ -1393,7 +1499,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1e8da2c462841182/preview",
       "duration_seconds": 52,
       "share": "2.62%",
-      "rank": 7
+      "rank": 7,
+      "company": "点点互动"
     },
     {
       "ad_id": "0ffa7abc99ef0ffc",
@@ -1406,7 +1513,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/10d33f1b3a0b6920/preview",
       "duration_seconds": 56,
       "share": "2.09%",
-      "rank": 8
+      "rank": 8,
+      "company": "点点互动"
     },
     {
       "ad_id": "10bfdf2b0a0aaee8",
@@ -1419,7 +1527,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/1452311861fde46e/preview",
       "duration_seconds": 38,
       "share": "1.81%",
-      "rank": 9
+      "rank": 9,
+      "company": "江娱互动"
     },
     {
       "ad_id": "20c3be76b01f774c",
@@ -1432,7 +1541,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4704ecc03b4141f6/preview",
       "duration_seconds": 77,
       "share": "1.39%",
-      "rank": 10
+      "rank": 10,
+      "company": "点点互动"
     },
     {
       "ad_id": "004c9a41819440be",
@@ -1445,7 +1555,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c334ad00a05fc939/preview",
       "duration_seconds": 35,
       "share": "3.83%",
-      "rank": 11
+      "rank": 11,
+      "company": "元趣娱乐"
     },
     {
       "ad_id": "051f1dbbcdfb1ea0",
@@ -1458,7 +1569,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/4dedfb9c2c4e38b1/preview",
       "duration_seconds": 60,
       "share": "1.40%",
-      "rank": 12
+      "rank": 12,
+      "company": "点点互动"
     },
     {
       "ad_id": "51799c3f432c3d86",
@@ -1471,7 +1583,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2cc3a73607a91399/preview",
       "duration_seconds": 54,
       "share": "1.02%",
-      "rank": 13
+      "rank": 13,
+      "company": "江娱互动"
     },
     {
       "ad_id": "5979a3c393746fd7",
@@ -1484,7 +1597,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/d223e78ca69cc980/preview",
       "duration_seconds": 49,
       "share": "2.25%",
-      "rank": 14
+      "rank": 14,
+      "company": "点点互动"
     },
     {
       "ad_id": "16568118b65e504d",
@@ -1497,7 +1611,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/87636c3474209263/preview",
       "duration_seconds": 161,
       "share": "1.21%",
-      "rank": 15
+      "rank": 15,
+      "company": "点点互动"
     },
     {
       "ad_id": "26879c2fea6dd5ca",
@@ -1510,7 +1625,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/cc7a6d28272daa3b/preview",
       "duration_seconds": 58,
       "share": "1.17%",
-      "rank": 16
+      "rank": 16,
+      "company": "点点互动"
     },
     {
       "ad_id": "b3897583847ad333",
@@ -1523,7 +1639,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c55b20cddde6240b/preview",
       "duration_seconds": 74,
       "share": "0.44%",
-      "rank": 17
+      "rank": 17,
+      "company": "点点互动"
     },
     {
       "ad_id": "3f0cb943f692f883",
@@ -1536,7 +1653,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/76149dfc2aa3caef/preview",
       "duration_seconds": 58,
       "share": "无数据",
-      "rank": 18
+      "rank": 18,
+      "company": "点点互动"
     },
     {
       "ad_id": "7d2bf3bccfb2639e",
@@ -1549,7 +1667,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/ec1e1e900dcca1b0/preview",
       "duration_seconds": 77,
       "share": "1.08%",
-      "rank": 19
+      "rank": 19,
+      "company": "点点互动"
     },
     {
       "ad_id": "056a33a84db6b456",
@@ -1562,7 +1681,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2eb9994291b582b8/preview",
       "duration_seconds": 80,
       "share": "0.92%",
-      "rank": 20
+      "rank": 20,
+      "company": "点点互动"
     },
     {
       "ad_id": "51768657cc7f2ef4",
@@ -1575,7 +1695,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a32d1703fe649b3d/preview",
       "duration_seconds": 80,
       "share": "0.99%",
-      "rank": 21
+      "rank": 21,
+      "company": "点点互动"
     },
     {
       "ad_id": "5031e6a8aee5305a",
@@ -1588,7 +1709,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/44e6da930ae9fa12/preview",
       "duration_seconds": 57,
       "share": "无数据",
-      "rank": 22
+      "rank": 22,
+      "company": "点点互动"
     },
     {
       "ad_id": "812ed2b47ee1311d",
@@ -1601,7 +1723,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5d6b8deaf9d8e28f/preview",
       "duration_seconds": 25,
       "share": "0.73%",
-      "rank": 23
+      "rank": 23,
+      "company": "Florere Game"
     },
     {
       "ad_id": "993d66d5a368b69b",
@@ -1614,7 +1737,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/6ac1cc9cc4601194/preview",
       "duration_seconds": 5,
       "share": "0.92%",
-      "rank": 24
+      "rank": 24,
+      "company": "益世界"
     },
     {
       "ad_id": "5cd355be66a3e3db",
@@ -1627,7 +1751,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/415ade60377849ef/preview",
       "duration_seconds": 58,
       "share": "1.00%",
-      "rank": 25
+      "rank": 25,
+      "company": "点点互动"
     },
     {
       "ad_id": "96fa62ea0a252173",
@@ -1640,7 +1765,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8b73e9345bfe8b47/preview",
       "duration_seconds": 80,
       "share": "0.62%",
-      "rank": 26
+      "rank": 26,
+      "company": "点点互动"
     },
     {
       "ad_id": "8e5615bdf09de7a2",
@@ -1653,7 +1779,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/93df9e63a1464d96/preview",
       "duration_seconds": 39,
       "share": "0.77%",
-      "rank": 27
+      "rank": 27,
+      "company": "点点互动"
     },
     {
       "ad_id": "6292322ba85905ab",
@@ -1666,7 +1793,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3b2b74a169a6c8af/preview",
       "duration_seconds": 79,
       "share": "0.61%",
-      "rank": 28
+      "rank": 28,
+      "company": "点点互动"
     },
     {
       "ad_id": "65f45e5ba77a273e",
@@ -1679,7 +1807,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/97afcf0f956192f7/preview",
       "duration_seconds": 57,
       "share": "0.57%",
-      "rank": 29
+      "rank": 29,
+      "company": "点点互动"
     },
     {
       "ad_id": "1bf3e9b4db39970e",
@@ -1692,7 +1821,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/c235553f97cb382c/preview",
       "duration_seconds": 77,
       "share": "0.84%",
-      "rank": 30
+      "rank": 30,
+      "company": "点点互动"
     },
     {
       "ad_id": "10c31a482dcd466e",
@@ -1705,7 +1835,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/5d1e0e34be4da6f5/preview",
       "duration_seconds": 30,
       "share": "0.63%",
-      "rank": 31
+      "rank": 31,
+      "company": "点点互动"
     },
     {
       "ad_id": "655a9c620a02d79f",
@@ -1718,7 +1849,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fdf06ac9f8c63a7c/preview",
       "duration_seconds": 68,
       "share": "0.42%",
-      "rank": 32
+      "rank": 32,
+      "company": "点点互动"
     },
     {
       "ad_id": "41e125682ddf9fd6",
@@ -1731,7 +1863,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/7656c28b382cbda8/preview",
       "duration_seconds": 55,
       "share": "1.04%",
-      "rank": 33
+      "rank": 33,
+      "company": "元趣娱乐"
     },
     {
       "ad_id": "238466c2ef44e101",
@@ -1744,7 +1877,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/2eeaa67769060e6c/preview",
       "duration_seconds": 66,
       "share": "0.70%",
-      "rank": 34
+      "rank": 34,
+      "company": "点点互动"
     },
     {
       "ad_id": "3cc29443e9709cf7",
@@ -1757,7 +1891,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/b64b163aec9df281/preview",
       "duration_seconds": 35,
       "share": "0.32%",
-      "rank": 35
+      "rank": 35,
+      "company": "江娱互动"
     },
     {
       "ad_id": "f857d4c16c1bcfcb",
@@ -1770,7 +1905,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e5de5f1f3dc065ff/preview",
       "duration_seconds": 50,
       "share": "无数据",
-      "rank": 36
+      "rank": 36,
+      "company": "点点互动"
     },
     {
       "ad_id": "41d09f7d34df355b",
@@ -1783,7 +1919,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8e18d20f0f8e39fe/preview",
       "duration_seconds": 5,
       "share": "0.65%",
-      "rank": 37
+      "rank": 37,
+      "company": "益世界"
     },
     {
       "ad_id": "27b574c982121817",
@@ -1796,7 +1933,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3a3cff17d3c9b223/preview",
       "duration_seconds": 58,
       "share": "0.45%",
-      "rank": 38
+      "rank": 38,
+      "company": "点点互动"
     },
     {
       "ad_id": "05abea94ebed169a",
@@ -1809,7 +1947,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/8a93db2bcfd88c2f/preview",
       "duration_seconds": 22,
       "share": "0.67%",
-      "rank": 39
+      "rank": 39,
+      "company": "Florere Game"
     },
     {
       "ad_id": "2cec419e7f51d2f3",
@@ -1822,7 +1961,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/3165ca402e8a78c7/preview",
       "duration_seconds": 35,
       "share": "0.46%",
-      "rank": 40
+      "rank": 40,
+      "company": "点点互动"
     },
     {
       "ad_id": "b16b97de4f25513d",
@@ -1835,7 +1975,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/42973d97282df632/preview",
       "duration_seconds": 5,
       "share": "0.58%",
-      "rank": 41
+      "rank": 41,
+      "company": "益世界"
     },
     {
       "ad_id": "779a185330f727d8",
@@ -1848,7 +1989,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/e3a7d1af84db72b7/preview",
       "duration_seconds": 58,
       "share": "0.46%",
-      "rank": 42
+      "rank": 42,
+      "company": "点点互动"
     },
     {
       "ad_id": "599d6b5e40caaf8f",
@@ -1861,7 +2003,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/46b42ef9e32ec953/preview",
       "duration_seconds": 13,
       "share": "0.46%",
-      "rank": 43
+      "rank": 43,
+      "company": "点点互动"
     },
     {
       "ad_id": "084488a897cb95a6",
@@ -1874,7 +2017,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/239722424bc8a348/preview",
       "duration_seconds": 31,
       "share": "0.29%",
-      "rank": 44
+      "rank": 44,
+      "company": "点点互动"
     },
     {
       "ad_id": "210c91af77554e57",
@@ -1887,7 +2031,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/fb52ea8b4b97d136/preview",
       "duration_seconds": 42,
       "share": "无数据",
-      "rank": 45
+      "rank": 45,
+      "company": "Florere Game"
     },
     {
       "ad_id": "b534f171becfa484",
@@ -1900,7 +2045,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/a8bd7aafef140eb0/preview",
       "duration_seconds": 56,
       "share": "0.87%",
-      "rank": 46
+      "rank": 46,
+      "company": "点点互动"
     },
     {
       "ad_id": "1df2eb3dadbf6a05",
@@ -1913,7 +2059,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/02dbae9a0e5b0cd9/preview",
       "duration_seconds": 12,
       "share": "0.34%",
-      "rank": 47
+      "rank": 47,
+      "company": "点点互动"
     },
     {
       "ad_id": "4864a817880017ed",
@@ -1926,7 +2073,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/55ed23c9d9dbbdd9/preview",
       "duration_seconds": 165,
       "share": "0.42%",
-      "rank": 48
+      "rank": 48,
+      "company": "点点互动"
     },
     {
       "ad_id": "5ec43433468792ee",
@@ -1939,7 +2087,8 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/9fd6aafadccc1cb8/preview",
       "duration_seconds": 59,
       "share": "无数据",
-      "rank": 49
+      "rank": 49,
+      "company": "元趣娱乐"
     },
     {
       "ad_id": "1f14d5491bf2a3a6",
@@ -1952,57 +2101,70 @@
       "thumbnail_url": "https://x-ad-assets.s3.amazonaws.com/media_asset/09b4bda5a936cc13/preview",
       "duration_seconds": 41,
       "share": "0.31%",
-      "rank": 50
+      "rank": 50,
+      "company": "点点互动"
     }
   ],
   "monitored_apps": [
     {
       "name": "Tiles Survive!",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/4f/61/804f6139-d16c-0204-0994-557598839271/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/150x150bb.jpg"
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/4f/61/804f6139-d16c-0204-0994-557598839271/FPX_AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/150x150bb.jpg",
+      "company": "趣加游戏"
     },
     {
       "name": "Hero Wars: Alliance Fantasy",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7a/97/bf/7a97bf2c-711a-30d4-3880-3593394afff9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/150x150bb.jpg"
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7a/97/bf/7a97bf2c-711a-30d4-3880-3593394afff9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/150x150bb.jpg",
+      "company": "Nexters"
     },
     {
       "name": "Kingshot",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/18/8a/f6188a14-83a7-d226-6f1d-29a58fd2fc09/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/150x150bb.jpg"
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/18/8a/f6188a14-83a7-d226-6f1d-29a58fd2fc09/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/150x150bb.jpg",
+      "company": "点点互动"
     },
     {
       "name": "Last War:Survival",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/81/31/f7813105-200c-5db0-65a5-90b63c22f573/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/150x150bb.jpg"
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f7/81/31/f7813105-200c-5db0-65a5-90b63c22f573/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/150x150bb.jpg",
+      "company": "元趣娱乐"
     },
     {
       "name": "Lords Mobile: Kingdom Wars",
-      "icon_url": "https://play-lh.googleusercontent.com/9gTDGNC_Ly7dWNWcfZtnBKdIY8a9REzuWMCC89ycYugXGvWgAPDo4GgnyitrX2LpMqE-1yb_2CDFugre9QVKfg=s150"
+      "icon_url": "https://play-lh.googleusercontent.com/9gTDGNC_Ly7dWNWcfZtnBKdIY8a9REzuWMCC89ycYugXGvWgAPDo4GgnyitrX2LpMqE-1yb_2CDFugre9QVKfg=s150",
+      "company": "IGG"
     },
     {
       "name": "TopHeroes",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/9a/93/9b9a936f-beaf-4409-a14a-d35709104aa9/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/150x150bb.jpg"
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/9a/93/9b9a936f-beaf-4409-a14a-d35709104aa9/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/150x150bb.jpg",
+      "company": "江娱互动"
     },
     {
       "name": "Last Asylum: Plague",
-      "icon_url": "https://play-lh.googleusercontent.com/HOFXbIOJIZGru5_UM5hdGDmP7HIgxGJEx4dQAbPClmAtrNw3tVL9fY5NNHfa7VgIMFU-Sr3-s5FQGfaYJYhP=s150"
+      "icon_url": "https://play-lh.googleusercontent.com/HOFXbIOJIZGru5_UM5hdGDmP7HIgxGJEx4dQAbPClmAtrNw3tVL9fY5NNHfa7VgIMFU-Sr3-s5FQGfaYJYhP=s150",
+      "company": "三七互娱"
     },
     {
       "name": "Dark War:Survival",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/cc/9f/71cc9f33-a3a3-e55a-213b-27251a38bb13/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/150x150bb.jpg"
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/cc/9f/71cc9f33-a3a3-e55a-213b-27251a38bb13/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/150x150bb.jpg",
+      "company": "Florere Game"
     },
     {
       "name": "Whiteout Survival",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/89/b5/c789b534-e70c-212f-c21a-ed1b758177bf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/150x150bb.jpg"
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/89/b5/c789b534-e70c-212f-c21a-ed1b758177bf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/150x150bb.jpg",
+      "company": "点点互动"
     },
     {
       "name": "Fate War",
-      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/80/ad/ed80ad8b-9fa0-4fc3-709f-2ee854b916c0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/150x150bb.jpg"
+      "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/80/ad/ed80ad8b-9fa0-4fc3-709f-2ee854b916c0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/150x150bb.jpg",
+      "company": "IGG"
     },
     {
       "name": "Last Z: Survival Shooter",
-      "icon_url": "https://play-lh.googleusercontent.com/DVXTZpTR02_xoN1kOqnhOOuW9p1LiUHiu_Vw0xjzdu1SswhIbLp3OdV4x6skiarMGcE=s150"
+      "icon_url": "https://play-lh.googleusercontent.com/DVXTZpTR02_xoN1kOqnhOOuW9p1LiUHiu_Vw0xjzdu1SswhIbLp3OdV4x6skiarMGcE=s150",
+      "company": "Florere Game"
     },
     {
       "name": "Lands of Jail",
-      "icon_url": "https://play-lh.googleusercontent.com/Ms4UyzsEEE4kwdQb2EoAwovIFN4wOabxDtpjlD9jpnfI7WG00l3B4Ue7Katc1CbQ6vmTGNQomk1LewfY-tmPPes=s150"
+      "icon_url": "https://play-lh.googleusercontent.com/Ms4UyzsEEE4kwdQb2EoAwovIFN4wOabxDtpjlD9jpnfI7WG00l3B4Ue7Katc1CbQ6vmTGNQomk1LewfY-tmPPes=s150",
+      "company": "益世界"
     }
   ]
 }

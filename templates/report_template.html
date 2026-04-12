@@ -761,7 +761,6 @@
         /* Responsive */
         @media (max-width: 768px) {
 
-
             .content-inner {
                 grid-template-columns: 1fr;
             }
@@ -783,18 +782,348 @@
                 align-items: stretch;
             }
         }
+
+        /* ── Side Nav ─────────────────────────────────────────────── */
+        body { padding-left: 152px; }
+        .sticky-nav {
+            position: fixed;
+            top: 0; left: 0;
+            width: 152px;
+            height: 100vh;
+            z-index: 300;
+            background: rgba(12, 20, 38, 0.98);
+            backdrop-filter: blur(16px);
+            border-right: 1px solid var(--border-color);
+            padding: 1.75rem 0.85rem 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+            overflow-y: auto;
+            overflow-x: hidden;
+            box-sizing: border-box;
+        }
+        .sticky-nav::-webkit-scrollbar { width: 3px; }
+        .sticky-nav::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 2px; }
+        .sticky-nav .nav-brand {
+            font-weight: 800;
+            font-size: 1rem;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            padding-bottom: 1.1rem;
+            margin-bottom: 0.1rem;
+            border-bottom: 1px solid var(--border-color);
+            letter-spacing: 0.02em;
+        }
+        .sticky-nav .nav-link {
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.08);
+            color: var(--text-secondary);
+            font-size: 0.78rem;
+            padding: 0.45rem 0.7rem;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            line-height: 1.4;
+        }
+        .sticky-nav .nav-link:hover {
+            background: rgba(59,130,246,0.12);
+            color: var(--accent-primary);
+            border-color: rgba(59,130,246,0.4);
+        }
+        .sticky-nav .nav-sep {
+            height: 1px;
+            background: var(--border-color);
+            margin: 0.3rem 0;
+            opacity: 0.6;
+        }
+        .sticky-nav .nav-group-label {
+            font-size: 0.62rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--text-secondary);
+            opacity: 0.45;
+            text-align: left;
+            padding: 0 0.2rem;
+            margin-top: 0.2rem;
+        }
+
+        /* ── Company Badge ────────────────────────────────────────── */
+        .company-badge {
+            display: inline-block;
+            font-size: 0.68rem;
+            font-weight: 600;
+            padding: 2px 7px;
+            border-radius: 4px;
+            background: rgba(139,92,246,0.15);
+            color: #a78bfa;
+            border: 1px solid rgba(139,92,246,0.25);
+            vertical-align: middle;
+            margin-left: 8px;
+            letter-spacing: 0.3px;
+            white-space: nowrap;
+        }
+        .app-chip-info {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+        .company-label {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            line-height: 1;
+        }
+
+        /* ── Share Change ─────────────────────────────────────────── */
+        .share-change {
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 1px 5px;
+            border-radius: 3px;
+            margin-left: 4px;
+            vertical-align: middle;
+        }
+        .share-change.up   { color: #34d399; }
+        .share-change.down { color: #f87171; }
+
+        /* ── New Materials Section ────────────────────────────────── */
+        .new-materials-section {
+            max-width: 1400px;
+            margin: 0 auto 2.5rem auto;
+            background: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 1.75rem 2rem 1.5rem;
+            animation: fadeIn 1s ease-out 0.2s both;
+            box-sizing: border-box;
+        }
+        .new-materials-section h2 {
+            font-size: 1.5rem;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            cursor: pointer;
+            user-select: none;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s;
+        }
+        .new-materials-section h2:hover { color: var(--accent-primary); }
+        .new-materials-section.expanded h2 {
+            border-bottom-color: var(--border-color);
+            margin-bottom: 1.25rem;
+        }
+        .new-materials-section .toggle-icon { margin-left: auto; }
+        .new-materials-section.expanded .toggle-icon { transform: rotate(180deg); color: var(--accent-primary); }
+        .new-materials-grid {
+            display: none;
+        }
+        .new-materials-section.expanded .new-materials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+            gap: 0.9rem;
+            animation: fadeIn 0.3s ease-out;
+        }
+        .new-materials-count {
+            font-size: 0.82rem;
+            background: rgba(139,92,246,0.18);
+            color: #c084fc;
+            border: 1px solid rgba(139,92,246,0.3);
+            padding: 2px 10px;
+            border-radius: 20px;
+            font-weight: 600;
+        }
+        .new-materials-grid {
+            grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+            gap: 0.9rem;
+        }
+        .new-material-card {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.07);
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            transition: all 0.2s;
+            cursor: pointer;
+            position: relative;
+        }
+        .new-material-card:hover {
+            transform: translateY(-3px);
+            border-color: rgba(139,92,246,0.5);
+            box-shadow: 0 8px 20px rgba(139,92,246,0.15);
+        }
+        .new-material-card .jump-hint {
+            position: absolute;
+            inset: 0;
+            background: rgba(139,92,246,0.18);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.2s;
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: 0.5px;
+        }
+        .new-material-card:hover .jump-hint { opacity: 1; }
+        .new-material-thumb {
+            width: 100%;
+            aspect-ratio: 16/9;
+            object-fit: cover;
+            display: block;
+            background: #000;
+        }
+        .new-material-thumb-placeholder {
+            width: 100%;
+            aspect-ratio: 16/9;
+            background: #1e293b;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-secondary);
+            font-size: 2rem;
+        }
+        .new-material-info {
+            padding: 0.65rem 0.75rem 0.75rem;
+        }
+        .new-material-game {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-bottom: 0.35rem;
+        }
+        .new-material-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.35rem;
+            align-items: center;
+        }
+        .channel-tag {
+            font-size: 0.68rem;
+            font-weight: 700;
+            padding: 1px 6px;
+            border-radius: 3px;
+            color: #fff;
+        }
+        .channel-tag.applovin { background: #10b981; }
+        .channel-tag.facebook { background: #1877f2; }
+        .channel-tag.youtube  { background: #ef4444; }
+        .rank-tag {
+            background: rgba(245,158,11,0.15);
+            color: #fbbf24;
+            border: 1px solid rgba(245,158,11,0.3);
+            font-size: 0.68rem;
+            padding: 1px 6px;
+            border-radius: 3px;
+            font-weight: 700;
+        }
+        .meta-text {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+        }
+
+        /* ── Game Filter Bar ──────────────────────────────────────── */
+        .game-filter-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.45rem;
+            margin-bottom: 1.1rem;
+            padding: 0.65rem 0.9rem;
+            background: rgba(255,255,255,0.02);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-color);
+            align-items: center;
+        }
+        .game-filter-bar .filter-label {
+            font-size: 0.78rem;
+            color: var(--text-secondary);
+            font-weight: 600;
+            margin-right: 0.2rem;
+            white-space: nowrap;
+        }
+        .filter-chip {
+            font-size: 0.76rem;
+            padding: 3px 10px;
+            border-radius: 20px;
+            border: 1px solid var(--border-color);
+            background: rgba(255,255,255,0.04);
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+        .filter-chip:hover {
+            background: rgba(59,130,246,0.1);
+            color: var(--accent-primary);
+            border-color: rgba(59,130,246,0.4);
+        }
+        .filter-chip.active {
+            background: rgba(59,130,246,0.15);
+            color: var(--accent-primary);
+            border-color: var(--accent-primary);
+            font-weight: 600;
+        }
     </style>
 </head>
 
 <body>
+    <!-- Side Navigation -->
+    <nav class="sticky-nav" id="stickyNav">
+        <span class="nav-brand">SLG 周报</span>
+        <a class="nav-link" href="#section-new-materials">🆕 本周新素材</a>
+        <a class="nav-link" href="#section-strategy">竞品分析</a>
+        <div class="nav-sep"></div>
+        <span class="nav-group-label">Top 50 拆解</span>
+        <a class="nav-link" href="#section-top50" onclick="jumpToChannel('col-applovin')">🟢 Applovin</a>
+        <a class="nav-link" href="#section-top50" onclick="jumpToChannel('col-facebook')">🔵 Facebook</a>
+        <a class="nav-link" href="#section-top50" onclick="jumpToChannel('col-youtube')">🔴 YouTube</a>
+    </nav>
+
     <div class="container">
         <header>
             <h1>美国SLG每周Top50竞品视频监控分析报告</h1>
             <p class="subtitle">{{ report_date }}</p>
         </header>
 
+        {% if new_items %}
+        <section class="new-materials-section" id="section-new-materials">
+            <h2 onclick="toggleNewMaterials()">🆕 本周新上素材速览 <span class="new-materials-count">{{ new_items | length }} 条</span><div class="toggle-icon">▼</div></h2>
+            <div class="new-materials-grid">
+                {% for item in new_items %}
+                <div class="new-material-card"
+                     data-ad-id="{{ item.ad_id }}"
+                     data-channel="{{ item.channel_label | lower }}"
+                     onclick="jumpToAccordion('{{ item.ad_id }}', '{{ item.channel_label | lower }}')">
+                    <div class="jump-hint">▶ 查看完整分析</div>
+                    {% if item.thumbnail_url %}
+                    <img class="new-material-thumb" src="{{ item.thumbnail_url }}" alt="{{ item.app_name }}" loading="lazy">
+                    {% else %}
+                    <div class="new-material-thumb-placeholder">🎬</div>
+                    {% endif %}
+                    <div class="new-material-info">
+                        <div class="new-material-game">{{ item.app_name }}</div>
+                        <div class="new-material-meta">
+                            <span class="channel-tag {{ item.channel_label | lower }}">{{ item.channel_label }}</span>
+                            <span class="rank-tag">#{{ item.rank }}</span>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+
         {% if monitored_apps %}
-        <section class="monitored-apps-section">
+        <section class="monitored-apps-section" id="section-strategy">
             <h2>👀 核心竞品本周专案分析 (点击图标查看)</h2>
             <div class="apps-flex-container">
                 {% for app in monitored_apps %}
@@ -807,7 +1136,10 @@
                         style="background:var(--accent-primary); display:flex; align-items:center; justify-content:center; color:#fff; font-weight:bold;">
                         ?</div>
                     {% endif %}
-                    <span class="app-name">{{ app.name }}</span>
+                    <div class="app-chip-info">
+                        <span class="app-name">{{ app.name }}</span>
+                        {% if app.company %}<span class="company-label">{{ app.company }}</span>{% endif %}
+                    </div>
                 </div>
                 {% endfor %}
             </div>
@@ -844,11 +1176,11 @@
 
         {% endif %}
 
-        <section class="top-videos-section">
+        <section class="top-videos-section" id="section-top50">
             <h2 class="section-title">Top 50 素材单片拆解</h2>
 
             <div class="channel-tabs">
-                <button class="tab-btn active" data-target="col-applovin">🔵 Applovin (SLG)</button>
+                <button class="tab-btn active" data-target="col-applovin">🟢 Applovin (SLG)</button>
                 <button class="tab-btn" data-target="col-facebook">🔵 Facebook (SLG)</button>
                 <button class="tab-btn" data-target="col-youtube">🔴 YouTube (SLG)</button>
             </div>
@@ -859,7 +1191,7 @@
                 <div class="channel-column active-tab" id="col-applovin">
                     <div class="accordion">
                         {% for item in applovin_items %}
-                        <div class="accordion-item">
+                        <div class="accordion-item" data-game="{{ item.app_name }}" data-ad-id="{{ item.ad_id }}">
                             <div class="accordion-header" onclick="toggleAccordion(this)">
                                 <div class="header-content">
                                     <div
@@ -878,6 +1210,7 @@
                                                 {% else %}
                                                 <span class="rank-trend trend-same">-</span>
                                                 {% endif %}
+                                            {% if item.company %}<span class="company-badge">{{ item.company }}</span>{% endif %}
                                         </h3>
                                         <div class="metrics"
                                             style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 5px;">
@@ -892,7 +1225,7 @@
                                                     }}s</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
                                                     style="color: var(--text-primary);">{% if item.share %}{{ item.share
-                                                    }}{% else %}未知{% endif %}</strong></span>
+                                                    }}{% else %}未知{% endif %}</strong>{% if item.share_change %}<span class="share-change {{ item.share_change_dir }}">{{ item.share_change }}</span>{% endif %}</span>
                                         </div>
                                     </div>
                                 </div>
@@ -973,7 +1306,7 @@
                 <div class="channel-column" id="col-facebook">
                     <div class="accordion">
                         {% for item in facebook_items %}
-                        <div class="accordion-item">
+                        <div class="accordion-item" data-game="{{ item.app_name }}" data-ad-id="{{ item.ad_id }}">
                             <div class="accordion-header" onclick="toggleAccordion(this)">
                                 <div class="header-content">
                                     <div
@@ -992,6 +1325,7 @@
                                                 {% else %}
                                                 <span class="rank-trend trend-same">-</span>
                                                 {% endif %}
+                                            {% if item.company %}<span class="company-badge">{{ item.company }}</span>{% endif %}
                                         </h3>
                                         <div class="metrics"
                                             style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 5px;">
@@ -1006,7 +1340,7 @@
                                                     }}s</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
                                                     style="color: var(--text-primary);">{% if item.share %}{{ item.share
-                                                    }}{% else %}未知{% endif %}</strong></span>
+                                                    }}{% else %}未知{% endif %}</strong>{% if item.share_change %}<span class="share-change {{ item.share_change_dir }}">{{ item.share_change }}</span>{% endif %}</span>
                                         </div>
                                     </div>
                                 </div>
@@ -1087,7 +1421,7 @@
                 <div class="channel-column" id="col-youtube">
                     <div class="accordion">
                         {% for item in youtube_items %}
-                        <div class="accordion-item">
+                        <div class="accordion-item" data-game="{{ item.app_name }}" data-ad-id="{{ item.ad_id }}">
                             <div class="accordion-header" onclick="toggleAccordion(this)">
                                 <div class="header-content">
                                     <div
@@ -1106,6 +1440,7 @@
                                                 {% else %}
                                                 <span class="rank-trend trend-same">-</span>
                                                 {% endif %}
+                                            {% if item.company %}<span class="company-badge">{{ item.company }}</span>{% endif %}
                                         </h3>
                                         <div class="metrics"
                                             style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 5px;">
@@ -1120,7 +1455,7 @@
                                                     }}s</strong></span>
                                             <span style="display:inline-block;">曝光份额: <strong
                                                     style="color: var(--text-primary);">{% if item.share %}{{ item.share
-                                                    }}{% else %}未知{% endif %}</strong></span>
+                                                    }}{% else %}未知{% endif %}</strong>{% if item.share_change %}<span class="share-change {{ item.share_change_dir }}">{{ item.share_change }}</span>{% endif %}</span>
                                         </div>
                                     </div>
                                 </div>
@@ -1445,6 +1780,114 @@
                 closeStoryboardModal();
             }
         });
+
+
+        function jumpToChannel(channelId) {
+            document.querySelectorAll('.channel-tabs .tab-btn').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.channel-column').forEach(c => c.classList.remove('active-tab'));
+            const btn = document.querySelector(`.channel-tabs .tab-btn[data-target="${channelId}"]`);
+            const col = document.getElementById(channelId);
+            if (btn) btn.classList.add('active');
+            if (col) col.classList.add('active-tab');
+        }
+
+        // ── Game Filter Chips (built dynamically from DOM) ────────────
+        function buildGameFilterBars() {
+            ['applovin', 'facebook', 'youtube'].forEach(channel => {
+                const col = document.getElementById(`col-${channel}`);
+                if (!col) return;
+                const items = Array.from(col.querySelectorAll('.accordion-item[data-game]'));
+                const games = [...new Set(items.map(i => i.dataset.game))];
+                if (games.length <= 1) return; // no need to filter if only one game
+
+                const bar = document.createElement('div');
+                bar.className = 'game-filter-bar';
+                bar.id = `filter-bar-${channel}`;
+
+                const label = document.createElement('span');
+                label.className = 'filter-label';
+                label.textContent = '按游戏筛选:';
+                bar.appendChild(label);
+
+                // "全部" chip
+                const allChip = document.createElement('span');
+                allChip.className = 'filter-chip active';
+                allChip.textContent = `全部 (${items.length})`;
+                allChip.addEventListener('click', () => filterChannel(channel, null, allChip));
+                bar.appendChild(allChip);
+
+                // Per-game chips
+                games.forEach(game => {
+                    const count = items.filter(i => i.dataset.game === game).length;
+                    const chip = document.createElement('span');
+                    chip.className = 'filter-chip';
+                    chip.textContent = `${game} (${count})`;
+                    chip.addEventListener('click', () => filterChannel(channel, game, chip));
+                    bar.appendChild(chip);
+                });
+
+                const accordion = col.querySelector('.accordion');
+                col.insertBefore(bar, accordion);
+            });
+        }
+
+        function filterChannel(channelId, gameName, clickedChip) {
+            const col = document.getElementById(`col-${channelId}`);
+            const bar = document.getElementById(`filter-bar-${channelId}`);
+            if (!col || !bar) return;
+
+            bar.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+            clickedChip.classList.add('active');
+
+            col.querySelectorAll('.accordion-item').forEach(item => {
+                const match = !gameName || item.dataset.game === gameName;
+                item.style.display = match ? '' : 'none';
+                // Collapse hidden items
+                if (!match && item.classList.contains('active')) {
+                    item.classList.remove('active');
+                    const content = item.querySelector('.accordion-content');
+                    if (content) content.style.maxHeight = null;
+                    item.querySelectorAll('video').forEach(v => v.pause());
+                }
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', buildGameFilterBars);
+
+        // ── New Materials toggle ───────────────────────────────────────
+        function toggleNewMaterials() {
+            document.getElementById('section-new-materials').classList.toggle('expanded');
+        }
+
+        // ── Jump from new-material card to accordion item ─────────────
+        function jumpToAccordion(adId, channelLabel) {
+            // 1. Switch to the correct channel tab
+            jumpToChannel('col-' + channelLabel);
+
+            // 2. Find the matching accordion item by ad-id
+            const col = document.getElementById('col-' + channelLabel);
+            if (!col) return;
+            const target = col.querySelector(`.accordion-item[data-ad-id="${adId}"]`);
+            if (!target) return;
+
+            // 3. Reset any active game filter so the item is visible
+            const bar = document.getElementById('filter-bar-' + channelLabel);
+            if (bar) {
+                const allChip = bar.querySelector('.filter-chip');
+                if (allChip) filterChannel(channelLabel, null, allChip);
+            }
+
+            // 4. Expand the accordion item
+            if (!target.classList.contains('active')) {
+                const header = target.querySelector('.accordion-header');
+                if (header) toggleAccordion(header);
+            }
+
+            // 5. Scroll to item with a small delay to let the expand animation start
+            setTimeout(() => {
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 80);
+        }
         // Script downloading functionality
         function downloadScriptCsv(event, btn) {
             if (event) event.stopPropagation(); // Prevent the accordion from toggling when the button is clicked

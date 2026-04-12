@@ -19,7 +19,7 @@ def main():
     logger.info("Starting Weekly US SLG Top50 Video Ads Analysis Workflow...")
     
     # 1. Initialize Components (Using False for actual run, True for testing)
-    USE_MOCK = False# Set to False in production
+    USE_MOCK = False  # Set to False in production
     if USE_MOCK:
          logger.warning("Running in MOCK mode. Connecting algorithms but avoiding API costs.")
 
@@ -57,6 +57,14 @@ def main():
             logger.error("No videos retrieved. Exiting workflow.")
             sys.exit(1)
             
+        # Re-apply company names from the latest APP_COMPANY_MAP so cached data
+        # always reflects any updates to the mapping (cache stores stale names otherwise)
+        for network in ['applovin', 'facebook', 'youtube']:
+            for video in top_videos_dict.get(network, []):
+                video['company'] = fetcher._get_company(video.get('app_name', ''))
+        for app in top_videos_dict.get('monitored_apps', []):
+            app['company'] = fetcher._get_company(app.get('name', ''))
+
         # Archive the raw SensorTower data
         try:
             with open(raw_data_filepath, 'w', encoding='utf-8') as f:
@@ -77,6 +85,7 @@ def main():
             return dirs
             
         previous_week_ranks = {}
+        previous_week_shares = {}
         all_archives = get_all_week_archives()
         # Find the most recent archive that is NOT the current week
         prev_archive_dir = None
@@ -84,7 +93,7 @@ def main():
             if d != archive_dir_name:
                 prev_archive_dir = d
                 break
-                
+
         if prev_archive_dir:
             logger.info(f"Cross-referencing ranks with previous week: {prev_archive_dir}")
             prev_data_path = os.path.join("archive", prev_archive_dir, "raw_sensortower_data.json")
@@ -95,22 +104,53 @@ def main():
                         for network in ['applovin', 'facebook', 'youtube']:
                             for item in prev_data.get(network, []):
                                 previous_week_ranks[item['ad_id']] = item['rank']
+                                previous_week_shares[item['ad_id']] = item.get('share')
                 except Exception as e:
                     logger.warning(f"Failed to load previous week data: {e}")
         else:
             logger.info("No previous week archive found for rank comparison.")
-            
+
+        def _parse_share_float(share_str):
+            """Parse a formatted share string like '1.23%' or '<0.01%' into a float."""
+            if not share_str or share_str in ("无数据", "未知"):
+                return None
+            s = str(share_str).strip()
+            if s.startswith("<"):
+                return 0.0
+            try:
+                return float(s.rstrip('%'))
+            except (ValueError, AttributeError):
+                return None
+
         def calculate_rank_change(video: dict):
             ad_id = video.get('ad_id')
             current_rank = video.get('rank')
             if ad_id in previous_week_ranks:
                 prev_rank = previous_week_ranks[ad_id]
-                change = prev_rank - current_rank # e.g. prev 5, current 3 -> +2 (up)
+                change = prev_rank - current_rank  # e.g. prev 5, current 3 -> +2 (up)
                 video['rank_change'] = change
                 video['rank_trend'] = "up" if change > 0 else ("down" if change < 0 else "same")
             else:
                 video['rank_change'] = "NEW"
                 video['rank_trend'] = "new"
+
+            # Calculate week-over-week share change
+            prev_share = _parse_share_float(previous_week_shares.get(ad_id))
+            curr_share = _parse_share_float(video.get('share'))
+            if prev_share is not None and curr_share is not None:
+                diff = curr_share - prev_share
+                if diff >= 0.01:
+                    video['share_change'] = f"+{diff:.2f}%"
+                    video['share_change_dir'] = 'up'
+                elif diff <= -0.01:
+                    video['share_change'] = f"{diff:.2f}%"
+                    video['share_change_dir'] = 'down'
+                else:
+                    video['share_change'] = None
+                    video['share_change_dir'] = None
+            else:
+                video['share_change'] = None
+                video['share_change_dir'] = None
         
         applovin_videos = top_videos_dict.get('applovin', [])
         for v in applovin_videos: 

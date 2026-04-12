@@ -12,7 +12,27 @@ logger = logging.getLogger(__name__)
 
 class SensorTowerFetcher:
     """Fetcher for retrieving Top 30 video ads data."""
-    
+
+    # Mapping from lowercase search key to publisher company name.
+    # Keys are substrings matched against the app name (case-insensitive).
+    # Note: verify / update if any publisher info changes.
+    APP_COMPANY_MAP = {
+        "kingshot":            "点点互动",
+        "whiteout survival":   "点点互动",
+        "dark war":            "Florere Game",
+        "lords mobile":        "IGG",
+        "last war":            "元趣娱乐",
+        "tiles survive":       "趣加游戏",
+        "hero wars":           "Nexters",
+        "evony":               "Top Games",
+        "fate war":            "IGG",
+        "age of empires":      "腾讯天美",
+        "last z":              "Florere Game",
+        "last asylum":         "三七互娱",
+        "topheroes":           "江娱互动",
+        "lands of jail":       "益世界",
+    }
+
     def __init__(self, use_mock: bool = False):
         self.use_mock = use_mock
         if not use_mock and not SENSOR_TOWER_API_KEY:
@@ -22,20 +42,28 @@ class SensorTowerFetcher:
 
         self.base_url = "https://api.sensortower.com/v1"
         self.target_apps = [
-            "kingshot", 
-            "Whiteout Survival", 
-            "Dark War:Survival", 
-            "Lords Mobile: Kingdom wars", 
-            "Last War:Survival", "Tiles Survive", 
-            "Hero Wars: Alliance Fantasy", 
-            "Evony", 
-            "Fate War", 
+            "kingshot",
+            "Whiteout Survival",
+            "Dark War:Survival",
+            "Lords Mobile: Kingdom wars",
+            "Last War:Survival", "Tiles Survive",
+            "Hero Wars: Alliance Fantasy",
+            "Evony",
+            "Fate War",
             "Age of Empires Mobile",
             "Last Z: Survival Shooter",
             "Last Asylum",
             "TopHeroes",
             "Lands of Jail",
         ]
+
+    def _get_company(self, app_name: str) -> str:
+        """Return the publisher company name for a given app name."""
+        name_lower = app_name.lower()
+        for key, company in self.APP_COMPANY_MAP.items():
+            if key in name_lower:
+                return company
+        return ""
 
     def fetch_top_50_slg_videos(self, cache_file: str = None) -> Dict[str, List[Dict[str, Any]]]:
         """
@@ -136,13 +164,15 @@ class SensorTowerFetcher:
                 
                 # Check if this creative belongs to one of our target apps
                 is_target = any(target.lower() in app_name.lower() for target in self.target_apps)
+                company = self._get_company(app_name) if is_target else ""
                 if is_target:
                     if monitored_apps is not None and app_name not in monitored_apps:
                         monitored_apps[app_name] = {
                             "name": app_name,
-                            "icon_url": app_info.get("icon_url", "")
+                            "icon_url": app_info.get("icon_url", ""),
+                            "company": company,
                         }
-                        
+
                 if is_target and ad_id and ad_id not in seen_ad_ids:
                     seen_ad_ids.add(ad_id)
                     
@@ -160,14 +190,15 @@ class SensorTowerFetcher:
                         target_ads.append({
                             "ad_id": ad_id,
                             "app_id": unified_app_id,
-                            "app_name": app_name, 
+                            "app_name": app_name,
+                            "company": company,
                             "ad_network": network_name,
                             "first_seen_at": unit.get("first_seen_at", "未知")[:10],
                             "last_seen_at": unit.get("last_seen_at", "未知")[:10],
                             "video_url": video_url,
                             "thumbnail_url": first_creative.get("preview_url") or first_creative.get("thumb_url", ""),
                             "duration_seconds": first_creative.get("video_duration", 0),
-                            "share": 0 # Default, will be updated via second API call
+                            "share": 0  # Default, will be updated via second API call
                         })
             current_page += 1
             
@@ -265,6 +296,7 @@ class SensorTowerFetcher:
                  mock_data.append({
                      "rank": i,
                      "app_name": game_name,
+                     "company": self._get_company(game_name),
                      "ad_network": network,
                      "first_seen_at": "2026-02-01",
                      "last_seen_at": "2026-02-25",

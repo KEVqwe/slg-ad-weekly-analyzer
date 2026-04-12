@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/c/Users/TU/miniconda3/python -c \"import jinja2, pydantic, requests; print\\('deps ok'\\)\")",
+      "Bash(/c/Users/TU/miniconda3/python -m pip install jinja2 pydantic requests google-genai python-dotenv -q)",
+      "Bash(/c/Users/TU/miniconda3/python main.py)"
+    ]
+  }
+}

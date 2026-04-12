@@ -1,13 +1,7 @@
 name: Git Push Notification
 
 on:
-  push:
-    branches:
-      - main
-    # 避免在自动归档时触发重复通知
-    paths-ignore:
-      - 'archive/**'
-      - 'index.html'
+  workflow_dispatch:
 
 jobs:
   notify:
