@@ -79,7 +79,7 @@ def format_report_payload(week_label: str, report_url: str) -> dict:
         f"**{week_label}** 竞品视频广告周报已自动生成完毕，请查阅！\n\n"
         f"生成日期：{today}\n\n"
         f"[>> 点击查看最新周报]({report_url})\n\n"
-        f"> 报告涵盖 Applovin / Facebook / YouTube 三大渠道 Top 30 SLG 视频广告的 AI 深度拆解与竞品分析。"
+        f"> 报告涵盖 Applovin / Facebook / YouTube 三大渠道 Top 50 SLG 视频广告的 AI 深度拆解与竞品分析。"
     )
     return {
         "msgtype": "markdown",
