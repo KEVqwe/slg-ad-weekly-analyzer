@@ -7,6 +7,14 @@
     <title>美国 SLG 每周Top50 视频广告周报 - {{ report_date }}</title>
     <!-- Modern Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NE6KDD604R"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-NE6KDD604R');
+    </script>
     <style>
         :root {
             --bg-color: #0f172a;
@@ -1583,6 +1591,12 @@
 
             if (item.classList.contains('active')) {
                 content.style.maxHeight = content.scrollHeight + "px";
+                // GA4: track video expand
+                const adId = item.getAttribute('data-ad-id') || '';
+                const game = item.getAttribute('data-game') || '';
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'video_expand', { ad_id: adId, game_name: game });
+                }
             } else {
                 content.style.maxHeight = null;
             }
@@ -1606,6 +1620,10 @@
                     const targetCol = document.getElementById(targetId);
                     if (targetCol) {
                         targetCol.classList.add('active-tab');
+                    }
+                    // GA4: track tab switch
+                    if (typeof gtag !== 'undefined') {
+                        gtag('event', 'tab_switch', { channel: targetId });
                     }
                 });
             });
@@ -1683,6 +1701,12 @@
             // Show Modal & Play Video
             storyboardModal.classList.add('show');
             storyboardVideo.play().catch(e => console.log("Auto-play prevented:", e));
+            // GA4: track storyboard open
+            if (typeof gtag !== 'undefined') {
+                const adId = btnElement.getAttribute('data-ad-id') || btnElement.closest('.accordion-item')?.getAttribute('data-ad-id') || '';
+                const game = btnElement.closest('.accordion-item')?.getAttribute('data-game') || '';
+                gtag('event', 'storyboard_open', { ad_id: adId, game_name: game });
+            }
         }
 
         function closeStoryboardModal() {
@@ -1838,6 +1862,10 @@
 
             bar.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
             clickedChip.classList.add('active');
+            // GA4: track game filter
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'game_filter', { channel: channelId, game_name: gameName || '全部' });
+            }
 
             col.querySelectorAll('.accordion-item').forEach(item => {
                 const match = !gameName || item.dataset.game === gameName;
@@ -1856,11 +1884,20 @@
 
         // ── New Materials toggle ───────────────────────────────────────
         function toggleNewMaterials() {
-            document.getElementById('section-new-materials').classList.toggle('expanded');
+            const section = document.getElementById('section-new-materials');
+            section.classList.toggle('expanded');
+            // GA4: track new materials expand/collapse
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'new_materials_expand', { expanded: section.classList.contains('expanded') });
+            }
         }
 
         // ── Jump from new-material card to accordion item ─────────────
         function jumpToAccordion(adId, channelLabel) {
+            // GA4: track new material card click
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'new_material_click', { ad_id: adId, channel: channelLabel });
+            }
             // 1. Switch to the correct channel tab
             jumpToChannel('col-' + channelLabel);
 
