@@ -31,6 +31,7 @@ class SensorTowerFetcher:
         "last asylum":         "三七互娱",
         "topheroes":           "江娱互动",
         "lands of jail":       "益世界",
+        "age of origins":      "Camel Games",
     }
 
     def __init__(self, use_mock: bool = False):
@@ -55,6 +56,7 @@ class SensorTowerFetcher:
             "Last Asylum",
             "TopHeroes",
             "Lands of Jail",
+            "Age of Origins",
         ]
 
     def _get_company(self, app_name: str) -> str:
@@ -222,6 +224,7 @@ class SensorTowerFetcher:
             "698d49af6297762a8f53c7c2", # Last Asylum: Plague         ok
             "63bd1e79e36abf4ca724dad2", # Top Heroes                  ok
             "66ea6074d5bd69b363a04011", # Lands of Jail               ok
+            # "TODO",                   # Age of Origins              需从 Sensor Tower 确认 app_id
         ]
         
         if target_app_ids:
