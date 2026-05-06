@@ -212,6 +212,14 @@ def main():
     <meta charset="UTF-8">
     <title>北美 SLG 视频广告最新周报</title>
     <meta http-equiv="refresh" content="0; url={redirect_url}">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NE6KDD604R"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){{dataLayer.push(arguments);}}
+      gtag('js', new Date());
+      gtag('config', 'G-NE6KDD604R');
+    </script>
 </head>
 <body style="font-family: sans-serif; padding: 20px;">
     <p>正在跳转到最新一周报告，如果没有自动跳转，请<a href="{redirect_url}">点击这里</a>。</p>
