@@ -23,7 +23,6 @@ class SensorTowerFetcher:
         "lords mobile":        "IGG",
         "last war":            "元趣娱乐",
         "tiles survive":       "趣加游戏",
-        "hero wars":           "Nexters",
         "evony":               "Top Games",
         "fate war":            "IGG",
         "last z":              "Florere Game",
@@ -48,7 +47,6 @@ class SensorTowerFetcher:
             "Lords Mobile: Kingdom wars",
             "Last War:Survival", 
             "Tiles Survive",
-            "Hero Wars: Alliance Fantasy",
             "Evony",
             "Fate War",
             "Last Z: Survival Shooter",
@@ -215,14 +213,13 @@ class SensorTowerFetcher:
             "567a0aee0f1225ea0e006fe9", # Lords Mobile: Kingdom wars  ok
             "64075e77537c41636a8e1c58", # Last War:Survival           ok         
             "67d3aaff2c328ae8e547d0ef", # Tiles Survive               ok  
-            "58a5031adcbd16685d00ba8f", # Hero Wars: Alliance Fantasy ok
             "658ea0be1fc48c4dbb3065e6", # Last Z: Survival Shooter    ok
             "5869720d0211a6180f000ebc", # Evony                       ok 
             "68411dcfc0b33b442b5f2320", # Fate War                    ok
             "698d49af6297762a8f53c7c2", # Last Asylum: Plague         ok
             "63bd1e79e36abf4ca724dad2", # Top Heroes                  ok
             "66ea6074d5bd69b363a04011", # Lands of Jail               ok
-            # "TODO",                   # Age of Origins              需从 Sensor Tower 确认 app_id
+            "5ba1a19def71a76da561ca41", # Age of Origins              ok
         ]
         
         if target_app_ids:
