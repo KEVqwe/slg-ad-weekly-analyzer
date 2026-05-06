@@ -26,12 +26,11 @@ class SensorTowerFetcher:
         "hero wars":           "Nexters",
         "evony":               "Top Games",
         "fate war":            "IGG",
-        "age of empires":      "腾讯天美",
         "last z":              "Florere Game",
         "last asylum":         "三七互娱",
         "topheroes":           "江娱互动",
         "lands of jail":       "益世界",
-        "age of origins":      "Camel Games",
+        "age of origins":      "壳木游戏",
     }
 
     def __init__(self, use_mock: bool = False):
@@ -47,11 +46,11 @@ class SensorTowerFetcher:
             "Whiteout Survival",
             "Dark War:Survival",
             "Lords Mobile: Kingdom wars",
-            "Last War:Survival", "Tiles Survive",
+            "Last War:Survival", 
+            "Tiles Survive",
             "Hero Wars: Alliance Fantasy",
             "Evony",
             "Fate War",
-            "Age of Empires Mobile",
             "Last Z: Survival Shooter",
             "Last Asylum",
             "TopHeroes",
@@ -220,7 +219,6 @@ class SensorTowerFetcher:
             "658ea0be1fc48c4dbb3065e6", # Last Z: Survival Shooter    ok
             "5869720d0211a6180f000ebc", # Evony                       ok 
             "68411dcfc0b33b442b5f2320", # Fate War                    ok
-            "65d5c34346b00723e5e77ebd", # Age of Empires Mobile       ok
             "698d49af6297762a8f53c7c2", # Last Asylum: Plague         ok
             "63bd1e79e36abf4ca724dad2", # Top Heroes                  ok
             "66ea6074d5bd69b363a04011", # Lands of Jail               ok
