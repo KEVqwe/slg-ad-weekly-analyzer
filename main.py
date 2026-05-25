@@ -1,3 +1,4 @@
+import argparse
 import logging
 import os
 import sys
@@ -16,8 +17,13 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 def main():
+    parser = argparse.ArgumentParser(description='SLG Weekly Ad Report Generator')
+    parser.add_argument('--week', type=str, default=None,
+                        help='指定要处理的周，格式 YYYY_WNN（如 2026_W18）。若不指定则使用当前周。')
+    args = parser.parse_args()
+
     logger.info("Starting Weekly US SLG Top50 Video Ads Analysis Workflow...")
-    
+
     # 1. Initialize Components (Using False for actual run, True for testing)
     USE_MOCK = False  # Set to False in production
     if USE_MOCK:
@@ -25,8 +31,12 @@ def main():
 
     try:
         # Generate week-based archive directory
-        year, week, _ = datetime.now().isocalendar()
-        archive_dir_name = f"{year}_W{week:02d}"
+        if args.week:
+            archive_dir_name = args.week
+            logger.info(f"📅 手动指定周: {archive_dir_name}")
+        else:
+            year, week, _ = datetime.now().isocalendar()
+            archive_dir_name = f"{year}_W{week:02d}"
         archive_dir_path = os.path.join("archive", archive_dir_name)
         
         # Ensure the archive directory exists
