@@ -965,6 +965,13 @@
             border-color: rgba(139,92,246,0.5);
             box-shadow: 0 8px 20px rgba(139,92,246,0.15);
         }
+        .new-material-card.dimmed {
+            filter: grayscale(100%) brightness(0.45);
+            transform: none !important;
+            box-shadow: none !important;
+            border-color: transparent !important;
+            pointer-events: none;
+        }
         .new-material-card .jump-hint {
             position: absolute;
             inset: 0;
@@ -1950,7 +1957,9 @@
             bar.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
             clickedChip.classList.add('active');
             document.querySelectorAll('#new-materials-grid .new-material-card').forEach(card => {
-                card.style.display = (!gameName || card.dataset.game === gameName) ? '' : 'none';
+                const match = !gameName || card.dataset.game === gameName;
+                card.classList.toggle('dimmed', !match);
+                card.style.pointerEvents = match ? '' : 'none';
             });
         }
 
