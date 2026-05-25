@@ -1039,6 +1039,22 @@
             color: var(--text-secondary);
         }
 
+        /* ── New Materials Filter Bar ────────────────────────────── */
+        .new-materials-filter-bar {
+            display: none;
+            flex-wrap: wrap;
+            gap: 0.45rem;
+            margin-bottom: 1.1rem;
+            padding: 0.65rem 0.9rem;
+            background: rgba(255,255,255,0.02);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-color);
+            align-items: center;
+        }
+        .new-materials-section.expanded .new-materials-filter-bar {
+            display: flex;
+        }
+
         /* ── Game Filter Bar ──────────────────────────────────────── */
         .game-filter-bar {
             display: flex;
@@ -1105,11 +1121,13 @@
         {% if new_items %}
         <section class="new-materials-section" id="section-new-materials">
             <h2 onclick="toggleNewMaterials()">🆕 本周新上素材速览 <span class="new-materials-count">{{ new_items | length }} 条</span><div class="toggle-icon">▼</div></h2>
-            <div class="new-materials-grid">
+            <div class="new-materials-filter-bar" id="new-materials-filter-bar"></div>
+            <div class="new-materials-grid" id="new-materials-grid">
                 {% for item in new_items %}
                 <div class="new-material-card"
                      data-ad-id="{{ item.ad_id }}"
                      data-channel="{{ item.channel_label | lower }}"
+                     data-game="{{ item.app_name }}"
                      onclick="jumpToAccordion('{{ item.ad_id }}', '{{ item.channel_label | lower }}')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     {% if item.thumbnail_url %}
@@ -1886,10 +1904,54 @@
         function toggleNewMaterials() {
             const section = document.getElementById('section-new-materials');
             section.classList.toggle('expanded');
+            if (section.classList.contains('expanded')) {
+                buildNewMaterialsFilterBar();
+            }
             // GA4: track new materials expand/collapse
             if (typeof gtag !== 'undefined') {
                 gtag('event', 'new_materials_expand', { expanded: section.classList.contains('expanded') });
             }
+        }
+
+        // ── New Materials game filter ──────────────────────────────────
+        function buildNewMaterialsFilterBar() {
+            const bar = document.getElementById('new-materials-filter-bar');
+            if (!bar || bar.dataset.built) return; // only build once
+            bar.dataset.built = '1';
+
+            const cards = Array.from(document.querySelectorAll('#new-materials-grid .new-material-card'));
+            const games = [...new Set(cards.map(c => c.dataset.game).filter(Boolean))];
+            if (games.length <= 1) return; // no need if only one game
+
+            const label = document.createElement('span');
+            label.className = 'filter-label';
+            label.textContent = '按游戏筛选:';
+            bar.appendChild(label);
+
+            // "全部" chip
+            const allChip = document.createElement('span');
+            allChip.className = 'filter-chip active';
+            allChip.textContent = `全部 (${cards.length})`;
+            allChip.addEventListener('click', () => filterNewMaterials(null, allChip));
+            bar.appendChild(allChip);
+
+            games.forEach(game => {
+                const count = cards.filter(c => c.dataset.game === game).length;
+                const chip = document.createElement('span');
+                chip.className = 'filter-chip';
+                chip.textContent = `${game} (${count})`;
+                chip.addEventListener('click', () => filterNewMaterials(game, chip));
+                bar.appendChild(chip);
+            });
+        }
+
+        function filterNewMaterials(gameName, clickedChip) {
+            const bar = document.getElementById('new-materials-filter-bar');
+            bar.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+            clickedChip.classList.add('active');
+            document.querySelectorAll('#new-materials-grid .new-material-card').forEach(card => {
+                card.style.display = (!gameName || card.dataset.game === gameName) ? '' : 'none';
+            });
         }
 
         // ── Jump from new-material card to accordion item ─────────────
