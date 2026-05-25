@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>美国 SLG 每周Top50 视频广告周报 - 2026年05月16日 - 2026年05月22日</title>
+    <title>美国 SLG 每周Top50 视频广告周报 - 2026年05月17日 - 2026年05月23日</title>
     <!-- Modern Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <!-- Google tag (gtag.js) -->
@@ -1039,6 +1039,22 @@
             color: var(--text-secondary);
         }
 
+        /* ── New Materials Filter Bar ────────────────────────────── */
+        .new-materials-filter-bar {
+            display: none;
+            flex-wrap: wrap;
+            gap: 0.45rem;
+            margin-bottom: 1.1rem;
+            padding: 0.65rem 0.9rem;
+            background: rgba(255,255,255,0.02);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-color);
+            align-items: center;
+        }
+        .new-materials-section.expanded .new-materials-filter-bar {
+            display: flex;
+        }
+
         /* ── Game Filter Bar ──────────────────────────────────────── */
         .game-filter-bar {
             display: flex;
@@ -1099,17 +1115,19 @@
     <div class="container">
         <header>
             <h1>美国SLG每周Top50竞品视频监控分析报告</h1>
-            <p class="subtitle">2026年05月16日 - 2026年05月22日</p>
+            <p class="subtitle">2026年05月17日 - 2026年05月23日</p>
         </header>
 
         
         <section class="new-materials-section" id="section-new-materials">
             <h2 onclick="toggleNewMaterials()">🆕 本周新上素材速览 <span class="new-materials-count">68 条</span><div class="toggle-icon">▼</div></h2>
-            <div class="new-materials-grid">
+            <div class="new-materials-filter-bar" id="new-materials-filter-bar"></div>
+            <div class="new-materials-grid" id="new-materials-grid">
                 
                 <div class="new-material-card"
                      data-ad-id="a4e631a9477895ba"
                      data-channel="applovin"
+                     data-game="Last Asylum: Plague"
                      onclick="jumpToAccordion('a4e631a9477895ba', 'applovin')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1127,6 +1145,7 @@
                 <div class="new-material-card"
                      data-ad-id="8797322139831ec9"
                      data-channel="applovin"
+                     data-game="Whiteout Survival"
                      onclick="jumpToAccordion('8797322139831ec9', 'applovin')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1144,6 +1163,7 @@
                 <div class="new-material-card"
                      data-ad-id="ef9453c3eb98f121"
                      data-channel="applovin"
+                     data-game="Kingshot"
                      onclick="jumpToAccordion('ef9453c3eb98f121', 'applovin')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1161,6 +1181,7 @@
                 <div class="new-material-card"
                      data-ad-id="9a88977974d4010b"
                      data-channel="applovin"
+                     data-game="Lords Mobile: Kingdom Wars"
                      onclick="jumpToAccordion('9a88977974d4010b', 'applovin')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1178,6 +1199,7 @@
                 <div class="new-material-card"
                      data-ad-id="b7b3e2e0becafeef"
                      data-channel="applovin"
+                     data-game="Kingshot"
                      onclick="jumpToAccordion('b7b3e2e0becafeef', 'applovin')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1195,6 +1217,7 @@
                 <div class="new-material-card"
                      data-ad-id="7aa84843c38aad31"
                      data-channel="applovin"
+                     data-game="Kingshot"
                      onclick="jumpToAccordion('7aa84843c38aad31', 'applovin')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1212,6 +1235,7 @@
                 <div class="new-material-card"
                      data-ad-id="daa462401e95b8ea"
                      data-channel="applovin"
+                     data-game="Kingshot"
                      onclick="jumpToAccordion('daa462401e95b8ea', 'applovin')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1229,6 +1253,7 @@
                 <div class="new-material-card"
                      data-ad-id="539be48cd29ab776"
                      data-channel="applovin"
+                     data-game="Kingshot"
                      onclick="jumpToAccordion('539be48cd29ab776', 'applovin')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1246,6 +1271,7 @@
                 <div class="new-material-card"
                      data-ad-id="735142778c04a7cd"
                      data-channel="applovin"
+                     data-game="Tiles Survive!"
                      onclick="jumpToAccordion('735142778c04a7cd', 'applovin')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1263,6 +1289,7 @@
                 <div class="new-material-card"
                      data-ad-id="5adb43bc73332993"
                      data-channel="applovin"
+                     data-game="TopHeroes"
                      onclick="jumpToAccordion('5adb43bc73332993', 'applovin')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1280,6 +1307,7 @@
                 <div class="new-material-card"
                      data-ad-id="8a1348fae219e328"
                      data-channel="applovin"
+                     data-game="Last Asylum: Plague"
                      onclick="jumpToAccordion('8a1348fae219e328', 'applovin')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1297,6 +1325,7 @@
                 <div class="new-material-card"
                      data-ad-id="c382e4739cf7fa1b"
                      data-channel="applovin"
+                     data-game="Kingshot"
                      onclick="jumpToAccordion('c382e4739cf7fa1b', 'applovin')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1314,6 +1343,7 @@
                 <div class="new-material-card"
                      data-ad-id="05db36dfe95f64de"
                      data-channel="applovin"
+                     data-game="Dark War:Survival"
                      onclick="jumpToAccordion('05db36dfe95f64de', 'applovin')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1331,6 +1361,7 @@
                 <div class="new-material-card"
                      data-ad-id="237a8507247adb5a"
                      data-channel="applovin"
+                     data-game="Kingshot"
                      onclick="jumpToAccordion('237a8507247adb5a', 'applovin')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1348,6 +1379,7 @@
                 <div class="new-material-card"
                      data-ad-id="59d000f3703a6efa"
                      data-channel="applovin"
+                     data-game="Tiles Survive!"
                      onclick="jumpToAccordion('59d000f3703a6efa', 'applovin')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1365,6 +1397,7 @@
                 <div class="new-material-card"
                      data-ad-id="dd4f2e38796358e2"
                      data-channel="applovin"
+                     data-game="Dark War:Survival"
                      onclick="jumpToAccordion('dd4f2e38796358e2', 'applovin')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1382,6 +1415,7 @@
                 <div class="new-material-card"
                      data-ad-id="4a49c5c0ef06df83"
                      data-channel="applovin"
+                     data-game="Kingshot"
                      onclick="jumpToAccordion('4a49c5c0ef06df83', 'applovin')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1399,6 +1433,7 @@
                 <div class="new-material-card"
                      data-ad-id="fcffe508ad32e48f"
                      data-channel="facebook"
+                     data-game="Dark War:Survival"
                      onclick="jumpToAccordion('fcffe508ad32e48f', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1416,6 +1451,7 @@
                 <div class="new-material-card"
                      data-ad-id="f5ccab35c7cc1496"
                      data-channel="facebook"
+                     data-game="Tiles Survive!"
                      onclick="jumpToAccordion('f5ccab35c7cc1496', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1433,6 +1469,7 @@
                 <div class="new-material-card"
                      data-ad-id="e36b59cc76c754b8"
                      data-channel="facebook"
+                     data-game="Lands of Jail"
                      onclick="jumpToAccordion('e36b59cc76c754b8', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1450,6 +1487,7 @@
                 <div class="new-material-card"
                      data-ad-id="bbaec692d741f970"
                      data-channel="facebook"
+                     data-game="Last Z: Survival Shooter"
                      onclick="jumpToAccordion('bbaec692d741f970', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1467,6 +1505,7 @@
                 <div class="new-material-card"
                      data-ad-id="f912ac87c8733216"
                      data-channel="facebook"
+                     data-game="Age of Origins:Tower Defense"
                      onclick="jumpToAccordion('f912ac87c8733216', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1484,6 +1523,7 @@
                 <div class="new-material-card"
                      data-ad-id="b8b90380ef96b910"
                      data-channel="facebook"
+                     data-game="Lords Mobile: Kingdom Wars"
                      onclick="jumpToAccordion('b8b90380ef96b910', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1501,6 +1541,7 @@
                 <div class="new-material-card"
                      data-ad-id="8e12562a47863988"
                      data-channel="facebook"
+                     data-game="Lands of Jail"
                      onclick="jumpToAccordion('8e12562a47863988', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1518,6 +1559,7 @@
                 <div class="new-material-card"
                      data-ad-id="1c528c2a0a6a31a6"
                      data-channel="facebook"
+                     data-game="Whiteout Survival"
                      onclick="jumpToAccordion('1c528c2a0a6a31a6', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1535,6 +1577,7 @@
                 <div class="new-material-card"
                      data-ad-id="fd13f18f1200cccb"
                      data-channel="facebook"
+                     data-game="Tiles Survive!"
                      onclick="jumpToAccordion('fd13f18f1200cccb', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1552,6 +1595,7 @@
                 <div class="new-material-card"
                      data-ad-id="a760f344a8b8e79c"
                      data-channel="facebook"
+                     data-game="TopHeroes"
                      onclick="jumpToAccordion('a760f344a8b8e79c', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1569,6 +1613,7 @@
                 <div class="new-material-card"
                      data-ad-id="2b9d90b7e0b307f1"
                      data-channel="facebook"
+                     data-game="Fate War"
                      onclick="jumpToAccordion('2b9d90b7e0b307f1', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1586,6 +1631,7 @@
                 <div class="new-material-card"
                      data-ad-id="71784eedcedae55d"
                      data-channel="facebook"
+                     data-game="Lands of Jail"
                      onclick="jumpToAccordion('71784eedcedae55d', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1603,6 +1649,7 @@
                 <div class="new-material-card"
                      data-ad-id="ffe6b9819afebbb5"
                      data-channel="facebook"
+                     data-game="TopHeroes"
                      onclick="jumpToAccordion('ffe6b9819afebbb5', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1620,6 +1667,7 @@
                 <div class="new-material-card"
                      data-ad-id="6a87b4578cb0e1c6"
                      data-channel="facebook"
+                     data-game="Kingshot"
                      onclick="jumpToAccordion('6a87b4578cb0e1c6', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1637,6 +1685,7 @@
                 <div class="new-material-card"
                      data-ad-id="ffda690a6ca5d092"
                      data-channel="facebook"
+                     data-game="Whiteout Survival"
                      onclick="jumpToAccordion('ffda690a6ca5d092', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1654,6 +1703,7 @@
                 <div class="new-material-card"
                      data-ad-id="9f15d39fcc293c62"
                      data-channel="facebook"
+                     data-game="Fate War"
                      onclick="jumpToAccordion('9f15d39fcc293c62', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1671,6 +1721,7 @@
                 <div class="new-material-card"
                      data-ad-id="7d3e178925a806b7"
                      data-channel="facebook"
+                     data-game="Lords Mobile: Kingdom Wars"
                      onclick="jumpToAccordion('7d3e178925a806b7', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1688,6 +1739,7 @@
                 <div class="new-material-card"
                      data-ad-id="baf0f3fa9224ce1c"
                      data-channel="facebook"
+                     data-game="Whiteout Survival"
                      onclick="jumpToAccordion('baf0f3fa9224ce1c', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1705,6 +1757,7 @@
                 <div class="new-material-card"
                      data-ad-id="1ffa7f36821b7155"
                      data-channel="facebook"
+                     data-game="Last Z: Survival Shooter"
                      onclick="jumpToAccordion('1ffa7f36821b7155', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1722,6 +1775,7 @@
                 <div class="new-material-card"
                      data-ad-id="ba599f657e2a74a6"
                      data-channel="facebook"
+                     data-game="Whiteout Survival"
                      onclick="jumpToAccordion('ba599f657e2a74a6', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1739,6 +1793,7 @@
                 <div class="new-material-card"
                      data-ad-id="9fb21452d918d2a0"
                      data-channel="facebook"
+                     data-game="Fate War"
                      onclick="jumpToAccordion('9fb21452d918d2a0', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1756,6 +1811,7 @@
                 <div class="new-material-card"
                      data-ad-id="b93f61369c10841b"
                      data-channel="facebook"
+                     data-game="Tiles Survive!"
                      onclick="jumpToAccordion('b93f61369c10841b', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1773,6 +1829,7 @@
                 <div class="new-material-card"
                      data-ad-id="1e0add9d015b3e02"
                      data-channel="facebook"
+                     data-game="Last Z: Survival Shooter"
                      onclick="jumpToAccordion('1e0add9d015b3e02', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1790,6 +1847,7 @@
                 <div class="new-material-card"
                      data-ad-id="b91541c1d4a4de82"
                      data-channel="facebook"
+                     data-game="Tiles Survive!"
                      onclick="jumpToAccordion('b91541c1d4a4de82', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1807,6 +1865,7 @@
                 <div class="new-material-card"
                      data-ad-id="5770be877787f4a8"
                      data-channel="facebook"
+                     data-game="Dark War:Survival"
                      onclick="jumpToAccordion('5770be877787f4a8', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1824,6 +1883,7 @@
                 <div class="new-material-card"
                      data-ad-id="12494bb92c41978c"
                      data-channel="facebook"
+                     data-game="Last Asylum: Plague"
                      onclick="jumpToAccordion('12494bb92c41978c', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1841,6 +1901,7 @@
                 <div class="new-material-card"
                      data-ad-id="1dfc887feb16d160"
                      data-channel="facebook"
+                     data-game="Last Z: Survival Shooter"
                      onclick="jumpToAccordion('1dfc887feb16d160', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1858,6 +1919,7 @@
                 <div class="new-material-card"
                      data-ad-id="1c69ce8e35c0c7b8"
                      data-channel="facebook"
+                     data-game="Last Z: Survival Shooter"
                      onclick="jumpToAccordion('1c69ce8e35c0c7b8', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1875,6 +1937,7 @@
                 <div class="new-material-card"
                      data-ad-id="7e8b21116bb63553"
                      data-channel="facebook"
+                     data-game="Lords Mobile: Kingdom Wars"
                      onclick="jumpToAccordion('7e8b21116bb63553', 'facebook')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1892,6 +1955,7 @@
                 <div class="new-material-card"
                      data-ad-id="0060fbb5aea1113f"
                      data-channel="youtube"
+                     data-game="TopHeroes"
                      onclick="jumpToAccordion('0060fbb5aea1113f', 'youtube')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1909,6 +1973,7 @@
                 <div class="new-material-card"
                      data-ad-id="072a23e362fbc633"
                      data-channel="youtube"
+                     data-game="Kingshot"
                      onclick="jumpToAccordion('072a23e362fbc633', 'youtube')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1926,6 +1991,7 @@
                 <div class="new-material-card"
                      data-ad-id="029c6ea569427e77"
                      data-channel="youtube"
+                     data-game="Dark War:Survival"
                      onclick="jumpToAccordion('029c6ea569427e77', 'youtube')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1943,6 +2009,7 @@
                 <div class="new-material-card"
                      data-ad-id="b4bf57ce73ed31ea"
                      data-channel="youtube"
+                     data-game="Whiteout Survival"
                      onclick="jumpToAccordion('b4bf57ce73ed31ea', 'youtube')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1960,6 +2027,7 @@
                 <div class="new-material-card"
                      data-ad-id="3b9301ac4f751916"
                      data-channel="youtube"
+                     data-game="TopHeroes"
                      onclick="jumpToAccordion('3b9301ac4f751916', 'youtube')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1977,6 +2045,7 @@
                 <div class="new-material-card"
                      data-ad-id="74ebb233ffbea7d1"
                      data-channel="youtube"
+                     data-game="Kingshot"
                      onclick="jumpToAccordion('74ebb233ffbea7d1', 'youtube')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -1994,6 +2063,7 @@
                 <div class="new-material-card"
                      data-ad-id="25c50a9c7b326e0d"
                      data-channel="youtube"
+                     data-game="Whiteout Survival"
                      onclick="jumpToAccordion('25c50a9c7b326e0d', 'youtube')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -2011,6 +2081,7 @@
                 <div class="new-material-card"
                      data-ad-id="ae43d7b678267450"
                      data-channel="youtube"
+                     data-game="Whiteout Survival"
                      onclick="jumpToAccordion('ae43d7b678267450', 'youtube')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -2028,6 +2099,7 @@
                 <div class="new-material-card"
                      data-ad-id="47aab9071fe458a5"
                      data-channel="youtube"
+                     data-game="Dark War:Survival"
                      onclick="jumpToAccordion('47aab9071fe458a5', 'youtube')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -2045,6 +2117,7 @@
                 <div class="new-material-card"
                      data-ad-id="5a22ca6a7e98c4a5"
                      data-channel="youtube"
+                     data-game="Whiteout Survival"
                      onclick="jumpToAccordion('5a22ca6a7e98c4a5', 'youtube')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -2062,6 +2135,7 @@
                 <div class="new-material-card"
                      data-ad-id="198f19b360546cf2"
                      data-channel="youtube"
+                     data-game="Dark War:Survival"
                      onclick="jumpToAccordion('198f19b360546cf2', 'youtube')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -2079,6 +2153,7 @@
                 <div class="new-material-card"
                      data-ad-id="71fd36a5dc410e1f"
                      data-channel="youtube"
+                     data-game="Lands of Jail"
                      onclick="jumpToAccordion('71fd36a5dc410e1f', 'youtube')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -2096,6 +2171,7 @@
                 <div class="new-material-card"
                      data-ad-id="63206ad968a061a2"
                      data-channel="youtube"
+                     data-game="Age of Origins:Tower Defense"
                      onclick="jumpToAccordion('63206ad968a061a2', 'youtube')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -2113,6 +2189,7 @@
                 <div class="new-material-card"
                      data-ad-id="86eab64eaa9aeda5"
                      data-channel="youtube"
+                     data-game="Whiteout Survival"
                      onclick="jumpToAccordion('86eab64eaa9aeda5', 'youtube')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -2130,6 +2207,7 @@
                 <div class="new-material-card"
                      data-ad-id="051f1dbbcdfb1ea0"
                      data-channel="youtube"
+                     data-game="Kingshot"
                      onclick="jumpToAccordion('051f1dbbcdfb1ea0', 'youtube')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -2147,6 +2225,7 @@
                 <div class="new-material-card"
                      data-ad-id="50d8365ac97109b8"
                      data-channel="youtube"
+                     data-game="Tiles Survive!"
                      onclick="jumpToAccordion('50d8365ac97109b8', 'youtube')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -2164,6 +2243,7 @@
                 <div class="new-material-card"
                      data-ad-id="2be0df788c8ad42b"
                      data-channel="youtube"
+                     data-game="Dark War:Survival"
                      onclick="jumpToAccordion('2be0df788c8ad42b', 'youtube')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -2181,6 +2261,7 @@
                 <div class="new-material-card"
                      data-ad-id="1963072c398da6f6"
                      data-channel="youtube"
+                     data-game="Kingshot"
                      onclick="jumpToAccordion('1963072c398da6f6', 'youtube')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -2198,6 +2279,7 @@
                 <div class="new-material-card"
                      data-ad-id="28595c39122d6b01"
                      data-channel="youtube"
+                     data-game="Whiteout Survival"
                      onclick="jumpToAccordion('28595c39122d6b01', 'youtube')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -2215,6 +2297,7 @@
                 <div class="new-material-card"
                      data-ad-id="791ac967448937d6"
                      data-channel="youtube"
+                     data-game="Kingshot"
                      onclick="jumpToAccordion('791ac967448937d6', 'youtube')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -2232,6 +2315,7 @@
                 <div class="new-material-card"
                      data-ad-id="1ecc64715636ff15"
                      data-channel="youtube"
+                     data-game="TopHeroes"
                      onclick="jumpToAccordion('1ecc64715636ff15', 'youtube')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -2249,6 +2333,7 @@
                 <div class="new-material-card"
                      data-ad-id="e876c903085ce75e"
                      data-channel="youtube"
+                     data-game="Whiteout Survival"
                      onclick="jumpToAccordion('e876c903085ce75e', 'youtube')">
                     <div class="jump-hint">▶ 查看完整分析</div>
                     
@@ -2416,15 +2501,15 @@
             <div class="summary-grid">
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">🎯</span> 本周核心套路与曝光增减分析</h3>
-                    <p><strong>主打“无广告痛点营销”配合“极限清屏爆金币”视觉爽点</strong><ul><li>直击痛点：前3秒高频抛出“无广告、纯技巧”承诺，引发共鸣重建信任。</li><li>放大爽点：展示防御塔瞬秒满屏红军，配合“金币爆屏”制造极致解压感。</li><li>视觉反馈：结尾植入“简陋木屋秒变宏伟城堡”或“地图瞬间染色”，强化成长落差。</li><li>增减揭秘：新晋爆款多用“开局弱势+瞬间反击清屏”拉高留存；排名下降素材多因开局平淡、缺乏强烈情绪冲突导致受众疲劳。</li></ul></p>
+                    <p><strong>主打“无广告”痛点营销，绑定“割草清屏+金币爆棚”双重视觉爽感</strong><ul><li>切中广告痛点：利用真人吐槽或醒目文字高频高呼“无广告”，稳固买量基本盘。</li><li>放大割草爽感：推崇蓝红大军对冲与多塔防瞬间清屏，配以满屏金币释放解压情绪。</li><li>验证新颖奇观：新晋爆款引入巨龙染色全图及昼夜交替秒升城堡，带动曝光激增。</li><li>淘汰疲劳创意：果断降权传统单兵慢节奏作战及单调真人问答素材，规避受众抗性。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">⚔️</span> 渠道差异化打法</h3>
-                    <p><strong>Applovin 强打“口号切入”，YouTube 侧重“奇观与剧情”</strong><ul><li>Applovin：重仓“无广告”痛点。高频应用主播吐槽、真人问答直击乱象，结合小兵割草稳固良心人设。</li><li>YouTube：偏好大场面与情绪反差。多用荒诞剧情、画中画惊呼、巨龙翱翔改变地貌，强调史诗感与视觉冲击。</li><li>Facebook：探索保守打法。聚焦基础的“红蓝防守反击”，叠加部分解压金币掉落，未现明显出格包装。</li></ul></p>
+                    <p><strong>渠道定制化明显：Applovin猛打痛点洗脑，YouTube偏向视觉奇观与史诗感</strong><ul><li>Applovin直击痛点：高频投放无广告标语及真人情景剧，配合快节奏割草快速洗去用户。</li><li>YouTube强推奇观：侧重危机反转，放大巨龙飞跃与冰雪消融的史诗视觉，吸引泛受众。</li><li>Facebook稳健试水：保留红蓝对决与塔防反击核心元素，搭配主播放大情绪测试转化。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">💡</span> 我方应对策略及潜力素材推荐</h3>
-                    <p><strong>跟进“痛点营销”，复刻“秒清屏+强反馈”视觉公式</strong><ul><li>痛点截胡：前3秒植入“拒绝假广告/逼氪”文案，利用行业痛点反向洗脑抢夺心智。</li><li>视觉强化：放大击杀反馈，测试“密集火力瞬秒尸潮+满地金币特效”，缩短用户爽感延迟。</li><li>潜力推荐1：强推 YouTube #3（NEW/高份额），复刻其“塔防割草+木屋秒升宏伟蓝堡”的强视觉表现。</li><li>潜力推荐2：借鉴 YouTube #16（排名飙升），测试“巨龙等巨型单位全图染色覆盖”的宏大叙事。</li><li>潜力推荐3：参考 Applovin #6（高份额/上升），引入“转化敌方兵力+滚雪球碾压”机制叠加战斗爽感。</li></ul></p>
+                    <p><strong>对冲“无广告”舆论攻势，复刻“极致割草+瞬间城建”视觉链路</strong><ul><li>强化公平竞技：针对性包装“纯正策略与拒绝数值碾压”，从侧面瓦解竞品无广告攻势。</li><li>前置视觉刺激：压缩战斗前奏，开局直给密集敌潮与火力全开，衔接金币大爆视觉。</li><li>盯紧Youtube第3名（新晋）：重点复刻“防守成功引发建筑秒升及昼夜交替”美术包装。</li><li>借鉴Youtube第16名（飙升）：提取“巨龙快速扩张并绿化领土”元素，挑逗玩家征服欲。</li><li>测试Applovin第33名（新晋）：模仿“蓝领人物硬核吐槽搭配无缝割草”的情绪代入剧本。</li></ul></p>
                 </div>
             </div>
         </section>
@@ -2435,15 +2520,15 @@
             <div class="summary-grid">
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">🎯</span> 本周核心套路与曝光增减分析</h3>
-                    <p><strong>主打“猎奇荒诞+极致解压”结合痛点营销，割草爽感素材强势崛起</strong><ul><li>强化暗黑猎奇设定：高曝光素材频繁使用瘟疫医生“切巨型大蒜”、“奇葩疗法”等怪诞视觉奇观充当首秒钩子。</li><li>放大工具升级爽感：通过巨大化渔网瞬间覆盖农田、秒清海量资源与鼠群，提供极其强烈的视觉解压反馈。</li><li>直击玩家反感痛点：高频采用“无广告、无内购、真实进展”、“3天删掉其他游戏”等挑衅性文案，建立信任感。</li><li>明确曝光增减逻辑：强调“紧迫危机+瞬间爆发割草”的新素材（如Applovin#7、#42）份额飙升；而传统的“温情叙事或慢节奏城建”（如Facebook#42、#44）因受众疲劳导致排名下滑。</li></ul></p>
+                    <p><strong>主推猎奇治愈与极致解压，验证“数值割草”爽感跑赢传统经营</strong><ul><li>包装猎奇爽点：以“瘟疫医生切巨蒜”、“大网瞬间捞海量资源”、“奇葩暗黑医疗”为核心视觉奇观，主打即时满足。</li><li>猛打痛点承诺：全盘使用“无广告、无内购、真实进展”文案，直击SLG玩家对“假素材”的厌恶。</li><li>增减逻辑分析：Applovin新晋素材及高排名素材主打“生存紧迫+瞬间爆吸资源”，证明强反馈割草已成核心吸量点；反之，多条传统“慢节奏经营与情感叙事”素材排名全面下滑，揭示受众对长线城建元素的审美疲劳。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">⚔️</span> 渠道差异化打法</h3>
-                    <p><strong>Applovin 主攻“数值爆发与生存割草”，Facebook 强推“猎奇叙事与情感反转”</strong><ul><li>Applovin 渠道：侧重轻度化与即时爽感。高频展示资源短缺、升级工具后的爆炸性收集与割草体验，配以直接的痛点营销文案，主打下沉市场的解压反馈。</li><li>Facebook 渠道：侧重剧情张力与猎奇视觉。高频使用“仇富惩罚”、“恶心液体入眼”、“墓地哀悼”等重情绪画面，利用荒诞治疗和前后命运反转引发同情与猎奇心，吸引重度策略受众。</li></ul></p>
+                    <p><strong>渠道分化显著：Applovin主攻数值解压，Facebook深挖猎奇情绪</strong><ul><li>Applovin强打数值爽感：高度聚焦“资源短缺→升级工具→瞬间爆仓”的解压循环，辅以生存紧迫感语音，直接刺激下载转化。</li><li>Facebook煽动猎奇情绪：重度倾斜“奇葩疗法（洋葱治僵尸）”与“社会阶级冲突（仇富惩戒）”素材，利用荒诞猎奇与情绪拉扯引发社群互动。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">💡</span> 我方应对策略及潜力素材推荐</h3>
-                    <p><strong>前置夸张爽感反馈，跟进“猎奇剧情与巨大化割草”双线测试</strong><ul><li>缩短爽感路径：借鉴竞品，放弃传统SLG冗长城建展示，直接将“大范围秒收资源”或“病人瞬间变战士”作为前3秒核心爆点。</li><li>采用反向痛点营销：在旁白中直接植入“厌倦了假策略？”、“不看广告纯管理”等话术，降低受众广告防御心理。</li><li>潜力素材推荐1（重点关注）：Applovin #7 (NEW) 与 #42 (NEW)。彻底验证了“生存倒计时危机感 + 升级巨大渔网瞬间爆资源”的强力解压模型，具有极强爆发力。</li><li>潜力素材推荐2（重点关注）：Facebook #38 (NEW) 与 Applovin #13 (+1)。跑通了“恶趣味/反常规奇葩治疗（毒液洗眼/汗水泼富人）”的吸睛套路，转化潜力巨大，建议我方美术迅速提炼跟进测试。</li></ul></p>
+                    <p><strong>借鉴猎奇包装与割草循环，重点跟进新晋高爆破圈素材</strong><ul><li>提速前期体验：抛弃拖沓城建展示，直接将“夸张化资源收集”和“魔性战斗加工”前置，制造前3秒视觉冲击。</li><li>放大情绪反转：借鉴“贫富对立”或“反常理治疗”剧情，植入“痛打假广告”文案，建立玩家信任。</li><li>必看黑马一（Applovin排名7）：新晋爆款，完美验证“生存危机+工具升级+割草爆吸资源”的高效转化模型。</li><li>必看黑马二（Facebook排名38）：新晋爆款，展现“恶心转治愈”的猎奇医疗反转，破圈能力极强。</li><li>必看黑马三（Applovin排名27）：排名飙升15位，“打老鼠+烤肉+喂病人”闭环玩法新颖怪诞，具吸量测试价值。</li></ul></p>
                 </div>
             </div>
         </section>
@@ -2454,15 +2539,15 @@
             <div class="summary-grid">
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">🎯</span> 本周核心套路与曝光增减分析</h3>
-                    <p><strong>主打“解压生产危机化”与“痛点反向营销”，环境改造奇观成吸量新宠。</strong><ul><li>深化生产反转：利用资源倍增制造解压爽感，后置产能过剩或交通堵塞引发挫败感。</li><li>猛打广告痛点：引入真人短剧或极速建造对比，反复呐喊“无广告”，收割对虚假买量疲劳的用户。</li><li>跑量增减剖析：单一失败套路素材排名普降（如Applovin排名15与25），受众已生疲劳；融合“环境突变”与“硬核图解”的素材份额激增，验证新颖奇观的高转化力。</li></ul></p>
+                    <p><strong>主打“极速生产崩溃”与“反虚假无广告”双主线，硬核基建异军突起</strong><ul><li>放大解压与挫败落差：用高速加工制造解压爽感，后接“拥堵崩溃”导致FAILED，挑逗玩家挑战欲。</li><li>反向营销直击痛点：采用“零广告”、“无弹窗”的口号式喊话或真人短剧，收割广告疲劳用户（如排名26飙升）。</li><li>视觉奇观刺激增长：展现废土翻新、从小屋到灯塔的宏大巨变，视觉表现强劲（如排名17飙升16位）。</li><li>套路疲劳导致下滑：早期单纯的资源破坏转失败素材显露疲态（排名15、25下降），受众需要新刺激点。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">⚔️</span> 渠道差异化打法</h3>
-                    <p><strong>渠道区隔显著，Applovin猛攻泛休闲痛点，Facebook深挖硬核基建奇观。</strong><ul><li>Applovin主打休闲解压：密集投放流水线生产与自动化捕鱼，叠加无广告情绪营销，洗脑泛目标群体。</li><li>Facebook主推策略生存：展示极端环境基地剖析图与海上堡垒演变，用高品质透视美术捕捉SLG核心玩家。</li><li>YouTube聚焦破坏视觉：利用方块轰然坍塌与激光瞬间清屏等夸张破坏效果，契合快餐式解压爽点。</li></ul></p>
+                    <p><strong>渠道定制化投放，精准切分“轻度休闲”与“硬核策略”受众</strong><ul><li>Applovin 聚焦情绪共鸣与休闲转化：重注“无广告直白喊话”与“魔性解压加失败”小游戏模式，迅速抓取泛用户。</li><li>Facebook 主攻硬核基建与生存策略：头部爆款（排名2）主打极端环境生存基地的透视剖面图解，直戳SLG核心玩家。</li><li>YouTube 放大视觉破坏与反常理体验：主推“失败也爽”、激光秒清全场的极致解压与破坏感，迎合视频平台观众。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">💡</span> 我方应对策略及潜力素材推荐</h3>
-                    <p><strong>借鉴基建图解与环境突变，重点测试硬核透视与痛点反向营销。</strong><ul><li>引入基建透视：立即包装多地貌生存基地内部功能透视图，强化自给自足的策略经营想象。</li><li>包装反向营销：提取核心玩法，配合真机实录打出无广告承诺，抢占对虚假广告反感的下沉市场。</li><li>关注潜力素材一：FB排名2新晋爆款（份额超13%），主推极端环境生存基地透视图，极具硬核破圈潜力。</li><li>关注潜力素材二：Applovin排名17（飙升16位），废土核电站瞬间激活呈现环境改造奇观，吸量效率极高。</li><li>关注潜力素材三：Applovin排名26（飙升18位），极速建造结合痛点呐喊，属反向营销跑量黑马。</li></ul></p>
+                    <p><strong>借鉴“透视图解”硬核基建，跟进“零广告”反向营销，截胡核心受众</strong><ul><li>创新基建展现形式：摒弃传统升级画面，采用“蓝图透视加功能标注”展现基地内部循环，提升策略深度感知。</li><li>测试痛点反向营销：低成本跟进吐槽“受够了广告”的引流素材，测试用户转化效率。</li><li>强烈推荐关注 Facebook 排名 2 素材（新晋黑马份额登顶）：其“极端环境透视基地加图解”展现出极强的破圈潜质，值得全面复刻测试。</li><li>重点借鉴 Applovin 排名 17 素材（排名狂飙16位）：引入“废弃土地激活变生机”的环境巨变机制，放大探索与建设爽感。</li><li>重点监控 Applovin 排名 39 等新晋痛点素材：快速提取“核电站排烟比喻广告”等巧妙的痛点包装创意用于我方防御。</li></ul></p>
                 </div>
             </div>
         </section>
@@ -2473,15 +2558,15 @@
             <div class="summary-grid">
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">🎯</span> 本周核心套路与曝光增减分析</h3>
-                    <p><strong>主推“合并爆兵碾压”与“资源爆仓解压”，淘汰老旧错题机制</strong><ul><li>主打“以小博大”爽感，通过士兵快速合并形成庞大军团瞬间碾压敌军。</li><li>突出“挫败与逆袭”反差，开局刻意展示小股兵力战败，激发玩家挑战欲与解压感。</li><li>验证“数值膨胀”吸量力，Applovin排名第5及新晋的第31名验证了合并增兵模型的跑量成功。</li><li>淘汰“丧尸错题”老套路，Applovin排名第35名的素材曝光显著下滑，受众对传统选错道具已产生严重疲劳。</li></ul></p>
+                    <p><strong>主打挫败反转与资源爆发双重爽感</strong><ul><li>制造挫败钩子（开局故意战败/选错道具）激发胜负欲。</li><li>放大解压反馈（资源爆屏/小兵合并碾压）提供即时满足。</li><li>加码跑通套路（合并暴兵占领与自动化流水线素材份额飙升）。</li><li>淘汰疲劳打法（丧尸题材与基础推木头素材受众疲劳致排名下降）。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">⚔️</span> 渠道差异化打法</h3>
-                    <p><strong>渠道定制化明显：Applovin主攻策略反差，Facebook偏好荒诞经营</strong><ul><li>Applovin主打“数值与策略”，高份额素材集中在失败重试、兵力合并与压倒性战斗体验。</li><li>Facebook主打“荒诞与解压”，高排名素材大胆采用河马排泄、大炮射猫等无厘头吸睛开场。</li><li>针对性强化休闲体验，Facebook渠道更侧重自动化生产、木材极速切割等极度解压的模拟经营反馈。</li></ul></p>
+                    <p><strong>渠道打法分化，精准匹配人群偏好</strong><ul><li>Applovin深挖策略战斗（主推小兵合并、战败重试、大军碾压）。</li><li>Applovin瞄准中重度玩家（强化以小博大与兵力成长的数字变化）。</li><li>Facebook主打泛休闲解压（主推自动化流水线、资源切割暴涨）。</li><li>Facebook尝试荒诞破圈（使用大炮射猫/巨怪排泄等猎奇开场吸睛）。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">💡</span> 我方应对策略及潜力素材推荐</h3>
-                    <p><strong>跟进数值爆兵与荒诞吸睛包装，重点狙击高潜力黑马素材</strong><ul><li>融合“战败反差+疯狂爆兵”，我方素材需强化开局秒败的痛点及后续指数级壮大军团的视觉爽点。</li><li>测试“荒诞起手+资源爆仓”，借鉴奇葩开局接入极速建城升级，强力吸引泛休闲泛娱乐用户。</li><li>重点跟进Applovin排名第5及第31的“蓝兵合并碾压”素材，此为其当下最确定的高转化跑量大模型。</li><li>强烈建议剖析Facebook排名第9（荒诞大炮射猫）与第26（巨型气球爆兵）的新晋爆款，爆发潜力极高值得优先借鉴。</li></ul></p>
+                    <p><strong>前置视觉奇观，复刻情绪闭环防守</strong><ul><li>前置视觉奇观（前3秒必须引入巨物爆裂或自动化爆资源的视觉刺激）。</li><li>复刻情绪闭环（快速演示失败不甘到调整策略再到极致解压碾压全过程）。</li><li>强烈推荐借鉴Applovin排名5（极高份额，成功跑通合并暴兵碾压套路）。</li><li>重点测试Facebook排名9（本周新晋，荒诞猎奇开场加资源爆屏潜力极大）。</li><li>重点测试Facebook排名26（本周新晋，气球爆兵视觉冲击强，极易起量）。</li></ul></p>
                 </div>
             </div>
         </section>
@@ -2492,15 +2577,15 @@
             <div class="summary-grid">
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">🎯</span> 本周核心套路与曝光增减分析</h3>
-                    <p><strong>核心主打“从极度受挫到自动化割草”的反差爽感与资源爆发现象。</strong><ul><li>制造极致生存焦虑：开局利用“怪物围攻”、“资源卡脖子”、“手动低效”等痛点，快速锁定玩家注意力。</li><li>强化工业自动化奇观：将爽点集中于“巨大机械（如巨型风扇/飞斧）秒杀全屏”与“传送带瀑布般喷发资源”，直击暴富与解压心理。</li><li>迭代验证高刺激包装：本周大量新晋爆款（如Applovin 12、FB 27）凭借“夸张绞肉机式塔防”抢占极高份额；而排名下降的素材（FB 37/48）多为传统伐木与简单堆积，表明用户对平淡经营已疲劳，偏好更强烈的视觉刺激。</li></ul></p>
+                    <p><strong>主推“极致自动化流水线”与“超解压清屏割草”，大量采用“危机倒逼升级”循环刺激用户。</strong><ul><li>强化解压割草：放大巨型风扇碾压、多重箭矢秒杀怪物的视觉奇观，取代早期单调城建。</li><li>聚焦财富爆棚：展示资源从匮乏到瞬间如瀑布倾泻、金币爆炸式增长，直击贪婪爽点。</li><li>危机驱动情绪：用“资源短缺+怪物围攻”制造前期焦虑，对比后期全自动运行带来极大满足。</li><li>淘汰低效旧核：排名下降素材多为慢节奏单点积累，新晋爆款全面转向“量变到质变”的夸张升级反馈。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">⚔️</span> 渠道差异化打法</h3>
-                    <p><strong>三大渠道呈现“FB重视觉解压、YT重真人情绪、AL重塔防闭环”的绝对差异化。</strong><ul><li>Facebook主攻“ASMR经营大亨”：弱化配音，疯狂展示“徒手破冰到流水线自动化”的量变奇观，强攻泛休闲Tycoon受众。</li><li>YouTube深耕“KOL情景剧与情绪代入”：高频使用“职场POV社交短剧”、“主播急眼受挫”作为钩子，通过口语化抱怨与真人推荐建立信任。</li><li>Applovin聚焦“极简塔防割草”：主打“遇袭-光速建塔-清屏解压”的极快节奏，注重即时战斗的视觉冲击与快速闭环。</li></ul></p>
+                    <p><strong>各渠道打法显著差异化：Applovin猛砸清屏割草，FB深耕自动化经营，YT极度依赖真人情景演绎。</strong><ul><li>Applovin主打爽快战斗：去文案化，一秒切入“遇袭-建塔-全屏秒杀”高频战斗循环，最大化即时爽感。</li><li>Facebook侧重经营解压：深耕“从零到一”的自动化流水线建设（如木材瀑布、全自动杀熊），满足资源堆叠爽感。</li><li>YouTube强推情绪代入：重度使用KOL出镜，通过夸张反应（电锯切鱼）或剧情演绎（职场尴尬）拉近距离，并强导兑换码。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">💡</span> 我方应对策略及潜力素材推荐</h3>
-                    <p><strong>借鉴其“工业奇观”与“POV情绪剧”，用夸张视觉降维洗量。</strong><ul><li>升级基建视觉表现：在我方素材中测试引入“巨型传送带”、“夸张收割机”等全自动机械元素，放大资源爆仓的视觉冲击。</li><li>复制强情绪悬念剧本：套用“开局展示滑稽的卡脖子困境->真人主播抓狂->一键升级后瞬间顺畅”的情感波动漏斗进行测试。</li><li>重点关注潜力爆款一：【YouTube排名42（职场POV评判老板着装，排名上升7位）】，该素材验证了幽默泛社交情景切入SLG的极速破圈能力，值得立即复刻。</li><li>重点关注潜力爆款二：【Facebook排名27 / Applovin排名12（全自动化巨型风扇/飞斧绞杀怪物，双端NEW高份额）】，证实了“极简塔防+大工业割草”融合包装当前的绝对吸量统治力。</li><li>重点关注潜力爆款三：【YouTube排名38（电锯切鱼+主播惊讶，排名上升）】，验证了“猎奇反常规工具+KOL夸张反应”带来的奇效。</li></ul></p>
+                    <p><strong>融合自动化割草视觉与短平快情绪反转，立刻测试“绝境逢生+器械清屏”的新型爽感包装。</strong><ul><li>植入夸张防御器械：在素材内引入巨型风扇、旋转飞斧等高视觉冲击力的自动化防御建筑，强化清屏解压感。</li><li>采用实物对比破冰：借鉴“真实吹风机融冰”衔接游戏画面的吸量套路，降低泛用户理解门槛。</li><li>重点跟进FB排名27素材：“全自动机械收割北极熊”的暴力解压包装极度吸睛，值得像素级拆解复刻。</li><li>重点跟进YT排名39素材：“群怪压境+多重箭塔瞬间爆发清屏”机制验证了策略成功的极致爽感，建议立即翻拍测试。</li></ul></p>
                 </div>
             </div>
         </section>
@@ -2511,15 +2596,15 @@
             <div class="summary-grid">
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">🎯</span> 本周核心套路与曝光增减分析</h3>
-                    <p><strong>主打“强反差冲突”与“庇护所暴改逆袭”爽感</strong><ul><li>利用反差抓眼球：用“末日绝境vs温馨日常”或“真人受辱vs基地逆袭”制造极限冲突。</li><li>放大奇观造爽点：展示悬崖火车、高科技树屋等变废为宝的极致创意，刺激成就感。</li><li>短剧切入爆份额：FB新晋排名第一（份额超25%）验证真人抓马剧情无缝衔接游戏改造极度吸量。</li><li>常规套路显疲态：单纯快进建造或老套男女对比素材排名普遍下滑，受众已显疲劳。</li></ul></p>
+                    <p><strong>主推极端反差废土爆改与爽文短剧逆袭</strong><ul><li>强化奇观改造：将破旧载具与悬崖管道改造成豪华堡垒，制造极致视觉反差。</li><li>融合狗血冲突：采用真人受辱短剧开场，拉满愤怒情绪，再用基建逆袭释放爽感。</li><li>淘汰平庸建造：纯展示慢节奏建造的老素材开始掉量，流量向高冲突与强奇观的新素材集中。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">⚔️</span> 渠道差异化打法</h3>
-                    <p><strong>渠道差异显著：FB重情绪短剧，Applovin重解压奇观</strong><ul><li>Facebook主攻情绪逆袭：大量套用穷小子受辱、家庭争执等真人短剧，煽动愤怒，导向升级复仇。</li><li>Applovin主打解压建造：摒弃真人演绎，聚焦悬挂列车、移动房车等猎奇景观，打出最放松游戏标签。</li><li>YouTube兼顾硬核对比：偏向展示废土探索、硬核管道爆改及玩家庇护所对比，吸引中重度生存玩家。</li></ul></p>
+                    <p><strong>FB吃短剧红利，Applovin拼视觉奇观，YT重沉浸展示</strong><ul><li>Facebook重拳出击情感短剧：主推真人受辱加建城逆袭，疯狂榨取情绪价值，垄断头部份额。</li><li>Applovin主打解压与猎奇：抛弃冗长剧情，前3秒直给悬崖列车与移动堡垒奇观，强调反差感。</li><li>YouTube侧重玩法深度展示：采用清理废弃管道与持枪清剿尸潮，展现生存升级细节，迎合硬核玩家。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">💡</span> 我方应对策略及潜力素材推荐</h3>
-                    <p><strong>借鉴短剧暴改模式，深挖末世解压反向包装</strong><ul><li>复刻抓马逆袭架构：测试现实受压迫结合游戏内庇护所飙升LV.100的强爽感素材。</li><li>包装奇观化庇护所：摒弃常规城建，尝试设计废弃管道、悬崖车厢等极具视觉冲击力的创意家园。</li><li>尝试反向营销概念：套用年度最放松游戏等反直觉文案，配以末世危机画面，强力吸睛。</li><li>死盯潜力爆发黑马：强推FB排名1素材（受辱短剧+废车暴改，吃透25%份额）与Applovin排名45素材（悬崖列车解压生存，验证猎奇红利）。</li></ul></p>
+                    <p><strong>跟进短剧融合与建筑奇观化，重点测试跨界创意</strong><ul><li>引入短剧逆袭套路：拍摄爽文式受辱短剧，无缝衔接破局升级画面，打通情绪引流闭环。</li><li>革新避难所包装：放弃常规造屋，测试悬崖悬挂物、废弃客机等极限地形爆改，拔高视觉吸引力。</li><li>重点盯防爆款素材：务必像素级拆解FB排名1（真人争执转车厢爆改，狂揽25%份额）、Applovin排名45（悬崖火车猎奇奇观）与YT排名7（废弃管道变奢华堡垒），这三条系本周转化势能最强的潜力黑马。</li></ul></p>
                 </div>
             </div>
         </section>
@@ -2530,15 +2615,15 @@
             <div class="summary-grid">
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">🎯</span> 本周核心套路与曝光增减分析</h3>
-                    <p><strong>痛点营销与反套路机制齐发，颠覆传统SLG认知</strong><ul><li>直击广告痛点：多条新晋素材（Youtube 26飙升、Applovin 40新上）主推“无广告、纯粹RPG”，通过拉踩竞品引发共鸣。</li><li>主推非战斗成长：Youtube霸榜Top 1（份额超21%）验证“高自由度、经营贸易、弱化打怪”新爽点极具吸量能力，大幅拉高曝光。</li><li>反套路博取眼球：引入Roguelike“死亡继承”与“开局被虐”剧本，利用前期挫败感做钩子，拉高后期逆袭成长的爽感。</li></ul></p>
+                    <p><strong>主推反套路纯净体验与玩法自由度，新方向验证获巨量曝光</strong><ul><li>直击虚假广告痛点，主打“零广告”与“纯粹RPG”承诺吸量。</li><li>包装高自由度与肉鸽机制，验证“非战斗成长”与“死亡继承”新爽点。</li><li>猛推YouTube新晋榜首素材，超21%份额证明“选择驱动”套路大爆。</li><li>铺开大批新晋素材测试，揭示竞品正疯狂横向拓展泛RPG受众圈层。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">⚔️</span> 渠道差异化打法</h3>
-                    <p><strong>因地制宜，各渠道精准匹配平台受众偏好</strong><ul><li>Youtube主打深度体验与玩法创新：集中展现高自由度选择、Roguelike死亡机制与痛点批判，迎合偏核心向、看重品质的视频玩家。</li><li>Facebook侧重视觉反差与爽文叙事：主推“废墟清理重建”和“弱者逆袭割草”，用强烈的视觉演变和情绪落差刺激转化。</li><li>Applovin强打痛点与实机信任：采用真人口播强调“无广告”并搭配长时间实机演示，快速建立信任感，收割下沉网盟流量。</li></ul></p>
+                    <p><strong>渠道精准分发，FB重情绪反差，YT重玩法深度</strong><ul><li>Applovin主建信任背书：真人出镜叠加无广告实机演示，攻克受众痛点。</li><li>Facebook主打视觉反差：聚焦废墟重建与开局被虐反杀，提供短平快情绪刺激。</li><li>YouTube深挖沉浸体验：重注高自由度探索与肉鸽死亡继承，精准捕获重度RPG玩家。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">💡</span> 我方应对策略及潜力素材推荐</h3>
-                    <p><strong>跟进痛点拉踩策略，挖掘轻度化与反套路包装</strong><ul><li>借鉴非战斗包装：测试“道德选择（掠夺vs护送）”、“生活副职（锻造/贸易）”等轻度化素材，洗掉传统SLG重度对抗标签。</li><li>试水反套路开局：复刻“英雄反复死亡+遗物继承”剧本，通过死亡循环增加策略噱头，反向勾起玩家探索欲。</li><li>重点关注潜力爆款：务必紧盯【Youtube排名1】（主打非战斗路线，超21%绝对份额）及【Youtube排名12】（反套路死亡继承），这两条新晋上榜且极具爆发潜力；同时跟进【Youtube排名26】（直击内购广告痛点），其飙升势头值得我方迅速借鉴测试。</li></ul></p>
+                    <p><strong>借鉴RPG化包装降维打击，重点抄收自由度与肉鸽套路</strong><ul><li>测试反套路信任钩子，提炼“无广告”、“纯粹冒险”等解压文案。</li><li>重塑素材前三秒，淡化传统城建，放大RPG探索与生存抉择感。</li><li>重点关注：YouTube排名第1素材（豪揽21%份额，主打非战斗多路径自由发展，爆发力极强）。</li><li>重点关注：YouTube排名第12素材（新晋潜力黑马，包装反套路英雄死亡继承肉鸽机制）。</li></ul></p>
                 </div>
             </div>
         </section>
@@ -2549,15 +2634,15 @@
             <div class="summary-grid">
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">🎯</span> 本周核心套路与曝光增减分析</h3>
-                    <p><strong>主打极速膨胀的割草爽感与最终惜败的挫败感组合拳</strong><ul><li>植入轻度玩法：通过跑酷数字门或地图拾取快速积攒兵力，大幅降低SLG理解门槛。</li><li>强化视觉质变：展现武器连跨多级进化（手枪变重机枪再变坦克）及子弹特效进阶，放大解压感。</li><li>制造情绪落差：结尾必定设置超高血量Boss导致挑战失败（DEFEAT），利用玩家不甘心刺激转化。</li><li>动向解析：Applovin纯射击拾取模式排名下滑，而Facebook跑酷数字门元素排名坚挺，验证了直观数字翻倍的即时正反馈更具长效生命力。</li></ul></p>
+                    <p><strong>主推跑酷割草与火力质变，利用先爽后败模型激发挑战欲</strong><ul><li>展现火力阶梯式跃升创造割草爽感</li><li>刻意营造Boss战失败结局激发不甘情绪</li><li>结合Applovin排名下滑判定传统射击跑酷受众初显疲劳</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">⚔️</span> 渠道差异化打法</h3>
-                    <p><strong>底层逻辑高度统一，前端展现迎合渠道受众微调</strong><ul><li>Facebook 侧重轻度化：重用经典“跑酷数字门框”，视觉奇观更夸张，受众门槛更低，主打泛用户解压。</li><li>Applovin 侧重动作感：强调怪物生命值倒计时、强化道具拾取与射击紧迫感，偏重动作玩家的硬核反馈。</li></ul></p>
+                    <p><strong>各渠道底层逻辑高度统一，仅在力量倍增视觉上做差异微调</strong><ul><li>全渠道贯彻跑酷集结加割草加失败通投打法</li><li>Facebook主打数字门框与载具夸张升级</li><li>Applovin侧重道具拾取与弹幕变色解压体验</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">💡</span> 我方应对策略及潜力素材推荐</h3>
-                    <p><strong>全面引入副玩法吸量模型，重点攻克“跑酷+割草”融合包装</strong><ul><li>强化成长反馈：在素材前中段必须设置肉眼可见的“火力质变”节点，拉满范围清屏的爽感。</li><li>复刻情绪曲线：严格遵循“前期兵力极速膨胀 -> 后期遭遇巨型Boss碾压失败”的吸量剧本。</li><li>潜力素材推荐：务必重点跟进 Facebook 排名22的【跑酷数字门+手持武器升级坦克】素材，该模式排位稳固，验证了跑酷倍增元素的强劲吸量潜力，值得我方立刻换皮测试。</li></ul></p>
+                    <p><strong>复刻火力质变与挫败情绪曲线，重点借鉴FB倍增门框素材</strong><ul><li>引入武器或载具夸张跃升打造视觉奇观</li><li>设计差一点赢的Boss战失败放大下载转化率</li><li>重点抄底测试Facebook排名22的数字门框加坦克爆款</li></ul></p>
                 </div>
             </div>
         </section>
@@ -2568,15 +2653,15 @@
             <div class="summary-grid">
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">🎯</span> 本周核心套路与曝光增减分析</h3>
-                    <p><strong>主打“极端危机引入+极致解压清理”的反差爽感，擦边与暴乱元素推高曝光。</strong><ul><li>制造极端开局：利用车祸坠崖（FB#3）、女囚互殴（FB#5）、性感内衣（YT#33）等高视觉冲击画面作前3秒钩子，迅速抓取眼球。</li><li>强化清理爽感：核心展现从“极度脏乱差”瞬间转变为“现代化秩序”的过程，放大像素风/写实风下污水变清的解压感。</li><li>引入割草塔防：中后期无缝接入防御塔射击、暴乱囚犯爆金币（YT#23）的割草玩法，补充SLG长线爽点。</li><li>数据增减归因：本周新晋与飙升素材（FB#3、YT#23等）均验证了“强视觉刺激+即时正反馈（爆金币/秒建）”的有效性；而跌幅素材（如YT#35）因前期铺垫过长、缺乏即时爆点导致受众疲劳。</li></ul></p>
+                    <p><strong>主打“极端脏乱猎奇+瞬间清洁解压”复合爽感，高视觉落差素材独占鳌头</strong><ul><li>制造极端痛点：通过车祸倾倒、管线爆裂制造脏污绝境，抓人眼球。</li><li>放大解压爽感：强调污水秒清、废墟秒建的视觉反馈，满足秩序重建欲望。</li><li>验证擦边钩子：加入性感女囚洗澡、打斗元素，显著拉升初期点击率。</li><li>曝光增减逻辑：强冲击+强解压的新素材（FB排名3独占14.88%份额）迅速起量；而剧情缓慢或负反馈过强的老素材（YT排名35）出现受众疲劳，份额下滑。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">⚔️</span> 渠道差异化打法</h3>
-                    <p><strong>Facebook重剧情与猎奇冲突，YouTube重玩法展现与割草塔防。</strong><ul><li>Facebook渠道：主打“人性弱点”与“剧情反转”。大量使用女囚打斗、性感擦边选择、分屏对比（老婆管的监狱）等吸睛桥段，重点展示脏污清理带来的解压感与管理失败的挫败感。</li><li>YouTube渠道：主打“数值膨胀”与“塔防割草”。偏向直接展示核心玩法循环，如荒岛极速开荒（YT#5）、满屏暴乱囚犯被防御塔击杀爆满屏金币（YT#23），强调发展速度和暴力镇压的视觉奇观。</li></ul></p>
+                    <p><strong>渠道打法显著分化：Facebook主打“猎奇抓马”，YouTube主攻“养成数值”</strong><ul><li>Facebook重剧情与冲击：大量投放极端脏乱、擦边女囚、真实打斗等戏剧化场景，刺激玩家猎奇与解压需求。</li><li>YouTube重玩法与反馈：侧重快节奏的基地扩张、塔防割草以及满屏爆金币，强调数值成长与掌控爽感。</li><li>转化引导差异化：FB多用情景选项与失败结局逼迫玩家挑战，YT多用直观的UI指引展现游戏连贯性。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">💡</span> 我方应对策略及潜力素材推荐</h3>
-                    <p><strong>借鉴“软硬结合”包装结构，重点测试“猎奇/危机钩子+割草爆金币”组合。</strong><ul><li>融合轻度玩法：在SLG常规城建前置“ASMR清洁”或“修复破败”环节，用轻度解压玩法降低获客门槛。</li><li>强化收割爽感：将敌军入侵改造为“满屏暴动/丧尸”，利用防御塔扫射产生大范围掉落物（如金币），强化收割爽感。</li><li>重点关注潜力素材1（FB排名第3）：新晋高份额爆款！验证了“车祸群像危机+瞬间清洁解压”的超强吸量能力，值得复刻其开场分镜。</li><li>重点关注潜力素材2（FB排名第5）：排名飙升！“真实女囚互殴+整顿秩序”完美切中猎奇与掌控欲，建议测试同类冲突向高拟真起手。</li><li>重点关注潜力素材3（YT排名第33与第23）：极具爆发力！前者融合了第一人称擦边选择与塔防，后者展现了暴乱镇压爆金币的极致爽感，是后续突破外围渠道的关键方向。</li></ul></p>
+                    <p><strong>复刻“绝境逢生+解压反馈”链路，重点盯防高反差与擦边复合素材</strong><ul><li>测试高反差改造：前3秒铺设极端脏乱危局（如泥浆掩埋、污水满溢），后段接瞬间清洁重建特效。</li><li>融合战斗与割草：在经营后期加入大群暴动，利用强力防御设施实现割草爆金币，拉升数值爽感。</li><li>潜力素材推荐①：重点盯防【FB排名3：警车坠崖倾倒脏河+瞬间清洁】，该黑马素材吃下极大份额，验证了高落差猎奇套路，值得像素级复刻。</li><li>潜力素材推荐②：重点盯防【YT排名33：第一人称女囚洗澡+塔防】，巧妙融合擦边吸量与塔防反馈，爆发潜力极大，可尝试借鉴其第一视角代入感。</li></ul></p>
                 </div>
             </div>
         </section>
@@ -2587,15 +2672,15 @@
             <div class="summary-grid">
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">🎯</span> 本周核心套路与曝光增减分析</h3>
-                    <p><strong>主推绝境逢生与极致割草爽感，高频验证失败激将法</strong><ul><li>突出战力膨胀（单兵秒变多辆坦克或巨型机甲），制造极致视觉爽快感</li><li>强化情绪反转（开场被嘲讽或坠桥引出危机 -> 瞬间暴富变强），紧抓用户猎奇心</li><li>固定失败结局（全员对抗海量尸潮与巨型Boss最终DEFEAT），激发玩家胜负欲</li><li>爆量原因分析（排名4新上即占近10%份额）：直给核心玩法、摒弃冗余剧情，验证了单纯的单兵进化弹幕割草吸量效率最高</li></ul></p>
+                    <p><strong>主打极限进化割草爽感与受挫激将法</strong><ul><li>突出视觉逆袭：展示单兵进化为多辆坦克或巨型机甲，等级迅速飙升，强化极致成长的爽快感。</li><li>聚焦弹幕割草：强调一人分裂成军队，利用密集火力网清扫海量尸潮，提供极强解压体验。</li><li>统一挫败收尾：所有高光展示最终均以遭遇强力Boss或DEFEAT结局收场，刺激玩家挑战与重试欲望。</li><li>验证爆款模型：本周Top素材均为NEW，排名第4素材份额近10%，验证直入玩法配合载具变异割草为当前最吸量模型。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">⚔️</span> 渠道差异化打法</h3>
-                    <p><strong>集中火力猛攻Facebook，主打高反差剧情结合跑酷割草演示</strong><ul><li>深挖猎奇开局（真人演绎被绑、电影级荒漠对峙），强力提升前3秒完播率</li><li>明确痛点营销（通过角色对话直接喊出“无广告”），精准收割反感插屏广告的玩家群体</li><li>统一情绪动线（危机引入 -> 数值膨胀割草解压 -> 失败遗憾），形成标准化爆款投产公式</li><li>依托Facebook特性，大规模铺开短剧剧情衔接副玩法割草的素材矩阵，主打重度情绪刺激</li></ul></p>
+                    <p><strong>脸书渠道主打多元前端钩子搭配统一后置玩法</strong><ul><li>测试多元开场：在Facebook渠道并行测试直入玩法、电影级末日、抓马组队剧情与真人实拍危机等多种吸睛前奏。</li><li>统一核心玩法：弱化城建元素，后半段全部统一落地跑酷射击与人数倍增割草的直观演示。</li><li>直击用户痛点：尝试在广告中打出无广告卖点，精准收割反感虚假包装和频繁插屏广告的轻度用户。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">💡</span> 我方应对策略及潜力素材推荐</h3>
-                    <p><strong>跟进夸张数值膨胀包装，重点借鉴机甲变身与失败激将的结合</strong><ul><li>测试跨越式战力进化（单人 -> 分身 -> 坦克 -> 巨型机甲），放大成长视觉冲击力</li><li>套用“弱小被欺或绝境重生”开场剧本，平滑接入我方SLG兵力爆量与割草突围画面</li><li>重点关注【排名4：桥上拾取武器变坦克】（份额极高，核心玩法直给）及【排名34：弱者被拒秒升999级机甲】（强爽文戏剧冲突，具备黑马爆发潜力）</li><li>优化尾部转化机制（将DEFEAT失败画面定格在BOSS丝血状态），极限放大玩家下载重试的冲动</li></ul></p>
+                    <p><strong>借鉴夸张视觉进化并跟进痛点营销测试</strong><ul><li>拉大进化跨度：我方素材需尝试引入小兵瞬间突变巨型机甲或装甲集群的夸张表现，放大前期战力反差。</li><li>升级同屏特效：增加同屏小队数量与全屏弹幕特效，极致拉升清扫群怪的解压感与视觉冲击力。</li><li>测试无广文案：在视频醒目位置添加无广告或纯净体验等承诺字眼，降低玩家防备心与下载门槛。</li><li>重点盯防排名第4素材：该素材直入核心且份额极高，其单兵转坦克集群的递进逻辑验证成功，值得我方1比1复刻测试。</li><li>重点关注排名第30素材：高品质电影开场结合直击痛点的无广告文案，具备破圈洗用户的黑马潜力，建议持续监控其跑量生命周期。</li></ul></p>
                 </div>
             </div>
         </section>
@@ -2606,15 +2691,15 @@
             <div class="summary-grid">
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">🎯</span> 本周核心套路与曝光增减分析</h3>
-                    <p><strong>主打生态奇观与极速成长双线并行，受众偏好向轻量经营转移</strong><ul><li>放大剖面视觉奇观，利用多层地下生态吸睛，排名7（飙升5位）验证该猎奇包装的强生命力。</li><li>验证极速成长新爽点，排名15、32（本周新晋黑马）通过DAY1至DAYN建筑秒升切中玩家爆肝成就感诉求。</li><li>深耕四季更迭沉浸感，排名10素材份额登顶，利用逼真天气与田园劳作低成本洗泛经营用户。</li><li>舍弃老套战斗防御，排名40、47的打怪与炸桥防守素材排名大幅下滑，传统硬核对抗受众显现严重疲劳。</li></ul></p>
+                    <p><strong>主推立体剖面奇观与极速建设反馈，弱化传统战斗</strong><ul><li>放大探索欲，主推多层地下家园剖面展示（排名7大幅攀升）。</li><li>加速反馈节奏，强化基地从无到有的极速演变（排名15新晋黑马）。</li><li>增添生活气息，高份额投放四季动态村庄繁荣（排名10高优份额）。</li><li>舍弃老旧套路，传统塔防与走桥遇怪素材受众疲劳（排名40、47下滑）。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">⚔️</span> 渠道差异化打法</h3>
-                    <p><strong>深耕渠道流量纵深，多风格题材交叉分层洗量</strong><ul><li>收割解压休闲圈层，通过排名23的新素材（河马吃牛排变盟友）引入无厘头幽默反转，有效降低转化门槛。</li><li>瞄准模拟经营受众，主推多层剖面与四季田园，突出沉浸式经营深度与大世界生机。</li><li>捕获快节奏策略玩家，利用时间压缩包装满足玩家对高效发育与战力狂飙的心理预期。</li><li>弱化重度交战元素，整体素材呈现重建设体验、轻暴力冲突的打法倾向，极力淡化传统SLG的枯燥感。</li></ul></p>
+                    <p><strong>深耕 Facebook 渠道，主打轻度化视觉奇观与经营爽感</strong><ul><li>锁定社交流量，集中测试休闲经营与反差视觉包装。</li><li>降低理解门槛，摒弃复杂台词文案，主推高纯度视觉反馈。</li><li>切分多重情绪，横跨宁静解压、猎奇幽默等不同偏好人群。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">💡</span> 我方应对策略及潜力素材推荐</h3>
-                    <p><strong>快速复刻极速发育反馈，抢占剖面微观视觉红利</strong><ul><li>测试时间加速套路，将营地升级过程极限压缩至前3秒，强化视觉秒变与数值膨胀的刺激感。</li><li>借鉴横截面透视运镜，结合多生态地貌展现地下世界，制造别有洞天的好奇心钩子。</li><li>务必重点关注排名15（极速成型），此时间流逝黑马打法极具爆发力，建议我方立刻像素级跟进测试。</li><li>建议重点关注排名10（雨中村庄）与排名23（搞怪转化），尝试在日常素材中融入动态天气系统或整蛊幽默桥段。</li></ul></p>
+                    <p><strong>借鉴剖面透视重构视觉，压缩时间线测试极速升级</strong><ul><li>复刻剖面奇观，测试多层次建筑的动态透视包装。</li><li>压缩成长时间，制作极速爆改基地的成长对比素材。</li><li>重点关注排名15新晋黑马，学习其极速演变带来的爆肝爽感。</li><li>重点拆解排名7攀升素材，借鉴其地下剖面营造的强探索欲。</li><li>重点追踪排名10高份额素材，引入天气季节变幻提升品质感。</li></ul></p>
                 </div>
             </div>
         </section>
@@ -2625,15 +2710,15 @@
             <div class="summary-grid">
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">🎯</span> 本周核心套路与曝光增减分析</h3>
-                    <p><strong>主打“解压割草+战败挑衅”双线并行，数值膨胀与视觉压迫成新增长点。</strong><ul><li>强化数值爽感：FB新晋爆款主打“X10”生产线与满屏金币，验证“自动化+割草解压”的高转化路径。</li><li>迭代视觉压迫：YT新晋素材引入重机枪与巨型Boss，用极致压迫感与防守失败刺激玩家胜负欲。</li><li>规避审美疲劳：YT直升机扫射老素材排名下降，单一射击玩法吸引力减弱，复合玩法（塔防+经营+射击）接棒吸量。</li></ul></p>
+                    <p><strong>主推“解压割草”与“数值膨胀”，高频迭代射击与经营循环</strong><ul><li>聚焦双核心爽点。主推“第一人称重火力扫射”与“自动化生产线运作”，利用满屏金币与尸潮爆裂特效释放压力。</li><li>验证超休闲套路。FB新晋Top8素材融合“采集加工+塔防升级+X10数值倍增”，成功抓取模拟经营泛用户。</li><li>迭代战败刺激法。YT端老版纯扫射素材掉榜(Top22)，新上榜素材(Top34)增加“防御塔摧毁+英雄展示+DEFEAT”，以更强挫败感刺激转化。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">⚔️</span> 渠道差异化打法</h3>
-                    <p><strong>精准切分受众，FB主攻泛休闲解压，YT主打硬核视觉刺激。</strong><ul><li>FB深耕休闲解压：包装“资源收集-自动化生产-火力割草”循环，用数值倍增收割泛游戏用户。</li><li>YT聚焦硬核射击：采用第一人称视角，放大尸潮压迫感与肢解特效，主推肾上腺素飙升。</li><li>差异化情绪引导：FB用“满屏爆金”提供正向满足感，YT用“惨烈战败”激发负向挑战欲。</li></ul></p>
+                    <p><strong>渠道定制化显著，FB重休闲养成，YT攻视觉冲击</strong><ul><li>Facebook主打轻度解压。突出资源积累、工人作业与炮塔自动化防守，用低门槛模拟经营吸纳泛休闲玩家。</li><li>Youtube死磕硬核射击。利用平台视频属性，展现第一人称重机枪扫射、巨型Boss压迫感，精准拦截FPS与动作玩家。</li><li>共用副玩法降本。双渠道均完全隐藏SLG底层城建元素，用直观且高频的即时正反馈掩护重度游戏转化。</li></ul></p>
                 </div>
                 <div class="summary-card">
                     <h3><span style="font-size: 1.5rem;">💡</span> 我方应对策略及潜力素材推荐</h3>
-                    <p><strong>借鉴“生产流水线+割草”融合包装，引入第一人称巨型Boss战败刺激。</strong><ul><li>跟进倍增割草套路：测试“手工劳作->自动化生产->满屏爆金”的爽感循环，复刻高频正反馈。</li><li>强化战败情绪刺激：在射击防御素材中加入压迫感强的巨型BOSS，通过展示防线崩溃激发下载。</li><li>锁定黑马潜力素材：重点关注【FB排名第8】的生产线塔防新爆款（泛用户吸量利器），以及【YT排名第34】的第一人称重机枪战败新素材（硬核破局黑马）。</li></ul></p>
+                    <p><strong>速抄“采集造弹”闭环，复用“视听压迫+战败”套路</strong><ul><li>测试生产变现循环。复刻“微缩场景小人作业+极速击杀+数值倍增”结构，结合我方美术资产进行降维打击测试。</li><li>强化高潮战败反差。在第一人称清屏最爽瞬间切入防御失败画面，利用“我上我也行”心理撬动高点击转化。</li><li>🚨重点防守潜力黑马。务必紧盯FB排名第8(NEW)的“工人造弹塔防”素材，其跨界融合吸量潜力极大；同时借鉴YT排名34的新晋素材，学习其“射击+英雄+失败”的复合留人结构。</li></ul></p>
                 </div>
             </div>
         </section>
@@ -16870,10 +16955,54 @@
         function toggleNewMaterials() {
             const section = document.getElementById('section-new-materials');
             section.classList.toggle('expanded');
+            if (section.classList.contains('expanded')) {
+                buildNewMaterialsFilterBar();
+            }
             // GA4: track new materials expand/collapse
             if (typeof gtag !== 'undefined') {
                 gtag('event', 'new_materials_expand', { expanded: section.classList.contains('expanded') });
             }
+        }
+
+        // ── New Materials game filter ──────────────────────────────────
+        function buildNewMaterialsFilterBar() {
+            const bar = document.getElementById('new-materials-filter-bar');
+            if (!bar || bar.dataset.built) return; // only build once
+            bar.dataset.built = '1';
+
+            const cards = Array.from(document.querySelectorAll('#new-materials-grid .new-material-card'));
+            const games = [...new Set(cards.map(c => c.dataset.game).filter(Boolean))];
+            if (games.length <= 1) return; // no need if only one game
+
+            const label = document.createElement('span');
+            label.className = 'filter-label';
+            label.textContent = '按游戏筛选:';
+            bar.appendChild(label);
+
+            // "全部" chip
+            const allChip = document.createElement('span');
+            allChip.className = 'filter-chip active';
+            allChip.textContent = `全部 (${cards.length})`;
+            allChip.addEventListener('click', () => filterNewMaterials(null, allChip));
+            bar.appendChild(allChip);
+
+            games.forEach(game => {
+                const count = cards.filter(c => c.dataset.game === game).length;
+                const chip = document.createElement('span');
+                chip.className = 'filter-chip';
+                chip.textContent = `${game} (${count})`;
+                chip.addEventListener('click', () => filterNewMaterials(game, chip));
+                bar.appendChild(chip);
+            });
+        }
+
+        function filterNewMaterials(gameName, clickedChip) {
+            const bar = document.getElementById('new-materials-filter-bar');
+            bar.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+            clickedChip.classList.add('active');
+            document.querySelectorAll('#new-materials-grid .new-material-card').forEach(card => {
+                card.style.display = (!gameName || card.dataset.game === gameName) ? '' : 'none';
+            });
         }
 
         // ── Jump from new-material card to accordion item ─────────────
