@@ -1,0 +1,5252 @@
+{
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/c4e57a565c04ec11/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/ec4b03a34c3ee987/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/23f37ab79b05c458/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/88f0af6b2e7e9888/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/ba906531a1e4331d/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/f815b699963317ab/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/1f2a9635ed228d4b/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/018a46cbd9d15207/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/849d85c994d12e78/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/6eee55b2a100f971/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/19e7663f2a150040/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/ac9efbf8ca23a526/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/603c714cdf199e51/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/a75e11c007b51bb6/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/f2e81d0f05d843e4/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/01f46fac043c6c64/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/30744dc2ee066abe/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/21cf39afe1cdeb08/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/2a7e8ae848b3602e/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/32f28e1cf2219da7/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/112300d6393b023f/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/89eb563bce1e3516/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/4dd65e8bf5cb0487/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/ff42416d0bad9195/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/72480e5e11f74d7a/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/4f09bc51b6bc10aa/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/7e1e9df84f125811/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/e070e83540f7fd14/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/50e5951864398c24/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/54395ce2b41aef52/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/6acd21120ea95e8d/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/c40195985a1d2a2c/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/5f7f5f03e46ab847/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/322216223c0683fe/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/34f5921a4d9e7d6c/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/f2dff44ebe464dc7/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/3e0e4c14590ee21b/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/66624ba7efa0ca6b/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/91a126574cba718a/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/7867506853cd03c7/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/5172f75fb0e35f1b/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/b0c1fac1944c9bb7/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/d132857831ba7807/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/4b61a81cad7d75f0/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/6f1f1bd6a4f65ddb/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/059ceb65601db3d9/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/9ed486249f02547a/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/4dfa5725ab10ef2c/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/2cd1edefe84e2891/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/2f19bdafbda7b60e/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/dcbd0172203e7e99/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/0e1a926afc64fb4f/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/4e94f5b499629885/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/174d5b9a1af90aa7/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/59922104003ead19/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/c6e40f1d6b45c1f3/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/dc939faac355ee00/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/fb7bc3e34bd560b2/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/ab2fce2db03716ca/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/8b1a7024ae644504/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/9ef17a4212342848/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/faf9959ea70339f9/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/d83591a11cbd87e8/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/000e7f45a3a79b02/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/d89c9a390689fb4b/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/0046b26b005e1b9b/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/00bdb71b6d1e866c/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/0113933d1b5fa943/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/00648487ea490089/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/015db83ab6980796/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/01d1409e05a41871/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/034bfc290e509192/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/02ca2fd942584528/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/01dcf09f43ca66a6/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/029a834e645e7193/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/029ef3aba5d9ac37/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/04799a136f99a9a6/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/02e1c5d8b5b47aa3/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/058ea8629da5106f/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/0513e59f17987386/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/0460f51ce75ac4c5/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/03f2f4619c59079d/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/06bb9b8343325f4e/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/03698ee2532b95a6/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/0475299f6cf8d099/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/056f11c845a82c63/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/03580784933ad1e8/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/05e6d38a014fc9a2/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/055b15a0193265bb/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/06d3cecce6a6ca47/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/06ff416a752a11fe/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/06d02b22ac7b1f8e/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/072a1cff63806fb1/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/c011fb81954996a1/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/4e3b14c8ae252b83/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/0713bda940972333/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/07fd8f492ec96f89/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/075aac99e0166abd/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/088bd6345d3d60da/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/02dbae9a0e5b0cd9/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/24485cf6055207e8/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/dea7e3cb0663e142/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/089ed4db6d504c69/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/dc0416bd842b9080/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/08d700383c095e5d/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/094e32b29c112334/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/94ef713c7c1935cb/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/ac9e1adb98a40027/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/e5d694ea6e7622e1/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/8ac3340d07cf8d0b/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/4472679889baec6c/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/93df9e63a1464d96/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/e10204f266962359/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/e5de5f1f3dc065ff/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/8e18d20f0f8e39fe/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/83d12a68a1fe48f0/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/5387864265a6889f/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/e438259ad802b6f5/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/ad39c9ee7950dbc3/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/aa4f1a75058d599c/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/8883c84773d4c837/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/faaa364e05c29711/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/856bca943143c13b/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/8f657abe5537524b/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/f9f599d7ab78ef5e/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/99561b2c9f7d148e/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/f9c055b8c5e84a24/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/bccebb643c37e1e1/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/f55ff40749f4ea4a/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/1e8da2c462841182/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/6524bc1b91d52334/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/1f7758e2dfbb575f/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/cb8fd8c452f99d75/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/c45c9e2c23cc16e0/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/6ac1cc9cc4601194/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/4c19dd55e6da61ce/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/b15948a37fc2cee2/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/8deb1b9f439e5e22/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/ec1e1e900dcca1b0/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/66da59a61fc4a868/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/9593ba9ba488339a/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/a32d1703fe649b3d/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/55ed23c9d9dbbdd9/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/cc7a6d28272daa3b/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/5e691e920026368e/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/e37ee99d82464ff2/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/dba4dbcb3e50cb6f/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/78e26cc7b6869858/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/c488b9a387d74ceb/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  },
+  "https://x-ad-assets.s3.amazonaws.com/media_asset/a84750c1d12265a6/media": {
+    "hook_design": "展示了由于选择了错误道具导致的小游戏失败，从而引发用户的挫败感和‘一定要选对’的冲动。",
+    "emotional_appeal": "轻微的焦虑感，并承诺在成功而且升级后提供巨大的满足感和解压感。",
+    "content_structure": "提出危机（被僵尸包围/挨冻） -> 玩家手忙脚乱操作失败 -> 重新升级基地应对方案 -> 利用大招获得成功清屏。",
+    "wow_factor": "密集且恐怖的丧尸群被范围武器瞬间秒杀，呈现极强的视觉冲击和解压感。",
+    "copywriting_features": "‘只有 1% 的人能通关！’ / ‘立即下载拯救他们！’ / 紧迫的数字倒计时。",
+    "video_script": {
+      "validation_goal": "测试失败倒计时的紧迫感是否带量",
+      "overall_process": "道具选择 -> 失败 -> 丧尸潮靠近",
+      "shots": [
+        {
+          "shot_number": 1,
+          "start_timestamp": 0,
+          "end_timestamp": 3,
+          "Character": "男主",
+          "weapon": "无",
+          "scene": "雪地避难所",
+          "camera": "近景",
+          "detailed_action": "男主推开门发现丧尸群，转头寻找道具。",
+          "sound_effect": "寒风呼啸，紧张音效"
+        },
+        {
+          "shot_number": 2,
+          "start_timestamp": 3,
+          "end_timestamp": 7,
+          "role": "男主",
+          "weapon": "错误道具(冰冻枪)",
+          "scene": "避难所内部",
+          "camera": "特写",
+          "detailed_action": "男主慌忙选择了冰冻枪导致火力不足，屏幕变红出现失败提示。",
+          "sound_effect": "失败警报声"
+        }
+      ]
+    }
+  }
+}
